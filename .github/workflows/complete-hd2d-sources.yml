@@ -1,0 +1,62 @@
+name: Complete Game-HD2D-Enhancer source collection
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/complete-hd2d-sources.yml'
+      - 'Game-HD2D-Enhancer/tools/complete_collection.py'
+permissions:
+  contents: write
+concurrency:
+  group: collect-hd2d-sources
+  cancel-in-progress: false
+jobs:
+  complete:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Check out project and existing source snapshots
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Test our collection code
+        run: |
+          python3 -m py_compile Game-HD2D-Enhancer/tools/complete_collection.py
+          python3 Game-HD2D-Enhancer/tools/test_collector.py
+      - name: Complete the two reviewed source cases
+        id: complete
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 Game-HD2D-Enhancer/tools/complete_collection.py
+      - name: Commit actual files and completeness report
+        if: always() && steps.complete.outcome != 'skipped'
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f Game-HD2D-Enhancer/SOURCE_COLLECTION_STATUS.md
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          mkdir -p .git/info
+          printf '%s\n' 'Game-HD2D-Enhancer/third_party/** -text -filter -ident -working-tree-encoding' 'Game-HD2D-Enhancer/references/** -text -filter -ident -working-tree-encoding' >> .git/info/attributes
+          for path in Game-HD2D-Enhancer/third_party Game-HD2D-Enhancer/references Game-HD2D-Enhancer/provenance Game-HD2D-Enhancer/sources.lock.json Game-HD2D-Enhancer/SOURCE_COLLECTION_STATUS.md; do
+            if [ -e "$path" ]; then
+              git -c filter.lfs.required=false -c filter.lfs.clean= -c filter.lfs.process= add -f -- "$path"
+            fi
+          done
+          if ! git diff --cached --quiet; then
+            git -c core.hooksPath=/dev/null commit -m 'Complete HD2D source archival and document any remaining gaps [skip ci]'
+            for attempt in 1 2 3; do
+              git -c core.hooksPath=/dev/null pull --rebase origin main
+              if git -c core.hooksPath=/dev/null push origin HEAD:main; then break; fi
+              if [ "$attempt" = 3 ]; then exit 1; fi
+              sleep 3
+            done
+          fi
+      - name: Keep incomplete collection visible
+        if: steps.complete.outcome != 'success'
+        run: |
+          echo 'Collection has recorded outstanding items; see SOURCE_COLLECTION_STATUS.md.'
+          exit 1
