@@ -1,5 +1,9 @@
 # Game HD Enhancer 👓
 
+> **当前优先项目：[Game-HD2D-Enhancer](Game-HD2D-Enhancer/README.md)**（2D 老游戏 / 模拟器实时高清眼镜）。本阶段排除 DLSS5。源码收集结果见 [实际收集状态](Game-HD2D-Enhancer/SOURCE_COLLECTION_STATUS.md)。
+>
+> 以下保留原始设计讨论；它们是目标而非已经验证的功能。当前实施范围、许可证规则与完成度以 `Game-HD2D-Enhancer/` 为准。
+
 **定位：给游戏戴一副“实时高清眼镜”。**
 
 Game HD Enhancer 的目标不是修改游戏资源、替换游戏文件或重新制作高清材质，而是在游戏最终画面之上增加一个可随时开启/关闭的 **实时高清滤镜层**。
