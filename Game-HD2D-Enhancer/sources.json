@@ -1,0 +1,30 @@
+{
+  "project": "Game-HD2D-Enhancer",
+  "policy": "Fetch real source files with original notices. Do not compile or execute upstream code. Pin resolved commits, recurse GitHub submodules, and report omissions. No DLSS5.",
+  "sources": [
+    {"repo":"NVIDIAGameWorks/NVIDIAImageScaling","group":"third_party","license":"MIT","purpose":"NIS single-frame spatial scaling; NVScaler already includes sharpening"},
+    {"repo":"GPUOpen-Effects/FidelityFX-FSR","group":"third_party","license":"MIT","purpose":"FSR1 EASU and RCAS spatial upscaling"},
+    {"repo":"GPUOpen-Effects/FidelityFX-CAS","group":"third_party","license":"MIT","purpose":"Optional standalone contrast-adaptive sharpening"},
+    {"repo":"iryoku/smaa","group":"third_party","license":"MIT","purpose":"Optional spatial SMAA; disabled for pixel-preservation preset"},
+    {"repo":"robmikh/Win32CaptureSample","group":"third_party","license":"MIT","purpose":"Win32 Windows Graphics Capture / D3D11 capture reference"},
+    {"repo":"CRTYPUBG/NovaScale-Upscaler","group":"third_party","license":"MIT","purpose":"Early-stage C/D3D11 spatial-scaling reference, not a verified production core"},
+    {"repo":"bloc97/Anime4K","group":"third_party","license":"MIT","purpose":"Optional line-art processing experiments, not a universal pixel-art enhancement","skip_roots":["results"]},
+    {"repo":"Blinue/Magpie","group":"references","license":"GPL-3.0","purpose":"Window capture, scaling, cursor and frame-pacing architecture; separate GPL source snapshot"},
+    {"repo":"mausimus/ShaderGlass","group":"references","license":"GPL-3.0","purpose":"External shader overlay and RetroArch shader conversion; separate GPL source snapshot"},
+    {"repo":"libretro/slang-shaders","group":"references","license":"per-file","purpose":"Retro shader archive. Per-file license audit required before shipping any shader"},
+    {"repo":"funnyplanter/CuNNy","group":"references","license":"check-upstream","purpose":"Optional lightweight CNN shader research; preserve original license"},
+    {"repo":"KhronosGroup/glslang","group":"references","license":"BSD and per-file","purpose":"Shader compilation infrastructure; preserve all component notices"},
+    {"repo":"KhronosGroup/SPIRV-Cross","group":"references","license":"Apache-2.0 and per-file","purpose":"SPIR-V to HLSL translation infrastructure"},
+    {"repo":"ValveSoftware/gamescope","group":"references","license":"BSD-2-Clause and per-file","purpose":"Linux compositor/scaling reference only; not part of Windows V1"},
+    {"repo":"crosire/reshade","group":"references","license":"BSD-3-Clause","purpose":"Effect compiler and graphics abstractions; no injection in V1"},
+    {"repo":"SpecialKO/SpecialK","group":"references","license":"GPL-3.0 and per-file","purpose":"Legacy research archive only; no hook/injection integration in 2D V1"},
+    {"repo":"furkan-1337/LFG","group":"references","license":"GPL-3.0","purpose":"Previously listed research archive only; no frame generation in 2D V1"},
+    {"repo":"mausimus/ShaderBeam","group":"references","license":"GPL-3.0","purpose":"Previously found display-timing research only; no BFI or flashing effects in V1"}
+  ],
+  "excluded": [
+    {"repo":"ThioJoe/Full-Screen-DLSS5-Wrapper","reason":"用户明确要求 DLSS5 先不要；不下载源码、DLL、模型或相关组件"},
+    {"repo":"L65536/RealTimeSuperResolutionScreenUpscalerforLinux","reason":"尚未确认完整项目的重分发许可证；当前 LICENSE 路径返回404，先不复制到公开仓库"},
+    {"repo":"martymcmodding/iMMERSE","reason":"之前查看的许可为 All rights reserved；没有单独授权不纳入"},
+    {"repo":"martymcmodding/qUINT","reason":"之前查看的许可为 All rights reserved；没有单独授权不纳入"}
+  ]
+}
