@@ -1,0 +1,49 @@
+{
+  "repo": "NVIDIAGameWorks/NVIDIAImageScaling",
+  "source_url": "https://github.com/NVIDIAGameWorks/NVIDIAImageScaling",
+  "ref": "main",
+  "commit": "35e13ba316c98eeecf16f37eae70ce88019911f6",
+  "purpose": "NIS spatial upscaling; NVScaler includes sharpening",
+  "declared_license": "MIT",
+  "github_license": "MIT",
+  "license_files": [
+    "README.md"
+  ],
+  "license_note": "Full MIT license is embedded at the start of upstream README.md; no invented LICENSE file",
+  "destination": "third_party/NVIDIAGameWorks__NVIDIAImageScaling/35e13ba316c98eeecf16f37eae70ce88019911f6",
+  "submodules": [],
+  "omitted_files": [
+    {
+      "path": "docs/NIS Developer Localization Strings - 081622.zip",
+      "bytes": 245447,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "samples/third_party/DXC/bin/x64/dxc.exe",
+      "bytes": 585632,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "samples/third_party/DXC/bin/x64/dxcompiler.dll",
+      "bytes": 20067744,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "samples/third_party/DXC/bin/x64/dxil.dll",
+      "bytes": 1526184,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "samples/third_party/DXC/lib/x64/dxcompiler.lib",
+      "bytes": 2002,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    }
+  ],
+  "lfs_pointers": [],
+  "symlinks": [],
+  "file_count": 328,
+  "source_bytes": 27053642,
+  "status": "collected",
+  "compiled": false,
+  "runtime_tested": false
+}

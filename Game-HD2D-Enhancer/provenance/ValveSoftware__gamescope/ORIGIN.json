@@ -11,14 +11,16 @@
     {
       "path": "subprojects/wlroots",
       "url": "https://gitlab.freedesktop.org/wlroots/wlroots.git",
-      "status": "missing",
-      "error": "Submodule is not a public github.com HTTPS source"
+      "status": "downloaded",
+      "commit": "d783533489e1f75d6886c2ab5c5960090ef268f8",
+      "archive_url": "https://gitlab.freedesktop.org/wlroots/wlroots/-/archive/d783533489e1f75d6886c2ab5c5960090ef268f8/wlroots-d783533489e1f75d6886c2ab5c5960090ef268f8.tar.gz"
     },
     {
       "path": "subprojects/libliftoff",
       "url": "https://gitlab.freedesktop.org/emersion/libliftoff.git",
-      "status": "missing",
-      "error": "Submodule is not a public github.com HTTPS source"
+      "status": "downloaded",
+      "commit": "8b08dc1c14fd019cc90ddabe34ad16596b0691f4",
+      "archive_url": "https://gitlab.freedesktop.org/emersion/libliftoff/-/archive/8b08dc1c14fd019cc90ddabe34ad16596b0691f4/libliftoff-8b08dc1c14fd019cc90ddabe34ad16596b0691f4.tar.gz"
     },
     {
       "path": "subprojects/vkroots",
@@ -30,8 +32,9 @@
     {
       "path": "subprojects/libdisplay-info",
       "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info",
-      "status": "missing",
-      "error": "Submodule is not a public github.com HTTPS source"
+      "status": "downloaded",
+      "commit": "c67a3e9bedb05ab61c7443704a1a107e76254595",
+      "archive_url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/archive/c67a3e9bedb05ab61c7443704a1a107e76254595/libdisplay-info-c67a3e9bedb05ab61c7443704a1a107e76254595.tar.gz"
     },
     {
       "path": "subprojects/openvr",
@@ -753,7 +756,7 @@
   ],
   "lfs_pointers": [],
   "symlinks": [],
-  "file_count": 3144,
-  "source_bytes": 181475335,
-  "status": "partial"
+  "file_count": 3846,
+  "source_bytes": 186088921,
+  "status": "collected"
 }

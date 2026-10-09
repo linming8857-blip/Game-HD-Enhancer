@@ -11225,6 +11225,1156 @@
     "sha256": "dbe56343ee538a866d5aae813675b942971473e95572aaaa62352a5452dcf3bc"
   },
   {
+    "path": "subprojects/libdisplay-info/.editorconfig",
+    "bytes": 258,
+    "sha256": "bca72b92b5546d1ac1ac85b9e7f47618776823e3f25909e859147d9cd0847a92"
+  },
+  {
+    "path": "subprojects/libdisplay-info/.gitlab-ci.yml",
+    "bytes": 4377,
+    "sha256": "3f8866c9bb6db91c3dcc8ef68032e984d89462375df215da5e20b14de86c05c0"
+  },
+  {
+    "path": "subprojects/libdisplay-info/LICENSE",
+    "bytes": 1089,
+    "sha256": "15b396244e58830c5614b9394f4deccfe684970cd507f299383ab57ad339eedd"
+  },
+  {
+    "path": "subprojects/libdisplay-info/README.md",
+    "bytes": 5971,
+    "sha256": "5ac9f5aa723aa360bbd7f48b043b52f8fb116898ef8d75be894c2a0290b7a612"
+  },
+  {
+    "path": "subprojects/libdisplay-info/cta-vic-table.c",
+    "bytes": 66333,
+    "sha256": "60ef8a95ffccf1ce48769967fe83cb59fe438f8ccbcfd58d4bd55eb721ac879d"
+  },
+  {
+    "path": "subprojects/libdisplay-info/cta-vic.c",
+    "bytes": 1376,
+    "sha256": "4264a210c36324789e552ea91c1fc4451e1a24ec589e8bd1ef143b1e96c91d18"
+  },
+  {
+    "path": "subprojects/libdisplay-info/cta.c",
+    "bytes": 85556,
+    "sha256": "140982dbce114ccd8782b182d68855309d24c0c2f1313f57173553a38a7928ad"
+  },
+  {
+    "path": "subprojects/libdisplay-info/cvt.c",
+    "bytes": 5621,
+    "sha256": "31dd70045d818ea3e72858374c0bf7ef47ada9a5db6aa95cd75fed1d5695fc4e"
+  },
+  {
+    "path": "subprojects/libdisplay-info/di-edid-decode/cta.c",
+    "bytes": 48147,
+    "sha256": "a811f0cca5e4c9b877be62f0f18eb14b2a780cdb25eee206e10badb981db77b6"
+  },
+  {
+    "path": "subprojects/libdisplay-info/di-edid-decode/displayid.c",
+    "bytes": 15484,
+    "sha256": "84a251f44ee965fe7bf7f8d7b8d1bca55c8ef738ff98fbbf668134388c4d592c"
+  },
+  {
+    "path": "subprojects/libdisplay-info/di-edid-decode/displayid2.c",
+    "bytes": 4036,
+    "sha256": "0e10aaf419829e37b39d0a174418f5b493e2facb1763e241129a43a93d00df60"
+  },
+  {
+    "path": "subprojects/libdisplay-info/di-edid-decode/edid.c",
+    "bytes": 31425,
+    "sha256": "f4b9d45026da853179b967ad33bca6eafa2035e75be7335ba098e5e29a1b552b"
+  },
+  {
+    "path": "subprojects/libdisplay-info/di-edid-decode/main.c",
+    "bytes": 4391,
+    "sha256": "63e5cb1c80332fa4bcc58b689f00d34df19e992ac984ffc6654efeb7e69d01d8"
+  },
+  {
+    "path": "subprojects/libdisplay-info/di-edid-decode/meson.build",
+    "bytes": 200,
+    "sha256": "cf8ffca389b8b7225db1b87a8535a24b7fe77d63ccef397dead72ea52b2da208"
+  },
+  {
+    "path": "subprojects/libdisplay-info/di-edid-decode/timing.c",
+    "bytes": 4674,
+    "sha256": "f740de1331dbda8341a7d5650dae522e7cf39d147360b287655444f9073d6b0d"
+  },
+  {
+    "path": "subprojects/libdisplay-info/di-edid-decode/util.c",
+    "bytes": 468,
+    "sha256": "f4514cce7b7b76ea02b2921d0b013635ee2328ae4be887fbe55833c185cd2a60"
+  },
+  {
+    "path": "subprojects/libdisplay-info/displayid.c",
+    "bytes": 27658,
+    "sha256": "814fced687a383edef4d2f1e1b6622a5706cdc3237ced70efdb40bf7d4423e0d"
+  },
+  {
+    "path": "subprojects/libdisplay-info/displayid2.c",
+    "bytes": 8177,
+    "sha256": "aadacf37a39470374062717b12b9584f3dabe6fa1c23569d739ab01831e80eee"
+  },
+  {
+    "path": "subprojects/libdisplay-info/dmt-table.c",
+    "bytes": 34248,
+    "sha256": "3b1948bfa76cad99a8f9810ecda8b581d3d4ed0e9da5ce77a087cd322289cf26"
+  },
+  {
+    "path": "subprojects/libdisplay-info/dmt.c",
+    "bytes": 1951,
+    "sha256": "9bff29daeb0fb5752a49db7a2eb16c306045fbfb12ed5e6f94e5edc8bf331fe9"
+  },
+  {
+    "path": "subprojects/libdisplay-info/edid.c",
+    "bytes": 46209,
+    "sha256": "3429c7552fe704fddcaaee725494d1d941f2cfe6b4e35930af6e819da698822c"
+  },
+  {
+    "path": "subprojects/libdisplay-info/gcovr.cfg",
+    "bytes": 40,
+    "sha256": "5b0ac3e7181baf01a1df624bec0ffcafbbcc8215e25eb393ed3dbe0b69d44f33"
+  },
+  {
+    "path": "subprojects/libdisplay-info/gtf.c",
+    "bytes": 4597,
+    "sha256": "9ad14cbc99e7cb997016b6333f9f68d54c04e855986e6837bac2759a1c2bab8a"
+  },
+  {
+    "path": "subprojects/libdisplay-info/hdmi-vic.c",
+    "bytes": 2239,
+    "sha256": "55ecd1651464aa4a7e7be9b0f1fd6ccca62432c327b52368a36a0dc7df938f89"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/bits.h",
+    "bytes": 679,
+    "sha256": "fc6c05e455338ffaeb1d29ac803a7471465b23d369dac0599dbc51f77d396da2"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/cta.h",
+    "bytes": 9299,
+    "sha256": "e9bb04c79ab5594a6fd48b06dd0ab6d8f9ee7779d113dc9fa6ad324b5c152310"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/di-edid-decode.h",
+    "bytes": 1445,
+    "sha256": "55ac92329722873da5bc3f55ae9185a5a05def72aaa5bc37b7357994e2e8b2a6"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/displayid.h",
+    "bytes": 2962,
+    "sha256": "0709fed96802bfb1b910b23c02053b91a6cbd752165d61484cdb5295487c7cc2"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/displayid2.h",
+    "bytes": 1631,
+    "sha256": "d5b0df9606f40710f79d6ca94d2925f061667f795a7ed7778797dd2c76eca10e"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/edid.h",
+    "bytes": 4927,
+    "sha256": "0e29422e33d18710665e1a75d8801d9c24f271631d2c06141cf1bd02ddadc408"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/info.h",
+    "bytes": 566,
+    "sha256": "c88343ab05bb64a4499b1203363249a88292fe94c303d66fa5d64d89fa6e3ecf"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/libdisplay-info/cta-vic.h",
+    "bytes": 2040,
+    "sha256": "5976c8d08e9186095cf839e2aeb07be40f0e239d063b8d04e69bbb344c70e075"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/libdisplay-info/cta.h",
+    "bytes": 52249,
+    "sha256": "4b19776e9ca602a74cb2fd4bf3d4dc229d7098befd7fbbe26a6cdcc9732bc9ca"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/libdisplay-info/cvt.h",
+    "bytes": 2224,
+    "sha256": "dd0d43bd02ca3aefbf8f5946235beca0746bbfe9b2ad9f05ce9dc69ce319bf13"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/libdisplay-info/displayid.h",
+    "bytes": 13006,
+    "sha256": "a640b283c154b868c2e13344fcf8bb7b1d6e7f3d5af1a98a3145fb4a3ed45e8d"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/libdisplay-info/displayid2.h",
+    "bytes": 3875,
+    "sha256": "144673554860416fb5e8ae92137e4f9b5203118935a918392894a5b980a31309"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/libdisplay-info/dmt.h",
+    "bytes": 1926,
+    "sha256": "2c411aea64f28f883755255bf415e86acccc355913715aae7ffe5812ccb32ae1"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/libdisplay-info/edid.h",
+    "bytes": 24394,
+    "sha256": "3cc7c93247fbb5affdbf8fd03c7b551bc95ada4e1e5bb6c67b60ff065e92dc56"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/libdisplay-info/gtf.h",
+    "bytes": 1699,
+    "sha256": "0e7fd036e5c48ce2dbc5be68948738faea1cf22731bd6bc184d16a5b0be1efa4"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/libdisplay-info/hdmi-vic.h",
+    "bytes": 1217,
+    "sha256": "1dc5978279bf9140bae4c5bfb373a0d0c993ff59353ccd37ecdadadd47f7240a"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/libdisplay-info/info.h",
+    "bytes": 7533,
+    "sha256": "ec0d5d9867fa0a750ead3c2eb792e5a07bd07cafb6ceff1a61e2bfadd8f010d5"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/log.h",
+    "bytes": 380,
+    "sha256": "3d3306b12d15073f72bd39141d3b2286536bdc683b7d460406503f3389971595"
+  },
+  {
+    "path": "subprojects/libdisplay-info/include/memory-stream.h",
+    "bytes": 542,
+    "sha256": "b1cef5a1a8e58e7bcb47daebc5dff5bf4084791abd6ae564758335b57e0f359c"
+  },
+  {
+    "path": "subprojects/libdisplay-info/info.c",
+    "bytes": 11855,
+    "sha256": "7cc3a2fbc8edd69f733996b31a8ebeaf859bc518f8224666e454e22c4a840e3c"
+  },
+  {
+    "path": "subprojects/libdisplay-info/libdisplay-info.map",
+    "bytes": 31,
+    "sha256": "b272f50d70a800388ef7fec6057e3c0570a418cee4a4dd58486b3dfc52f702d4"
+  },
+  {
+    "path": "subprojects/libdisplay-info/log.c",
+    "bytes": 840,
+    "sha256": "b980276fc222db6ac01e2b6f575aa75eb689351bbabea61f1bd962041072fd60"
+  },
+  {
+    "path": "subprojects/libdisplay-info/memory-stream.c",
+    "bytes": 510,
+    "sha256": "d112e8b989c31c862763ce0f7ef7a3c7596c992fc3a475f17e77ffa811f54711"
+  },
+  {
+    "path": "subprojects/libdisplay-info/meson.build",
+    "bytes": 2307,
+    "sha256": "4587c18f8619d9028dc806d9a2ffd589598b7e78bd663283fe556e1ae965c70e"
+  },
+  {
+    "path": "subprojects/libdisplay-info/release.sh",
+    "bytes": 1983,
+    "sha256": "6ca9cf3e27ba9b94e7a8186747acbfdc1d98aa84ec68dd82026f97f480ac5c62"
+  },
+  {
+    "path": "subprojects/libdisplay-info/releasing.md",
+    "bytes": 1483,
+    "sha256": "a093080d851b657a1a07152495c3f5ac90b76c5a88c8861d85358fb5c722e7ff"
+  },
+  {
+    "path": "subprojects/libdisplay-info/subprojects/v4l-utils.wrap",
+    "bytes": 107,
+    "sha256": "17f95d66824757ed4d9ff8fec06788496fdb25cc7c7e27be01ed44b1b3ed23ac"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/LICENSE.CC-BY-4.0",
+    "bytes": 18656,
+    "sha256": "4014722237c90b6f8effc35b6e04a47815c03ef14ee24683d6c1dfd0b9b644d0"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/README.md",
+    "bytes": 2481,
+    "sha256": "69c5a9787f1147238701fa106198ed444b10aeeba994648af402d7219588369b"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/acer-p1276.diff",
+    "bytes": 955,
+    "sha256": "d947b3978c255bbee9c4dd0060e0982e5d83bfd2f8524081299e3af8b8699ee6"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/acer-p1276.edid",
+    "bytes": 256,
+    "sha256": "4206fd5055f87232ff2b621040cb77d4e490e0d7d2b4f2c6d048ea6310fd386a"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/acer-p1276.print",
+    "bytes": 340,
+    "sha256": "f0eb194788c804abcefd287c3988a92a9ce7b58491e4dfa4a48b8bfd3cf06390"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/acer-p1276.ref",
+    "bytes": 3893,
+    "sha256": "bcced32ac138ad0a3863af7c6fa162a7ef601500ec7ea8ab6c8269b9251f1454"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/amazon-fire-tv-48.diff",
+    "bytes": 6580,
+    "sha256": "79f8ad5551e48c30d9b4b5d85fae109a582e572d82bd76e3fc0c34ffe3d3ca04"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/amazon-fire-tv-48.edid",
+    "bytes": 512,
+    "sha256": "117344ce4d767f0f3863d92a8e002ba101a1a7c651284cbb7c601fc7d3f4caef"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/amazon-fire-tv-48.print",
+    "bytes": 368,
+    "sha256": "c1870d9b650627cc7df90c5f018a507af3c9e849ad66ee231838d594852624a9"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/amazon-fire-tv-48.ref",
+    "bytes": 9821,
+    "sha256": "747c4296c03b98da0ba529a62db48da8a20647ae07cf7e73fbe3b58c584fc683"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/apple-xdr-dp.diff",
+    "bytes": 5512,
+    "sha256": "d3a0e0fe49c4332d5918d2668433e39273ce533991a587c014f144c7f3bbca56"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/apple-xdr-dp.edid",
+    "bytes": 896,
+    "sha256": "272dab96a48cc8d3b02cff93e946e92cc5131eadb99ecd918043ece09b0ed093"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/apple-xdr-dp.print",
+    "bytes": 366,
+    "sha256": "27700dee866f0a59bbbf3a737ebe9802552e90470610fa7163d9c02ddd5a38ab"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/apple-xdr-dp.ref",
+    "bytes": 10768,
+    "sha256": "af4743f95a8bc3e0b9f0eff848a98dbd7ebc4a8f445c4ff2d734de05ede0411a"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/asus-ux3405.diff",
+    "bytes": 3608,
+    "sha256": "33c7616615d567707d91e2e8b2a0998be8ea52c1b768cbe909dc49443defdb68"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/asus-ux3405.edid",
+    "bytes": 256,
+    "sha256": "c277c86b04e5b09b5e347adc485a3f7f9271bad6121f6a28ae00a4eb842150ac"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/asus-ux3405.print",
+    "bytes": 356,
+    "sha256": "edf0cf9d8e7cd17fad1d14667610687013c302530fa76a687163e694863acd4d"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/asus-ux3405.ref",
+    "bytes": 4389,
+    "sha256": "fb31b53e780425f4e5be9453f01092b458fea5d721f465ca54397c395503258c"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/ayaneo-wxga.diff",
+    "bytes": 3149,
+    "sha256": "a2dc6ff039cca5898b5dcbb1c4992326db38c6bc16e4d206d44407bba9b392f7"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/ayaneo-wxga.edid",
+    "bytes": 256,
+    "sha256": "847db288c70f197534a581b5807540df09273150e7577d650d42db935385a44b"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/ayaneo-wxga.print",
+    "bytes": 334,
+    "sha256": "9ebd112d2fc97060efdf18f848b1893d1499305eac0262993800410e55bff74f"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/ayaneo-wxga.ref",
+    "bytes": 4739,
+    "sha256": "5985413fb27cd1cdef9e003297ac51122f29c0ef9eb4a84109588d8c271dde7a"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/cta-timings.diff",
+    "bytes": 2409,
+    "sha256": "609a9c53f6395ddaaf692c39262bf69df61165f43e256850dc6585c3aeedae42"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/cta-timings.edid",
+    "bytes": 512,
+    "sha256": "b6539dfb8567818d5a199277d68bf3b6f75a8058013bd7b8ff75670cb3aa347e"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/cta-timings.print",
+    "bytes": 343,
+    "sha256": "1639cc7616f8bc34707b676328e2187841c4a23caf7fad82080b2dc7623f3196"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/cta-timings.ref",
+    "bytes": 7514,
+    "sha256": "8dcd4ed4c0d03749e9812cbff0c0f8b04e0eb8c7c372ab32dfe72c8025e72182"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/cta-vfpdb.diff",
+    "bytes": 999,
+    "sha256": "8ca766ba24ec52bc460eba7029fe14dce65f2c0ee0474c2400e4e41058414640"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/cta-vfpdb.edid",
+    "bytes": 256,
+    "sha256": "88eadcb6e2fe7d7e20cef09a3b7e5ee1260a8aa2ef6dcd887e395c8f796922de"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/cta-vfpdb.print",
+    "bytes": 342,
+    "sha256": "bd83b2e1dfc4e2be172fc159d4bfac566701d9e1f14f31b9aa25b57a043e3120"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/cta-vfpdb.ref",
+    "bytes": 4070,
+    "sha256": "91c3d6378217953648d6ce5cc4f3e27ba1d8704df093d32b5343979a2a40a60b"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/custom-uncommon-cta-vesa.diff",
+    "bytes": 895,
+    "sha256": "0fb8e630820503c13402880501933071e37cf49f727859e73edf97c178dfaa85"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/custom-uncommon-cta-vesa.edid",
+    "bytes": 256,
+    "sha256": "fba45d4a42c93a08922e281fb9cd4961fcfebba2d69f3525e1b6b72abd81859a"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/custom-uncommon-cta-vesa.print",
+    "bytes": 343,
+    "sha256": "1639cc7616f8bc34707b676328e2187841c4a23caf7fad82080b2dc7623f3196"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/custom-uncommon-cta-vesa.ref",
+    "bytes": 5382,
+    "sha256": "33f5bb0fce9eadf85ff8a5b9b3520bb8c2773a6ff16390c2917cffd5d8b43c63"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/cvt.edid",
+    "bytes": 128,
+    "sha256": "0404509f054fe108608c423ab6a917f8735e7937d344e2600b5739b8e130f623"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/cvt.print",
+    "bytes": 342,
+    "sha256": "bd20a9da9400664f401959d563b7dcc2406ab264e7e2d52fb538266507a428af"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/cvt.ref",
+    "bytes": 2918,
+    "sha256": "e77ff8e409e9ed48eb7c4b4a4c2943ea5f5cdc97d54b149c9dcde32373959cee"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/dell-2408wfp-dp.edid",
+    "bytes": 128,
+    "sha256": "f2e56b1da384377adb9b0639696e8dc60add5829e767cb1ae6879df6e3e8cebd"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/dell-2408wfp-dp.print",
+    "bytes": 339,
+    "sha256": "1ab15f3e50d37beddc8f1ce49ed7c9f5ec285327ac7e37c18f9cc47f5e2089d0"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/dell-2408wfp-dp.ref",
+    "bytes": 2077,
+    "sha256": "b7e6a13e338ea8f036d897c101df0ebdf185c03945a6fe5cc4c753e868fa98cf"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/goldstar-37lg5000.diff",
+    "bytes": 3238,
+    "sha256": "cdb05c1527f3136da43b23f382cf562ea9a53a69c696727728f4d10753946bb4"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/goldstar-37lg5000.edid",
+    "bytes": 256,
+    "sha256": "ea1b3168a59a212777218068961ae52e06eb7929e7142574afbe00099f0ad352"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/goldstar-37lg5000.print",
+    "bytes": 338,
+    "sha256": "20e00c9a0033fe3d04668bc1f0733306a6f8a4c990d640c0a8e502d20ebee986"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/goldstar-37lg5000.ref",
+    "bytes": 6848,
+    "sha256": "7ca6a26a7798f94d1410666d2583b2a4b75d97faf8bfcd93afadfe9706243b6d"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/goldstar-e2441.diff",
+    "bytes": 2032,
+    "sha256": "d256bfc2322303edd7d6fe6b20726e74da8906081b5d3cb16e50b67ad30ec445"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/goldstar-e2441.edid",
+    "bytes": 256,
+    "sha256": "005f65510ff67daa47b4469758db67d471bb466ad01aac3f98587b70c49cf1df"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/goldstar-e2441.print",
+    "bytes": 335,
+    "sha256": "d19a536372420050a2373e00b815263fba001f61a9ad12d5dfba963d1880958e"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/goldstar-e2441.ref",
+    "bytes": 5346,
+    "sha256": "023cc7ca733736f6b91ee2974fbf29130fb582b32b64926f60c3cc33390e01c8"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/goldstar-ite6604-hdmi.diff",
+    "bytes": 2685,
+    "sha256": "56c52d584170931206f4ed484c18a3083255adc1199cf4216b9a1d2929e0adbb"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/goldstar-ite6604-hdmi.edid",
+    "bytes": 256,
+    "sha256": "1d7bcd6af3a9ed1aef2d92f382245ecf907c65540741e9b9b4edc81fa952ea41"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/goldstar-ite6604-hdmi.print",
+    "bytes": 337,
+    "sha256": "c89d39e41d848467a85c38e511462b0acffe9d0f4c2efb07be7c6d45035cd9dc"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/goldstar-ite6604-hdmi.ref",
+    "bytes": 6623,
+    "sha256": "613406652e583f92ce0c78dcddfac720ddf43769aa62d705f245e5b4fcc73807"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/hisense-55u8k.diff",
+    "bytes": 2962,
+    "sha256": "83f2865a83c2a509b4d53f36e0ffaf29a52ff2965bd6d972985d146516d9d30e"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/hisense-55u8k.edid",
+    "bytes": 256,
+    "sha256": "868a5ea969931438bead5ae8f8b3f555946f282e6b24e690b875dd36a66d650d"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/hisense-55u8k.print",
+    "bytes": 386,
+    "sha256": "b93166b03f4c92dc122aab93ef026179e81e86bf4e09d991a5263b0695d0184a"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/hisense-55u8k.ref",
+    "bytes": 8587,
+    "sha256": "de6031962a2f889ae32fff1764cd06ec27aba903cff8189dcda6dbad914f24a5"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/hitachi-55r6+.diff",
+    "bytes": 1850,
+    "sha256": "67aa2031a378361a3f06a8a65fc7bba0a1a848ddd21d51336e800ff138e828ca"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/hitachi-55r6+.edid",
+    "bytes": 256,
+    "sha256": "1f4d71081c26cdd88561ba721de7a993eebffd8d86634a46d25d82772cb5c8fc"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/hitachi-55r6+.print",
+    "bytes": 372,
+    "sha256": "e159f76fe4f7ff651a94fa85c2dd8645124ad1b5541966cfdcdc9000bca790a5"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/hitachi-55r6+.ref",
+    "bytes": 7834,
+    "sha256": "e63ae28c855bd74b0bc88854d2e7923da693c1dc9e99eb3cf99a6c93f8f9752c"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/hp-5dq99aa-hdmi.diff",
+    "bytes": 1449,
+    "sha256": "f6d56aad403b2a7bea04513695abcf2c8108b4139fc5d83ffd5434baa8446b6e"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/hp-5dq99aa-hdmi.edid",
+    "bytes": 256,
+    "sha256": "b9fc6837e8b5cc96d6e76ed13a3663ec2cd2a763390e4ba99b380668af2aada5"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/hp-5dq99aa-hdmi.print",
+    "bytes": 372,
+    "sha256": "7e609e21f8268da1f7959711efeb802d8cdf304f29d0c75609562e05d8ac255f"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/hp-5dq99aa-hdmi.ref",
+    "bytes": 5605,
+    "sha256": "09640d47091f9bc3b15005c08499b24a126dd5f80a775ccd3cf7ca75cd06e78c"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/jdi-lpm135m467-edp.diff",
+    "bytes": 1161,
+    "sha256": "e083aad154347c7ed39b7632942ed0b7c29709fb8ae448b53c7a0e57bf26c45a"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/jdi-lpm135m467-edp.edid",
+    "bytes": 256,
+    "sha256": "cd1ecb025559fd46d56c35da7563ee51b2ed47f5ddc74a515b5f4c22fbe80db2"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/jdi-lpm135m467-edp.print",
+    "bytes": 336,
+    "sha256": "81d325bda9b1d667ea0d09a65a77ddbdc1b853a4e336d2bbc2f7ac2f410280f6"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/jdi-lpm135m467-edp.ref",
+    "bytes": 2282,
+    "sha256": "265b78c775d0e243fbfe1be1661c30d399a6db43fc488bdfd2cda04d3c8e23c3"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/lenovo-t24s28.diff",
+    "bytes": 5600,
+    "sha256": "285863307cb3888a2b495fc1533eade62fa55787dc3bbf13cc1876bad27c40ea"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/lenovo-t24s28.edid",
+    "bytes": 512,
+    "sha256": "1104e9447610e3220b18d263e5b8b755d0382db59e21ed97df3ac846f9a4770f"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/lenovo-t24s28.print",
+    "bytes": 341,
+    "sha256": "37aff1779a5ca537f2c9e14a885e9a7efe50b980f1b83ff22bfaae70eef8ff03"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/lenovo-t24s28.ref",
+    "bytes": 8637,
+    "sha256": "c48562b8aa0d345d2c6ae82177ffafbc39166907bbf2388204d120e45d904b9d"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/lenovo-t27p10.diff",
+    "bytes": 934,
+    "sha256": "d729cb5ec1dda516945272ec52cd8ee14d940b28aa790f15d11f20963087472d"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/lenovo-t27p10.edid",
+    "bytes": 256,
+    "sha256": "4bab97351bad2b1697919cf54b3b4054798248f200ce1165b94954ec5f3f0b4e"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/lenovo-t27p10.print",
+    "bytes": 347,
+    "sha256": "72aa3a7ec5917a56bd314d4affc0225944c0cfa597b569df36d1194cdccc0acc"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/lenovo-t27p10.ref",
+    "bytes": 5353,
+    "sha256": "61b4d1c02dfb362b8fe5074466e70d4416e0ad5ab2250c4cea571eee5ccbe184"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/msi-mag321curv-dp.diff",
+    "bytes": 2237,
+    "sha256": "494af82319e844b0cb647235b1d005b09fb69d21c06656ab2f72b90e0788c09e"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/msi-mag321curv-dp.edid",
+    "bytes": 256,
+    "sha256": "164413a5721f1909511f4384655d7506c1b104c88145fb4a2ae418a0af6aa8b6"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/msi-mag321curv-dp.print",
+    "bytes": 379,
+    "sha256": "36ebdfa88934e906c75733743fe4576268e1671c0f93f2873fdacabf83f61433"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/msi-mag321curv-dp.ref",
+    "bytes": 8346,
+    "sha256": "1de194d832c1f9e2b8e06a07aa9d304258015b90e5c372132ed644691e46ea81"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/panasonic-mei96a2-dp.diff",
+    "bytes": 147,
+    "sha256": "53093c144ff3a98150ccfd16516fe1bf1e1228f99beb1c7e39e7571da0c64948"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/panasonic-mei96a2-dp.edid",
+    "bytes": 128,
+    "sha256": "683826992b74361d3cdb7cdfb52b1f34c41ff49438b31f717da65a8c8a684ded"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/panasonic-mei96a2-dp.print",
+    "bytes": 344,
+    "sha256": "11c288c8e688dbe88ea0c2e89c13cfa33dec2b59cdf8a369afbb68aa4cc8f82b"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/panasonic-mei96a2-dp.ref",
+    "bytes": 1373,
+    "sha256": "cc065473d7f8af6e298a7f268946c1238d381d9d6b12a8ed7b0dbc7303219270"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/philips-4k-2023.diff",
+    "bytes": 2081,
+    "sha256": "57bb2a194c8286732cc6fe3e80d642ca83f30ce46a25ff092b58bcd0ec8dbed0"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/philips-4k-2023.edid",
+    "bytes": 256,
+    "sha256": "a03d6dcc1a3befefb1e97667ed5fd3886a1fb5912b6f113a09fe961e09a72048"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/philips-4k-2023.print",
+    "bytes": 390,
+    "sha256": "c99f8d1d7e9b163a4bc19f53f8e4cd7c3801518bc58ebb3356312b62f4c7858d"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/philips-4k-2023.ref",
+    "bytes": 8249,
+    "sha256": "db9afe333935a525ce9cc88c75d7514d47e9bb8c8164401f3ba6de172fec0ccc"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/philips-ftv-2017.diff",
+    "bytes": 2784,
+    "sha256": "53cc485ccffc444def399f3033dd34a7a9e2ba5c94bf5361c866d4d487bce409"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/philips-ftv-2017.edid",
+    "bytes": 256,
+    "sha256": "98f5f25647eddc83a22af6855adc1ec43c9bc8c2f7cd92aa3744d44171b39618"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/philips-ftv-2017.print",
+    "bytes": 359,
+    "sha256": "63dfa31d3e599b285944bf861aec21801f4a5c07e83fdd86bbab05124b244498"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/philips-ftv-2017.ref",
+    "bytes": 6079,
+    "sha256": "086f7b2214f51cf9bb3c4246d015c23420d40834789388bf5f29358957efd1e8"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/philips-ftv-490.diff",
+    "bytes": 1885,
+    "sha256": "88dec7e35db23dee564a5149eb30fa28316b592dc5999afcb2ccdfc8408cb029"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/philips-ftv-490.edid",
+    "bytes": 256,
+    "sha256": "fd1664cf24d003acff2d2ef2d50fb679beca6649b77a3d9291ad0dd91ad24311"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/philips-ftv-490.print",
+    "bytes": 388,
+    "sha256": "03ceac47e04ab6a0d19241d3459e940c79b0d7e28be1076f5790ee2cc09623ea"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/philips-ftv-490.ref",
+    "bytes": 8299,
+    "sha256": "2fe1014c9861330c6f88a5b770a6ac54835f1e630629d780c868c558c323e972"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/qemu.diff",
+    "bytes": 957,
+    "sha256": "8a395f1e890b8102f20f90a18711bb40d5de66c9de32825b3f00929fe8ea8ac4"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/qemu.edid",
+    "bytes": 256,
+    "sha256": "e2020bcce3f0c2edfbd7be364150dd7d45e737f75df86433308bcba84f9079c1"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/qemu.print",
+    "bytes": 337,
+    "sha256": "22b511a7870b2db76c4e29df2b99365a173e06a3acd7bb9beb7a77bda39e11b6"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/qemu.ref",
+    "bytes": 3712,
+    "sha256": "6f928ad7ef8c9b11a702774d58a21cf11085b36ff03ea384544886919ec956eb"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/samsung-odyssey-g60sd.diff",
+    "bytes": 2460,
+    "sha256": "4fdc2f79695dba553ba2a441beee62fce8ac08d1756d66a02b227a03b6aa4fa6"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/samsung-odyssey-g60sd.edid",
+    "bytes": 256,
+    "sha256": "e24eaf0f3b79f65fac92f4beb735cdc3f41019bb2ffc8ebc5ad4c373d5a1fe6f"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/samsung-odyssey-g60sd.print",
+    "bytes": 381,
+    "sha256": "c3854e1acd5fb9a39ef25bc037f0f58adecb770824855c3b2879869f0da19134"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/samsung-odyssey-g60sd.ref",
+    "bytes": 6589,
+    "sha256": "67ba1cbd3a935ec0fa0ffc56052eae34d8d8db00c2275ecd0edfaab0ede6a766"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/samsung-q800t-hdmi2.0.diff",
+    "bytes": 2239,
+    "sha256": "047c014774922154e4b78c8dac32e7f5f7b4992e2231b2dd310576e28e6e5664"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/samsung-q800t-hdmi2.0.edid",
+    "bytes": 256,
+    "sha256": "194451a8d90a2ed97089cdfc1cfad4259ac4563328e9ddb04750c61dcb5778a4"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/samsung-q800t-hdmi2.0.print",
+    "bytes": 350,
+    "sha256": "52ed6649831b1e1ec4cbce7957f4a5d173dfb463a4108b95c2877a586ffe6d69"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/samsung-q800t-hdmi2.0.ref",
+    "bytes": 8444,
+    "sha256": "de432de9cf98ae8b56f41fe0279d23630f8cdadda61a7139be09d564a6a60d87"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/samsung-qn900b-8k.diff",
+    "bytes": 1627,
+    "sha256": "c9cfd2a95ba6946e6d4396c0aaeb746bc8cdfb18c64bc0c78cd15c1678bc0295"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/samsung-qn900b-8k.edid",
+    "bytes": 256,
+    "sha256": "2f361213355d965776c513f051ed7562deb9daa12e93bc269d2bc58e566258dc"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/samsung-qn900b-8k.print",
+    "bytes": 372,
+    "sha256": "ceb33813385abb085567b92edb5e65e8700e070fa866ce7309f8a8f9412d532a"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/samsung-qn900b-8k.ref",
+    "bytes": 10818,
+    "sha256": "065340fddd78757f20f64e03dcfaf69e9903a6f6ac048fdb55e8fcef10e7a9ba"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/samsung-s27a950d-dp.diff",
+    "bytes": 1277,
+    "sha256": "dff270a366f632a713f5f74a89604a93a97b4efeed3935f5c4c1bb49ecdda640"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/samsung-s27a950d-dp.edid",
+    "bytes": 256,
+    "sha256": "fa43bcd6d13a5fe85acec312006f0b593cbc28c3456ea8289be3a24eaecfd418"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/samsung-s27a950d-dp.print",
+    "bytes": 344,
+    "sha256": "881c2d14b5b2f5af35d1f045ccf6f5eeb1e1594c5a6a42ca309c9416de79442d"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/samsung-s27a950d-dp.ref",
+    "bytes": 2374,
+    "sha256": "7183807f47c8fab37612bd5359b62bb34cd5ecea2adaa241ee36255695041cb2"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/sun-gh19ps-dvi.diff",
+    "bytes": 541,
+    "sha256": "bb3f1d5994d8cd2366124609327e7f32318c3514e62f42d77900b70fb8e39771"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/sun-gh19ps-dvi.edid",
+    "bytes": 128,
+    "sha256": "8e905c7e7b9b20a69162c697674f6606af3c7c7437a48b780a242edf3c0bc2b9"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/sun-gh19ps-dvi.print",
+    "bytes": 349,
+    "sha256": "e25d50a88c2d2190ccd3f08ef07b0c9d247a1bc794dbba4c2903a9200b0c3f9b"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/sun-gh19ps-dvi.ref",
+    "bytes": 3025,
+    "sha256": "6768ff61c4b271fb43851025df650e4a0e4946ce392fe02cfac92e5f049b0037"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/tcl-smart-tv-5655.diff",
+    "bytes": 1423,
+    "sha256": "42fc3df5075fc13c563913f5326753d92cae8e3f3aa31a29283b79c1485e4366"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/tcl-smart-tv-5655.edid",
+    "bytes": 256,
+    "sha256": "463c5bd2b6d25c2f2291c7924d3304dcd41ccf2841d9e83ff7726aabbc81dd3c"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/tcl-smart-tv-5655.print",
+    "bytes": 350,
+    "sha256": "24162dd6b8e360ab183dfd98ab1e99139c2b2b017ba41358a6c9d121db37be4b"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/tcl-smart-tv-5655.ref",
+    "bytes": 6625,
+    "sha256": "ca8cf04125195e7e46df0e0c58e0d20c3d4993935eb0b46eb360b2de9f4bfb2d"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/viewsonic-vp2768-dp.diff",
+    "bytes": 2311,
+    "sha256": "70d8ad4b3613827d6cea8eee84c46b99c9930274a82ed497facc9c60449608aa"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/viewsonic-vp2768-dp.edid",
+    "bytes": 256,
+    "sha256": "b6312a246957fe92e20b21d64f2171d71a19beddb8534f379d60f97a1a310260"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/viewsonic-vp2768-dp.print",
+    "bytes": 352,
+    "sha256": "6a66214fd3d70e0f0877cdd629e37bc440459c12c346e3beef750d7f42692be5"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/viewsonic-vp2768-dp.ref",
+    "bytes": 7346,
+    "sha256": "b96a5f846adb97810311b9f0b26fb02fdf7fea01dac4f5eb695ca7c4a0745921"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/vizio-d40fj09.diff",
+    "bytes": 2889,
+    "sha256": "2c27a2076778d13bdb322558b8ad26a9025dbcb8047fa224532d254596db7598"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/vizio-d40fj09.edid",
+    "bytes": 256,
+    "sha256": "27b906f960ae829b8a140181536ae4261c7946e4ff3167a54d405b9b60e060b7"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/vizio-d40fj09.print",
+    "bytes": 330,
+    "sha256": "44518cb74b41458fb279b19159ef8bf8805ea40d6e6a438a78ca05e60ca30861"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/data/vizio-d40fj09.ref",
+    "bytes": 7124,
+    "sha256": "715dc8cd8f7b516eb9a786ae5847a3fd3e8844857ae34dd47d536aacf8bb9d0b"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/di-edid-print.c",
+    "bytes": 2919,
+    "sha256": "380d568e1d846747618799ac3016c5007e848b7fddcd2ec4377ddefc3a679c6c"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/edid-decode-check.sh",
+    "bytes": 330,
+    "sha256": "4c2ee5921ce1069f9315e3840fad40e861a4165a21b421d6d06b9a3ce49baad4"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/edid-decode-diff.sh",
+    "bytes": 759,
+    "sha256": "a8e0daf3ab35384783acd5ed5da35dfa4d3422c1cc85346131ee51db98e019d4"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/edid-print-check.sh",
+    "bytes": 209,
+    "sha256": "09df79c2f7a5ba8c2c8811a13caf40e18f0b5c5c0f44b835e4a742fe10459552"
+  },
+  {
+    "path": "subprojects/libdisplay-info/test/meson.build",
+    "bytes": 2103,
+    "sha256": "c79585dfcbe89829a1eaea29f56a72ac2ee8ad5bb3bc30b000772c4b0e193701"
+  },
+  {
+    "path": "subprojects/libdisplay-info/tool/dump-i2c.sh",
+    "bytes": 1089,
+    "sha256": "6539d4260924a75275c9be09f26444f71c8cfffc6769d463f5bc93006eb304d6"
+  },
+  {
+    "path": "subprojects/libdisplay-info/tool/gen-cta-vic.py",
+    "bytes": 3539,
+    "sha256": "5abe111668521dc5b9dfc0425231e420e57751106b8c3c7b9ec72504531df901"
+  },
+  {
+    "path": "subprojects/libdisplay-info/tool/gen-dmt.py",
+    "bytes": 4902,
+    "sha256": "6f020353b722acffdaa0f93f69d65cf74775ee29c1034f7c398feab91c48168b"
+  },
+  {
+    "path": "subprojects/libdisplay-info/tool/gen-search-table.py",
+    "bytes": 2387,
+    "sha256": "30323f2ef49724f29f98b79d7dc65164b9c427b3550cdcec92a722a834d0b4be"
+  },
+  {
+    "path": "subprojects/libliftoff/.builds/alpine.yml",
+    "bytes": 908,
+    "sha256": "f16244b3484bd4172251638fe6f8bb77b875e966fd9b2147aaac51025d907ff5"
+  },
+  {
+    "path": "subprojects/libliftoff/.builds/freebsd.yml",
+    "bytes": 330,
+    "sha256": "56e981245a2c842035bf786655b9cce2cc22571de08e3498f00c14420f105a81"
+  },
+  {
+    "path": "subprojects/libliftoff/.editorconfig",
+    "bytes": 167,
+    "sha256": "6977243cb450e27bc1006917e197167a39c27f307e0d91f26d0abeae466930ac"
+  },
+  {
+    "path": "subprojects/libliftoff/.gitignore",
+    "bytes": 22,
+    "sha256": "fd7ab703e5abe05f4ec79c2fe347bf662c305f6257d48f06f611bb825daa9a9a"
+  },
+  {
+    "path": "subprojects/libliftoff/.gitlab-ci.yml",
+    "bytes": 134,
+    "sha256": "8c8d17016634e6e35e5d48e46de4a70205d9f66f41546958a188ce13efead448"
+  },
+  {
+    "path": "subprojects/libliftoff/LICENSE",
+    "bytes": 1066,
+    "sha256": "9b230152f28fc7898665f40da7c311a1bf238a68b12cc39d9c83bbfc117a7b6b"
+  },
+  {
+    "path": "subprojects/libliftoff/README.md",
+    "bytes": 2533,
+    "sha256": "97204f14c6e68b45df62d028d31f947e4439b6c571473b0e2e61d5829348e205"
+  },
+  {
+    "path": "subprojects/libliftoff/alloc.c",
+    "bytes": 30770,
+    "sha256": "a788a257fe58eba79095625cf27da22bc53d22150eda04efb45e68fb89f95418"
+  },
+  {
+    "path": "subprojects/libliftoff/device.c",
+    "bytes": 3974,
+    "sha256": "01ae3abece974f3d3e82bb85131e7409d55b32b5f8852fa3d4035c7460518ffd"
+  },
+  {
+    "path": "subprojects/libliftoff/doc/compositor.md",
+    "bytes": 4296,
+    "sha256": "b69fe0a3b6e285218b56d15b2266107d83fb2f4eef941c75edf199f313d16ce4"
+  },
+  {
+    "path": "subprojects/libliftoff/example/common.c",
+    "bytes": 3299,
+    "sha256": "acc2cbccf9120dae57cb75178535b93b635ed944cafbb24a569addda6b0a78f7"
+  },
+  {
+    "path": "subprojects/libliftoff/example/common.h",
+    "bytes": 704,
+    "sha256": "c84c6caa18a0058d6d0dd4507ad6b878354bf4bb341f6af5d8b31e6c7d36abfd"
+  },
+  {
+    "path": "subprojects/libliftoff/example/compositor.c",
+    "bytes": 6384,
+    "sha256": "2aeb1d51438a7a24472fcde452bab221f836e3ddd6346decc1a59ea2d8bf3fc5"
+  },
+  {
+    "path": "subprojects/libliftoff/example/dynamic.c",
+    "bytes": 5821,
+    "sha256": "99d0c5776ee79063326c94d983fe44d9d678afe31ca325b6d2d651611a59a68a"
+  },
+  {
+    "path": "subprojects/libliftoff/example/meson.build",
+    "bytes": 357,
+    "sha256": "35ddc8e6811c3028439cf71b6ddeafa17a7c96629ddcaa30bc2367366c9d7210"
+  },
+  {
+    "path": "subprojects/libliftoff/example/multi-output.c",
+    "bytes": 4954,
+    "sha256": "7e8935e71a0288c11bc97ab712f89b564ca824c7560cfaf7e886e7a7a382b32d"
+  },
+  {
+    "path": "subprojects/libliftoff/example/simple.c",
+    "bytes": 4316,
+    "sha256": "a76a435e22f89cedfc76220cdda97b878502793b9bc4c215f19122356e1d26ed"
+  },
+  {
+    "path": "subprojects/libliftoff/gcovr.cfg",
+    "bytes": 58,
+    "sha256": "37d53e27b3ec89eadac155b9e57a6d5912df1d0e0a64b6dc225e77225b4eeafd"
+  },
+  {
+    "path": "subprojects/libliftoff/include/libliftoff.h",
+    "bytes": 6369,
+    "sha256": "63212ffc2e8d0ab195c42aec2a4c5da6ad7a26d9390a73e82b1b423026b32026"
+  },
+  {
+    "path": "subprojects/libliftoff/include/list.h",
+    "bytes": 1230,
+    "sha256": "d31cc5e18c07d7f5126b0c997b65a44053566985763720b976b43662b1b9f131"
+  },
+  {
+    "path": "subprojects/libliftoff/include/log.h",
+    "bytes": 481,
+    "sha256": "28e4aa934ce2f8afb9ad26d13b3e4f0e0eb20ea08fd77f670d3db5e6ea770d5a"
+  },
+  {
+    "path": "subprojects/libliftoff/include/private.h",
+    "bytes": 3871,
+    "sha256": "cb00fceea0069a6b2340b057a5bfb422b37f83731ba57d40360a02232f3aaf46"
+  },
+  {
+    "path": "subprojects/libliftoff/layer.c",
+    "bytes": 9438,
+    "sha256": "b3cc52ec805c88667627280db936c9a0106f31ebc751fe359424518188a6ef8a"
+  },
+  {
+    "path": "subprojects/libliftoff/list.c",
+    "bytes": 1027,
+    "sha256": "bec874522e5fe79c059707c07944899294b1f9a82d1cc013a42790d094a2b397"
+  },
+  {
+    "path": "subprojects/libliftoff/log.c",
+    "bytes": 1131,
+    "sha256": "822878b6c6ddd1150e36603529f9543d7de34058ed8901e678a1facf7736c872"
+  },
+  {
+    "path": "subprojects/libliftoff/meson.build",
+    "bytes": 1394,
+    "sha256": "c075547b773b1656192cb2c7c60db4dfac9c23d975c339b92634e535f10fda76"
+  },
+  {
+    "path": "subprojects/libliftoff/output.c",
+    "bytes": 2995,
+    "sha256": "eb4ee029e0443fa8769bb10c6e8fd4b4825d7bd99089de2b71cea63f61d4d4b4"
+  },
+  {
+    "path": "subprojects/libliftoff/plane.c",
+    "bytes": 10398,
+    "sha256": "d5e3ca0c76b6d54fdb93421a0c6ec6a72cf2e529443a2fa8db89f884237893cd"
+  },
+  {
+    "path": "subprojects/libliftoff/test/bench.c",
+    "bytes": 3721,
+    "sha256": "da312ffeeac7071d18e66d2d5ddc94e15cddccdd1aa4cc9e0c7db2c45bdf23cb"
+  },
+  {
+    "path": "subprojects/libliftoff/test/check_ndebug.c",
+    "bytes": 165,
+    "sha256": "e7ca8e21f95bd2b76621a0118e196c82bc763714b38aaff321ad7387c8468419"
+  },
+  {
+    "path": "subprojects/libliftoff/test/libdrm_mock.c",
+    "bytes": 13538,
+    "sha256": "c42d0fa6e9fc91f7579bca4526164cc54dee979661d61467fe1bf9b0753fd152"
+  },
+  {
+    "path": "subprojects/libliftoff/test/libdrm_mock.h",
+    "bytes": 1371,
+    "sha256": "ee17869a6db59b014bb4b5868aafa80f62304b77008877814a7d9b99df30edf4"
+  },
+  {
+    "path": "subprojects/libliftoff/test/meson.build",
+    "bytes": 2180,
+    "sha256": "fd306ea5ca8ade6f9938471a5fca69bc8321060d62c7f4a9cdab355babd3a643"
+  },
+  {
+    "path": "subprojects/libliftoff/test/test_alloc.c",
+    "bytes": 23268,
+    "sha256": "72977206d85464028dcd3d3e024d0d69d371ad9f42c3c782deb31e1609a4e4a6"
+  },
+  {
+    "path": "subprojects/libliftoff/test/test_candidate.c",
+    "bytes": 2934,
+    "sha256": "3d2678085ea6a9276e33b1b72925861de6904a6add8b3846fee711fd99ce5cbc"
+  },
+  {
+    "path": "subprojects/libliftoff/test/test_dynamic.c",
+    "bytes": 12885,
+    "sha256": "94fa5815e8b7a0cf41c16e017d3baca961aad7ff197c305375872ee2fb3ffb0b"
+  },
+  {
+    "path": "subprojects/libliftoff/test/test_priority.c",
+    "bytes": 2821,
+    "sha256": "04bc41d070b7dbb76c11849eade251dfbacab4140b9e56afe3e575e0047b0cd0"
+  },
+  {
+    "path": "subprojects/libliftoff/test/test_prop.c",
+    "bytes": 15898,
+    "sha256": "fc6abe6b5fad8174cd7202ecfb512712fc596774392da06ce4b2cd0a4855c94b"
+  },
+  {
     "path": "subprojects/openvr/.gitattributes",
     "bytes": 709,
     "sha256": "31c657253a4ead8dccd89551a4bc0eb712457a5098acd883500805195b4880cb"
@@ -15088,6 +16238,2366 @@
     "path": "subprojects/vkroots/vkroots.h",
     "bytes": 1280211,
     "sha256": "69b0aa3fb54cf51980414cd4cc58d17d183dfa4363162dcdc63b01977cb7cd2f"
+  },
+  {
+    "path": "subprojects/wlroots/.builds/alpine.yml",
+    "bytes": 1449,
+    "sha256": "10035f140fbc655a1b60198403354b1dfbd27a5839fa14ffda4bb6841d732bb6"
+  },
+  {
+    "path": "subprojects/wlroots/.builds/archlinux.yml",
+    "bytes": 1268,
+    "sha256": "7434b68c1ded96cff2b4e617f76152f8977b8ecc850363abeae9a550c61fbf94"
+  },
+  {
+    "path": "subprojects/wlroots/.builds/freebsd.yml",
+    "bytes": 860,
+    "sha256": "015643ad2c4e6bc570bee11657a6c329e52660fd1902269bee39f2cb24cdd04d"
+  },
+  {
+    "path": "subprojects/wlroots/.editorconfig",
+    "bytes": 249,
+    "sha256": "69ce4bf068e57aeb867dd6ee759d6cd8662f71b5db8413f7b9b438b8ac14c9cc"
+  },
+  {
+    "path": "subprojects/wlroots/.gitignore",
+    "bytes": 36,
+    "sha256": "d6e70ecea4be0f955755ae5146b12f7ed108ff7a41f038b84d6821b96a1bbec2"
+  },
+  {
+    "path": "subprojects/wlroots/.gitlab/issue_templates/Default.md",
+    "bytes": 593,
+    "sha256": "cefe49cd79ec7826f5eca68a2e68f2b01143eef0075a58849e2857d7dc1f8ba4"
+  },
+  {
+    "path": "subprojects/wlroots/.gitlab-ci.yml",
+    "bytes": 192,
+    "sha256": "aca9f95d70e120f438e07a08c980b1f78022093e10cd2d56734922052f8f91c3"
+  },
+  {
+    "path": "subprojects/wlroots/.mailmap",
+    "bytes": 113,
+    "sha256": "b4db263623956975a6670f23737d11d60111b4539fd70e2918c4f31f33ef5aad"
+  },
+  {
+    "path": "subprojects/wlroots/CONTRIBUTING.md",
+    "bytes": 16975,
+    "sha256": "7abb0fa42871c6502e268fc66c8e58b89d451dd4428d93f262657c8f99df8fb3"
+  },
+  {
+    "path": "subprojects/wlroots/LICENSE",
+    "bytes": 1140,
+    "sha256": "35d427c043dcafe8893b9e7247348f599847c81d9a067703587c80707f3d58df"
+  },
+  {
+    "path": "subprojects/wlroots/README.md",
+    "bytes": 3463,
+    "sha256": "f8cef13ec52a35a6a67eb3d6bba8953512a094f89b9cb1f6abd99e5b70cc2a58"
+  },
+  {
+    "path": "subprojects/wlroots/backend/backend.c",
+    "bytes": 12650,
+    "sha256": "e79d53a898713ca6eb2e3e2f91bc913d360d513e45e7afe65104e1872c9d1259"
+  },
+  {
+    "path": "subprojects/wlroots/backend/drm/atomic.c",
+    "bytes": 18194,
+    "sha256": "1779d62c50b6dd30d11b20bcd0e638d498c4c092f40858f27c60e797d67121c7"
+  },
+  {
+    "path": "subprojects/wlroots/backend/drm/backend.c",
+    "bytes": 9062,
+    "sha256": "3e8ab6555f21b200e1dce281af10271c297537893676d6b0e21bf2ca3d949f73"
+  },
+  {
+    "path": "subprojects/wlroots/backend/drm/drm.c",
+    "bytes": 64606,
+    "sha256": "7f62acb532110120d01eaaa110c665ef73ef35e6ac4a370311e8e52fa1db986d"
+  },
+  {
+    "path": "subprojects/wlroots/backend/drm/fb.c",
+    "bytes": 7093,
+    "sha256": "17b361f4bfe53a3f00743febdbf6755837aff8e540c5f6cd0cab7f74a3399d10"
+  },
+  {
+    "path": "subprojects/wlroots/backend/drm/gen_pnpids.sh",
+    "bytes": 520,
+    "sha256": "6403976a70fd49e94acb6e2d41db1635b83a0a0f0f9f625585cb594b570474b7"
+  },
+  {
+    "path": "subprojects/wlroots/backend/drm/legacy.c",
+    "bytes": 8474,
+    "sha256": "e0b7852d4a1797aae400472acfd0e7a8f7c98cc6d6b49ed856887f53f844679e"
+  },
+  {
+    "path": "subprojects/wlroots/backend/drm/libliftoff.c",
+    "bytes": 15493,
+    "sha256": "3734512c809d4b998b9d23f1076d6c4f81638ede0726bcc46c07e0aba8956f39"
+  },
+  {
+    "path": "subprojects/wlroots/backend/drm/meson.build",
+    "bytes": 1233,
+    "sha256": "c411a4efeb73b62e071887b3dbf9a209d0ae980687a7ce4f98771e63fee83c47"
+  },
+  {
+    "path": "subprojects/wlroots/backend/drm/monitor.c",
+    "bytes": 3194,
+    "sha256": "01dec81f08f46e0c73cdd2a4e4c90b2297388d29450e8b86f6d16a149a90f8fa"
+  },
+  {
+    "path": "subprojects/wlroots/backend/drm/properties.c",
+    "bytes": 5727,
+    "sha256": "76b4632aeeb4a29691a8771172ceb43d2ff10649f5ed62ab095bfc278e510318"
+  },
+  {
+    "path": "subprojects/wlroots/backend/drm/renderer.c",
+    "bytes": 5592,
+    "sha256": "4d18ec71f75c3ca1dee6583a37a5d5b7b2cce262e8272117366b907c47a87920"
+  },
+  {
+    "path": "subprojects/wlroots/backend/drm/util.c",
+    "bytes": 8524,
+    "sha256": "a789ea168702f2a5f65eaa843394a2f483eb7efac5a30d934575d8b8e8cf8d8d"
+  },
+  {
+    "path": "subprojects/wlroots/backend/headless/backend.c",
+    "bytes": 2436,
+    "sha256": "1d6b302fc4bfb78a47057e883b7f1479507076c8e1ac6d6e3e2a0ef0f57b9f93"
+  },
+  {
+    "path": "subprojects/wlroots/backend/headless/meson.build",
+    "bytes": 49,
+    "sha256": "5f68ac953f6de791b416348d11291662bec78513974831e841b9f66c4e5b45d3"
+  },
+  {
+    "path": "subprojects/wlroots/backend/headless/output.c",
+    "bytes": 4410,
+    "sha256": "a7f028cfd67ece10de199f089801b70f9e0d6aa0ad7396bb34dc779d83b80dba"
+  },
+  {
+    "path": "subprojects/wlroots/backend/libinput/backend.c",
+    "bytes": 7318,
+    "sha256": "02d1b6bb11177a8c37cdd4d27422b33657f6fc88ac925e266a53147cfef33bd6"
+  },
+  {
+    "path": "subprojects/wlroots/backend/libinput/events.c",
+    "bytes": 8106,
+    "sha256": "05191a35e03215e54e6ca23a08e02498fe1a90d286fe8b092e71870648715f86"
+  },
+  {
+    "path": "subprojects/wlroots/backend/libinput/keyboard.c",
+    "bytes": 1896,
+    "sha256": "06d0e8f09655a6e166c421ff63ffdde6dedff923f9808f092542662d03d954f2"
+  },
+  {
+    "path": "subprojects/wlroots/backend/libinput/meson.build",
+    "bytes": 758,
+    "sha256": "bab08b26539feb60cd425299f87263f518e822559506dc98921bf709d47c0a7b"
+  },
+  {
+    "path": "subprojects/wlroots/backend/libinput/pointer.c",
+    "bytes": 10539,
+    "sha256": "7e11a36408cc7b9a50beaf6d11b27a9022fc0f79adb872c4cf3b2a15a1335fd8"
+  },
+  {
+    "path": "subprojects/wlroots/backend/libinput/switch.c",
+    "bytes": 2172,
+    "sha256": "8cd2e37ecd0bee6a10bfe52789c7e20f1201ce719ad4a51563f69dc83de376a8"
+  },
+  {
+    "path": "subprojects/wlroots/backend/libinput/tablet_pad.c",
+    "bytes": 6757,
+    "sha256": "6e321a0cd38c6892464458aa13a3cdff7de442c43aaa50e455e867a800cb6aad"
+  },
+  {
+    "path": "subprojects/wlroots/backend/libinput/tablet_tool.c",
+    "bytes": 11119,
+    "sha256": "968c073b8c90d59f56e8843fdd0a774bd7c05042ee57e60fe8fe83fade4249ba"
+  },
+  {
+    "path": "subprojects/wlroots/backend/libinput/touch.c",
+    "bytes": 2839,
+    "sha256": "e75aed43c88311d1b21138d623d84d945bf49edc7e67ef2e758806db90124afa"
+  },
+  {
+    "path": "subprojects/wlroots/backend/meson.build",
+    "bytes": 745,
+    "sha256": "946c16b12c32b103929ef7efe861afbca7e4f719e1aff8abb5a0283674a3bd01"
+  },
+  {
+    "path": "subprojects/wlroots/backend/multi/backend.c",
+    "bytes": 8996,
+    "sha256": "6a70c396d6ac0360c81381495ff985d25cac8314e7abf8f161585e60a95f4704"
+  },
+  {
+    "path": "subprojects/wlroots/backend/multi/meson.build",
+    "bytes": 32,
+    "sha256": "739e09626bc5aaac61a74cf23d223c9a2465aeb880920563b407f6491898ea0a"
+  },
+  {
+    "path": "subprojects/wlroots/backend/session/meson.build",
+    "bytes": 488,
+    "sha256": "09cf97beb324c827f2dedc0e36ef33e71605e2ab46bfe9c6f0218a4a33a3a9b2"
+  },
+  {
+    "path": "subprojects/wlroots/backend/session/session.c",
+    "bytes": 15563,
+    "sha256": "6c7f1b433bd790b17552f832694e9954965f0db20768bff89f39345d25f7d4ad"
+  },
+  {
+    "path": "subprojects/wlroots/backend/wayland/backend.c",
+    "bytes": 23293,
+    "sha256": "49af416c90695dc853fd3b57160177f4b36bc5ae1b308d29ac1df5463c837b0f"
+  },
+  {
+    "path": "subprojects/wlroots/backend/wayland/meson.build",
+    "bytes": 536,
+    "sha256": "d1bd3e95143b8d97d5a6dc029c84977df85b109fa8a35fba467e976cdebbb0ac"
+  },
+  {
+    "path": "subprojects/wlroots/backend/wayland/output.c",
+    "bytes": 38543,
+    "sha256": "773b677434550ef2caf9c4b55d90baba21fe1cca58fe54e0f9b85576c412f514"
+  },
+  {
+    "path": "subprojects/wlroots/backend/wayland/pointer.c",
+    "bytes": 16374,
+    "sha256": "f5e3ef516cd54837cc5b8f08a2c0b3ac8d6b22b40dda2c9152fb0de4b42f1881"
+  },
+  {
+    "path": "subprojects/wlroots/backend/wayland/seat.c",
+    "bytes": 11313,
+    "sha256": "4da03ef344a917493ef7d6bab82c0ac1d4068bb5ac1328b58a07f94e4fead52a"
+  },
+  {
+    "path": "subprojects/wlroots/backend/wayland/tablet_v2.c",
+    "bytes": 26477,
+    "sha256": "e041aff2f00bf53d3f05fbb3200537bc090a76c1319b0cff5e776af37ddf665a"
+  },
+  {
+    "path": "subprojects/wlroots/backend/x11/backend.c",
+    "bytes": 21659,
+    "sha256": "e11b684f9ad58ce6b4906ebd1e26bbc1eb7f19ef14a146e20215c8d6d8e156a6"
+  },
+  {
+    "path": "subprojects/wlroots/backend/x11/input_device.c",
+    "bytes": 9244,
+    "sha256": "2f3a265bb99c123925516177ae5436b56c01a28dc9ad62eb2baaeef5ca3d9118"
+  },
+  {
+    "path": "subprojects/wlroots/backend/x11/meson.build",
+    "bytes": 602,
+    "sha256": "19ca8022262d6070f367ffb48c96d88c3ecb917a99c7da089143a603b373ea15"
+  },
+  {
+    "path": "subprojects/wlroots/backend/x11/output.c",
+    "bytes": 23830,
+    "sha256": "f8a021ab95474b0def06a283563008559b0598a844226eb5e9dbc07248f2bb3c"
+  },
+  {
+    "path": "subprojects/wlroots/docs/architecture.md",
+    "bytes": 3627,
+    "sha256": "9494c977e598fc32010f0a2ee3f0a8e2ae8b858ed7ee7524aae0ede36cd00a81"
+  },
+  {
+    "path": "subprojects/wlroots/docs/env_vars.md",
+    "bytes": 3234,
+    "sha256": "127be8fedb553f31e5cba05a8cd8d390a612c9c9033d762540f6a94d1c97a5be"
+  },
+  {
+    "path": "subprojects/wlroots/examples/.gitignore",
+    "bytes": 22,
+    "sha256": "65c1c6b7dcff3da36fb0458a7b0f592adda667efc808de49daad5ac156d00051"
+  },
+  {
+    "path": "subprojects/wlroots/examples/cairo-buffer.c",
+    "bytes": 5373,
+    "sha256": "9637a5a412064ca55014b14b84d21d79b5a49f092c4ab7ad128417ccff82b2e6"
+  },
+  {
+    "path": "subprojects/wlroots/examples/cat.c",
+    "bytes": 225235,
+    "sha256": "4a4def4720bd09e8882811f0bf7ecca93f35d5cf088bed51842872ac94f82224"
+  },
+  {
+    "path": "subprojects/wlroots/examples/cat.h",
+    "bytes": 268,
+    "sha256": "d5c7491710840309377d31c4b9d9ae996e8cfbfa51430aa45c193eac1fe03af6"
+  },
+  {
+    "path": "subprojects/wlroots/examples/embedded.c",
+    "bytes": 8080,
+    "sha256": "ef64fbf4c19d316ae485bd034cdec26a104b53ca7ade00c4eaadfb80998c26c3"
+  },
+  {
+    "path": "subprojects/wlroots/examples/meson.build",
+    "bytes": 1491,
+    "sha256": "f246ff7a1895db7dc37c7a9972f931d7323129d61d7a5c9430a65b9345818f3c"
+  },
+  {
+    "path": "subprojects/wlroots/examples/output-layers.c",
+    "bytes": 10898,
+    "sha256": "9ddd9c95fa7a134df54d93902ace909ee4803377c69fdfa9c18eed76c6855716"
+  },
+  {
+    "path": "subprojects/wlroots/examples/output-layout.c",
+    "bytes": 9758,
+    "sha256": "17f08aff3ae8378743ff3a604d95ac94813188d3930cde1d25a4c4e8a247a10d"
+  },
+  {
+    "path": "subprojects/wlroots/examples/pointer.c",
+    "bytes": 13222,
+    "sha256": "4dd7afd883e3fc90dc6d24896c20a539a819eb4ab9562c881750b4e60ea52477"
+  },
+  {
+    "path": "subprojects/wlroots/examples/rotation.c",
+    "bytes": 9190,
+    "sha256": "833876c3e8839068ebdbe07fe58231e419fff30de06e8d7f8e03d4777a3b06b7"
+  },
+  {
+    "path": "subprojects/wlroots/examples/scene-graph.c",
+    "bytes": 6321,
+    "sha256": "2f1804d3eeab28a381e7a707b0650513055843d53e8194e982dbc851e22a7676"
+  },
+  {
+    "path": "subprojects/wlroots/examples/simple.c",
+    "bytes": 6413,
+    "sha256": "6ecce4f5ea12d52f81272e5d9dc048f922a38071e5a0be9fc6bda05e1983de08"
+  },
+  {
+    "path": "subprojects/wlroots/examples/tablet.c",
+    "bytes": 13383,
+    "sha256": "e38d439e14167ef2958dcbdb8d73d44396b7e112056bd36fcdcb2da7dacc0d9d"
+  },
+  {
+    "path": "subprojects/wlroots/examples/touch.c",
+    "bytes": 10181,
+    "sha256": "acdadc9ebe7af6b472fcbc7ec840bc868cb5c38aeb3028951f1f9f04404ba449"
+  },
+  {
+    "path": "subprojects/wlroots/include/backend/drm/drm.h",
+    "bytes": 7229,
+    "sha256": "3965d8a4c163ff089cb3e047709e5f060cace2978d5db063fdb545f971460dcb"
+  },
+  {
+    "path": "subprojects/wlroots/include/backend/drm/fb.h",
+    "bytes": 748,
+    "sha256": "e2941f7f1fc24ee0d25b3668d25df09007662331d1287edcef412156c1bdb20f"
+  },
+  {
+    "path": "subprojects/wlroots/include/backend/drm/iface.h",
+    "bytes": 1401,
+    "sha256": "4efb11a52c3396cc1a39cce3a5f69aea665f2bfd931b9611e6dec5f73b391dce"
+  },
+  {
+    "path": "subprojects/wlroots/include/backend/drm/monitor.h",
+    "bytes": 601,
+    "sha256": "41b308c227f0e19bf76ef979f5df6bbf02dc4cbcb4fbb21a286760afa7dbad22"
+  },
+  {
+    "path": "subprojects/wlroots/include/backend/drm/properties.h",
+    "bytes": 2103,
+    "sha256": "af92c50eccf14972504a1bd52614751d882573a92ecbc30d88b1cc326fe9e141"
+  },
+  {
+    "path": "subprojects/wlroots/include/backend/drm/renderer.h",
+    "bytes": 1204,
+    "sha256": "6653647dbab1ddfe95545a56e4d0d964a99abd02dcdc6a59bb7e1540765e0692"
+  },
+  {
+    "path": "subprojects/wlroots/include/backend/drm/util.h",
+    "bytes": 1482,
+    "sha256": "a49c6db96f27d6fe52568318dd274a0e4b4cf2036b6bccfdbf769aae7ffb123d"
+  },
+  {
+    "path": "subprojects/wlroots/include/backend/headless.h",
+    "bytes": 650,
+    "sha256": "6d4a343cbefa0b3a73678c293496a38419ecb1c5d22ab63d1d92cd1ecca6a776"
+  },
+  {
+    "path": "subprojects/wlroots/include/backend/libinput.h",
+    "bytes": 5268,
+    "sha256": "87317d1e12b6d7b196fe3c2cc974b54090d9ff64a80902a7da0445b62b49f34c"
+  },
+  {
+    "path": "subprojects/wlroots/include/backend/multi.h",
+    "bytes": 366,
+    "sha256": "c99559a469a2260133d028b1ba44c06543f57329dd860b13d3a0bf98c2f17590"
+  },
+  {
+    "path": "subprojects/wlroots/include/backend/session/session.h",
+    "bytes": 629,
+    "sha256": "3c622f0a47fc7abaee8968e1090672e4ae5c63107cd062f53e22549660cfdbc3"
+  },
+  {
+    "path": "subprojects/wlroots/include/backend/wayland.h",
+    "bytes": 6144,
+    "sha256": "230c48f6380147283b244164ef6efabf6917e011313e55d4b4942a7cd0206842"
+  },
+  {
+    "path": "subprojects/wlroots/include/backend/x11.h",
+    "bytes": 3365,
+    "sha256": "0c95d0a83a36ca47e4c4578c1604e669b7ad00dde2b20b3298db97673e7e2541"
+  },
+  {
+    "path": "subprojects/wlroots/include/interfaces/wlr_input_device.h",
+    "bytes": 562,
+    "sha256": "8bc3c6678131c7a8a130bd629141a07b0a2a6574c910a87aa4f2ace41bd158b3"
+  },
+  {
+    "path": "subprojects/wlroots/include/meson.build",
+    "bytes": 1000,
+    "sha256": "bb5b0889c47fce720a4851fc452fc69af622d361545e65e644427c9f9cced878"
+  },
+  {
+    "path": "subprojects/wlroots/include/render/allocator/drm_dumb.h",
+    "bytes": 792,
+    "sha256": "fbf1e9f9270474c556c10502313bc0256545770149fa8e436f70d2bfe9edd119"
+  },
+  {
+    "path": "subprojects/wlroots/include/render/allocator/gbm.h",
+    "bytes": 700,
+    "sha256": "9b1b4c2fea6643035cf6b91637f1038574431aae4f589c658468d95fced55ffd"
+  },
+  {
+    "path": "subprojects/wlroots/include/render/allocator/shm.h",
+    "bytes": 415,
+    "sha256": "69ce9a31e522b75603db78ccd80e9b04c87823247d325499ed333ca61065825e"
+  },
+  {
+    "path": "subprojects/wlroots/include/render/allocator/udmabuf.h",
+    "bytes": 421,
+    "sha256": "c0963e7f8d2229fb8a005b6b962855aeb560c8e9e9f90e360eaa506f0a0bc273"
+  },
+  {
+    "path": "subprojects/wlroots/include/render/color.h",
+    "bytes": 3119,
+    "sha256": "91f3f33dd1f68aef6ae0c6455d54ec909f795c5027d7a88c3e0ac24c38133a60"
+  },
+  {
+    "path": "subprojects/wlroots/include/render/dmabuf.h",
+    "bytes": 1044,
+    "sha256": "2b15f7ef9bd3ddc35d70fca54431cd45eb223012d72e6bbc1f1edaf672b97b52"
+  },
+  {
+    "path": "subprojects/wlroots/include/render/drm_format_set.h",
+    "bytes": 990,
+    "sha256": "30c26eaa6dc9e882c6cc6b269f2a3737dd8829910e9ccc83b68861206bc659dd"
+  },
+  {
+    "path": "subprojects/wlroots/include/render/drm_syncobj_merger.h",
+    "bytes": 1237,
+    "sha256": "77a7c7b81202e0b9d224e41e64a12486b3e8be3b31e5655fd128d6adccc83fed"
+  },
+  {
+    "path": "subprojects/wlroots/include/render/egl.h",
+    "bytes": 3452,
+    "sha256": "74dfad259e12cc03d62074bc226025018628ef3596656d3472c04a6662213b78"
+  },
+  {
+    "path": "subprojects/wlroots/include/render/gles2.h",
+    "bytes": 5296,
+    "sha256": "f8192aa35d3914d6afacbeff12a0b1d17aa0a581db2fd76f1f44145ebbf3ae8f"
+  },
+  {
+    "path": "subprojects/wlroots/include/render/pixel_format.h",
+    "bytes": 2148,
+    "sha256": "8ddaaacb058690162cdc88ea6484bf3a5c92a8b197c5a2636d6e8eb9d497e2f1"
+  },
+  {
+    "path": "subprojects/wlroots/include/render/pixman.h",
+    "bytes": 1645,
+    "sha256": "d24cd9085e2d89f5105d52d35d885ec830763e4a5869a116f44af95da7fdbd52"
+  },
+  {
+    "path": "subprojects/wlroots/include/render/vulkan.h",
+    "bytes": 19123,
+    "sha256": "bac7f48d5686244c6fd673ead7eee2a5795800455dfd04ff63588749e0beb0a6"
+  },
+  {
+    "path": "subprojects/wlroots/include/render/wlr_renderer.h",
+    "bytes": 497,
+    "sha256": "9749648a21492aef0af77e7f5b0de596ee5fa8c49c35000941172246b4e7a38d"
+  },
+  {
+    "path": "subprojects/wlroots/include/types/wlr_buffer.h",
+    "bytes": 2211,
+    "sha256": "5c637441c845b4aa505f375466a86411df52db8e6d7dcd7379598ac6b4055c3e"
+  },
+  {
+    "path": "subprojects/wlroots/include/types/wlr_data_device.h",
+    "bytes": 1641,
+    "sha256": "3e63f3ca39e578a2ed7890f63fb2a1da78c9c3b3279ad1c139a19cd9fe31e2ab"
+  },
+  {
+    "path": "subprojects/wlroots/include/types/wlr_keyboard.h",
+    "bytes": 255,
+    "sha256": "4fe105f97ef86df55ba55f78219e5f50d7414f37606dd909b2043a46236f99a3"
+  },
+  {
+    "path": "subprojects/wlroots/include/types/wlr_output.h",
+    "bytes": 1788,
+    "sha256": "41e006cd77eff5a81afdc3ef1cbe0e681ef58cc343ac994cfb43c0dc22400ac2"
+  },
+  {
+    "path": "subprojects/wlroots/include/types/wlr_region.h",
+    "bytes": 262,
+    "sha256": "0920ae27ab422b75809d3fc9fe8345427eb52e3a05fe122d924ba91a59f157e7"
+  },
+  {
+    "path": "subprojects/wlroots/include/types/wlr_scene.h",
+    "bytes": 331,
+    "sha256": "61b4f54bde6d5d1fcca58b3c6b633b92ec808e690b925edc17a1299e6f1281b2"
+  },
+  {
+    "path": "subprojects/wlroots/include/types/wlr_seat.h",
+    "bytes": 1354,
+    "sha256": "2e97fbcdd1a1bcf20f4d8e9a3b1d7393e8fab9c69a016c10fbd4d11cbf7e5fac"
+  },
+  {
+    "path": "subprojects/wlroots/include/types/wlr_subcompositor.h",
+    "bytes": 257,
+    "sha256": "809a7bfb1c61e2ebc4abf54526291f476f1bb8547fa34ccf7109259a535901f5"
+  },
+  {
+    "path": "subprojects/wlroots/include/types/wlr_tablet_v2.h",
+    "bytes": 2952,
+    "sha256": "9d776399614690017ce79653b889f8784f65aa73960fda39895a840376870306"
+  },
+  {
+    "path": "subprojects/wlroots/include/types/wlr_xdg_shell.h",
+    "bytes": 1609,
+    "sha256": "e3861bb5b3b924708a7d261aa01066c1d605105b2ced2aa58a115a3e37892da9"
+  },
+  {
+    "path": "subprojects/wlroots/include/util/array.h",
+    "bytes": 394,
+    "sha256": "90d56d2ac5b805512cb39d9bc94b6c7ddab3046408af3811a4d34a71460c8482"
+  },
+  {
+    "path": "subprojects/wlroots/include/util/env.h",
+    "bytes": 504,
+    "sha256": "75397337f58bfacdf377f2cbca0567347f1e82ba0f74685a0f60ff7fa13bc90f"
+  },
+  {
+    "path": "subprojects/wlroots/include/util/fd.h",
+    "bytes": 107,
+    "sha256": "2fec3bc240c37d5311322519662c7ab1bc3feb52c5e8a18c9705001e177e7904"
+  },
+  {
+    "path": "subprojects/wlroots/include/util/global.h",
+    "bytes": 343,
+    "sha256": "6b93920e1375637199ef353ecb7c622db716de7f0b88fae933741c76fcf6356d"
+  },
+  {
+    "path": "subprojects/wlroots/include/util/matrix.h",
+    "bytes": 1647,
+    "sha256": "58fc8b42038f624abfcd42913aa6a18653bfee4cccae90dcbe81dd4338f55be9"
+  },
+  {
+    "path": "subprojects/wlroots/include/util/mem.h",
+    "bytes": 339,
+    "sha256": "b154d823772ec5d5c83ed1bc82378ac731f851ca3a22ee439b767033cc91d840"
+  },
+  {
+    "path": "subprojects/wlroots/include/util/rect_union.h",
+    "bytes": 2522,
+    "sha256": "73128cfcbd3d5ae142f6e9f657b654fad84b8a4d4f3a9529c894710255f218ea"
+  },
+  {
+    "path": "subprojects/wlroots/include/util/set.h",
+    "bytes": 647,
+    "sha256": "e974e241fc2f7da7a0cfbcd1a42f94c753410daf5b4e76151c40bf425c149b4b"
+  },
+  {
+    "path": "subprojects/wlroots/include/util/shm.h",
+    "bytes": 218,
+    "sha256": "3a6328988c4d532a06413727add9d750304a342f78cdbf6d9199835182112d60"
+  },
+  {
+    "path": "subprojects/wlroots/include/util/time.h",
+    "bytes": 707,
+    "sha256": "f70109bcf91950d1901004fc456a0f50befa91d04c67a92083a74a67f04b14d0"
+  },
+  {
+    "path": "subprojects/wlroots/include/util/token.h",
+    "bytes": 270,
+    "sha256": "f86b6b166866894f07ac3a4feecdaae8b5d291477efa371e87f6842355bc31c8"
+  },
+  {
+    "path": "subprojects/wlroots/include/util/utf8.h",
+    "bytes": 181,
+    "sha256": "015601a4306e63d3c34a133b29988f9541ba17ed1915c4d0b669554266f3d4fd"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/backend/drm.h",
+    "bytes": 2770,
+    "sha256": "a1ba7de04642a30c3d6c5b9f3e4d019f67efb0245142224826ce27c507568ad2"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/backend/headless.h",
+    "bytes": 874,
+    "sha256": "a63d7b9e7bc3e1dbfe4af1ceabc650dd055d7f2154a22fa4977916aa4affb8d2"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/backend/interface.h",
+    "bytes": 1121,
+    "sha256": "86aaf581695660e0ae116afa7ffee3a16a855b2022d61aa0395325da79f5c722"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/backend/libinput.h",
+    "bytes": 1044,
+    "sha256": "314b59690282f2ae5385de8ea43f49d81ade5ddff4d91378f6a50350507cc69b"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/backend/multi.h",
+    "bytes": 1063,
+    "sha256": "2f27789661a932780c72019ecdf634653975eb352cd24f42201164e358023217"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/backend/session.h",
+    "bytes": 3886,
+    "sha256": "91008a36b410b831b7f4e313606fd812d93df16517ad11fd426c3ef8f367d144"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/backend/wayland.h",
+    "bytes": 2275,
+    "sha256": "1b44082e57d917e632c45a25deb69df297bdd22a1573416025a83ea2c04ab65d"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/backend/x11.h",
+    "bytes": 1429,
+    "sha256": "ff4ddab8ddf5e0a41ecf01408014a7c944b6f623814b1f55d99a60af8f192c73"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/backend.h",
+    "bytes": 3364,
+    "sha256": "9103cf8649b9c6f04604119a4cd7a146fd39abf2e177a16dde868a5040a55cbb"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/config.h.in",
+    "bytes": 2030,
+    "sha256": "ab81124875ecb5de44d79e5e601bc31d70934c961f6412ddfe20df1e554f3384"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/interfaces/wlr_buffer.h",
+    "bytes": 1683,
+    "sha256": "92bd4486539b33fc360a2fde5c10e69badb3ff97d63d64375acf7e7c853f64e5"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/interfaces/wlr_ext_image_capture_source_v1.h",
+    "bytes": 2073,
+    "sha256": "a415f4bbfe89592a1e4696776933c1c94bbed6c80fea5e0da39ff68114c0e445"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/interfaces/wlr_keyboard.h",
+    "bytes": 986,
+    "sha256": "b73d236fa8d94aeb7dc91b723dba741317ba321032b298fbe0adeb8149c290c7"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/interfaces/wlr_output.h",
+    "bytes": 4282,
+    "sha256": "5f48a7bf0671549f8271a7275f230c9bc08d76391f4bc70a74bbf7aaf516f554"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/interfaces/wlr_pointer.h",
+    "bytes": 657,
+    "sha256": "8f0805343110108b18461a8c13dd285451bf329afe3f1c61b5fdc328f96f2fff"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/interfaces/wlr_switch.h",
+    "bytes": 555,
+    "sha256": "5e5c8abf8b6443184480788aa9cb47825eea3f078cf51dd818d81296fc76e5e9"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/interfaces/wlr_tablet_pad.h",
+    "bytes": 786,
+    "sha256": "3bc700dc9e44c78a9337707ef48e5ebff27f887af94a1c3eda4a525eb83f231e"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/interfaces/wlr_tablet_tool.h",
+    "bytes": 556,
+    "sha256": "ed3f48feb981c2d2bdb8141bd39a066ce61577a3aa243200473997d8056d0689"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/interfaces/wlr_touch.h",
+    "bytes": 530,
+    "sha256": "a6026c2f3cbe8132e080fb64d579b9587935183b27a675e0d9ec665218ba206c"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/meson.build",
+    "bytes": 773,
+    "sha256": "5ed903394479acfbfbe3cc55125e1ee42b986ccff97aa7c956284b8d650c07a5"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/render/allocator.h",
+    "bytes": 2490,
+    "sha256": "7b15c1e74476a1ad6712ad57f5e866880e4d9614eab34f0782601510abfd0bc6"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/render/color.h",
+    "bytes": 5435,
+    "sha256": "4847239bd243f8f0f04ac2936bb06cf021cc2bdb69a140d8a51188e33b04484e"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/render/dmabuf.h",
+    "bytes": 1785,
+    "sha256": "cbd976158065b2be4b5edb94178ae8026b77475f061b21e859ee6d9095f301dc"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/render/drm_format_set.h",
+    "bytes": 3332,
+    "sha256": "fbbbfbc44015b4418cba7fd021ef3972f1356c6d66d1701a3e873e64b7a0f625"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/render/drm_syncobj.h",
+    "bytes": 4473,
+    "sha256": "6c655c55b352e6a97d6ed4086a40ff5ee5b8832b298ba1494ffa255d139b28e5"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/render/egl.h",
+    "bytes": 1314,
+    "sha256": "71a840b9d45a409ea22f8391855d8a6a0674487c9c46ab6c398761ea0eac1e28"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/render/gles2.h",
+    "bytes": 1716,
+    "sha256": "84447fbefc1311dd37509032559538fd834f8c3b541dbb9a225f15938333186c"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/render/interface.h",
+    "bytes": 3322,
+    "sha256": "42f870732afea7a24148eac3652b5bebed0fbda307a1abb50f20fbc981b9565e"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/render/pass.h",
+    "bytes": 4503,
+    "sha256": "3dbd74dd1a740ff47b495d15d624ea564ecd676775e5c64a23a68d9e7e0c74f5"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/render/pixman.h",
+    "bytes": 727,
+    "sha256": "f3543a1814bb2cc88885a2cb53498e58b2886eadcfe1cef73491c1bd42bb5d94"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/render/swapchain.h",
+    "bytes": 1240,
+    "sha256": "b82df50e030123e07a3ec15801b785e4d0654a99ec48e5fefd07feaa6adeae31"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/render/vulkan.h",
+    "bytes": 1100,
+    "sha256": "450c1d56802baa18fa700267b7524d7bd3d3017644064b94f9ae8b55190b7b9b"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/render/wlr_renderer.h",
+    "bytes": 3207,
+    "sha256": "ef54107ef3968d281e6181065f2194f0da83231f4422560db24bed2ea6872936"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/render/wlr_texture.h",
+    "bytes": 2462,
+    "sha256": "b424a9e95a3cda13dbdaf8136d4dfe00d83d264baf5f14e30f5aa9bd416a36a2"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_alpha_modifier_v1.h",
+    "bytes": 796,
+    "sha256": "613193eeff264ae8bd49aa40bae361f8f0e2100b5362e8bfc35c333e24e234ca"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_buffer.h",
+    "bytes": 5899,
+    "sha256": "7d2097acbac70f87242c641b91f00fb8509ec0c78e2ff6a98869830d2bb11c97"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_color_management_v1.h",
+    "bytes": 4130,
+    "sha256": "a04b4545ed2fb1f37075faa6dd5fc8986e58163ade8cb8815d01883741a11804"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_color_representation_v1.h",
+    "bytes": 3524,
+    "sha256": "b0a552e1076098a8e548972438ab08317b0f2cbf693d618fc274630a2af49593"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_compositor.h",
+    "bytes": 18337,
+    "sha256": "02b89e40725849031cdde61186e7bd1fd81458498b26610a6d270e72813d1dbd"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_content_type_v1.h",
+    "bytes": 873,
+    "sha256": "3d49a4ee2d99867d14def26994a04f9c220c269025356eacf3978290dfefaa45"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_cursor.h",
+    "bytes": 8196,
+    "sha256": "b12da8b241a86763d83869fdfa78ae355054ee38463c1e6abc861bca45a7c3b3"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_cursor_shape_v1.h",
+    "bytes": 1666,
+    "sha256": "7385f45c4d5663a117040616b3ab09fcb00bddb65f9962f5e7c41e6a2a95cba5"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_damage_ring.h",
+    "bytes": 2031,
+    "sha256": "22ec908c41c81e7b380a124691ba9c93eca7dbeaaa58e9b637364741f7817040"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_data_control_v1.h",
+    "bytes": 1615,
+    "sha256": "83c52187af2a70a7dc74780b0a945f21eb0091c978042fa21bf9164c8a0df731"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_data_device.h",
+    "bytes": 7019,
+    "sha256": "3e14b7b7c50180cf2d976c7692be4809abf8510f6aa22cfc84e5253640d0693c"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_drm.h",
+    "bytes": 1387,
+    "sha256": "6b1356f2cde6538194aa376da80d685876dbec5b1b5771aa229617ad1bdbda9b"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_drm_lease_v1.h",
+    "bytes": 4055,
+    "sha256": "ee280d237f5565ea2ddfbbbd54e021fa0592f28154d00cfba9aeb2096fd0767f"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_export_dmabuf_v1.h",
+    "bytes": 1076,
+    "sha256": "fe48ddd1673c3d4743f0e4f9c46a2e2496cba0bc0c70dc5b1642d8328c6ca3a0"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_ext_data_control_v1.h",
+    "bytes": 1455,
+    "sha256": "b27e06ffcc8d3fefbd583fb895d111df4493eb4568d1af2d3686b2c9ade4997b"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_ext_foreign_toplevel_list_v1.h",
+    "bytes": 1931,
+    "sha256": "9253b1ac1b68011cb304c0c9b84a6678779acc820994131a31f170d26945d0f3"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_ext_image_capture_source_v1.h",
+    "bytes": 3997,
+    "sha256": "b648f9a8802a834c4e36b7af8bd3a7f85e9169887df87f6b5a473ed99769b4ce"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_ext_image_copy_capture_v1.h",
+    "bytes": 2343,
+    "sha256": "182b54b3d4a0d7c200777b40438b650c42919842cf6ca2e083c484f233398e07"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_ext_workspace_v1.h",
+    "bytes": 4668,
+    "sha256": "7f4fb9e942d9d2d03645c3b0082b1be6e9fb47486d9f620b71a225dc385124cc"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_fixes.h",
+    "bytes": 572,
+    "sha256": "6bb311897fe68cd2f013a74eeccbd2898038b314278b6ded0750d33be8f69557"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_foreign_toplevel_management_v1.h",
+    "bytes": 5176,
+    "sha256": "5ad408ec52a18c911cb264f49da3940087f0f9a3b4d6cdc5d3fe01379985aa3f"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_fractional_scale_v1.h",
+    "bytes": 780,
+    "sha256": "743d7bcb718855cbcdcb0634eb82ef544d1c18602dac7a95c197534a37d222d0"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_gamma_control_v1.h",
+    "bytes": 1741,
+    "sha256": "c573448b7bfa1931af7cddd5cf80303217516cfc54a327f4340d9f4e30441328"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_idle_inhibit_v1.h",
+    "bytes": 1523,
+    "sha256": "654be816a709db9e374547a8c2d639e0b831f35a1e1ab576b71b453e29ebb7ca"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_idle_notify_v1.h",
+    "bytes": 1296,
+    "sha256": "202027ac8894f4d46af8392058f1f26f3308a502d116ab070589b98d52bf2301"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_input_device.h",
+    "bytes": 1194,
+    "sha256": "4dccf1bd48cc450a8e027cc69bd68e5cad7c7ecba2783630ec8d6d2ad4169808"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_input_method_v2.h",
+    "bytes": 4343,
+    "sha256": "e87772e984caa5d18fe098c736c5bc6d5e23840d827080a01c9b8bdc6513b7ac"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_keyboard.h",
+    "bytes": 4118,
+    "sha256": "7f316905380094dc9e6ecc752f17705448230c005fc8c453bd7a173fd9758e9b"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_keyboard_group.h",
+    "bytes": 1996,
+    "sha256": "1462171a6dd33901e19866b3584092d6f9a59b5df769e6a549d637a786f5abc6"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_keyboard_shortcuts_inhibit_v1.h",
+    "bytes": 2738,
+    "sha256": "6713e790ea8791c608b97e639bc10800f2a9da6e80a07f2094bfdecdada8e690"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_layer_shell_v1.h",
+    "bytes": 6547,
+    "sha256": "61604c6305f7a704fef5763bebd6fcab7dff899e7c97e290949d21dc4428ad90"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_linux_dmabuf_v1.h",
+    "bytes": 4324,
+    "sha256": "2cf461a2441d0a3895de2b3b0f03fb6f16af53738424dc4a0ec3685231de1b6e"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_linux_drm_syncobj_v1.h",
+    "bytes": 2371,
+    "sha256": "0ae85035b7079a8dbf7aa9db063f5763eee14ecea9f0000244a468f15e15e85b"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_output.h",
+    "bytes": 23863,
+    "sha256": "efe8728abad3a19beed623d0e59d58f27d301c6564ca4169a0be7cd52fa7c3e8"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_output_layer.h",
+    "bytes": 3239,
+    "sha256": "c04a85827ba7be990fa5d270e0f84efebc147c568243d500416e9e6b1a79d776"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_output_layout.h",
+    "bytes": 5141,
+    "sha256": "761769c8505827af383b6736c7ef5ae49f6cfd40c8d4d3db543f5d790f85844d"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_output_management_v1.h",
+    "bytes": 5481,
+    "sha256": "c5ae409155a6621632d43a547c3cb78e1988f5e4aa15a27b6d63a88ef47d0397"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_output_power_management_v1.h",
+    "bytes": 1090,
+    "sha256": "39516468692d7241725e03fa3705b89caf0a6e6e1bc1501241afe262644c4030"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_output_swapchain_manager.h",
+    "bytes": 3323,
+    "sha256": "82dc303cd35b0d4d2bce84ab36e726f353a86617b1ec7d92b568760e893fb5f1"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_pointer.h",
+    "bytes": 3765,
+    "sha256": "14bfad9eeb01dd166a3a83de48989466c164eb1a47adb4eb18f71e5b36ee42f3"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_pointer_constraints_v1.h",
+    "bytes": 2694,
+    "sha256": "246333b9e4139e9c276127323b1bed10328e12a9510ccc1d8a0ed2229604ed5b"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_pointer_gestures_v1.h",
+    "bytes": 2117,
+    "sha256": "2915f2b0e0639c0725ea733b65820699544d0d3d154479a64f64619f2e739a5e"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_presentation_time.h",
+    "bytes": 3364,
+    "sha256": "4e61aedb7c3189cf5ac33c8de10de2f8aad8622088d1c791da0a4e57759c048a"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_primary_selection.h",
+    "bytes": 2041,
+    "sha256": "534c631f6b86a1268cac31c449829ee5ed357e3f445ae14a3c6e5d49d912119e"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_primary_selection_v1.h",
+    "bytes": 1340,
+    "sha256": "80713def5d8136cf1818b0261b693f64581cbb4d0269e9b6a6634105e269e3b3"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_relative_pointer_v1.h",
+    "bytes": 2260,
+    "sha256": "4643fd01e79cf1aceffc004c31d96610faaff5135d27d0d2a2b2cae9b5a4eac8"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_scene.h",
+    "bytes": 23399,
+    "sha256": "daa1f7b86a21f6bdea2193fcfe7c8197f487fa6492cb1448e88e2b145894a585"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_screencopy_v1.h",
+    "bytes": 1643,
+    "sha256": "e4da6bf08accb1e8412139be23e8f0bd72dec6f0133c2248501f8deecba9826e"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_seat.h",
+    "bytes": 25519,
+    "sha256": "687375f265944549ae3b1840bc95fcc23cf71046e58b7a23b4f5a99674162d13"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_security_context_v1.h",
+    "bytes": 1591,
+    "sha256": "453a62c49035d5c836f93d9f57c8f1edc00a6af4937455ed12d6f887ff68d98f"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_server_decoration.h",
+    "bytes": 2216,
+    "sha256": "b96d260dd7531fa0fa84b95a82d578b53e759f0ea1727f5d0ea6d1f8bb094957"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_session_lock_v1.h",
+    "bytes": 2506,
+    "sha256": "bfd275a5dc61287d635964246a7da740a2c7484fa690690f728e9648a065c713"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_shm.h",
+    "bytes": 1258,
+    "sha256": "5511274195a2df51c0f227aab7f1d64501318e0f0b0445c60c852df31ae5e1fe"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_single_pixel_buffer_v1.h",
+    "bytes": 616,
+    "sha256": "5b96b313f3f615c7c737e9d822ffc4786763b910ff9b4477769777eacd43b830"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_subcompositor.h",
+    "bytes": 1762,
+    "sha256": "1786b1c94284dfb59637862d26647d4aa7a55021fba4e00de234af41b4844caf"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_switch.h",
+    "bytes": 1360,
+    "sha256": "990a40445a10a1651ac52060aa16d5159cbf2de9aa6417fa7c4c4ae772505374"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_tablet_pad.h",
+    "bytes": 2209,
+    "sha256": "98978704ea3dc3bc16bf0f912f7026fb9693537a97ec765ac0763a7bef6f03ce"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_tablet_tool.h",
+    "bytes": 3552,
+    "sha256": "ab213bd225c52b8821c42d34dc5dbf8bf593776c9da458008fffa11127fdd7d2"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_tablet_v2.h",
+    "bytes": 10836,
+    "sha256": "0883a334408b237c8661b3387383d790e899d4f702e963c664ca2b73c8f4296a"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_tearing_control_v1.h",
+    "bytes": 1651,
+    "sha256": "b955e7bff00721db3f615d2e0441fe8ae87ffd0eb429c84ec2dd5e0d9014c31a"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_text_input_v3.h",
+    "bytes": 2977,
+    "sha256": "3e3b47df478279d92e2502fb05682fb3dd75d4b4ded0f19772610badc4634c9f"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_touch.h",
+    "bytes": 1507,
+    "sha256": "46339f77a62255f7b5474d804d4d3a41131aa3652a7d2a142541f630048a82ac"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_transient_seat_v1.h",
+    "bytes": 1798,
+    "sha256": "78db846c4f268a987b93c957fbeed44c24f5c168ff417dccd83765708b1c223c"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_viewporter.h",
+    "bytes": 1015,
+    "sha256": "f2214ce9b5136005fd38ac6f36ce925976d29d8e26ca70cbea5c1111c669144d"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_virtual_keyboard_v1.h",
+    "bytes": 1565,
+    "sha256": "c98c988d16a97155159f4197d071b01a7acdcd1eacdcfe04c542a80461559d76"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_virtual_pointer_v1.h",
+    "bytes": 1426,
+    "sha256": "b3dadeabcedc05dc81ec017d6a1f49507a1c099cc4ea5b09c758cb958b757c28"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_xcursor_manager.h",
+    "bytes": 1757,
+    "sha256": "e5eb036e31cbac0c0c68b2b62137a95308501cb2310a957c8dfbf5a8ec492fbc"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_xdg_activation_v1.h",
+    "bytes": 2626,
+    "sha256": "e30dd95af51c4e19a649d99c3fc8f9e474d21582879270afbf83158c43ddf483"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_xdg_decoration_v1.h",
+    "bytes": 2054,
+    "sha256": "8b998e24299943799ee4ef2d6329b84ec5d54a86f05b49bd3180b973a2a50d3f"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_xdg_dialog_v1.h",
+    "bytes": 1359,
+    "sha256": "1f2ffe2557d2f1544f5c794be3786172cdec795961b6d025931a50e994540579"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_xdg_foreign_registry.h",
+    "bytes": 2198,
+    "sha256": "982c077cfd7a256599ee7a381d3c2a9aec33b972a01565a53c6731d7eb456186"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_xdg_foreign_v1.h",
+    "bytes": 1699,
+    "sha256": "d3e446cc71659dbc8b0d5c673c8052254d02fbeb991516b16e5c0bc68062b8a5"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_xdg_foreign_v2.h",
+    "bytes": 1699,
+    "sha256": "a80fee83d134bd3596104748157c4d1cbb66e8567a7cf528928d422f8ebd6be5"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_xdg_output_v1.h",
+    "bytes": 1166,
+    "sha256": "b5b2b1e5546ad7e0ad53362ebbe64301113c9ecad92882fed92f80cc4cc1ce86"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_xdg_shell.h",
+    "bytes": 17099,
+    "sha256": "a093c0cc129bf014db73170b02230f995c06f69b32966a2899e642586aabcb71"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_xdg_system_bell_v1.h",
+    "bytes": 827,
+    "sha256": "47e51f13fce45771ce12d3a84d04668184bf8941da7b9e6b8ad670b77259e7dc"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_xdg_toplevel_icon_v1.h",
+    "bytes": 1897,
+    "sha256": "6354e60123e4f8f37a6577572dd87da9ed0a5ef469ccfd76fd2ab2f629f70a2f"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/types/wlr_xdg_toplevel_tag_v1.h",
+    "bytes": 1094,
+    "sha256": "780b8d5dc50aa3bebbb7ccc152218058b6fbd4682ad3ce2fb08384a3e880e5f5"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/util/addon.h",
+    "bytes": 1087,
+    "sha256": "8b48375b77f05b8ca68d6e7431bdcf684e6b0fbd1e43f95fc15a302804325f78"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/util/box.h",
+    "bytes": 3400,
+    "sha256": "ce47c3dba3d00e96d5b9db18e750ab84d786a3079262c4b51e40e6e1840e685f"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/util/edges.h",
+    "bytes": 681,
+    "sha256": "43a1806c7f5b8ac046c2a6556d049c45d7c005bf5a64820b8c49bfe5a48e6211"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/util/log.h",
+    "bytes": 2493,
+    "sha256": "9954090a6bddb067b9e589241e8d59b93d38527fd893934e7d17bc0f784b92dd"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/util/region.h",
+    "bytes": 2426,
+    "sha256": "9b26051fe15a6b0623adf37fac51057ef2be7aa3691723d08189fa68bb338ff6"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/util/transform.h",
+    "bytes": 880,
+    "sha256": "4afd6f0fca92e2c37322e64dc8cd4b910c1fdfd78f7c150a8c07e16321e4b3ed"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/version.h.in",
+    "bytes": 412,
+    "sha256": "e3e3876d1b8d56e6788a9ad63f5fbee0315904154943e8c93993c8e1b9c30131"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/xcursor.h",
+    "bytes": 4107,
+    "sha256": "d796a1df637caa5c9970014bc12f1ed098b0a6fb9b5edd4f4f0b82b91ba43e6a"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/xwayland/server.h",
+    "bytes": 1562,
+    "sha256": "6d687c221c459d43158e8fbfad5396a6464fadfd26852df5299dfc32ae5a524d"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/xwayland/shell.h",
+    "bytes": 1893,
+    "sha256": "8e02c53c802a722b1f6adf2f96a7a52e5a2fa7da5b627234423b7ba5a94fd866"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/xwayland/xwayland.h",
+    "bytes": 13405,
+    "sha256": "8f071108bf743b8656ba6a2f3707dba3f56813d19a7291c1b9e73c555bb5f8b3"
+  },
+  {
+    "path": "subprojects/wlroots/include/wlr/xwayland.h",
+    "bytes": 68,
+    "sha256": "47971f8ca34ccba991dedb8cf29a1b0c99388a507101e0bd202960e0c20c724c"
+  },
+  {
+    "path": "subprojects/wlroots/include/xcursor/cursor_data.h",
+    "bytes": 39055,
+    "sha256": "927310ccf1615f7c553d25ba8da807244d8e486681c9f15d16e9ce701118e9bc"
+  },
+  {
+    "path": "subprojects/wlroots/include/xcursor/xcursor.h",
+    "bytes": 2071,
+    "sha256": "978bf1c72cc12265e4308cb05fafda6a5514e655805acfe2f39ff3f8d0aff897"
+  },
+  {
+    "path": "subprojects/wlroots/include/xwayland/selection.h",
+    "bytes": 2850,
+    "sha256": "69deb8b62c0460bde9a45177e9be43695b0e246393fa739384f53c02c5354fac"
+  },
+  {
+    "path": "subprojects/wlroots/include/xwayland/xwm.h",
+    "bytes": 4981,
+    "sha256": "5fb26d4088780803ff2b5386d386e6ed608b112101c79ee3cc14eccb033f7f19"
+  },
+  {
+    "path": "subprojects/wlroots/meson.build",
+    "bytes": 4062,
+    "sha256": "e8827412abfbb3c900c0bb14254d9b30308a7d8fe7b0b916e7f498960e87672a"
+  },
+  {
+    "path": "subprojects/wlroots/meson.options",
+    "bytes": 1137,
+    "sha256": "b31a7f1578d7d47fe2283c437449e3468cb39e1e959940c542e987e66dac3c8b"
+  },
+  {
+    "path": "subprojects/wlroots/protocol/drm.xml",
+    "bytes": 7975,
+    "sha256": "15ca83d05ceae54b9b4c0e7fe0ceeeb3345b71cd3cb457811a55580ea182036f"
+  },
+  {
+    "path": "subprojects/wlroots/protocol/input-method-unstable-v2.xml",
+    "bytes": 21339,
+    "sha256": "aaf68b2aec481f507a4b915ab7c624bf676495ebb2030eaf207a9c8bcac7630d"
+  },
+  {
+    "path": "subprojects/wlroots/protocol/meson.build",
+    "bytes": 6264,
+    "sha256": "0984a1c4bfda932854e324886d32c47f085f13640c4c5d9c533d16769cb52145"
+  },
+  {
+    "path": "subprojects/wlroots/protocol/server-decoration.xml",
+    "bytes": 5400,
+    "sha256": "483544f149ecb5739317b7aaaa902c8137526b0fe2b0b0023e72053d92aa3d6a"
+  },
+  {
+    "path": "subprojects/wlroots/protocol/virtual-keyboard-unstable-v1.xml",
+    "bytes": 4886,
+    "sha256": "7ad7870003ecd592cae47dc19d277a609b7f18fd7b7be012623cf3225a7294f5"
+  },
+  {
+    "path": "subprojects/wlroots/protocol/wlr-data-control-unstable-v1.xml",
+    "bytes": 12046,
+    "sha256": "5ac39552975b28d0ea42f636a79b7fc8e2d1fcfa31cbe173f549bd4b044ae2de"
+  },
+  {
+    "path": "subprojects/wlroots/protocol/wlr-export-dmabuf-unstable-v1.xml",
+    "bytes": 9176,
+    "sha256": "24e2334d804eb12b65a0471ec41ba9aed2b7997caf81c0fe4dc44b86b7f3fed8"
+  },
+  {
+    "path": "subprojects/wlroots/protocol/wlr-foreign-toplevel-management-unstable-v1.xml",
+    "bytes": 11556,
+    "sha256": "4ecc4588858e29fe680a33521e1f22bcf22071d66d1553fe96b4ddec03d591d2"
+  },
+  {
+    "path": "subprojects/wlroots/protocol/wlr-gamma-control-unstable-v1.xml",
+    "bytes": 5507,
+    "sha256": "4065cbc291a80348b7ef311168fbfb5cf245efe977a6dc32211291ef1a9529a1"
+  },
+  {
+    "path": "subprojects/wlroots/protocol/wlr-layer-shell-unstable-v1.xml",
+    "bytes": 19326,
+    "sha256": "87e0b9c837aecd6977f76f3c47d73088b7159871f5d979dc1840f6cadb5e2ed8"
+  },
+  {
+    "path": "subprojects/wlroots/protocol/wlr-output-management-unstable-v1.xml",
+    "bytes": 26355,
+    "sha256": "65b0f82a6cf129bf1a1c31a2428795abd33886c15ddd5f3ad97e5922d7bdc3a7"
+  },
+  {
+    "path": "subprojects/wlroots/protocol/wlr-output-power-management-unstable-v1.xml",
+    "bytes": 5597,
+    "sha256": "7ebd98f3449d246a57829e4b4dd9fbc3ef98e3dd42fa94ea102f14f490eb20de"
+  },
+  {
+    "path": "subprojects/wlroots/protocol/wlr-screencopy-unstable-v1.xml",
+    "bytes": 10161,
+    "sha256": "383c4bc33e0e293981caa8e82f83156012f10e00f5e39c8db90662a20c4e47e3"
+  },
+  {
+    "path": "subprojects/wlroots/protocol/wlr-virtual-pointer-unstable-v1.xml",
+    "bytes": 6895,
+    "sha256": "3ff6d540be0bc5228195bf072bde42117ea17945a5c2061add5d3cf97d6bb524"
+  },
+  {
+    "path": "subprojects/wlroots/release.sh",
+    "bytes": 769,
+    "sha256": "9a39dcb60489bb1334b43fb0ef69e15898d3200ff91b870c91fbd2062dc225dd"
+  },
+  {
+    "path": "subprojects/wlroots/render/allocator/allocator.c",
+    "bytes": 5784,
+    "sha256": "e6db8bda2b4bbd058da3d77932c284cef37dc255987c03f6e190e0d1fec5a15c"
+  },
+  {
+    "path": "subprojects/wlroots/render/allocator/drm_dumb.c",
+    "bytes": 6609,
+    "sha256": "91fef040b610dfbed3ae3f047a05dc4e4aed2a5bece890768168ec7cfd4d3a63"
+  },
+  {
+    "path": "subprojects/wlroots/render/allocator/gbm.c",
+    "bytes": 6629,
+    "sha256": "c783556fabe255bb98d667ebf41f83aedc9a760de6983f3384958ddf637a03b9"
+  },
+  {
+    "path": "subprojects/wlroots/render/allocator/meson.build",
+    "bytes": 1127,
+    "sha256": "ed727babba1f13114d84ff1c973b1f37ae2fd8308a308b4cdcf720bfd5718a79"
+  },
+  {
+    "path": "subprojects/wlroots/render/allocator/shm.c",
+    "bytes": 3518,
+    "sha256": "f64ebc11d86f1230518fb94066f0c1178857a2084b531d963daa363c37c48b8f"
+  },
+  {
+    "path": "subprojects/wlroots/render/allocator/udmabuf.c",
+    "bytes": 4371,
+    "sha256": "6a4346420162d1380a835b70c04f7b1cc5a4e1c8f275463bbbfb04d6f91e176d"
+  },
+  {
+    "path": "subprojects/wlroots/render/color.c",
+    "bytes": 12122,
+    "sha256": "afeb92ae756cd035c90eec2d1999f97543b7b711f67f106e566670942641f57d"
+  },
+  {
+    "path": "subprojects/wlroots/render/color_fallback.c",
+    "bytes": 682,
+    "sha256": "e7c28fa0d68341ed06de29c176831d49003ab7237495ca2210d4399b79d96ad1"
+  },
+  {
+    "path": "subprojects/wlroots/render/color_lcms2.c",
+    "bytes": 2948,
+    "sha256": "0e2fe4f7b076c4cb7dae4949932b8da50ea1590dedac7c8e63337528793b86b3"
+  },
+  {
+    "path": "subprojects/wlroots/render/dmabuf.c",
+    "bytes": 794,
+    "sha256": "4bd18fbb2b242ecc8e76f06cbb0fe3665af2fa2096b53ec9ff8d1fd475542eb3"
+  },
+  {
+    "path": "subprojects/wlroots/render/dmabuf_fallback.c",
+    "bytes": 467,
+    "sha256": "247934f112b7e5857f607ea70090d1d9ea8957aca94e1e6f847bb6d17b685130"
+  },
+  {
+    "path": "subprojects/wlroots/render/dmabuf_linux.c",
+    "bytes": 1837,
+    "sha256": "542e3840ec531aa3a42c9e59c95677e228314dd197e1440eca125b52fafabec2"
+  },
+  {
+    "path": "subprojects/wlroots/render/drm_format_set.c",
+    "bytes": 7363,
+    "sha256": "96913e5bc13aa123924b85ef4f2ad4f1ddfdfbbfadbd9e32b803bb29d48e5868"
+  },
+  {
+    "path": "subprojects/wlroots/render/drm_syncobj.c",
+    "bytes": 6724,
+    "sha256": "7b2fae5419a4290179725d0025dfcce73eef461c4511b793d0dc0e2a639b7e81"
+  },
+  {
+    "path": "subprojects/wlroots/render/drm_syncobj_merger.c",
+    "bytes": 3726,
+    "sha256": "8551f2a1207a9f5ca2a36ec42be94aa459e01834aa65f59a01571d6cc9022a44"
+  },
+  {
+    "path": "subprojects/wlroots/render/egl.c",
+    "bytes": 32279,
+    "sha256": "9e8fc1436828ba8ac383e8c0336d1eca2b4bc50a0cf505c2e70e9abc81f9361e"
+  },
+  {
+    "path": "subprojects/wlroots/render/gles2/meson.build",
+    "bytes": 399,
+    "sha256": "da70f2e330ce6480f0690f2e30a0b990480f4a04330b60bf838a62e31d431c8b"
+  },
+  {
+    "path": "subprojects/wlroots/render/gles2/pass.c",
+    "bytes": 10860,
+    "sha256": "143cce970786f135857cabec6a55f774c35790655f7837c0b74cf26daedbe65b"
+  },
+  {
+    "path": "subprojects/wlroots/render/gles2/pixel_format.c",
+    "bytes": 4358,
+    "sha256": "f2e49b1b9b398d50edbbf52e33683da7bf4b97a5134b454aef3c2097287aa9f7"
+  },
+  {
+    "path": "subprojects/wlroots/render/gles2/renderer.c",
+    "bytes": 22008,
+    "sha256": "1dc06ffbbbe246e35d64238c9790c3de6a1a18f54f6b38c8fb3f2deb0a5377cd"
+  },
+  {
+    "path": "subprojects/wlroots/render/gles2/shaders/check.sh",
+    "bytes": 86,
+    "sha256": "e48572c5814cf78a724dd07e7c404f9e4e6dc75b34310dca83be731c4471ad68"
+  },
+  {
+    "path": "subprojects/wlroots/render/gles2/shaders/common.vert",
+    "bytes": 208,
+    "sha256": "e4a3037f9a63f4a5cb50a68d854507223c0f984b2a476de65a9fafb2b91d9ba9"
+  },
+  {
+    "path": "subprojects/wlroots/render/gles2/shaders/embed.sh",
+    "bytes": 161,
+    "sha256": "cfcc682c945a9d4566a511c17633cc89860d6f849ca93388a2e0075843179552"
+  },
+  {
+    "path": "subprojects/wlroots/render/gles2/shaders/meson.build",
+    "bytes": 608,
+    "sha256": "bf9888e37989949521f3c96cb16ad9e5acf73c076246c9b9f9c8931fe8ff1782"
+  },
+  {
+    "path": "subprojects/wlroots/render/gles2/shaders/quad.frag",
+    "bytes": 203,
+    "sha256": "4e1e187c7d067031b50e99ef7584ec7f41be92b390a1b7e184dd9d96af5b2aad"
+  },
+  {
+    "path": "subprojects/wlroots/render/gles2/shaders/tex_external.frag",
+    "bytes": 301,
+    "sha256": "66b4608eb9df611f0486bb5f2353ccfc2a0a743646a86ada2060235a2fdb1bf0"
+  },
+  {
+    "path": "subprojects/wlroots/render/gles2/shaders/tex_rgba.frag",
+    "bytes": 234,
+    "sha256": "54ec190bccba30ed9c0aaff1ab5b0b8a43cf1dddb2bc77255dcba8aa50200246"
+  },
+  {
+    "path": "subprojects/wlroots/render/gles2/shaders/tex_rgbx.frag",
+    "bytes": 249,
+    "sha256": "b6a410a151ff31cad9de97f9078e098d2e3894a13880540d23c543b5d148a43b"
+  },
+  {
+    "path": "subprojects/wlroots/render/gles2/texture.c",
+    "bytes": 12993,
+    "sha256": "ae4bae701bc50c04f31a90b8baedfb1d8951646c7eb030ece079430017e71ff4"
+  },
+  {
+    "path": "subprojects/wlroots/render/meson.build",
+    "bytes": 1870,
+    "sha256": "f1dc822e2ffb0d9e6455d9fed701ee13415300a30b0e89aff1c8ea76dff6a3be"
+  },
+  {
+    "path": "subprojects/wlroots/render/pass.c",
+    "bytes": 2222,
+    "sha256": "114cf5e57aa664e44b8aa1f4732018d7c52e37777e170cc4326d23b7ac246164"
+  },
+  {
+    "path": "subprojects/wlroots/render/pixel_format.c",
+    "bytes": 8304,
+    "sha256": "7f5c0d2cde8560b3c958e6f3bf4bcf6e08910e761e6c51f6269d746c590d2b1c"
+  },
+  {
+    "path": "subprojects/wlroots/render/pixman/meson.build",
+    "bytes": 141,
+    "sha256": "7811787703bbd7ad1c55c617c16b42d59e9e284a2bf6d75c5166aa6ee38b5e32"
+  },
+  {
+    "path": "subprojects/wlroots/render/pixman/pass.c",
+    "bytes": 9001,
+    "sha256": "f4980a20ea4387129c31dee204309b251588d9f78a87da377c19601aa68384b0"
+  },
+  {
+    "path": "subprojects/wlroots/render/pixman/pixel_format.c",
+    "bytes": 3024,
+    "sha256": "2558baa7ab92742f3afcad4b67b419a923f44d610ac6737cff7dad5ce50c586d"
+  },
+  {
+    "path": "subprojects/wlroots/render/pixman/renderer.c",
+    "bytes": 10687,
+    "sha256": "d4b1a3d5e9f6adbc29151a1ec899533314a18840bc51e8b3ea25fde6681de44a"
+  },
+  {
+    "path": "subprojects/wlroots/render/swapchain.c",
+    "bytes": 3368,
+    "sha256": "e6ef9e243c5c255ee24a34cab413ee73e2e2537bde56e5565e6aacef4e2ca376"
+  },
+  {
+    "path": "subprojects/wlroots/render/vulkan/meson.build",
+    "bytes": 1176,
+    "sha256": "725bba825428a7e0eaf57224bd74274c5fb1b0435927cd503a2b7102d874294b"
+  },
+  {
+    "path": "subprojects/wlroots/render/vulkan/pass.c",
+    "bytes": 43692,
+    "sha256": "9ca224c027a506bbea4ab5491da9cadc3c82c17735fd8db56f7fc06b275c4205"
+  },
+  {
+    "path": "subprojects/wlroots/render/vulkan/pixel_format.c",
+    "bytes": 18003,
+    "sha256": "916cdd5c92158841455ff9f1cbfd8438cf0393a911e4c3434fd646af5304a8c4"
+  },
+  {
+    "path": "subprojects/wlroots/render/vulkan/renderer.c",
+    "bytes": 81078,
+    "sha256": "4feae0a02e3f0e5a9932848583b1b506652245766ecf86ff54cdec507c2c92aa"
+  },
+  {
+    "path": "subprojects/wlroots/render/vulkan/shaders/common.vert",
+    "bytes": 474,
+    "sha256": "896e6eaa153dac9dcbf46cc4ec9d1dd16236580cc4fe84e4d4a777ff383f57ef"
+  },
+  {
+    "path": "subprojects/wlroots/render/vulkan/shaders/meson.build",
+    "bytes": 499,
+    "sha256": "14d4483e1335e13c411ffd5d06b20a20f0131b934244df2c2b5632a49daf2f75"
+  },
+  {
+    "path": "subprojects/wlroots/render/vulkan/shaders/output.frag",
+    "bytes": 2706,
+    "sha256": "b98723008ccef81501643089f51889f6d364619fc9c5f120649067153a8cc072"
+  },
+  {
+    "path": "subprojects/wlroots/render/vulkan/shaders/quad.frag",
+    "bytes": 174,
+    "sha256": "e09ae7d261e542dc871ad40045738bf77b26ead36d4d45ae0853fa0414981112"
+  },
+  {
+    "path": "subprojects/wlroots/render/vulkan/shaders/texture.frag",
+    "bytes": 2350,
+    "sha256": "fa07ddc34faaac0aa75ae00a9db007a41ab7475d5f58736dc14dc3c586599895"
+  },
+  {
+    "path": "subprojects/wlroots/render/vulkan/texture.c",
+    "bytes": 25935,
+    "sha256": "d9bd1ed86f74c1348faa8461ae25b19f5b5981b0bec06df2b332d02c7da64e67"
+  },
+  {
+    "path": "subprojects/wlroots/render/vulkan/util.c",
+    "bytes": 2383,
+    "sha256": "c785bffa95bd6db3948a9bcaddeda5aaca455611185f268bffab8563c9f862f7"
+  },
+  {
+    "path": "subprojects/wlroots/render/vulkan/vulkan.c",
+    "bytes": 21690,
+    "sha256": "d927483df03ce2ed1abb34bce070cd5ef29e055d6a5aa7a26127af408a5b47a8"
+  },
+  {
+    "path": "subprojects/wlroots/render/wlr_renderer.c",
+    "bytes": 8702,
+    "sha256": "31d29f7960a7786357f4596d496015efb62ac2cab34c286747e3ae9b2f61d82a"
+  },
+  {
+    "path": "subprojects/wlroots/render/wlr_texture.c",
+    "bytes": 3766,
+    "sha256": "bd3d8c15a6c81b59d7f52d95b680118ecf64fc517ab8db111dc87aaa521c3482"
+  },
+  {
+    "path": "subprojects/wlroots/subprojects/libdisplay-info.wrap",
+    "bytes": 93,
+    "sha256": "f15fdf30d7acbe200bb6396d7a6f668f812009a7b03222888729c773687888a1"
+  },
+  {
+    "path": "subprojects/wlroots/subprojects/libdrm.wrap",
+    "bytes": 77,
+    "sha256": "22b23f0cce41a13bab28f58e08d57541724f459b413f4c18a0e3f69c5aa637ca"
+  },
+  {
+    "path": "subprojects/wlroots/subprojects/libliftoff.wrap",
+    "bytes": 88,
+    "sha256": "3f5248fbabac8d85b22446018d7a536db5815bd8d91902489e98e7f886f3294d"
+  },
+  {
+    "path": "subprojects/wlroots/subprojects/libxkbcommon.wrap",
+    "bytes": 79,
+    "sha256": "c2b409d5a755c42fd9c1f0a61177ed52116beb7473938b5a4273f75d0a1abfa9"
+  },
+  {
+    "path": "subprojects/wlroots/subprojects/pixman.wrap",
+    "bytes": 82,
+    "sha256": "27ff29e2c70f3af17a99d8091700a3450c324240be58d4509ef0cf69637ecabd"
+  },
+  {
+    "path": "subprojects/wlroots/subprojects/seatd.wrap",
+    "bytes": 72,
+    "sha256": "288e5cd359965e670cb588d8e20a45eb34234125292f7826546cf361877a6a74"
+  },
+  {
+    "path": "subprojects/wlroots/subprojects/wayland-protocols.wrap",
+    "bytes": 94,
+    "sha256": "761d20913efc3702b057511f81bc3b472a48b12524c060120fdde1fe8e8b9fd4"
+  },
+  {
+    "path": "subprojects/wlroots/subprojects/wayland.wrap",
+    "bytes": 84,
+    "sha256": "566514ecc9eca2d75d6b741f915db7640ecb0b7feceb1b7fa23f9b22645cf4b6"
+  },
+  {
+    "path": "subprojects/wlroots/tinywl/.gitignore",
+    "bytes": 29,
+    "sha256": "33603931bb1d52b882db0cbb5a0b1402523fb3fde0ca6a1c3eeae45b2d485d9e"
+  },
+  {
+    "path": "subprojects/wlroots/tinywl/LICENSE",
+    "bytes": 7135,
+    "sha256": "9ae58252b35106323701066c033a6b86023f59732a9c52a2d882a0777ffe55a5"
+  },
+  {
+    "path": "subprojects/wlroots/tinywl/Makefile",
+    "bytes": 402,
+    "sha256": "68773badcd8e9d68c8cc5190f5e08e43817776ab065480e5aa08c57b7920c06b"
+  },
+  {
+    "path": "subprojects/wlroots/tinywl/README.md",
+    "bytes": 1675,
+    "sha256": "b7e46dde37cedaa877f6d70723a2cd105a321aa6daf98cbb8d19ab0fdea458a5"
+  },
+  {
+    "path": "subprojects/wlroots/tinywl/meson.build",
+    "bytes": 62,
+    "sha256": "eaba50e549728ba888cbe960cf0da3181bf89238de3c0098206e0fc530e9c28f"
+  },
+  {
+    "path": "subprojects/wlroots/tinywl/tinywl.c",
+    "bytes": 43706,
+    "sha256": "2d2036ae3c34afbf770309407f1c58585a7ae20ac68f8cba23561e2b8cf30411"
+  },
+  {
+    "path": "subprojects/wlroots/types/buffer/buffer.c",
+    "bytes": 3689,
+    "sha256": "77e03808dce23c988f7d45af54db5e8ff8f235810b5c851410f1fc592f8ffd4a"
+  },
+  {
+    "path": "subprojects/wlroots/types/buffer/client.c",
+    "bytes": 4795,
+    "sha256": "a456727434676c1bee697b46a4783b8b464abb1629285420f818dab75fe5d158"
+  },
+  {
+    "path": "subprojects/wlroots/types/buffer/dmabuf.c",
+    "bytes": 1931,
+    "sha256": "b4b6a55334d1f2e44143e06be03664cb27e69d5390c21afb03db90db59afbdd2"
+  },
+  {
+    "path": "subprojects/wlroots/types/buffer/readonly_data.c",
+    "bytes": 2723,
+    "sha256": "a7337364321f269dafdea7455b59020b92dfa24bb2694cad935a0e38d064879f"
+  },
+  {
+    "path": "subprojects/wlroots/types/buffer/resource.c",
+    "bytes": 1681,
+    "sha256": "a50ecd788e9b66641449b742e1ef508148fb167855355246ca66df40dbe225e4"
+  },
+  {
+    "path": "subprojects/wlroots/types/data_device/wlr_data_device.c",
+    "bytes": 9779,
+    "sha256": "fd02ada144783ec8328beead2c5c74a5509db1f5e920e7f9b60425d7382bd983"
+  },
+  {
+    "path": "subprojects/wlroots/types/data_device/wlr_data_offer.c",
+    "bytes": 8216,
+    "sha256": "250cb3568e5f7cb0928defa10e399ec77318c1c0b2aec662cd16f2f510c4a823"
+  },
+  {
+    "path": "subprojects/wlroots/types/data_device/wlr_data_source.c",
+    "bytes": 8174,
+    "sha256": "bbb9b4a3b612e80051524cf9e9ab2a808b5e95a00b2b99a795381e7694edf386"
+  },
+  {
+    "path": "subprojects/wlroots/types/data_device/wlr_drag.c",
+    "bytes": 16386,
+    "sha256": "0fd02f754676bd211aa6834504f8f11e5ab046b520bdd42922f139359f873883"
+  },
+  {
+    "path": "subprojects/wlroots/types/ext_image_capture_source_v1/base.c",
+    "bytes": 6055,
+    "sha256": "df328a67628540976053c695acd67a5648ac31038ba5dc3f620b6219565df282"
+  },
+  {
+    "path": "subprojects/wlroots/types/ext_image_capture_source_v1/foreign_toplevel.c",
+    "bytes": 4186,
+    "sha256": "e7ce114d3bf215fda2ebe91dd800d30098cc7009df34ce8e7c7127bbcc9e18de"
+  },
+  {
+    "path": "subprojects/wlroots/types/ext_image_capture_source_v1/output.c",
+    "bytes": 14464,
+    "sha256": "e7186702cadc28dca15586d62ce43fc86636a193c458f7cdd6ae0f527d7f0eaf"
+  },
+  {
+    "path": "subprojects/wlroots/types/ext_image_capture_source_v1/scene.c",
+    "bytes": 10279,
+    "sha256": "67142e5260f7b023d276c45dbee0e1fbdcff180abc32ee8451d84abc1f7223a2"
+  },
+  {
+    "path": "subprojects/wlroots/types/meson.build",
+    "bytes": 3049,
+    "sha256": "eeee0ba0c559dfb2060f3dccf127c9b970f77d51507d0bb48c63480d17043493"
+  },
+  {
+    "path": "subprojects/wlroots/types/output/cursor.c",
+    "bytes": 15878,
+    "sha256": "7e4a47e22a41c772e2012543ea84dd052099040628106d3fc39fa52ad665df74"
+  },
+  {
+    "path": "subprojects/wlroots/types/output/output.c",
+    "bytes": 30309,
+    "sha256": "6b48991d10fa2968e44803fb58c4cca98e03179be41f6f2e209affa6af9fd3d0"
+  },
+  {
+    "path": "subprojects/wlroots/types/output/render.c",
+    "bytes": 6487,
+    "sha256": "5c7e5e29e47018618a271dbac2a729d341c30f109762093667e7f494cf605dfd"
+  },
+  {
+    "path": "subprojects/wlroots/types/output/state.c",
+    "bytes": 6361,
+    "sha256": "afa11404b3fa46fe5e9c6caeb3d2d427748c4262cc3de259a14798bc5de63242"
+  },
+  {
+    "path": "subprojects/wlroots/types/output/swapchain.c",
+    "bytes": 3942,
+    "sha256": "de790ca099b5092972232a26dd6e448427d4b4310c6019ee8ac9eef70e5eb275"
+  },
+  {
+    "path": "subprojects/wlroots/types/scene/drag_icon.c",
+    "bytes": 2323,
+    "sha256": "0e622239b0325dbf87c78941589a2b336011ce19b859f557773e06c0917095e1"
+  },
+  {
+    "path": "subprojects/wlroots/types/scene/layer_shell_v1.c",
+    "bytes": 5271,
+    "sha256": "2c0956e36e5e872f5c5a094fc9ea20c67fbb508b6e6bd990cfd8324c6c91f40e"
+  },
+  {
+    "path": "subprojects/wlroots/types/scene/output_layout.c",
+    "bytes": 4337,
+    "sha256": "ccf224ae3e85f2cdab705326cf89469de956c1a4a69e27c15c19e1afd568b0d7"
+  },
+  {
+    "path": "subprojects/wlroots/types/scene/subsurface_tree.c",
+    "bytes": 11951,
+    "sha256": "e73655cc589321f18a824ed4b153c9b1973f9c41a0f8d52b1d380e28a42671cc"
+  },
+  {
+    "path": "subprojects/wlroots/types/scene/surface.c",
+    "bytes": 16920,
+    "sha256": "b8c83f292006bc44d349891b1d460245db9dae891e986e6dc2006572f99a7f97"
+  },
+  {
+    "path": "subprojects/wlroots/types/scene/wlr_scene.c",
+    "bytes": 89344,
+    "sha256": "f052d4f48fd94803bd21b4c28c8eefbd035e4d50aed0b31b438019289327165f"
+  },
+  {
+    "path": "subprojects/wlroots/types/scene/xdg_shell.c",
+    "bytes": 3339,
+    "sha256": "06f590929a946f0ae9d15bf24d7a662b6034c83739df7cb8d8173187ec29d124"
+  },
+  {
+    "path": "subprojects/wlroots/types/seat/wlr_seat.c",
+    "bytes": 16582,
+    "sha256": "1b283727c60cfcc7c8057e00fdae8ae4096f4bda6b25e6d7237d7a93b5b93831"
+  },
+  {
+    "path": "subprojects/wlroots/types/seat/wlr_seat_keyboard.c",
+    "bytes": 15087,
+    "sha256": "a19a9af3686bff2c3eca0bd999eb3bd5a6e9654c5706fd8b91f3b33dfb1142a7"
+  },
+  {
+    "path": "subprojects/wlroots/types/seat/wlr_seat_pointer.c",
+    "bytes": 20003,
+    "sha256": "680b97450658c855f02ed3f6f59d80065c1d68ce9563bdbb2951275d83114028"
+  },
+  {
+    "path": "subprojects/wlroots/types/seat/wlr_seat_touch.c",
+    "bytes": 14935,
+    "sha256": "31aa9cbc004a6a84bf2ff96cbe64e5f85b06299bb206a71b59bd1d814d66dc07"
+  },
+  {
+    "path": "subprojects/wlroots/types/tablet_v2/wlr_tablet_v2.c",
+    "bytes": 9280,
+    "sha256": "43a992befb82609c09b3f5ab28b6fc24a4ea65df72eef1869dc4bf7747734008"
+  },
+  {
+    "path": "subprojects/wlroots/types/tablet_v2/wlr_tablet_v2_pad.c",
+    "bytes": 20853,
+    "sha256": "686b6d38fc2e54e99b3e052c051b7d7c7ecd25a47eaae11324f713b41ff0f40b"
+  },
+  {
+    "path": "subprojects/wlroots/types/tablet_v2/wlr_tablet_v2_tablet.c",
+    "bytes": 3821,
+    "sha256": "d14ceb2e5184518c4da711858a6507ecc1257ddeeffb2756d3fb81d4e8ead5e7"
+  },
+  {
+    "path": "subprojects/wlroots/types/tablet_v2/wlr_tablet_v2_tool.c",
+    "bytes": 24646,
+    "sha256": "3e263736f06911e47ea68c127bd358212da41b74afd479a85378d44b15b04787"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_alpha_modifier_v1.c",
+    "bytes": 6165,
+    "sha256": "2b41020c61e84956d981e6ec38008709abac69eff91079721a5a1a51cf17e02e"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_color_management_v1.c",
+    "bytes": 42598,
+    "sha256": "0d1da2a13f74533564d689fd3c722fd377084f9988f5256281a400646eae2aca"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_color_representation_v1.c",
+    "bytes": 18007,
+    "sha256": "e7c83ba74f07ec727e79d5a1bce01318c93ddc9b97cde0b15f70da7f1422df23"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_compositor.c",
+    "bytes": 47771,
+    "sha256": "5bca185e78b6ec3137f563f00bbd2238dab4fa3ea1f8f22796a374354e23d668"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_content_type_v1.c",
+    "bytes": 6653,
+    "sha256": "95427f8e59e4206d40dd3cbe935b24ed2599eb4a7b8115e722fddc6a2d75240d"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_cursor.c",
+    "bytes": 41035,
+    "sha256": "7f223577de38de2f481d47383e13c3516b695667b2f046c720a877a82b0a462b"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_cursor_shape_v1.c",
+    "bytes": 10301,
+    "sha256": "d0e2db9fa88b57a87925faf7cb260b58ba6dc1c099414e273149212ebc75bffc"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_damage_ring.c",
+    "bytes": 3775,
+    "sha256": "93b9865942b866d3245c9a2a72221f4cff795d285930c8bc4730a3e18f8c61be"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_data_control_v1.c",
+    "bytes": 20828,
+    "sha256": "6a45d03b9fbce8b079292d3bbf308217e51dc62d638f9b88dd82048b3f58aa12"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_drm.c",
+    "bytes": 8048,
+    "sha256": "33eb88ae99817efe05cda7dc3f3b3b1c3e569a6f2cdb9e04666fbbad80f06f68"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_drm_lease_v1.c",
+    "bytes": 21202,
+    "sha256": "945413691c665a9a92f1d4d579103d6d7e1635e88003521535cdb19b8921a598"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_export_dmabuf_v1.c",
+    "bytes": 7360,
+    "sha256": "0c9654dc5d6aaf4ffaa288fef338e397f9de86c8fd11295e43c8c4018f28aaf2"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_ext_data_control_v1.c",
+    "bytes": 20949,
+    "sha256": "cafa2143e7ce6a665ab495945de40a6da47c944e05924c3a388b40263ca6d126"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_ext_foreign_toplevel_list_v1.c",
+    "bytes": 8950,
+    "sha256": "5580d4b6c803fb3548bbe104f5b0bdbfd5a17b42dd173358aa526ca0e958a088"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_ext_image_copy_capture_v1.c",
+    "bytes": 24232,
+    "sha256": "9df18ab942db16e1dc44509a600c4322cbb5901f7b89daa49e9b9373799b3c17"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_ext_workspace_v1.c",
+    "bytes": 30197,
+    "sha256": "2bf5ea16bca089df83ae6c1b867ee3de3c7b06d2a47b26bcfef27e5f05b3df9b"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_fixes.c",
+    "bytes": 1866,
+    "sha256": "39800f9558dc23c85e129ceec3a4d11749837422b2890314c7c07e15860d588f"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_foreign_toplevel_management_v1.c",
+    "bytes": 22695,
+    "sha256": "cfe8715703039d5b48ec3413af9b76aee1d2c4bf3aacbd402cdb75ead99449e8"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_fractional_scale_v1.c",
+    "bytes": 6182,
+    "sha256": "96e197bc8d73a60566e6068fb3068c953211753ad080b2e9cd674a7716c8fa22"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_gamma_control_v1.c",
+    "bytes": 9455,
+    "sha256": "317150ae5f75b0060a0c8291d42a1a63a46994fd938cbc7a792b8706cd77b442"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_idle_inhibit_v1.c",
+    "bytes": 5406,
+    "sha256": "cbdd8515e8075c27011b3c24b8751de75fb3d9e623d3a4e4f43dd7293e0b29e3"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_idle_notify_v1.c",
+    "bytes": 8054,
+    "sha256": "cfbe2f2948491fd18da48b870c18e90ca79576c5cb44d994bdbad935f2c9ab0d"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_input_device.c",
+    "bytes": 614,
+    "sha256": "eb59467413fee1a896f7c9e6e876179485d83c6bb67f599ac1ae9fc1e065fdc7"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_input_method_v2.c",
+    "bytes": 21344,
+    "sha256": "1291e522b3ee3988ea62270c31fb7d1a86658c1b7b479a353a04373fdf34ae5f"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_keyboard.c",
+    "bytes": 9937,
+    "sha256": "ad25853dbe24e403c482cd47b46ec41a06875b0e45f8e4fc073269649630ee38"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_keyboard_group.c",
+    "bytes": 10407,
+    "sha256": "07ab2adf11b7b4173882d709e35933f3a974cce828482e30a63f0fb6f7c7e1c4"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_keyboard_shortcuts_inhibit_v1.c",
+    "bytes": 7937,
+    "sha256": "b239f79b068cc98b4b2d68388b1a3bd375b90adac9573cc4f23deab4fc423ecd"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_layer_shell_v1.c",
+    "bytes": 21464,
+    "sha256": "8c502143c78568aed4eaba793664d923cb4832c88480615a4d6049cb02698a16"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_linux_dmabuf_v1.c",
+    "bytes": 36621,
+    "sha256": "708d5a96322f22665fbf624f9f40b630b737280ba445931a186b753bc0d378b7"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_linux_drm_syncobj_v1.c",
+    "bytes": 18000,
+    "sha256": "586fb474f9a0c2e1463d7f39694e2bb3e75ff26b9533544a09249c9209ee288b"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_output_layer.c",
+    "bytes": 659,
+    "sha256": "41fb688661ff934dbbb045f7fbabe508e4b78b1749a1236ac722f7b5f5f81203"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_output_layout.c",
+    "bytes": 14398,
+    "sha256": "7475ebb88e8a6c344ca2ba5b327ce93ceaa540bd898ad7ef9cfd1888362b237c"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_output_management_v1.c",
+    "bytes": 33314,
+    "sha256": "3d942bc024f3b45b67d29f17d26ea3be4d2d6ad26c35c27c68463642fe2eee21"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_output_power_management_v1.c",
+    "bytes": 7469,
+    "sha256": "75421874054156224caae4f91aa6aa6edfea2eef1b88c1939267de8176c8a4cf"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_output_swapchain_manager.c",
+    "bytes": 8364,
+    "sha256": "5224cfeac476d034399c59389c50bd9aae11246afa7ed9f16c2f65f4cc24a7d8"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_pointer.c",
+    "bytes": 3063,
+    "sha256": "23271862242cfb36046ddcb0cff439c3504a1e7a0fe72013412b9007540612d2"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_pointer_constraints_v1.c",
+    "bytes": 13974,
+    "sha256": "7d987905d9e33947e4da36e95119c5f9172e29533c13fe07cb46bf5425318225"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_pointer_gestures_v1.c",
+    "bytes": 13849,
+    "sha256": "abf5e404f8aa449e98ef20a5fdc92dab59229205e53bbf4c8c3f72eb53282b0d"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_presentation_time.c",
+    "bytes": 10910,
+    "sha256": "d664cf153373f27d0deb49127bdba4854772d5db1b645c6f4157b7501dfbf060"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_primary_selection.c",
+    "bytes": 3110,
+    "sha256": "67e637bd980e005e303e475f1f769025de78124086047faa552418d61b0ef227"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_primary_selection_v1.c",
+    "bytes": 15176,
+    "sha256": "059c1d296109db5bdbc0c6146f753ae9261cda68e509d9e994cf7023733520e1"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_region.c",
+    "bytes": 2308,
+    "sha256": "c398f107c64e2e62153801b6d93017e67b7d3583a90f8adfe9c67a02ec07ea25"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_relative_pointer_v1.c",
+    "bytes": 7491,
+    "sha256": "abbda7f951e86a859c7cfd48ea712fe149e6df138b5d8d048d9704fcdb9cfe92"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_screencopy_v1.c",
+    "bytes": 20443,
+    "sha256": "854f2a2a7dd9d70e46a57fcebe85a13d781d6afc762d4b6c89358ae5d57749e6"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_security_context_v1.c",
+    "bytes": 14292,
+    "sha256": "e35f11591811d2d94e7b6d8e18dbaf6e822b555b93fa4c901bc173757836da49"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_server_decoration.c",
+    "bytes": 6862,
+    "sha256": "ecd0b00c2c6391b775d23f02838c8f0255837ad7d46641cc409e3247970b137b"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_session_lock_v1.c",
+    "bytes": 15354,
+    "sha256": "e56c8bf46250e58edfcfb3139d1a01036f4eef0874b0737e1c1e4dee4f37a163"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_shm.c",
+    "bytes": 16627,
+    "sha256": "c9e54045a3e78ca62e5d73afa5f3d0489cfaaa1f89700fc2cd065dae71ffccf8"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_single_pixel_buffer_v1.c",
+    "bytes": 5652,
+    "sha256": "8f8a09e7a2500ba50fa4347196bd2755d0fd9fdf355927c269de06e92ddd1b74"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_subcompositor.c",
+    "bytes": 13623,
+    "sha256": "792ff82d565b100df6e95819aabada9abb98414d20dcef17b94ac6a40f67c50a"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_switch.c",
+    "bytes": 912,
+    "sha256": "3e0ae2416c961172b52bd892d89d7a3f65b6ba3ab7238a14b0bcf9931045f271"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_tablet_pad.c",
+    "bytes": 1560,
+    "sha256": "3a7a8c3d85417331fa4d6ef09cba2292d044b3bc5d4cf60c2cbec9056d7a3c94"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_tablet_tool.c",
+    "bytes": 1334,
+    "sha256": "713ff960a2e06991498269427827b3f11f2ae5da7b9bb4360c4e59452539a3aa"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_tearing_control_v1.c",
+    "bytes": 7306,
+    "sha256": "af808c67fd542ec95c54242e674027df76c9a19628949d4dd222316dccbe4fab"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_text_input_v3.c",
+    "bytes": 11945,
+    "sha256": "0ca9ff81d919fc09cae14b6c5ae373ca46a14bea9bfdc1f89b31a1a176f838f8"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_touch.c",
+    "bytes": 1261,
+    "sha256": "8ef74cb362c732146cc5e554c499d13febdb018ecf055a548d2a73e6b7758256"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_transient_seat_v1.c",
+    "bytes": 5071,
+    "sha256": "90cf7100ecd31a56ff95a41a299cfbb815a1528649f0b986a153cca59e660d07"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_viewporter.c",
+    "bytes": 8227,
+    "sha256": "c55a0f17bab393aa3be6e99e87c54a3116b77b0eba835a4ddfed222440879ab3"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_virtual_keyboard_v1.c",
+    "bytes": 8199,
+    "sha256": "fc5e1ac325bb64b54ef65eb4a12500f150000032792e2b1b02e65e2a032cc473"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_virtual_pointer_v1.c",
+    "bytes": 11474,
+    "sha256": "639f0f368b4c16f49a630b4f3addd72415a76855227547ba42fb96ef4eaba375"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_xcursor_manager.c",
+    "bytes": 1676,
+    "sha256": "a4e8e3f7dccba92f957eb94c32f63adb254e84ca9cdf1295c6a015e7779cdab8"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_xdg_activation_v1.c",
+    "bytes": 13123,
+    "sha256": "1fad486de0a89921b66a2810525175e085b997863691535cc8b6a348eb871102"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_xdg_decoration_v1.c",
+    "bytes": 10307,
+    "sha256": "2710a1dc0e527883909bfa4f4922580142e876757a5fb497ba044b1153bad0d7"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_xdg_dialog_v1.c",
+    "bytes": 6347,
+    "sha256": "9dc2695501f13d7b3b1379a6484a996770af1a16535d120029197b5b67f27d02"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_xdg_foreign_registry.c",
+    "bytes": 2237,
+    "sha256": "7595f33fd9521d04a8f85540ec6f10fab7d2c96feeebcf094db8fef063d586a2"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_xdg_foreign_v1.c",
+    "bytes": 12751,
+    "sha256": "2ab994e8d5337697edf9d4c8076fd8a281be40a8eb01a7a35fe78da6a2054a3c"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_xdg_foreign_v2.c",
+    "bytes": 12894,
+    "sha256": "7be25656dffc6afc46f7a54b9e6b27ce337e9b76201d26588a9bf1f99df7c310"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_xdg_output_v1.c",
+    "bytes": 9528,
+    "sha256": "64b7c4fc87ee65718c2d2a778b93df6052892ba471df7abd1e07001e332c3449"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_xdg_system_bell_v1.c",
+    "bytes": 2710,
+    "sha256": "c8ff450462d7edde0f2010b3a79b27e601b4903efb1cb683cfb8690edfe2bbb6"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_xdg_toplevel_icon_v1.c",
+    "bytes": 8769,
+    "sha256": "da73d573bd3fea0361653e55c923cecae6c66024fd7bfddc9b085d2ada307c6b"
+  },
+  {
+    "path": "subprojects/wlroots/types/wlr_xdg_toplevel_tag_v1.c",
+    "bytes": 3700,
+    "sha256": "ee3477dabe1c2ce4753ee1665aea51e2ca75ce5a3f63a6096ba10784afd4b48c"
+  },
+  {
+    "path": "subprojects/wlroots/types/xdg_shell/wlr_xdg_popup.c",
+    "bytes": 16572,
+    "sha256": "153ceab5c054e618292ad5d0e316b9057d05f894f94849eb7643186825d81f79"
+  },
+  {
+    "path": "subprojects/wlroots/types/xdg_shell/wlr_xdg_positioner.c",
+    "bytes": 16815,
+    "sha256": "12d0649e68d513d17428a98bc19d762a73850bcdab4316f36e41c82f4a631da0"
+  },
+  {
+    "path": "subprojects/wlroots/types/xdg_shell/wlr_xdg_shell.c",
+    "bytes": 5258,
+    "sha256": "b24d5f449f7a4867adb94356d7f84519749f4decbb305f4a936baf6709e7cae3"
+  },
+  {
+    "path": "subprojects/wlroots/types/xdg_shell/wlr_xdg_surface.c",
+    "bytes": 20185,
+    "sha256": "1a26fb9b6c9840d6a92aa9d502687c986a66d260e3575b5c0bdf244b67d164d8"
+  },
+  {
+    "path": "subprojects/wlroots/types/xdg_shell/wlr_xdg_toplevel.c",
+    "bytes": 22979,
+    "sha256": "93ae0c12729fafc80ddfde1dc54b614e5a0e21e0ec6cafe15b4a1f9a36feda02"
+  },
+  {
+    "path": "subprojects/wlroots/util/addon.c",
+    "bytes": 1531,
+    "sha256": "199f162e6ea0c840d83350ac87a48c54228e2a7d87bce3cee1b6040e1adb18e5"
+  },
+  {
+    "path": "subprojects/wlroots/util/array.c",
+    "bytes": 943,
+    "sha256": "eff1ba42d5e3ad2ade902b863bff0f4814139ad190d8c19e7943b28f58171e7d"
+  },
+  {
+    "path": "subprojects/wlroots/util/box.c",
+    "bytes": 5883,
+    "sha256": "597fad12cefe53c5f77a2b32ffcd99a729ecfce2ab7ebfb220536e3c3d50b368"
+  },
+  {
+    "path": "subprojects/wlroots/util/env.c",
+    "bytes": 802,
+    "sha256": "da05c018455df1857e2f0e78924c405e000d4f6886069bdbdf1f40ebcba5d6ba"
+  },
+  {
+    "path": "subprojects/wlroots/util/fd.c",
+    "bytes": 434,
+    "sha256": "45c0ee436cea53c596ab81ef1934890668c81dbc1a0b860b46ccb6c41cdfafa0"
+  },
+  {
+    "path": "subprojects/wlroots/util/global.c",
+    "bytes": 1804,
+    "sha256": "9603d6fdd0d3da2110bb62f25a4b9167eb7be8d84203d6b1573b6b61e3e94bb5"
+  },
+  {
+    "path": "subprojects/wlroots/util/log.c",
+    "bytes": 2538,
+    "sha256": "af9325196e6263e3bee34d705acdf944225abbab1ce1c69a627c4ff7d8629710"
+  },
+  {
+    "path": "subprojects/wlroots/util/matrix.c",
+    "bytes": 4037,
+    "sha256": "7211a9d3010011fd39b83d9efb5d807e2c0d314297c48e291ba8047f176b8bd4"
+  },
+  {
+    "path": "subprojects/wlroots/util/mem.c",
+    "bytes": 287,
+    "sha256": "2efaa3ae833fc7db280ce8a92056ea9ba1b34d91faba67870dbeb46259601396"
+  },
+  {
+    "path": "subprojects/wlroots/util/meson.build",
+    "bytes": 235,
+    "sha256": "e3008376e481ae287d85304c536cabedaa1e7fdf72bc01a085132e080ee24254"
+  },
+  {
+    "path": "subprojects/wlroots/util/rect_union.c",
+    "bytes": 2221,
+    "sha256": "24b22318a013d78755620d999716d093ced5c67b91bd3a1db78d377ec4fcb711"
+  },
+  {
+    "path": "subprojects/wlroots/util/region.c",
+    "bytes": 7849,
+    "sha256": "5cdee64dd23a9c176f63bac518e8e62f06c0bd34ac75c0bae9871ff10e78dc57"
+  },
+  {
+    "path": "subprojects/wlroots/util/set.c",
+    "bytes": 497,
+    "sha256": "0447a21142fc51f50218e08ffedc22a228c7061a38265255857f37cd584e78aa"
+  },
+  {
+    "path": "subprojects/wlroots/util/shm.c",
+    "bytes": 1813,
+    "sha256": "c244d3a2c999b312d42e4359b564966b8d5af9248e71d771ee1385999fbcaa37"
+  },
+  {
+    "path": "subprojects/wlroots/util/time.c",
+    "bytes": 797,
+    "sha256": "0f611ad471ef0b55bfafcb745c47c8fd7ae3621febafd49b69075ddb7e35ffb9"
+  },
+  {
+    "path": "subprojects/wlroots/util/token.c",
+    "bytes": 945,
+    "sha256": "5d3e82d44f718ddcf68dc0d03e7bff91bdab897fbfd946f3206b676d4eada515"
+  },
+  {
+    "path": "subprojects/wlroots/util/transform.c",
+    "bytes": 1001,
+    "sha256": "fd1b8324a9d5fb661d046e96a427b0faff5804d36b083884fe470303b3fe37ad"
+  },
+  {
+    "path": "subprojects/wlroots/util/utf8.c",
+    "bytes": 1663,
+    "sha256": "9db0141984689368825884475090ea28499370652a96ec8a728f8439c7575c71"
+  },
+  {
+    "path": "subprojects/wlroots/util/version.c",
+    "bytes": 217,
+    "sha256": "bd4ca1e735a7e740a1f96d283c849ca83d5121cbdd1c17a512927fa8edcbfd56"
+  },
+  {
+    "path": "subprojects/wlroots/wlroots.syms",
+    "bytes": 46,
+    "sha256": "4866836fc30d5f7e418e6e3d2603eae0ccb7e3718e8596fd95e55f4f7ecc355c"
+  },
+  {
+    "path": "subprojects/wlroots/xcursor/meson.build",
+    "bytes": 230,
+    "sha256": "5aae378059bde170522c0cafe228fc7868da89b3a340f5f7eb2e0dd07350ab33"
+  },
+  {
+    "path": "subprojects/wlroots/xcursor/wlr_xcursor.c",
+    "bytes": 9756,
+    "sha256": "807093458be95c637fbc91a92a5e79cbec26721d84f99ea3e0995d4205ccc0c0"
+  },
+  {
+    "path": "subprojects/wlroots/xcursor/xcursor.c",
+    "bytes": 19863,
+    "sha256": "3a8c0a855e5557183f41add52bd161b837553eb321648fd4e8e146cdc4384a11"
+  },
+  {
+    "path": "subprojects/wlroots/xwayland/meson.build",
+    "bytes": 1974,
+    "sha256": "b360bd13ffda000e7a1d3fad985817bb5f0dffc9640167d8c7400a2295bf4475"
+  },
+  {
+    "path": "subprojects/wlroots/xwayland/selection/dnd.c",
+    "bytes": 12197,
+    "sha256": "3964ebf409547a24df869148da8a3d387d2234eed6f598f6c8abe88f993ba453"
+  },
+  {
+    "path": "subprojects/wlroots/xwayland/selection/incoming.c",
+    "bytes": 15851,
+    "sha256": "bf7c3b39ab8fe4462b3eb79a23840b6c0e4b8ce77ffb86cd490420b579d0d3e2"
+  },
+  {
+    "path": "subprojects/wlroots/xwayland/selection/outgoing.c",
+    "bytes": 15410,
+    "sha256": "bd533000c3b51597298d019149c4b2a44a063f1a0252987b4650862a6b30a274"
+  },
+  {
+    "path": "subprojects/wlroots/xwayland/selection/selection.c",
+    "bytes": 9539,
+    "sha256": "9d80d3920ef5b1f618595682d80259a22d4869f5ede427f796a7945c146892a2"
+  },
+  {
+    "path": "subprojects/wlroots/xwayland/server.c",
+    "bytes": 14151,
+    "sha256": "f76514702da2cb0df6a5b8e376901a2ceee16152755d407c6d6a0bedae7695e0"
+  },
+  {
+    "path": "subprojects/wlroots/xwayland/shell.c",
+    "bytes": 7140,
+    "sha256": "654a5c549cb346e390c06e1b28471bfee9ff10ae038a26d494ca092e81ff7340"
+  },
+  {
+    "path": "subprojects/wlroots/xwayland/sockets.c",
+    "bytes": 4941,
+    "sha256": "64d82008d10d4d696ed7fe6d52f3d730c23731e12fca846ec412e69e3f117460"
+  },
+  {
+    "path": "subprojects/wlroots/xwayland/sockets.h",
+    "bytes": 167,
+    "sha256": "a2576ed8f6f9bb8972f3f4ca8340af826d038de357cc944a804addc95b8b9cd1"
+  },
+  {
+    "path": "subprojects/wlroots/xwayland/xwayland.c",
+    "bytes": 6319,
+    "sha256": "1497ad1e40a4f4639ed975cf50954059a1d3ef3cd5fcd9b183d864839a7c0181"
+  },
+  {
+    "path": "subprojects/wlroots/xwayland/xwm.c",
+    "bytes": 92298,
+    "sha256": "06dd79704b9e3cabb1fc039930e92bc94da0874083987e4765e06de23580b6cc"
   },
   {
     "path": "tests/meson.build",

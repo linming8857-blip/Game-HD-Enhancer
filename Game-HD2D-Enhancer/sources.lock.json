@@ -5,8 +5,52 @@
   "sources": [
     {
       "repo": "NVIDIAGameWorks/NVIDIAImageScaling",
-      "status": "not_collected",
-      "error": "No top-level license file found: not republishing this source"
+      "source_url": "https://github.com/NVIDIAGameWorks/NVIDIAImageScaling",
+      "ref": "main",
+      "commit": "35e13ba316c98eeecf16f37eae70ce88019911f6",
+      "purpose": "NIS spatial upscaling; NVScaler includes sharpening",
+      "declared_license": "MIT",
+      "github_license": "MIT",
+      "license_files": [
+        "README.md"
+      ],
+      "license_note": "Full MIT license is embedded at the start of upstream README.md; no invented LICENSE file",
+      "destination": "third_party/NVIDIAGameWorks__NVIDIAImageScaling/35e13ba316c98eeecf16f37eae70ce88019911f6",
+      "submodules": [],
+      "omitted_files": [
+        {
+          "path": "docs/NIS Developer Localization Strings - 081622.zip",
+          "bytes": 245447,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "samples/third_party/DXC/bin/x64/dxc.exe",
+          "bytes": 585632,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "samples/third_party/DXC/bin/x64/dxcompiler.dll",
+          "bytes": 20067744,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "samples/third_party/DXC/bin/x64/dxil.dll",
+          "bytes": 1526184,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "samples/third_party/DXC/lib/x64/dxcompiler.lib",
+          "bytes": 2002,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        }
+      ],
+      "lfs_pointers": [],
+      "symlinks": [],
+      "file_count": 328,
+      "source_bytes": 27053642,
+      "status": "collected",
+      "compiled": false,
+      "runtime_tested": false
     },
     {
       "repo": "GPUOpen-Effects/FidelityFX-FSR",
@@ -1171,14 +1215,16 @@
         {
           "path": "subprojects/wlroots",
           "url": "https://gitlab.freedesktop.org/wlroots/wlroots.git",
-          "status": "missing",
-          "error": "Submodule is not a public github.com HTTPS source"
+          "status": "downloaded",
+          "commit": "d783533489e1f75d6886c2ab5c5960090ef268f8",
+          "archive_url": "https://gitlab.freedesktop.org/wlroots/wlroots/-/archive/d783533489e1f75d6886c2ab5c5960090ef268f8/wlroots-d783533489e1f75d6886c2ab5c5960090ef268f8.tar.gz"
         },
         {
           "path": "subprojects/libliftoff",
           "url": "https://gitlab.freedesktop.org/emersion/libliftoff.git",
-          "status": "missing",
-          "error": "Submodule is not a public github.com HTTPS source"
+          "status": "downloaded",
+          "commit": "8b08dc1c14fd019cc90ddabe34ad16596b0691f4",
+          "archive_url": "https://gitlab.freedesktop.org/emersion/libliftoff/-/archive/8b08dc1c14fd019cc90ddabe34ad16596b0691f4/libliftoff-8b08dc1c14fd019cc90ddabe34ad16596b0691f4.tar.gz"
         },
         {
           "path": "subprojects/vkroots",
@@ -1190,8 +1236,9 @@
         {
           "path": "subprojects/libdisplay-info",
           "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info",
-          "status": "missing",
-          "error": "Submodule is not a public github.com HTTPS source"
+          "status": "downloaded",
+          "commit": "c67a3e9bedb05ab61c7443704a1a107e76254595",
+          "archive_url": "https://gitlab.freedesktop.org/emersion/libdisplay-info/-/archive/c67a3e9bedb05ab61c7443704a1a107e76254595/libdisplay-info-c67a3e9bedb05ab61c7443704a1a107e76254595.tar.gz"
         },
         {
           "path": "subprojects/openvr",
@@ -1913,9 +1960,9 @@
       ],
       "lfs_pointers": [],
       "symlinks": [],
-      "file_count": 3144,
-      "source_bytes": 181475335,
-      "status": "partial"
+      "file_count": 3846,
+      "source_bytes": 186088921,
+      "status": "collected"
     },
     {
       "repo": "crosire/reshade",
@@ -2188,5 +2235,6 @@
       "repo": "martymcmodding/qUINT",
       "reason": "之前查看的许可为 All rights reserved；没有单独授权不纳入"
     }
-  ]
+  ],
+  "updated_utc": "2026-10-09T22:03:45.309354+00:00"
 }
