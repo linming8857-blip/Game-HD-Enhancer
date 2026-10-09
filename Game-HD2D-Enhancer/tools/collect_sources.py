@@ -26,10 +26,6 @@ SHA_RE = re.compile(r"^[0-9a-f]{40}$")
 OMIT_SUFFIX = {'.exe', '.dll', '.lib', '.pdb', '.obj', '.o', '.a', '.so', '.dylib',
                '.pyd', '.pyc', '.zip', '.7z', '.rar', '.mp4', '.webm', '.mkv',
                '.pth', '.onnx', '.cso', '.spv'}
-ALLOW_SPDX = {'MIT', 'BSD-2-Clause', 'BSD-3-Clause', 'Apache-2.0', 'GPL-3.0',
-              'GPL-2.0', 'GPL-3.0-only', 'GPL-3.0-or-later', 'GPL-2.0-only',
-              'GPL-2.0-or-later', 'LGPL-2.1', 'LGPL-3.0', 'ISC', 'Zlib',
-              'BSL-1.0', 'Unlicense', 'CC0-1.0'}
 MAX_BYTES = 2 * 1024**3
 
 class SafeRedirect(urllib.request.HTTPRedirectHandler):
@@ -72,7 +68,7 @@ def request(url: str, output: Path | None = None):
 def api(repo: str, path: str):
     if not REPO_RE.fullmatch(repo):
         raise ValueError('Invalid repository name')
-    return request(f'https://api.github.com/repos/{repo}/{path}')
+    return request(f'https://api.github.com/repos/{repo}' + ('/' + path if path else ''))
 
 def relative(path: str) -> PurePosixPath:
     p = PurePosixPath(path)
