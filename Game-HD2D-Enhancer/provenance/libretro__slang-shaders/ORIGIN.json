@@ -1,0 +1,28 @@
+{
+  "repo": "libretro/slang-shaders",
+  "source_url": "https://github.com/libretro/slang-shaders",
+  "ref": "master",
+  "commit": "e1d75632a205c70f14a4cc947c46d5abb7b3f7f1",
+  "purpose": "Retro shader archive. Per-file license audit required before shipping any shader",
+  "declared_license": "per-file",
+  "github_license": null,
+  "destination": "references/libretro__slang-shaders/e1d75632a205c70f14a4cc947c46d5abb7b3f7f1",
+  "submodules": [],
+  "compiled": false,
+  "runtime_tested": false,
+  "license_files": [
+    "Per-file shader notices; no blanket project relicense"
+  ],
+  "omitted_files": [
+    {
+      "path": "bezel/uborder/shaders/support_shaders/koko-ambi-standalone/LICENSE.zip",
+      "bytes": 12047,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    }
+  ],
+  "lfs_pointers": [],
+  "symlinks": [],
+  "file_count": 5211,
+  "source_bytes": 71417723,
+  "status": "collected"
+}

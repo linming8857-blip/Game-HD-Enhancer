@@ -1,0 +1,28 @@
+{
+  "repo": "CRTYPUBG/NovaScale-Upscaler",
+  "source_url": "https://github.com/CRTYPUBG/NovaScale-Upscaler",
+  "ref": "main",
+  "commit": "3888cd0cb72269cb95ad2af665ddcfb7c6c520e8",
+  "purpose": "Early-stage C/D3D11 spatial-scaling reference, not a verified production core",
+  "declared_license": "MIT",
+  "github_license": "MIT",
+  "destination": "third_party/CRTYPUBG__NovaScale-Upscaler/3888cd0cb72269cb95ad2af665ddcfb7c6c520e8",
+  "submodules": [],
+  "compiled": false,
+  "runtime_tested": false,
+  "license_files": [
+    "LICENSE"
+  ],
+  "omitted_files": [
+    {
+      "path": "NovaScale_v0.1.0_alpha.zip",
+      "bytes": 47312879,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    }
+  ],
+  "lfs_pointers": [],
+  "symlinks": [],
+  "file_count": 36,
+  "source_bytes": 409537,
+  "status": "collected"
+}

@@ -1,97 +1,2174 @@
 {
   "project": "Game-HD2D-Enhancer",
-  "created_utc": "2026-10-09T21:54:01.016879+00:00",
+  "created_utc": "2026-10-09T21:58:14.484876+00:00",
   "scope": "Actual source snapshots, not executables. DLSS5 excluded. Original licenses retained.",
   "sources": [
     {
       "repo": "NVIDIAGameWorks/NVIDIAImageScaling",
       "status": "not_collected",
-      "error": "HTTP Error 404: Not Found"
+      "error": "No top-level license file found: not republishing this source"
     },
     {
       "repo": "GPUOpen-Effects/FidelityFX-FSR",
-      "status": "not_collected",
-      "error": "HTTP Error 404: Not Found"
+      "source_url": "https://github.com/GPUOpen-Effects/FidelityFX-FSR",
+      "ref": "master",
+      "commit": "a21ffb8f6c13233ba336352bdff293894c706575",
+      "purpose": "FSR1 EASU and RCAS spatial upscaling",
+      "declared_license": "MIT",
+      "github_license": "MIT",
+      "destination": "third_party/GPUOpen-Effects__FidelityFX-FSR/a21ffb8f6c13233ba336352bdff293894c706575",
+      "submodules": [
+        {
+          "path": "sample/libs/Cauldron",
+          "url": "../../GPUOpen-LibrariesAndSDKs/Cauldron",
+          "repository": "GPUOpen-LibrariesAndSDKs/Cauldron",
+          "commit": "3e4a021fc0d3e0372347126771a5155016810a11",
+          "status": "downloaded"
+        },
+        {
+          "path": "sample/media/Cauldron-Media",
+          "url": "../../GPUOpen-LibrariesAndSDKs/Cauldron-Media",
+          "repository": "GPUOpen-LibrariesAndSDKs/Cauldron-Media",
+          "commit": "bf0e04475f916617d3f65e6f15001f5ee1682867",
+          "status": "downloaded"
+        }
+      ],
+      "compiled": false,
+      "runtime_tested": false,
+      "license_files": [
+        "license.txt"
+      ],
+      "omitted_files": [
+        {
+          "path": "sample/libs/Cauldron/libs/AGS/amd_ags_x64.dll",
+          "bytes": 42496,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "sample/libs/Cauldron/libs/AGS/amd_ags_x64.lib",
+          "bytes": 13926,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "sample/libs/Cauldron/libs/DXC/bin/dxc.exe",
+          "bytes": 668672,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "sample/libs/Cauldron/libs/DXC/bin/dxcompiler.dll",
+          "bytes": 19459584,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "sample/libs/Cauldron/libs/DXC/bin/dxil.dll",
+          "bytes": 1097768,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "sample/libs/Cauldron/libs/DXC/bin/x64/dxc.exe",
+          "bytes": 515464,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "sample/libs/Cauldron/libs/DXC/bin/x64/dxcompiler.dll",
+          "bytes": 18515848,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "sample/libs/Cauldron/libs/DXC/bin/x64/dxil.dll",
+          "bytes": 1867776,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "sample/libs/Cauldron/libs/DXC/lib/x64/dxcompiler.lib",
+          "bytes": 2002,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "sample/libs/Cauldron/libs/WinPixEventRuntime/WinPixEventRuntime.dll",
+          "bytes": 45944,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "sample/libs/Cauldron/libs/WinPixEventRuntime/WinPixEventRuntime.lib",
+          "bytes": 4766,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        }
+      ],
+      "lfs_pointers": [],
+      "symlinks": [],
+      "file_count": 669,
+      "source_bytes": 602121329,
+      "status": "collected"
     },
     {
       "repo": "GPUOpen-Effects/FidelityFX-CAS",
-      "status": "not_collected",
-      "error": "HTTP Error 404: Not Found"
+      "source_url": "https://github.com/GPUOpen-Effects/FidelityFX-CAS",
+      "ref": "master",
+      "commit": "9fabcc9a2c45f958aff55ddfda337e74ef894b7f",
+      "purpose": "Optional standalone contrast-adaptive sharpening",
+      "declared_license": "MIT",
+      "github_license": "MIT",
+      "destination": "third_party/GPUOpen-Effects__FidelityFX-CAS/9fabcc9a2c45f958aff55ddfda337e74ef894b7f",
+      "submodules": [
+        {
+          "path": "sample/libs/cauldron",
+          "url": "../../GPUOpen-LibrariesAndSDKs/Cauldron.git",
+          "repository": "GPUOpen-LibrariesAndSDKs/Cauldron",
+          "commit": "e7ca80d72d3cf750ebb3237e907fb7d3632f3748",
+          "status": "downloaded"
+        }
+      ],
+      "compiled": false,
+      "runtime_tested": false,
+      "license_files": [
+        "LICENSE.txt"
+      ],
+      "omitted_files": [
+        {
+          "path": "sample/libs/cauldron/libs/AGS/amd_ags_x64.dll",
+          "bytes": 164864,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "sample/libs/cauldron/libs/AGS/amd_ags_x64.lib",
+          "bytes": 15020,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "sample/libs/cauldron/libs/dxc/bin/dxcompiler.dll",
+          "bytes": 12491720,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "sample/libs/cauldron/libs/dxc/bin/dxil.dll",
+          "bytes": 1119176,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        }
+      ],
+      "lfs_pointers": [],
+      "symlinks": [],
+      "file_count": 476,
+      "source_bytes": 138426983,
+      "status": "collected"
     },
     {
       "repo": "iryoku/smaa",
-      "status": "not_collected",
-      "error": "HTTP Error 404: Not Found"
+      "source_url": "https://github.com/iryoku/smaa",
+      "ref": "master",
+      "commit": "71c806a838bdd7d517df19192a20f0c61b3ca29d",
+      "purpose": "Optional spatial SMAA; disabled for pixel-preservation preset",
+      "declared_license": "MIT",
+      "github_license": "NOASSERTION",
+      "destination": "third_party/iryoku__smaa/71c806a838bdd7d517df19192a20f0c61b3ca29d",
+      "submodules": [],
+      "compiled": false,
+      "runtime_tested": false,
+      "license_files": [
+        "LICENSE.txt"
+      ],
+      "omitted_files": [],
+      "lfs_pointers": [],
+      "symlinks": [],
+      "file_count": 100,
+      "source_bytes": 50898308,
+      "status": "collected"
     },
     {
       "repo": "robmikh/Win32CaptureSample",
-      "status": "not_collected",
-      "error": "HTTP Error 404: Not Found"
+      "source_url": "https://github.com/robmikh/Win32CaptureSample",
+      "ref": "main",
+      "commit": "49fefe79fd9b11025f0b5eb91783a98888516070",
+      "purpose": "Win32 Windows Graphics Capture / D3D11 capture reference",
+      "declared_license": "MIT",
+      "github_license": "MIT",
+      "destination": "third_party/robmikh__Win32CaptureSample/49fefe79fd9b11025f0b5eb91783a98888516070",
+      "submodules": [],
+      "compiled": false,
+      "runtime_tested": false,
+      "license_files": [
+        "LICENSE"
+      ],
+      "omitted_files": [],
+      "lfs_pointers": [],
+      "symlinks": [],
+      "file_count": 28,
+      "source_bytes": 98491,
+      "status": "collected"
     },
     {
       "repo": "CRTYPUBG/NovaScale-Upscaler",
-      "status": "not_collected",
-      "error": "HTTP Error 404: Not Found"
+      "source_url": "https://github.com/CRTYPUBG/NovaScale-Upscaler",
+      "ref": "main",
+      "commit": "3888cd0cb72269cb95ad2af665ddcfb7c6c520e8",
+      "purpose": "Early-stage C/D3D11 spatial-scaling reference, not a verified production core",
+      "declared_license": "MIT",
+      "github_license": "MIT",
+      "destination": "third_party/CRTYPUBG__NovaScale-Upscaler/3888cd0cb72269cb95ad2af665ddcfb7c6c520e8",
+      "submodules": [],
+      "compiled": false,
+      "runtime_tested": false,
+      "license_files": [
+        "LICENSE"
+      ],
+      "omitted_files": [
+        {
+          "path": "NovaScale_v0.1.0_alpha.zip",
+          "bytes": 47312879,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        }
+      ],
+      "lfs_pointers": [],
+      "symlinks": [],
+      "file_count": 36,
+      "source_bytes": 409537,
+      "status": "collected"
     },
     {
       "repo": "bloc97/Anime4K",
-      "status": "not_collected",
-      "error": "HTTP Error 404: Not Found"
+      "source_url": "https://github.com/bloc97/Anime4K",
+      "ref": "master",
+      "commit": "7684e9586f8dcc738af08a1cdceb024cc184f426",
+      "purpose": "Optional line-art processing experiments, not a universal pixel-art enhancement",
+      "declared_license": "MIT",
+      "github_license": "MIT",
+      "destination": "third_party/bloc97__Anime4K/7684e9586f8dcc738af08a1cdceb024cc184f426",
+      "submodules": [],
+      "compiled": false,
+      "runtime_tested": false,
+      "license_files": [
+        "LICENSE"
+      ],
+      "omitted_files": [
+        {
+          "path": "results/Comparisons/Bird/ACNet.png",
+          "bytes": 843485,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/Anime4K-L.png",
+          "bytes": 927948,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/Anime4K-M.png",
+          "bytes": 921336,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/Anime4K-UL.png",
+          "bytes": 930519,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/Bicubic.png",
+          "bytes": 843302,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/Bilinear.png",
+          "bytes": 821513,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/Compare.png",
+          "bytes": 2201687,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/FSRCNNX-16.png",
+          "bytes": 926438,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/FSRCNNX-56.png",
+          "bytes": 925760,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/FSRCNNX-8-LineArt.png",
+          "bytes": 930108,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/FSRCNNX-8.png",
+          "bytes": 944672,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/HR.png",
+          "bytes": 1177086,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/LR.png",
+          "bytes": 292033,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/Lanczos.png",
+          "bytes": 861920,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/NGU-Sharp-High.png",
+          "bytes": 903916,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/NGU-Sharp-Low.png",
+          "bytes": 890341,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/NGU-Sharp-Medium.png",
+          "bytes": 906819,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/NGU-Sharp-VeryHigh.png",
+          "bytes": 905964,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/NGU-Soft-VeryHigh.png",
+          "bytes": 823507,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/NGU-Standard-VeryHigh.png",
+          "bytes": 860673,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/RESULTS.txt",
+          "bytes": 1369,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/nnedi3-256.png",
+          "bytes": 835534,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/ravu-r4.png",
+          "bytes": 847412,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird/waifu2x-CUNet.png",
+          "bytes": 971143,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_Denoise/Anime4K-Heavy-L.png",
+          "bytes": 764584,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_Denoise/Compare.png",
+          "bytes": 158293,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_Denoise/HR.png",
+          "bytes": 1177086,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_Denoise/JPEG-10.jpg",
+          "bytes": 29900,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_Denoise/NGU-14-Medium.png",
+          "bytes": 734129,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_Denoise/NGU-14-VeryHigh.png",
+          "bytes": 735679,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_Denoise/RESULTS.txt",
+          "bytes": 203,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_Denoise/waifu2x-CUNet-High.png",
+          "bytes": 828284,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_Denoise/waifu2x-CUNet-Maximum.png",
+          "bytes": 818403,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_Denoise/waifu2x-CUNet-Medium.png",
+          "bytes": 823798,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/Anime4K-L-Area.png",
+          "bytes": 927948,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/Anime4K-L-Bicubic.png",
+          "bytes": 929794,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/Anime4K-L-Lanczos.png",
+          "bytes": 953565,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/Anime4K-UL-Area.png",
+          "bytes": 930519,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/Anime4K-UL-Bicubic.png",
+          "bytes": 931150,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/Anime4K-UL-Lanczos.png",
+          "bytes": 956002,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/FFmpeg-Generation.bat",
+          "bytes": 206,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/FSRCNNX-8-Area.png",
+          "bytes": 994987,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/FSRCNNX-8-Bicubic.png",
+          "bytes": 948936,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/FSRCNNX-8-Lanczos.png",
+          "bytes": 975380,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/FSRCNNX-8-LineArt-Area.png",
+          "bytes": 979917,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/FSRCNNX-8-LineArt-Bicubic.png",
+          "bytes": 944453,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/FSRCNNX-8-LineArt-Lanczos.png",
+          "bytes": 968732,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/HR.png",
+          "bytes": 1177086,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/LR-Area.png",
+          "bytes": 339871,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/LR-Bicubic.png",
+          "bytes": 336556,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/LR-Lanczos.png",
+          "bytes": 339766,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/RESULTS.txt",
+          "bytes": 1216,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/waifu2x-CUNet-Area.png",
+          "bytes": 971980,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/waifu2x-CUNet-Bicubic.png",
+          "bytes": 941671,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Bird_FFmpeg/waifu2x-CUNet-Lanczos.png",
+          "bytes": 975042,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Cropped_Screenshots/Higurashi_360p_4K.png",
+          "bytes": 1531730,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Cropped_Screenshots/Magia_360p_4K.png",
+          "bytes": 1516452,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Cropped_Screenshots/Maxed.png",
+          "bytes": 2031792,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Cropped_Screenshots/Slime.png",
+          "bytes": 1540653,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Fate_1080p.jpg",
+          "bytes": 225483,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Fate_1080p_Corrected.png",
+          "bytes": 2138439,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Fate_Anime4K.png",
+          "bytes": 6157838,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Fate_Anime4K_Fast.png",
+          "bytes": 6435583,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Fate_Corrected_Waifu2x.png",
+          "bytes": 5493242,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Fate_SRGAN.png",
+          "bytes": 9027631,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Fate_Waifu2x.png",
+          "bytes": 5877404,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Higurashi_360p.png",
+          "bytes": 352819,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Higurashi_Anime4K-GAN.png",
+          "bytes": 7869028,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Higurashi_Bicubic.png",
+          "bytes": 5468496,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Higurashi_FSRCNNX.png",
+          "bytes": 6823097,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Higurashi_Real-ESRGAN.png",
+          "bytes": 5440050,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Higurashi_Waifu2x.png",
+          "bytes": 5333765,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Magia_360p.png",
+          "bytes": 362929,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Magia_Anime4K-GAN.png",
+          "bytes": 8546555,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Magia_Bicubic.png",
+          "bytes": 5147836,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Magia_FSRCNNX.png",
+          "bytes": 6266387,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Magia_Real-ESRGAN.png",
+          "bytes": 3810905,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Magia_Waifu2x.png",
+          "bytes": 6314048,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Maxed_1080p.jpg",
+          "bytes": 374111,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Maxed_1080p_Corrected.png",
+          "bytes": 2347055,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Maxed_Anime4K.png",
+          "bytes": 7306762,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Maxed_Anime4K_Fast.png",
+          "bytes": 7649282,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Maxed_Bicubic.png",
+          "bytes": 7525292,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Maxed_Corrected_Waifu2x.png",
+          "bytes": 6118646,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Maxed_SRGAN.png",
+          "bytes": 10746179,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Maxed_Waifu2x.png",
+          "bytes": 6916510,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Quin_1080p.jpg",
+          "bytes": 357497,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Quin_1080p_Corrected.png",
+          "bytes": 2373076,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Quin_Anime4K.png",
+          "bytes": 7536513,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Quin_Anime4K_Fast.png",
+          "bytes": 7967509,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Quin_Corrected_Waifu2x.png",
+          "bytes": 6114230,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Quin_SRGAN.png",
+          "bytes": 10538893,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Quin_Waifu2x.png",
+          "bytes": 6878952,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Slime_1080p.jpg",
+          "bytes": 213256,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Slime_1080p_Corrected.png",
+          "bytes": 2006510,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Slime_Anime4K.png",
+          "bytes": 6018011,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Slime_Anime4K_Fast.png",
+          "bytes": 6471513,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Slime_Bicubic.png",
+          "bytes": 5692564,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Slime_Corrected_Waifu2x.png",
+          "bytes": 5083422,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Slime_SRGAN.png",
+          "bytes": 9347178,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Slime_Waifu2x.png",
+          "bytes": 5091748,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/Screenshots/Source.txt",
+          "bytes": 322,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/knnw/Crop/Artifact.png",
+          "bytes": 99346,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/knnw/Crop/Blur.png",
+          "bytes": 90116,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/knnw/Crop/DT.png",
+          "bytes": 102743,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/knnw/Crop/DTD.png",
+          "bytes": 94484,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/knnw/Crop/Dark.png",
+          "bytes": 108700,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/knnw/Crop/Deblur.png",
+          "bytes": 95299,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/knnw/Crop/Denoise.png",
+          "bytes": 91751,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/knnw/Crop/HR.png",
+          "bytes": 103680,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/knnw/Crop/LR.png",
+          "bytes": 48038,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/knnw/Crop/Noise.png",
+          "bytes": 94968,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/knnw/Crop/RA.png",
+          "bytes": 106140,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/knnw/Crop/SR.png",
+          "bytes": 98654,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Comparisons/knnw/Crop/Thin.png",
+          "bytes": 99577,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/MPV_Profiler.png",
+          "bytes": 359245,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        },
+        {
+          "path": "results/Main.png",
+          "bytes": 1357875,
+          "reason": "upstream demo assets explicitly excluded; not source code"
+        }
+      ],
+      "lfs_pointers": [],
+      "symlinks": [],
+      "file_count": 95,
+      "source_bytes": 17622056,
+      "status": "collected"
     },
     {
       "repo": "Blinue/Magpie",
-      "status": "not_collected",
-      "error": "HTTP Error 404: Not Found"
+      "source_url": "https://github.com/Blinue/Magpie",
+      "ref": "dev",
+      "commit": "1c06186ca176f34be0fd9bbe3b6f3ed491e737de",
+      "purpose": "Window capture, scaling, cursor and frame-pacing architecture; separate GPL source snapshot",
+      "declared_license": "GPL-3.0",
+      "github_license": "GPL-3.0",
+      "destination": "references/Blinue__Magpie/1c06186ca176f34be0fd9bbe3b6f3ed491e737de",
+      "submodules": [],
+      "compiled": false,
+      "runtime_tested": false,
+      "license_files": [
+        "LICENSE"
+      ],
+      "omitted_files": [],
+      "lfs_pointers": [],
+      "symlinks": [],
+      "file_count": 626,
+      "source_bytes": 18802207,
+      "status": "collected"
     },
     {
       "repo": "mausimus/ShaderGlass",
-      "status": "not_collected",
-      "error": "HTTP Error 404: Not Found"
+      "source_url": "https://github.com/mausimus/ShaderGlass",
+      "ref": "master",
+      "commit": "88b9a75d4d72c35de6f7a40450a6df83c1d05850",
+      "purpose": "External shader overlay and RetroArch shader conversion; separate GPL source snapshot",
+      "declared_license": "GPL-3.0",
+      "github_license": "GPL-3.0",
+      "destination": "references/mausimus__ShaderGlass/88b9a75d4d72c35de6f7a40450a6df83c1d05850",
+      "submodules": [],
+      "compiled": false,
+      "runtime_tested": false,
+      "license_files": [
+        "LICENSE"
+      ],
+      "omitted_files": [
+        {
+          "path": "External/glslangValidator.exe",
+          "bytes": 4602368,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "External/spirv-cross.exe",
+          "bytes": 5418496,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "lib/glslang-default-resource-limits.lib",
+          "bytes": 459380,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "lib/glslang-default-resource-limitsd.lib",
+          "bytes": 434782,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "lib/glslang.lib",
+          "bytes": 34263890,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "lib/glslangd.lib",
+          "bytes": 84291698,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "lib/spirv-cross-core.lib",
+          "bytes": 7666608,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "lib/spirv-cross-cored.lib",
+          "bytes": 17517132,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "lib/spirv-cross-glsl.lib",
+          "bytes": 9623080,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "lib/spirv-cross-glsld.lib",
+          "bytes": 16446900,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "lib/spirv-cross-hlsl.lib",
+          "bytes": 5846306,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "lib/spirv-cross-hlsld.lib",
+          "bytes": 10199374,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "lib/spirv-cross-reflect.lib",
+          "bytes": 1111464,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "lib/spirv-cross-reflectd.lib",
+          "bytes": 2535646,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        }
+      ],
+      "lfs_pointers": [],
+      "symlinks": [],
+      "file_count": 3633,
+      "source_bytes": 243008327,
+      "status": "collected"
     },
     {
       "repo": "libretro/slang-shaders",
-      "status": "not_collected",
-      "error": "HTTP Error 404: Not Found"
+      "source_url": "https://github.com/libretro/slang-shaders",
+      "ref": "master",
+      "commit": "e1d75632a205c70f14a4cc947c46d5abb7b3f7f1",
+      "purpose": "Retro shader archive. Per-file license audit required before shipping any shader",
+      "declared_license": "per-file",
+      "github_license": null,
+      "destination": "references/libretro__slang-shaders/e1d75632a205c70f14a4cc947c46d5abb7b3f7f1",
+      "submodules": [],
+      "compiled": false,
+      "runtime_tested": false,
+      "license_files": [
+        "Per-file shader notices; no blanket project relicense"
+      ],
+      "omitted_files": [
+        {
+          "path": "bezel/uborder/shaders/support_shaders/koko-ambi-standalone/LICENSE.zip",
+          "bytes": 12047,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        }
+      ],
+      "lfs_pointers": [],
+      "symlinks": [],
+      "file_count": 5211,
+      "source_bytes": 71417723,
+      "status": "collected"
     },
     {
       "repo": "funnyplanter/CuNNy",
-      "status": "not_collected",
-      "error": "HTTP Error 404: Not Found"
+      "source_url": "https://github.com/funnyplanter/CuNNy",
+      "ref": "master",
+      "commit": "906031bb00c15dd6a6bbbaa21c0eb0b724ca8437",
+      "purpose": "Optional lightweight CNN shader research; preserve original license",
+      "declared_license": "check-upstream",
+      "github_license": "LGPL-3.0",
+      "destination": "references/funnyplanter__CuNNy/906031bb00c15dd6a6bbbaa21c0eb0b724ca8437",
+      "submodules": [],
+      "compiled": false,
+      "runtime_tested": false,
+      "license_files": [
+        "LICENSE"
+      ],
+      "omitted_files": [],
+      "lfs_pointers": [],
+      "symlinks": [],
+      "file_count": 81,
+      "source_bytes": 10399490,
+      "status": "collected"
     },
     {
       "repo": "KhronosGroup/glslang",
-      "status": "not_collected",
-      "error": "HTTP Error 404: Not Found"
+      "source_url": "https://github.com/KhronosGroup/glslang",
+      "ref": "main",
+      "commit": "c97e126b09d179d1bc2ef9379fb2e63d410bbb6d",
+      "purpose": "Shader compilation infrastructure; preserve all component notices",
+      "declared_license": "BSD and per-file",
+      "github_license": "NOASSERTION",
+      "destination": "references/KhronosGroup__glslang/c97e126b09d179d1bc2ef9379fb2e63d410bbb6d",
+      "submodules": [],
+      "compiled": false,
+      "runtime_tested": false,
+      "license_files": [
+        "license-checker.cfg",
+        "LICENSE.txt"
+      ],
+      "omitted_files": [],
+      "lfs_pointers": [],
+      "symlinks": [],
+      "file_count": 3751,
+      "source_bytes": 46395343,
+      "status": "collected"
     },
     {
       "repo": "KhronosGroup/SPIRV-Cross",
-      "status": "not_collected",
-      "error": "HTTP Error 404: Not Found"
+      "source_url": "https://github.com/KhronosGroup/SPIRV-Cross",
+      "ref": "main",
+      "commit": "aa217aeb6c9f0ace7a0ab233b28807edf45eb165",
+      "purpose": "SPIR-V to HLSL translation infrastructure",
+      "declared_license": "Apache-2.0 and per-file",
+      "github_license": "Apache-2.0",
+      "destination": "references/KhronosGroup__SPIRV-Cross/aa217aeb6c9f0ace7a0ab233b28807edf45eb165",
+      "submodules": [],
+      "compiled": false,
+      "runtime_tested": false,
+      "license_files": [
+        "LICENSE"
+      ],
+      "omitted_files": [
+        {
+          "path": "reference/opt/shaders/asm/lib/global-array.asm.lib",
+          "bytes": 148,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "reference/opt/shaders/asm/lib/multi-export.asm.lib",
+          "bytes": 145,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "reference/opt/shaders-hlsl/asm/lib/export-calls-export.asm.lib",
+          "bytes": 137,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "reference/opt/shaders-hlsl/asm/lib/global-array.asm.lib",
+          "bytes": 96,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "reference/opt/shaders-hlsl/asm/lib/multi-export.asm.lib",
+          "bytes": 90,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "reference/shaders/asm/lib/global-array.asm.lib",
+          "bytes": 148,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "reference/shaders/asm/lib/multi-export.asm.lib",
+          "bytes": 251,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "reference/shaders-hlsl/asm/lib/export-calls-export.asm.lib",
+          "bytes": 221,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "reference/shaders-hlsl/asm/lib/global-array.asm.lib",
+          "bytes": 96,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "reference/shaders-hlsl/asm/lib/multi-export.asm.lib",
+          "bytes": 196,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "shaders/asm/lib/global-array.asm.lib",
+          "bytes": 1371,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "shaders/asm/lib/multi-export.asm.lib",
+          "bytes": 1973,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "shaders-hlsl/asm/lib/export-calls-export.asm.lib",
+          "bytes": 2257,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "shaders-hlsl/asm/lib/global-array.asm.lib",
+          "bytes": 1371,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "shaders-hlsl/asm/lib/multi-export.asm.lib",
+          "bytes": 1973,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "tests-other/c_api_test.spv",
+          "bytes": 1268,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "tests-other/debug-info.spv",
+          "bytes": 2256,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "tests-other/debug-lines.spv",
+          "bytes": 1348,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "tests-other/hlsl_resource_binding.spv",
+          "bytes": 796,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "tests-other/msl_constexpr_test.spv",
+          "bytes": 1656,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "tests-other/msl_resource_binding.spv",
+          "bytes": 1424,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "tests-other/msl_ycbcr_conversion_test.spv",
+          "bytes": 728,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "tests-other/msl_ycbcr_conversion_test_2.spv",
+          "bytes": 840,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        }
+      ],
+      "lfs_pointers": [],
+      "symlinks": [],
+      "file_count": 4848,
+      "source_bytes": 12543251,
+      "status": "collected"
     },
     {
       "repo": "ValveSoftware/gamescope",
-      "status": "not_collected",
-      "error": "HTTP Error 404: Not Found"
+      "source_url": "https://github.com/ValveSoftware/gamescope",
+      "ref": "master",
+      "commit": "36848c2f30e4afef02f4500665710d8006bd6619",
+      "purpose": "Linux compositor/scaling reference only; not part of Windows V1",
+      "declared_license": "BSD-2-Clause and per-file",
+      "github_license": "NOASSERTION",
+      "destination": "references/ValveSoftware__gamescope/36848c2f30e4afef02f4500665710d8006bd6619",
+      "submodules": [
+        {
+          "path": "subprojects/wlroots",
+          "url": "https://gitlab.freedesktop.org/wlroots/wlroots.git",
+          "status": "missing",
+          "error": "Submodule is not a public github.com HTTPS source"
+        },
+        {
+          "path": "subprojects/libliftoff",
+          "url": "https://gitlab.freedesktop.org/emersion/libliftoff.git",
+          "status": "missing",
+          "error": "Submodule is not a public github.com HTTPS source"
+        },
+        {
+          "path": "subprojects/vkroots",
+          "url": "https://github.com/Joshua-Ashton/vkroots",
+          "repository": "Joshua-Ashton/vkroots",
+          "commit": "5106d8a0df95de66cc58dc1ea37e69c99afc9540",
+          "status": "downloaded"
+        },
+        {
+          "path": "subprojects/libdisplay-info",
+          "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info",
+          "status": "missing",
+          "error": "Submodule is not a public github.com HTTPS source"
+        },
+        {
+          "path": "subprojects/openvr",
+          "url": "https://github.com/ValveSoftware/openvr.git",
+          "repository": "ValveSoftware/openvr",
+          "commit": "ff87f683f41fe26cc9353dd9d9d7028357fd8e1a",
+          "status": "downloaded"
+        },
+        {
+          "path": "src/reshade/deps/imgui",
+          "url": "https://github.com/ocornut/imgui.git",
+          "repository": "ocornut/imgui",
+          "commit": "c6aa051629753f0ef0d26bf775a8b6a92aa213b2",
+          "status": "downloaded"
+        },
+        {
+          "path": "src/reshade/deps/minhook",
+          "url": "https://github.com/TsudaKageyu/minhook.git",
+          "repository": "TsudaKageyu/minhook",
+          "commit": "8fda4f5481fed5797dc2651cd91e238e9b3928c6",
+          "status": "downloaded"
+        },
+        {
+          "path": "src/reshade/deps/stb",
+          "url": "https://github.com/nothings/stb.git",
+          "repository": "nothings/stb",
+          "commit": "ae721c50eaf761660b4f90cc590453cdb0c2acd0",
+          "status": "downloaded"
+        },
+        {
+          "path": "src/reshade/deps/gl3w",
+          "url": "https://github.com/skaslev/gl3w.git",
+          "repository": "skaslev/gl3w",
+          "commit": "3a33275633ce4be433332dc776e6a5b3bdea6506",
+          "status": "downloaded"
+        },
+        {
+          "path": "src/reshade/deps/utfcpp/extern/ftest",
+          "url": "https://github.com/nemtrif/ftest",
+          "repository": "nemtrif/ftest",
+          "commit": "c4ad4af0946b73ce1a40cbc72205d15d196c7e06",
+          "status": "downloaded"
+        },
+        {
+          "path": "src/reshade/deps/utfcpp",
+          "url": "https://github.com/nemtrif/utfcpp.git",
+          "repository": "nemtrif/utfcpp",
+          "commit": "6be08bbea14ffa0a5c594257fb6285a054395cd7",
+          "status": "downloaded"
+        },
+        {
+          "path": "src/reshade/deps/spirv",
+          "url": "https://github.com/KhronosGroup/SPIRV-Headers.git",
+          "repository": "KhronosGroup/SPIRV-Headers",
+          "commit": "c0df742ec0b8178ad58c68cff3437ad4b6a06e26",
+          "status": "downloaded"
+        },
+        {
+          "path": "src/reshade/deps/vma",
+          "url": "https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+          "repository": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+          "commit": "a6bfc237255a6bac1513f7c1ebde6d8aed6b5191",
+          "status": "downloaded"
+        },
+        {
+          "path": "src/reshade/deps/vulkan",
+          "url": "https://github.com/KhronosGroup/Vulkan-Headers.git",
+          "repository": "KhronosGroup/Vulkan-Headers",
+          "commit": "7b3466a1f47a9251ac1113efbe022ff016e2f95b",
+          "status": "downloaded"
+        },
+        {
+          "path": "src/reshade/deps/fpng",
+          "url": "https://github.com/richgel999/fpng",
+          "repository": "richgel999/fpng",
+          "commit": "6926f5a0a78f22d42b074a0ab8032e07736babd4",
+          "status": "downloaded"
+        },
+        {
+          "path": "src/reshade/deps/d3d12",
+          "url": "https://github.com/microsoft/DirectX-Headers.git",
+          "repository": "microsoft/DirectX-Headers",
+          "commit": "de28d93dfa9ebf3e473127c1c657e1920a5345ee",
+          "status": "downloaded"
+        },
+        {
+          "path": "src/reshade/deps/openxr",
+          "url": "https://github.com/KhronosGroup/OpenXR-SDK.git",
+          "repository": "KhronosGroup/OpenXR-SDK",
+          "commit": "dc1e23937fe45eabcce80f6588cf47449edb29d1",
+          "status": "downloaded"
+        },
+        {
+          "path": "src/reshade",
+          "url": "https://github.com/Joshua-Ashton/reshade",
+          "repository": "Joshua-Ashton/reshade",
+          "commit": "696b14cd6006ae9ca174e6164450619ace043283",
+          "status": "downloaded"
+        },
+        {
+          "path": "thirdparty/SPIRV-Headers",
+          "url": "https://github.com/KhronosGroup/SPIRV-Headers/",
+          "repository": "KhronosGroup/SPIRV-Headers",
+          "commit": "d790ced752b5bfc06b6988baadef6eb2d16bdf96",
+          "status": "downloaded"
+        }
+      ],
+      "compiled": false,
+      "runtime_tested": false,
+      "license_files": [
+        "LICENSE"
+      ],
+      "omitted_files": [
+        {
+          "path": "src/reshade/deps/imgui/examples/libs/glfw/lib-vc2010-32/glfw3.lib",
+          "bytes": 187376,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "src/reshade/deps/imgui/examples/libs/glfw/lib-vc2010-64/glfw3.lib",
+          "bytes": 291120,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "src/reshade/deps/stb/tests/oversample/oversample.exe",
+          "bytes": 54272,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "src/reshade/deps/vma/bin/Shader.frag.spv",
+          "bytes": 1004,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "src/reshade/deps/vma/bin/Shader.vert.spv",
+          "bytes": 1472,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "src/reshade/deps/vma/bin/VmaSample_Release_vs2019.exe",
+          "bytes": 392192,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "src/reshade/res/shaders/imgui_ps.spv",
+          "bytes": 784,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "src/reshade/res/shaders/imgui_ps_hdr.spv",
+          "bytes": 5736,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "src/reshade/res/shaders/imgui_vs.spv",
+          "bytes": 1448,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "src/reshade/tools/7za.exe",
+          "bytes": 1144320,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/bin/androidarm64/libopenvr_api.so",
+          "bytes": 2893080,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/bin/linux32/libopenvr_api.so",
+          "bytes": 1768268,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/bin/linux64/libopenvr_api.so",
+          "bytes": 1752264,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/bin/linuxarm64/libopenvr_api.so",
+          "bytes": 333320,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/bin/linuxarm64/libopenvr_api_unity.so",
+          "bytes": 393944,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/bin/osx32/libopenvr_api.dylib",
+          "bytes": 155684,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/bin/osx32/libopenvr_api.dylib.dSYM/Contents/Resources/DWARF/libopenvr_api.dylib",
+          "bytes": 1188012,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/bin/win32/openvr_api.dll",
+          "bytes": 631904,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/bin/win32/openvr_api.pdb",
+          "bytes": 11374592,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/bin/win64/openvr_api.dll",
+          "bytes": 836704,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/bin/win64/openvr_api.pdb",
+          "bytes": 11300864,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/lib/androidarm64/libopenvr_api.so",
+          "bytes": 2473280,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/lib/linux32/libopenvr_api.so",
+          "bytes": 5877704,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/lib/linux64/libopenvr_api.so",
+          "bytes": 6963816,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/lib/linuxarm64/libopenvr_api.so",
+          "bytes": 5445264,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/lib/linuxarm64/libopenvr_api_unity.so",
+          "bytes": 6480656,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/lib/osx32/libopenvr_api.dylib",
+          "bytes": 300188,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/lib/win32/openvr_api.lib",
+          "bytes": 5578,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/lib/win64/openvr_api.lib",
+          "bytes": 5500,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/androidarm64/libopenvr_api.so",
+          "bytes": 2893080,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/linux32/libopenvr_api.so",
+          "bytes": 1768268,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/linux64/libopenvr_api.so",
+          "bytes": 1752264,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/linuxarm64/libopenvr_api.so",
+          "bytes": 333320,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/shaders/axes_ps.spv",
+          "bytes": 1256,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/shaders/axes_vs.spv",
+          "bytes": 2128,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/shaders/companion_ps.spv",
+          "bytes": 1924,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/shaders/companion_vs.spv",
+          "bytes": 1892,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/shaders/rendermodel_ps.spv",
+          "bytes": 1672,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/shaders/rendermodel_vs.spv",
+          "bytes": 2480,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/shaders/scene_ps.spv",
+          "bytes": 1672,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/shaders/scene_vs.spv",
+          "bytes": 2336,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/Qt5Core.dll",
+          "bytes": 4112384,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/Qt5Cored.dll",
+          "bytes": 8357376,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/Qt5Gui.dll",
+          "bytes": 4350464,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/Qt5Guid.dll",
+          "bytes": 8506368,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/Qt5OpenGL.dll",
+          "bytes": 266752,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/Qt5OpenGLd.dll",
+          "bytes": 637952,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/Qt5Qml.dll",
+          "bytes": 2525184,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/Qt5Qmld.dll",
+          "bytes": 6655488,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/Qt5Widgets.dll",
+          "bytes": 4372480,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/Qt5Widgetsd.dll",
+          "bytes": 8009728,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/SDL2.dll",
+          "bytes": 774656,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/glew32.dll",
+          "bytes": 391680,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/glut32.dll",
+          "bytes": 237568,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/hmd_opencv_sandbox.exe",
+          "bytes": 945248,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/icudt52.dll",
+          "bytes": 23507968,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/icuin52.dll",
+          "bytes": 1798656,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/icuuc52.dll",
+          "bytes": 1304064,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/opencv_world341.dll",
+          "bytes": 38133760,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/openvr_api.dll",
+          "bytes": 631904,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/platforms/qminimal.dll",
+          "bytes": 25600,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/platforms/qminimald.dll",
+          "bytes": 62464,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/platforms/qoffscreen.dll",
+          "bytes": 433152,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/platforms/qoffscreend.dll",
+          "bytes": 800768,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/platforms/qwindows.dll",
+          "bytes": 878592,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win32/platforms/qwindowsd.dll",
+          "bytes": 1730048,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win64/Qt5Core.dll",
+          "bytes": 5500416,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win64/Qt5Cored.dll",
+          "bytes": 11995136,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win64/Qt5Gui.dll",
+          "bytes": 5804544,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win64/Qt5Guid.dll",
+          "bytes": 13100032,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win64/Qt5OpenGL.dll",
+          "bytes": 322048,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win64/Qt5OpenGLd.dll",
+          "bytes": 737792,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win64/Qt5Qml.dll",
+          "bytes": 3189248,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win64/Qt5Qmld.dll",
+          "bytes": 8702976,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win64/Qt5Widgets.dll",
+          "bytes": 5446144,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win64/Qt5Widgetsd.dll",
+          "bytes": 10895872,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win64/hmd_opencv_sandbox.exe",
+          "bytes": 1180768,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win64/icudt54.dll",
+          "bytes": 25338368,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win64/icuin54.dll",
+          "bytes": 2567168,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win64/icuuc54.dll",
+          "bytes": 1792000,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win64/opencv_world341.dll",
+          "bytes": 66341888,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/bin/win64/openvr_api.dll",
+          "bytes": 836704,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/bin/Release/Win32/glew32.dll",
+          "bytes": 391680,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/bin/Release/Win32/glewinfo.exe",
+          "bytes": 395264,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/bin/Release/Win32/visualinfo.exe",
+          "bytes": 257024,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/bin/Release/x64/glew32.dll",
+          "bytes": 427008,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/bin/Release/x64/glewinfo.exe",
+          "bytes": 439808,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/bin/Release/x64/visualinfo.exe",
+          "bytes": 292864,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/bin/Release MX/Win32/glew32mx.dll",
+          "bytes": 280064,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/bin/Release MX/x64/glew32mx.dll",
+          "bytes": 324608,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/lib/Release/Win32/glew32.lib",
+          "bytes": 596294,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/lib/Release/Win32/glew32s.lib",
+          "bytes": 2019016,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/lib/Release/osx32/libGLEW.a",
+          "bytes": 1830584,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/lib/Release/x64/glew32.lib",
+          "bytes": 587190,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/lib/Release/x64/glew32s.lib",
+          "bytes": 2130434,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/lib/Release MX/Win32/glew32mx.lib",
+          "bytes": 3542,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/lib/Release MX/Win32/glew32mxs.lib",
+          "bytes": 1492868,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/lib/Release MX/x64/glew32mx.lib",
+          "bytes": 3428,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/lib/Release MX/x64/glew32mxs.lib",
+          "bytes": 1608426,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/linux32/libSDL2.so",
+          "bytes": 17,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/linux32/libSDL2_static.a",
+          "bytes": 5661590,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/linux64/libSDL2.so",
+          "bytes": 1089260,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/linux64/libSDL2_static.a",
+          "bytes": 9124842,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/osx32/libSDL2.a",
+          "bytes": 2755160,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/osx32/libSDL2.dylib",
+          "bytes": 1797776,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/win32/SDL2.lib",
+          "bytes": 118890,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/win32/SDL2_static.lib",
+          "bytes": 7620600,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/win32/SDL2main.lib",
+          "bytes": 38254,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/win64/SDL2.lib",
+          "bytes": 116130,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/win64/SDL2_static.lib",
+          "bytes": 8314642,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/win64/SDL2main.lib",
+          "bytes": 39896,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/vulkan-1.0.49.0/lib/linux64/libvulkan.so",
+          "bytes": 353317,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/vulkan-1.0.49.0/lib/win32/vulkan-1.lib",
+          "bytes": 41304,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/thirdparty/vulkan-1.0.49.0/lib/win64/vulkan-1.lib",
+          "bytes": 38268,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/unity_keyboard_sample/Assets/Plugins/x86/openvr_api.dll",
+          "bytes": 1470464,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/unity_keyboard_sample/Assets/Plugins/x86_64/openvr_api.dll",
+          "bytes": 1838592,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/unity_teleport_sample/Assets/Plugins/x86/openvr_api.dll",
+          "bytes": 1470464,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/unity_teleport_sample/Assets/Plugins/x86_64/libopenvr_api.so",
+          "bytes": 375503,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/unity_teleport_sample/Assets/Plugins/x86_64/openvr_api.dll",
+          "bytes": 1838592,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/unity_teleport_sample/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll",
+          "bytes": 107288,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "subprojects/openvr/samples/unity_teleport_sample/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll",
+          "bytes": 50976,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        }
+      ],
+      "lfs_pointers": [],
+      "symlinks": [],
+      "file_count": 3144,
+      "source_bytes": 181475335,
+      "status": "partial"
     },
     {
       "repo": "crosire/reshade",
-      "status": "not_collected",
-      "error": "HTTP Error 404: Not Found"
+      "source_url": "https://github.com/crosire/reshade",
+      "ref": "main",
+      "commit": "7bf9de8b33bcc76c3177007e65d73c72dd0f34c0",
+      "purpose": "Effect compiler and graphics abstractions; no injection in V1",
+      "declared_license": "BSD-3-Clause",
+      "github_license": "BSD-3-Clause",
+      "destination": "references/crosire__reshade/7bf9de8b33bcc76c3177007e65d73c72dd0f34c0",
+      "submodules": [
+        {
+          "path": "deps/imgui",
+          "url": "https://github.com/ocornut/imgui.git",
+          "repository": "ocornut/imgui",
+          "commit": "3912b3d9a9c1b3f17431aebafd86d2f40ee6e59c",
+          "status": "downloaded"
+        },
+        {
+          "path": "deps/minhook",
+          "url": "https://github.com/TsudaKageyu/minhook.git",
+          "repository": "TsudaKageyu/minhook",
+          "commit": "8fda4f5481fed5797dc2651cd91e238e9b3928c6",
+          "status": "downloaded"
+        },
+        {
+          "path": "deps/stb",
+          "url": "https://github.com/nothings/stb.git",
+          "repository": "nothings/stb",
+          "commit": "28d546d5eb77d4585506a20480f4de2e706dff4c",
+          "status": "downloaded"
+        },
+        {
+          "path": "deps/glad",
+          "url": "https://github.com/Dav1dde/glad",
+          "repository": "Dav1dde/glad",
+          "commit": "27bed1181560211b55e39a9b132fef8c5846aae5",
+          "status": "downloaded"
+        },
+        {
+          "path": "deps/utfcpp",
+          "url": "https://github.com/nemtrif/utfcpp.git",
+          "repository": "nemtrif/utfcpp",
+          "commit": "819011bb01628fe1aa2f1da9f2c842a48fd5680b",
+          "status": "downloaded"
+        },
+        {
+          "path": "deps/spirv",
+          "url": "https://github.com/KhronosGroup/SPIRV-Headers.git",
+          "repository": "KhronosGroup/SPIRV-Headers",
+          "commit": "7845730cab6ebbdeb621e7349b7dc1a59c3377be",
+          "status": "downloaded"
+        },
+        {
+          "path": "deps/vma",
+          "url": "https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+          "repository": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+          "commit": "1076b348abd17859a116f4b111c43d58a588a086",
+          "status": "downloaded"
+        },
+        {
+          "path": "deps/fpng",
+          "url": "https://github.com/richgel999/fpng",
+          "repository": "richgel999/fpng",
+          "commit": "925796543b9d26b8edfcdcecd94c1dac280f29fc",
+          "status": "downloaded"
+        },
+        {
+          "path": "deps/d3d12",
+          "url": "https://github.com/microsoft/DirectX-Headers.git",
+          "repository": "microsoft/DirectX-Headers",
+          "commit": "9e393d6d8a3b30dcc6f2806ef604ec16a27b0d7e",
+          "status": "downloaded"
+        },
+        {
+          "path": "deps/openxr",
+          "url": "https://github.com/KhronosGroup/OpenXR-SDK.git",
+          "repository": "KhronosGroup/OpenXR-SDK",
+          "commit": "288d3a7ebc1ad959f62d51da75baa3d27438c499",
+          "status": "downloaded"
+        },
+        {
+          "path": "deps/jxl_simple_lossless",
+          "url": "https://github.com/kampidh/simple-lossless-encoder.git",
+          "repository": "kampidh/simple-lossless-encoder",
+          "commit": "8dc970fc771e35239db55dfbce8f46f83f8e9b73",
+          "status": "downloaded"
+        }
+      ],
+      "compiled": false,
+      "runtime_tested": false,
+      "license_files": [
+        "LICENSE.md"
+      ],
+      "omitted_files": [
+        {
+          "path": "deps/imgui/examples/libs/glfw/lib-vc2010-32/glfw3.lib",
+          "bytes": 187376,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "deps/imgui/examples/libs/glfw/lib-vc2010-64/glfw3.lib",
+          "bytes": 291120,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "deps/stb/tests/oversample/oversample.exe",
+          "bytes": 54272,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "deps/vma/bin/Shader.frag.spv",
+          "bytes": 1004,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "deps/vma/bin/Shader.vert.spv",
+          "bytes": 1472,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "deps/vma/bin/VmaSample_Release_vs2022.exe",
+          "bytes": 446976,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "res/shaders/imgui_ps_450.spv",
+          "bytes": 4656,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "res/shaders/imgui_vs_450.spv",
+          "bytes": 1116,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "tools/7za.exe",
+          "bytes": 1144320,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        }
+      ],
+      "lfs_pointers": [],
+      "symlinks": [],
+      "file_count": 2314,
+      "source_bytes": 51514943,
+      "status": "collected"
     },
     {
       "repo": "SpecialKO/SpecialK",
-      "status": "not_collected",
-      "error": "HTTP Error 404: Not Found"
+      "source_url": "https://github.com/SpecialKO/SpecialK",
+      "ref": "main",
+      "commit": "2569dd221046864a24b39ebb120ddc2bdaea96c6",
+      "purpose": "Legacy research archive only; no hook/injection integration in 2D V1",
+      "declared_license": "GPL-3.0 and per-file",
+      "github_license": "GPL-3.0",
+      "destination": "references/SpecialKO__SpecialK/2569dd221046864a24b39ebb120ddc2bdaea96c6",
+      "submodules": [],
+      "compiled": false,
+      "runtime_tested": false,
+      "license_files": [
+        "LICENSE"
+      ],
+      "omitted_files": [
+        {
+          "path": "depends/lib/WinRing0/Win32/WinRing0.dll",
+          "bytes": 20992,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "depends/lib/WinRing0/x64/WinRing0x64.dll",
+          "bytes": 24576,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "depends/lib/glew/Win32/glew.lib",
+          "bytes": 1738516,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "depends/lib/glew/x64/glew.lib",
+          "bytes": 1823462,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "depends/lib/nvapi/Win32/nvapi.lib",
+          "bytes": 398256,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "depends/lib/nvapi/x64/nvapi64.lib",
+          "bytes": 893264,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "depends/lib/tobii/Win32/tobii_stream_engine_sk32.lib",
+          "bytes": 36588,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        },
+        {
+          "path": "depends/lib/tobii/x64/tobii_stream_engine_sk64.lib",
+          "bytes": 35992,
+          "reason": "prebuilt binary, packaged release, model weight, or demo video"
+        }
+      ],
+      "lfs_pointers": [],
+      "symlinks": [],
+      "file_count": 1940,
+      "source_bytes": 72758744,
+      "status": "collected"
     },
     {
       "repo": "furkan-1337/LFG",
-      "status": "not_collected",
-      "error": "HTTP Error 404: Not Found"
+      "source_url": "https://github.com/furkan-1337/LFG",
+      "ref": "main",
+      "commit": "cd1a2fa2b4fb26c1b18f13e79ea65bae67bc6531",
+      "purpose": "Previously listed research archive only; no frame generation in 2D V1",
+      "declared_license": "GPL-3.0",
+      "github_license": "GPL-3.0",
+      "destination": "references/furkan-1337__LFG/cd1a2fa2b4fb26c1b18f13e79ea65bae67bc6531",
+      "submodules": [],
+      "compiled": false,
+      "runtime_tested": false,
+      "license_files": [
+        "LICENSE"
+      ],
+      "omitted_files": [],
+      "lfs_pointers": [],
+      "symlinks": [],
+      "file_count": 80,
+      "source_bytes": 4147524,
+      "status": "collected"
     },
     {
       "repo": "mausimus/ShaderBeam",
-      "status": "not_collected",
-      "error": "HTTP Error 404: Not Found"
+      "source_url": "https://github.com/mausimus/ShaderBeam",
+      "ref": "main",
+      "commit": "5f9eef6ab59a5801b278856f5b47c83254153151",
+      "purpose": "Previously found display-timing research only; no BFI or flashing effects in V1",
+      "declared_license": "GPL-3.0",
+      "github_license": "MIT",
+      "destination": "references/mausimus__ShaderBeam/5f9eef6ab59a5801b278856f5b47c83254153151",
+      "submodules": [],
+      "compiled": false,
+      "runtime_tested": false,
+      "license_files": [
+        "LICENSE"
+      ],
+      "omitted_files": [],
+      "lfs_pointers": [],
+      "symlinks": [],
+      "file_count": 73,
+      "source_bytes": 3787982,
+      "status": "collected"
     }
   ],
   "excluded": [

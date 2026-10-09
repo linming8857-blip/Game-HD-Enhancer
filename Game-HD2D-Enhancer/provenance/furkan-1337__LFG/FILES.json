@@ -1,0 +1,402 @@
+[
+  {
+    "path": "LFG/Debug/Debug.cpp",
+    "bytes": 3190,
+    "sha256": "9b3bddcd6a1ed1e494fbe08605abb60a183ecf65da23d22946f32474c6fbea48"
+  },
+  {
+    "path": "LFG/Debug/Debug.h",
+    "bytes": 556,
+    "sha256": "df920679bed2577a3a8e8279c4803c3b62ac9f70e225f52b185be26133128e7a"
+  },
+  {
+    "path": "LFG/Dependencies/ImGui/backends/imgui_impl_dx11.cpp",
+    "bytes": 34723,
+    "sha256": "5cd719f36dd904328c1645361fd02352d513be214804c9bee0170a2304634b7e"
+  },
+  {
+    "path": "LFG/Dependencies/ImGui/backends/imgui_impl_dx11.h",
+    "bytes": 2717,
+    "sha256": "6099fe7d7efc3d4ac95f6492615d72f5483b29b410e1cbc3fca802728169d9d2"
+  },
+  {
+    "path": "LFG/Dependencies/ImGui/backends/imgui_impl_win32.cpp",
+    "bytes": 51054,
+    "sha256": "f81ecf454d15211dfd365f65ed58d4248f68577c3984efa4dfe56f2d712c7d5e"
+  },
+  {
+    "path": "LFG/Dependencies/ImGui/backends/imgui_impl_win32.h",
+    "bytes": 3483,
+    "sha256": "61e7c54690951eefb45d71189838e09fbff0757480b734353269ba2134661e3e"
+  },
+  {
+    "path": "LFG/Dependencies/ImGui/imconfig.h",
+    "bytes": 12142,
+    "sha256": "6e5687893594ebfaf8569280cfea83d025904a8a4e23bec073086f6c5bc8f7fb"
+  },
+  {
+    "path": "LFG/Dependencies/ImGui/imgui.cpp",
+    "bytes": 944645,
+    "sha256": "005b5da2afddbd5553406d2b816a10ff29184118af2d2d310e32f8363bbb76b0"
+  },
+  {
+    "path": "LFG/Dependencies/ImGui/imgui.h",
+    "bytes": 418488,
+    "sha256": "1c56b9cda95c21f3b15e50df9bc4b9260026ffb45c3e802c8da440288d3ef5aa"
+  },
+  {
+    "path": "LFG/Dependencies/ImGui/imgui_demo.cpp",
+    "bytes": 569754,
+    "sha256": "aa15106edf9908c32529c32a5a200fbacc9697ec484c6f0697dd2d817d62686c"
+  },
+  {
+    "path": "LFG/Dependencies/ImGui/imgui_draw.cpp",
+    "bytes": 387920,
+    "sha256": "a736c813607db24f09dd92f1f38cfdc9c636c33174783906c8320086b2feb030"
+  },
+  {
+    "path": "LFG/Dependencies/ImGui/imgui_internal.h",
+    "bytes": 298861,
+    "sha256": "1a22d760830ace1035290da1cd4ac855cd7e151ce08b98277bafb973a55551d4"
+  },
+  {
+    "path": "LFG/Dependencies/ImGui/imgui_tables.cpp",
+    "bytes": 251169,
+    "sha256": "41d4ace94847fd6b9d149082efa88b7f8e488504bc07541a852e26da377e8b28"
+  },
+  {
+    "path": "LFG/Dependencies/ImGui/imgui_widgets.cpp",
+    "bytes": 538269,
+    "sha256": "01b0796ed5a0651484de3569a6975d0f5190dcbc121519f6830ad61d52230bd0"
+  },
+  {
+    "path": "LFG/Dependencies/ImGui/imstb_rectpack.h",
+    "bytes": 20344,
+    "sha256": "2efa3d5f7d003c19743b15155dad9f46d9f9fc783a18893d703b431d3c990972"
+  },
+  {
+    "path": "LFG/Dependencies/ImGui/imstb_textedit.h",
+    "bytes": 60111,
+    "sha256": "a985f5fa0ed97353d493b497961e9eef52082edcd045cf6954b69990ec9d0741"
+  },
+  {
+    "path": "LFG/Dependencies/ImGui/imstb_truetype.h",
+    "bytes": 199503,
+    "sha256": "88f0a25e27f5eefd6ec50c42fc5fe3026aa8170603efa08aa18d622db8660923"
+  },
+  {
+    "path": "LFG/Dependencies/MinHook/MinHook.h",
+    "bytes": 7529,
+    "sha256": "e34bbf7b855c842694f6e3dd78e2d280e99ed9732501e3dc1532a8626a8db8e5"
+  },
+  {
+    "path": "LFG/Dependencies/MinHook/src/buffer.c",
+    "bytes": 9821,
+    "sha256": "6b63b0006b746294b54e5a381b9a311f0a20301e09bcf379a14730f178bce384"
+  },
+  {
+    "path": "LFG/Dependencies/MinHook/src/buffer.h",
+    "bytes": 1820,
+    "sha256": "9769702bd625249e59a19ede05c84365fcc7707e1fa0e5df08df42227cee13e3"
+  },
+  {
+    "path": "LFG/Dependencies/MinHook/src/hde/hde32.c",
+    "bytes": 9318,
+    "sha256": "5da4941e9044f7b325c7f952b5840089e365f374740b7fe7318805d08c0d6c32"
+  },
+  {
+    "path": "LFG/Dependencies/MinHook/src/hde/hde32.h",
+    "bytes": 2450,
+    "sha256": "5132de5be8ac7a9d054420f5caef0fb01437faa892f03b3cdc77f795973bf15a"
+  },
+  {
+    "path": "LFG/Dependencies/MinHook/src/hde/hde64.c",
+    "bytes": 9507,
+    "sha256": "824eafa315322e6da105a7ce4ec1fc0e0adeee0106d32152fbb0b59e709bd15c"
+  },
+  {
+    "path": "LFG/Dependencies/MinHook/src/hde/hde64.h",
+    "bytes": 2602,
+    "sha256": "e99aa4997bda14b534c614c3d8cb78a72c4aca91a1212c8b03ec605d1d75e36e"
+  },
+  {
+    "path": "LFG/Dependencies/MinHook/src/hde/pstdint.h",
+    "bytes": 1662,
+    "sha256": "604d1cdf45c5a95bc9cf1bbf39ca05ef83013541101d34971c5cd7577e3d5247"
+  },
+  {
+    "path": "LFG/Dependencies/MinHook/src/hde/table32.h",
+    "bytes": 3508,
+    "sha256": "43bf687a9fff071b5f46070db4d36c846f8e069cdc57485ee897c499aacdde23"
+  },
+  {
+    "path": "LFG/Dependencies/MinHook/src/hde/table64.h",
+    "bytes": 3577,
+    "sha256": "b774446d2f110ce954fb0a710f4693c5562ddbd8d56fe84106f2ee80db8b50a2"
+  },
+  {
+    "path": "LFG/Dependencies/MinHook/src/hook.c",
+    "bytes": 26637,
+    "sha256": "fb4a2739bfd7d2044ca747785b0df255067124aab5f2826814ea971181a2dea5"
+  },
+  {
+    "path": "LFG/Dependencies/MinHook/src/trampoline.c",
+    "bytes": 10714,
+    "sha256": "d837f8555681c3762468d712c43f2064ed31dee610e0b02965fd8aa54b88172f"
+  },
+  {
+    "path": "LFG/Dependencies/MinHook/src/trampoline.h",
+    "bytes": 3795,
+    "sha256": "27426751dde36cdd8346469e61cdcca47950b1056a69f21cc63f4b41743faf6a"
+  },
+  {
+    "path": "LFG/DirectX/DirectX.cpp",
+    "bytes": 12622,
+    "sha256": "b25d013cd4a9f3f9f8892b620015bca8ad541acc217f11218d2b078ce148d4b8"
+  },
+  {
+    "path": "LFG/DirectX/DirectX.h",
+    "bytes": 838,
+    "sha256": "d12bcdb5763250ef1e15a624f9b76a6efde803fb78285cec24614f18f669e3df"
+  },
+  {
+    "path": "LFG/DllMain.cpp",
+    "bytes": 1687,
+    "sha256": "bfdfbab72f9aa852472743760892450dc6b31b104868d7b6c0951510122d2390"
+  },
+  {
+    "path": "LFG/Hook/Common.h",
+    "bytes": 730,
+    "sha256": "1f3f4bbf6dfcd637cc558eb1cbfa1a256f7e95f1720bed72e08eb5829ffc9a09"
+  },
+  {
+    "path": "LFG/Hook/Engine/HookEngine.cpp",
+    "bytes": 933,
+    "sha256": "3381c20985a0cac2377f32a16a842e0c65ee50cbee33e221492d09f750028a68"
+  },
+  {
+    "path": "LFG/Hook/Engine/HookEngine.h",
+    "bytes": 269,
+    "sha256": "c65b90fbcfa1a5b5ca6c462d5bda0b9d969b25ac02589de9916eebbf2977f644"
+  },
+  {
+    "path": "LFG/Hook/Present/Present.cpp",
+    "bytes": 11028,
+    "sha256": "64bb36bedd203a59185501a1685255d0fd8f19a0230dd167c9b0014147352afe"
+  },
+  {
+    "path": "LFG/Hook/Present/Present.h",
+    "bytes": 487,
+    "sha256": "b3626ab235968d2524cf5b7d339c5eb1f9039ecfbfe731c86c2bbc7b1cea6fa2"
+  },
+  {
+    "path": "LFG/Hook/ResizeBuffers/ResizeBuffers.cpp",
+    "bytes": 2239,
+    "sha256": "1e7000c31b540bd20f913abf22180f881d144bcea37e1da4d8c8f9fe1bc2aa14"
+  },
+  {
+    "path": "LFG/Hook/ResizeBuffers/ResizeBuffers.h",
+    "bytes": 368,
+    "sha256": "a95f75c1282d4f760e05a620cc7fd11764fa0ce2ad88dc5511f9c953e1b2c20b"
+  },
+  {
+    "path": "LFG/LFG.vcxproj",
+    "bytes": 11720,
+    "sha256": "8bcb31c569f7e978aa0d8edf072aecb99365168433a5e8f77d5b5ee6cd5af159"
+  },
+  {
+    "path": "LFG/LFG.vcxproj.filters",
+    "bytes": 10124,
+    "sha256": "bb76f0b1911655b0c550f4cf6700378026d0bebe32b4dfff71602a69a0cd369e"
+  },
+  {
+    "path": "LFG/LFG.vcxproj.user",
+    "bytes": 168,
+    "sha256": "c06a75b13f855a94d46616796e024c52b499f8f92cf00ccb571ddbc6ff574676"
+  },
+  {
+    "path": "LFG/Pipeline/Generation/FrameGeneration.cpp",
+    "bytes": 16373,
+    "sha256": "044c040f924e41001f2ae9bb069250e5d8e4af932a345afc9f93e642d452947a"
+  },
+  {
+    "path": "LFG/Pipeline/Generation/FrameGeneration.h",
+    "bytes": 4766,
+    "sha256": "3ec08f871890d91213f81b18a5c13d985d647b6f11dd2f5e2f7b1306467d6a30"
+  },
+  {
+    "path": "LFG/Pipeline/Interpolation/FrameInterpolation.cpp",
+    "bytes": 10906,
+    "sha256": "76fcd08e29536ee0d18ac762762e7b2112972a885da3cbbd72e75be61af2fb98"
+  },
+  {
+    "path": "LFG/Pipeline/Interpolation/FrameInterpolation.h",
+    "bytes": 2079,
+    "sha256": "d59cc7c08c73929c3a819a8c7488c912de402e4eba6810afca529ede0702aad6"
+  },
+  {
+    "path": "LFG/Pipeline/OpticalFlow/OpticalFlow.cpp",
+    "bytes": 26133,
+    "sha256": "a50b47738288a04fee7ea57e04b1bd27ff6f647e0c5d5412365dce9c2c905658"
+  },
+  {
+    "path": "LFG/Pipeline/OpticalFlow/OpticalFlow.h",
+    "bytes": 3970,
+    "sha256": "a7f1a898d56c161882cffef92cc7c3b9b51b0621abd8a8746730db5ed0f0c973"
+  },
+  {
+    "path": "LFG/Pipeline/Processing/EdgeDetection.cpp",
+    "bytes": 2586,
+    "sha256": "ea18d39e5459c2f51824d29a2d1532c2d18223317836dfd790cf1068c563a672"
+  },
+  {
+    "path": "LFG/Pipeline/Processing/EdgeDetection.h",
+    "bytes": 617,
+    "sha256": "dc015d519ab37874706ad3a092fa679e40e72bfc1ff3014cde1adfc53b9139b5"
+  },
+  {
+    "path": "LFG/Pipeline/Processing/Sharpening.cpp",
+    "bytes": 2534,
+    "sha256": "437e42c7b5101bdb88c57d2fd767a286435686a4dd503faa64878a7e1d0dbf61"
+  },
+  {
+    "path": "LFG/Pipeline/Processing/Sharpening.h",
+    "bytes": 526,
+    "sha256": "ec64d8e4ace3f8ddfdb290247b000f53b50983ee5203ef1771d9954e63c1c2b9"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/EmbeddedShaders.h",
+    "bytes": 34662,
+    "sha256": "af52627765dbc2c26fa2c677ff431dd7b562a6d522c80cf18dce1f8665689dcb"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/HLSL/CS_AdaptiveVariance.hlsl",
+    "bytes": 2177,
+    "sha256": "960dfac3ef439615db3009530f084b110068cccde0011fea7f1b2e98f7e47e12"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/HLSL/CS_BidirectionalConsistency.hlsl",
+    "bytes": 1390,
+    "sha256": "a8baf70a7962c568d8349e307571e68cd56fff8333746caef7d60219a1f415bf"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/HLSL/CS_BilinearScale.hlsl",
+    "bytes": 694,
+    "sha256": "a85e3baf74f0c4c7e71ff8de538d86170144fa95815c00356dee943979a4c911"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/HLSL/CS_BlockMatching.hlsl",
+    "bytes": 5106,
+    "sha256": "bfe1c235c5c0b42115493697b78260409776579b2ddfbfc949c1ab80ac28cfde"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/HLSL/CS_DIS_Flow.hlsl",
+    "bytes": 2852,
+    "sha256": "8f4d2858b768822a21a9149d0e4a163a6cc0aaf7b6b381f8e6262de9280a6db8"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/HLSL/CS_DebugView.hlsl",
+    "bytes": 1180,
+    "sha256": "8a281689aa21edecf7583eee3bcee794e5c04dc6043154f83539dee429adc666"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/HLSL/CS_Downsample.hlsl",
+    "bytes": 560,
+    "sha256": "75e868aa5bfdbf86ea1bdd9ea30f93e0351f21860468840bfb46b53b279d15b9"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/HLSL/CS_EdgeDetect.hlsl",
+    "bytes": 1600,
+    "sha256": "e3bca396cc36cd31338f1952f3ee960988a79fb79013694d2d713429459801af"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/HLSL/CS_Farneback_Expansion.hlsl",
+    "bytes": 1453,
+    "sha256": "11d91f27db3e47449c93dda0f3c3ef3c08dbd10d7b5d88605b745750ba09e33b"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/HLSL/CS_Farneback_Flow.hlsl",
+    "bytes": 2327,
+    "sha256": "8b028969ee4e043b2a20ff9616bf65e95f77707cb29f9478f6409d828a2d7d34"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/HLSL/CS_HUDMask.hlsl",
+    "bytes": 1752,
+    "sha256": "d306090f91b63252d924e28856ebe14b0201769b4930012ffad4891a7f670c8f"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/HLSL/CS_Interpolate.hlsl",
+    "bytes": 2477,
+    "sha256": "36b980b6d82ba972da4948b9d86174c30eee52fc95e1d7bb9ead25685d059b9a"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/HLSL/CS_MotionSmooth.hlsl",
+    "bytes": 1087,
+    "sha256": "e2668930112cc53e9260582a94f0af40b36fe1d407af47970027069e34e37a26"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/HLSL/CS_RCAS.hlsl",
+    "bytes": 1806,
+    "sha256": "b589c7cd3e0d525be0aea6dc2c095b030a0d1dca21bd5b25d353303a3963b230"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/HLSL/CS_SplitScreen.hlsl",
+    "bytes": 951,
+    "sha256": "dfc6d40a90455819eb29c6e7461c0a9c9817822a871711ce1ddf3687506a8784"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/HLSL/CS_Upsample.hlsl",
+    "bytes": 1213,
+    "sha256": "f39e64064fa52c233a8e7d698fbf3b92c368b53afc36cb1e1d5542f1338b7d70"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/HLSL/CS_Upscale.hlsl",
+    "bytes": 4008,
+    "sha256": "364f03746c5daa4469677c481a982fdc481b4dfa24fe94d1c1c12c536f0cefe9"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/Shader.cpp",
+    "bytes": 2746,
+    "sha256": "ee022a931aa2015c578180d18b0940c3ab9686bd10a36c0fae806379f8d125dc"
+  },
+  {
+    "path": "LFG/Pipeline/Shaders/Shader.h",
+    "bytes": 486,
+    "sha256": "0a5664a9df99e3d18a5dcd34b8524471de8e4e70a3a0f1dcd8a7deaf6994b174"
+  },
+  {
+    "path": "LFG/UI/DebugOverlay.cpp",
+    "bytes": 6846,
+    "sha256": "a834f2186afeb294263a6c8b2a7c4e7b8a4ad4ad3b0f01bdd14ee242b24008a5"
+  },
+  {
+    "path": "LFG/UI/DebugOverlay.h",
+    "bytes": 217,
+    "sha256": "9322b88f763afce17bf99f1f27db2d4878745ab5b1acdc1cf1e9d4b0d3fac34c"
+  },
+  {
+    "path": "LFG/UI/Menu.cpp",
+    "bytes": 16961,
+    "sha256": "03445764bcee7ae013dc44a989b161318fa007d2bfdbbbc2a3c29f91bf08b4ae"
+  },
+  {
+    "path": "LFG/UI/Menu.h",
+    "bytes": 105,
+    "sha256": "11efae0d3b9153ccaad26674f4db47461abda565375b5eb445a916a161c304b2"
+  },
+  {
+    "path": "LFG.sln",
+    "bytes": 1436,
+    "sha256": "a6e006c79cf83bc19e48f163b140265bb37ef0c9c87cf8974cdefa0798c9c136"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 35149,
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2711,
+    "sha256": "a1a4bc475f3267946ae2408662d9a206895c59aae6aa71dacde0946f0f4c9112"
+  }
+]

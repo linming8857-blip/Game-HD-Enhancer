@@ -1,0 +1,759 @@
+{
+  "repo": "ValveSoftware/gamescope",
+  "source_url": "https://github.com/ValveSoftware/gamescope",
+  "ref": "master",
+  "commit": "36848c2f30e4afef02f4500665710d8006bd6619",
+  "purpose": "Linux compositor/scaling reference only; not part of Windows V1",
+  "declared_license": "BSD-2-Clause and per-file",
+  "github_license": "NOASSERTION",
+  "destination": "references/ValveSoftware__gamescope/36848c2f30e4afef02f4500665710d8006bd6619",
+  "submodules": [
+    {
+      "path": "subprojects/wlroots",
+      "url": "https://gitlab.freedesktop.org/wlroots/wlroots.git",
+      "status": "missing",
+      "error": "Submodule is not a public github.com HTTPS source"
+    },
+    {
+      "path": "subprojects/libliftoff",
+      "url": "https://gitlab.freedesktop.org/emersion/libliftoff.git",
+      "status": "missing",
+      "error": "Submodule is not a public github.com HTTPS source"
+    },
+    {
+      "path": "subprojects/vkroots",
+      "url": "https://github.com/Joshua-Ashton/vkroots",
+      "repository": "Joshua-Ashton/vkroots",
+      "commit": "5106d8a0df95de66cc58dc1ea37e69c99afc9540",
+      "status": "downloaded"
+    },
+    {
+      "path": "subprojects/libdisplay-info",
+      "url": "https://gitlab.freedesktop.org/emersion/libdisplay-info",
+      "status": "missing",
+      "error": "Submodule is not a public github.com HTTPS source"
+    },
+    {
+      "path": "subprojects/openvr",
+      "url": "https://github.com/ValveSoftware/openvr.git",
+      "repository": "ValveSoftware/openvr",
+      "commit": "ff87f683f41fe26cc9353dd9d9d7028357fd8e1a",
+      "status": "downloaded"
+    },
+    {
+      "path": "src/reshade/deps/imgui",
+      "url": "https://github.com/ocornut/imgui.git",
+      "repository": "ocornut/imgui",
+      "commit": "c6aa051629753f0ef0d26bf775a8b6a92aa213b2",
+      "status": "downloaded"
+    },
+    {
+      "path": "src/reshade/deps/minhook",
+      "url": "https://github.com/TsudaKageyu/minhook.git",
+      "repository": "TsudaKageyu/minhook",
+      "commit": "8fda4f5481fed5797dc2651cd91e238e9b3928c6",
+      "status": "downloaded"
+    },
+    {
+      "path": "src/reshade/deps/stb",
+      "url": "https://github.com/nothings/stb.git",
+      "repository": "nothings/stb",
+      "commit": "ae721c50eaf761660b4f90cc590453cdb0c2acd0",
+      "status": "downloaded"
+    },
+    {
+      "path": "src/reshade/deps/gl3w",
+      "url": "https://github.com/skaslev/gl3w.git",
+      "repository": "skaslev/gl3w",
+      "commit": "3a33275633ce4be433332dc776e6a5b3bdea6506",
+      "status": "downloaded"
+    },
+    {
+      "path": "src/reshade/deps/utfcpp/extern/ftest",
+      "url": "https://github.com/nemtrif/ftest",
+      "repository": "nemtrif/ftest",
+      "commit": "c4ad4af0946b73ce1a40cbc72205d15d196c7e06",
+      "status": "downloaded"
+    },
+    {
+      "path": "src/reshade/deps/utfcpp",
+      "url": "https://github.com/nemtrif/utfcpp.git",
+      "repository": "nemtrif/utfcpp",
+      "commit": "6be08bbea14ffa0a5c594257fb6285a054395cd7",
+      "status": "downloaded"
+    },
+    {
+      "path": "src/reshade/deps/spirv",
+      "url": "https://github.com/KhronosGroup/SPIRV-Headers.git",
+      "repository": "KhronosGroup/SPIRV-Headers",
+      "commit": "c0df742ec0b8178ad58c68cff3437ad4b6a06e26",
+      "status": "downloaded"
+    },
+    {
+      "path": "src/reshade/deps/vma",
+      "url": "https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "repository": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "commit": "a6bfc237255a6bac1513f7c1ebde6d8aed6b5191",
+      "status": "downloaded"
+    },
+    {
+      "path": "src/reshade/deps/vulkan",
+      "url": "https://github.com/KhronosGroup/Vulkan-Headers.git",
+      "repository": "KhronosGroup/Vulkan-Headers",
+      "commit": "7b3466a1f47a9251ac1113efbe022ff016e2f95b",
+      "status": "downloaded"
+    },
+    {
+      "path": "src/reshade/deps/fpng",
+      "url": "https://github.com/richgel999/fpng",
+      "repository": "richgel999/fpng",
+      "commit": "6926f5a0a78f22d42b074a0ab8032e07736babd4",
+      "status": "downloaded"
+    },
+    {
+      "path": "src/reshade/deps/d3d12",
+      "url": "https://github.com/microsoft/DirectX-Headers.git",
+      "repository": "microsoft/DirectX-Headers",
+      "commit": "de28d93dfa9ebf3e473127c1c657e1920a5345ee",
+      "status": "downloaded"
+    },
+    {
+      "path": "src/reshade/deps/openxr",
+      "url": "https://github.com/KhronosGroup/OpenXR-SDK.git",
+      "repository": "KhronosGroup/OpenXR-SDK",
+      "commit": "dc1e23937fe45eabcce80f6588cf47449edb29d1",
+      "status": "downloaded"
+    },
+    {
+      "path": "src/reshade",
+      "url": "https://github.com/Joshua-Ashton/reshade",
+      "repository": "Joshua-Ashton/reshade",
+      "commit": "696b14cd6006ae9ca174e6164450619ace043283",
+      "status": "downloaded"
+    },
+    {
+      "path": "thirdparty/SPIRV-Headers",
+      "url": "https://github.com/KhronosGroup/SPIRV-Headers/",
+      "repository": "KhronosGroup/SPIRV-Headers",
+      "commit": "d790ced752b5bfc06b6988baadef6eb2d16bdf96",
+      "status": "downloaded"
+    }
+  ],
+  "compiled": false,
+  "runtime_tested": false,
+  "license_files": [
+    "LICENSE"
+  ],
+  "omitted_files": [
+    {
+      "path": "src/reshade/deps/imgui/examples/libs/glfw/lib-vc2010-32/glfw3.lib",
+      "bytes": 187376,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "src/reshade/deps/imgui/examples/libs/glfw/lib-vc2010-64/glfw3.lib",
+      "bytes": 291120,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "src/reshade/deps/stb/tests/oversample/oversample.exe",
+      "bytes": 54272,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "src/reshade/deps/vma/bin/Shader.frag.spv",
+      "bytes": 1004,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "src/reshade/deps/vma/bin/Shader.vert.spv",
+      "bytes": 1472,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "src/reshade/deps/vma/bin/VmaSample_Release_vs2019.exe",
+      "bytes": 392192,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "src/reshade/res/shaders/imgui_ps.spv",
+      "bytes": 784,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "src/reshade/res/shaders/imgui_ps_hdr.spv",
+      "bytes": 5736,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "src/reshade/res/shaders/imgui_vs.spv",
+      "bytes": 1448,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "src/reshade/tools/7za.exe",
+      "bytes": 1144320,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/bin/androidarm64/libopenvr_api.so",
+      "bytes": 2893080,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/bin/linux32/libopenvr_api.so",
+      "bytes": 1768268,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/bin/linux64/libopenvr_api.so",
+      "bytes": 1752264,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/bin/linuxarm64/libopenvr_api.so",
+      "bytes": 333320,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/bin/linuxarm64/libopenvr_api_unity.so",
+      "bytes": 393944,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/bin/osx32/libopenvr_api.dylib",
+      "bytes": 155684,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/bin/osx32/libopenvr_api.dylib.dSYM/Contents/Resources/DWARF/libopenvr_api.dylib",
+      "bytes": 1188012,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/bin/win32/openvr_api.dll",
+      "bytes": 631904,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/bin/win32/openvr_api.pdb",
+      "bytes": 11374592,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/bin/win64/openvr_api.dll",
+      "bytes": 836704,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/bin/win64/openvr_api.pdb",
+      "bytes": 11300864,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/lib/androidarm64/libopenvr_api.so",
+      "bytes": 2473280,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/lib/linux32/libopenvr_api.so",
+      "bytes": 5877704,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/lib/linux64/libopenvr_api.so",
+      "bytes": 6963816,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/lib/linuxarm64/libopenvr_api.so",
+      "bytes": 5445264,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/lib/linuxarm64/libopenvr_api_unity.so",
+      "bytes": 6480656,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/lib/osx32/libopenvr_api.dylib",
+      "bytes": 300188,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/lib/win32/openvr_api.lib",
+      "bytes": 5578,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/lib/win64/openvr_api.lib",
+      "bytes": 5500,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/androidarm64/libopenvr_api.so",
+      "bytes": 2893080,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/linux32/libopenvr_api.so",
+      "bytes": 1768268,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/linux64/libopenvr_api.so",
+      "bytes": 1752264,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/linuxarm64/libopenvr_api.so",
+      "bytes": 333320,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/shaders/axes_ps.spv",
+      "bytes": 1256,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/shaders/axes_vs.spv",
+      "bytes": 2128,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/shaders/companion_ps.spv",
+      "bytes": 1924,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/shaders/companion_vs.spv",
+      "bytes": 1892,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/shaders/rendermodel_ps.spv",
+      "bytes": 1672,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/shaders/rendermodel_vs.spv",
+      "bytes": 2480,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/shaders/scene_ps.spv",
+      "bytes": 1672,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/shaders/scene_vs.spv",
+      "bytes": 2336,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/Qt5Core.dll",
+      "bytes": 4112384,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/Qt5Cored.dll",
+      "bytes": 8357376,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/Qt5Gui.dll",
+      "bytes": 4350464,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/Qt5Guid.dll",
+      "bytes": 8506368,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/Qt5OpenGL.dll",
+      "bytes": 266752,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/Qt5OpenGLd.dll",
+      "bytes": 637952,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/Qt5Qml.dll",
+      "bytes": 2525184,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/Qt5Qmld.dll",
+      "bytes": 6655488,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/Qt5Widgets.dll",
+      "bytes": 4372480,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/Qt5Widgetsd.dll",
+      "bytes": 8009728,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/SDL2.dll",
+      "bytes": 774656,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/glew32.dll",
+      "bytes": 391680,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/glut32.dll",
+      "bytes": 237568,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/hmd_opencv_sandbox.exe",
+      "bytes": 945248,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/icudt52.dll",
+      "bytes": 23507968,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/icuin52.dll",
+      "bytes": 1798656,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/icuuc52.dll",
+      "bytes": 1304064,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/opencv_world341.dll",
+      "bytes": 38133760,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/openvr_api.dll",
+      "bytes": 631904,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/platforms/qminimal.dll",
+      "bytes": 25600,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/platforms/qminimald.dll",
+      "bytes": 62464,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/platforms/qoffscreen.dll",
+      "bytes": 433152,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/platforms/qoffscreend.dll",
+      "bytes": 800768,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/platforms/qwindows.dll",
+      "bytes": 878592,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win32/platforms/qwindowsd.dll",
+      "bytes": 1730048,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win64/Qt5Core.dll",
+      "bytes": 5500416,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win64/Qt5Cored.dll",
+      "bytes": 11995136,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win64/Qt5Gui.dll",
+      "bytes": 5804544,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win64/Qt5Guid.dll",
+      "bytes": 13100032,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win64/Qt5OpenGL.dll",
+      "bytes": 322048,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win64/Qt5OpenGLd.dll",
+      "bytes": 737792,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win64/Qt5Qml.dll",
+      "bytes": 3189248,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win64/Qt5Qmld.dll",
+      "bytes": 8702976,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win64/Qt5Widgets.dll",
+      "bytes": 5446144,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win64/Qt5Widgetsd.dll",
+      "bytes": 10895872,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win64/hmd_opencv_sandbox.exe",
+      "bytes": 1180768,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win64/icudt54.dll",
+      "bytes": 25338368,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win64/icuin54.dll",
+      "bytes": 2567168,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win64/icuuc54.dll",
+      "bytes": 1792000,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win64/opencv_world341.dll",
+      "bytes": 66341888,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/bin/win64/openvr_api.dll",
+      "bytes": 836704,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/bin/Release/Win32/glew32.dll",
+      "bytes": 391680,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/bin/Release/Win32/glewinfo.exe",
+      "bytes": 395264,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/bin/Release/Win32/visualinfo.exe",
+      "bytes": 257024,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/bin/Release/x64/glew32.dll",
+      "bytes": 427008,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/bin/Release/x64/glewinfo.exe",
+      "bytes": 439808,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/bin/Release/x64/visualinfo.exe",
+      "bytes": 292864,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/bin/Release MX/Win32/glew32mx.dll",
+      "bytes": 280064,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/bin/Release MX/x64/glew32mx.dll",
+      "bytes": 324608,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/lib/Release/Win32/glew32.lib",
+      "bytes": 596294,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/lib/Release/Win32/glew32s.lib",
+      "bytes": 2019016,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/lib/Release/osx32/libGLEW.a",
+      "bytes": 1830584,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/lib/Release/x64/glew32.lib",
+      "bytes": 587190,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/lib/Release/x64/glew32s.lib",
+      "bytes": 2130434,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/lib/Release MX/Win32/glew32mx.lib",
+      "bytes": 3542,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/lib/Release MX/Win32/glew32mxs.lib",
+      "bytes": 1492868,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/lib/Release MX/x64/glew32mx.lib",
+      "bytes": 3428,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/glew/glew-1.11.0/lib/Release MX/x64/glew32mxs.lib",
+      "bytes": 1608426,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/linux32/libSDL2.so",
+      "bytes": 17,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/linux32/libSDL2_static.a",
+      "bytes": 5661590,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/linux64/libSDL2.so",
+      "bytes": 1089260,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/linux64/libSDL2_static.a",
+      "bytes": 9124842,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/osx32/libSDL2.a",
+      "bytes": 2755160,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/osx32/libSDL2.dylib",
+      "bytes": 1797776,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/win32/SDL2.lib",
+      "bytes": 118890,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/win32/SDL2_static.lib",
+      "bytes": 7620600,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/win32/SDL2main.lib",
+      "bytes": 38254,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/win64/SDL2.lib",
+      "bytes": 116130,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/win64/SDL2_static.lib",
+      "bytes": 8314642,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/sdl2-2.0.3/bin/win64/SDL2main.lib",
+      "bytes": 39896,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/vulkan-1.0.49.0/lib/linux64/libvulkan.so",
+      "bytes": 353317,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/vulkan-1.0.49.0/lib/win32/vulkan-1.lib",
+      "bytes": 41304,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/thirdparty/vulkan-1.0.49.0/lib/win64/vulkan-1.lib",
+      "bytes": 38268,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/unity_keyboard_sample/Assets/Plugins/x86/openvr_api.dll",
+      "bytes": 1470464,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/unity_keyboard_sample/Assets/Plugins/x86_64/openvr_api.dll",
+      "bytes": 1838592,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/unity_teleport_sample/Assets/Plugins/x86/openvr_api.dll",
+      "bytes": 1470464,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/unity_teleport_sample/Assets/Plugins/x86_64/libopenvr_api.so",
+      "bytes": 375503,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/unity_teleport_sample/Assets/Plugins/x86_64/openvr_api.dll",
+      "bytes": 1838592,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/unity_teleport_sample/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll",
+      "bytes": 107288,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "subprojects/openvr/samples/unity_teleport_sample/Assets/UnityVS/Editor/SyntaxTree.VisualStudio.Unity.Messaging.dll",
+      "bytes": 50976,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    }
+  ],
+  "lfs_pointers": [],
+  "symlinks": [],
+  "file_count": 3144,
+  "source_bytes": 181475335,
+  "status": "partial"
+}

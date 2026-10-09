@@ -1,0 +1,63 @@
+{
+  "repo": "SpecialKO/SpecialK",
+  "source_url": "https://github.com/SpecialKO/SpecialK",
+  "ref": "main",
+  "commit": "2569dd221046864a24b39ebb120ddc2bdaea96c6",
+  "purpose": "Legacy research archive only; no hook/injection integration in 2D V1",
+  "declared_license": "GPL-3.0 and per-file",
+  "github_license": "GPL-3.0",
+  "destination": "references/SpecialKO__SpecialK/2569dd221046864a24b39ebb120ddc2bdaea96c6",
+  "submodules": [],
+  "compiled": false,
+  "runtime_tested": false,
+  "license_files": [
+    "LICENSE"
+  ],
+  "omitted_files": [
+    {
+      "path": "depends/lib/WinRing0/Win32/WinRing0.dll",
+      "bytes": 20992,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "depends/lib/WinRing0/x64/WinRing0x64.dll",
+      "bytes": 24576,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "depends/lib/glew/Win32/glew.lib",
+      "bytes": 1738516,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "depends/lib/glew/x64/glew.lib",
+      "bytes": 1823462,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "depends/lib/nvapi/Win32/nvapi.lib",
+      "bytes": 398256,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "depends/lib/nvapi/x64/nvapi64.lib",
+      "bytes": 893264,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "depends/lib/tobii/Win32/tobii_stream_engine_sk32.lib",
+      "bytes": 36588,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "depends/lib/tobii/x64/tobii_stream_engine_sk64.lib",
+      "bytes": 35992,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    }
+  ],
+  "lfs_pointers": [],
+  "symlinks": [],
+  "file_count": 1940,
+  "source_bytes": 72758744,
+  "status": "collected"
+}

@@ -1,0 +1,93 @@
+{
+  "repo": "GPUOpen-Effects/FidelityFX-FSR",
+  "source_url": "https://github.com/GPUOpen-Effects/FidelityFX-FSR",
+  "ref": "master",
+  "commit": "a21ffb8f6c13233ba336352bdff293894c706575",
+  "purpose": "FSR1 EASU and RCAS spatial upscaling",
+  "declared_license": "MIT",
+  "github_license": "MIT",
+  "destination": "third_party/GPUOpen-Effects__FidelityFX-FSR/a21ffb8f6c13233ba336352bdff293894c706575",
+  "submodules": [
+    {
+      "path": "sample/libs/Cauldron",
+      "url": "../../GPUOpen-LibrariesAndSDKs/Cauldron",
+      "repository": "GPUOpen-LibrariesAndSDKs/Cauldron",
+      "commit": "3e4a021fc0d3e0372347126771a5155016810a11",
+      "status": "downloaded"
+    },
+    {
+      "path": "sample/media/Cauldron-Media",
+      "url": "../../GPUOpen-LibrariesAndSDKs/Cauldron-Media",
+      "repository": "GPUOpen-LibrariesAndSDKs/Cauldron-Media",
+      "commit": "bf0e04475f916617d3f65e6f15001f5ee1682867",
+      "status": "downloaded"
+    }
+  ],
+  "compiled": false,
+  "runtime_tested": false,
+  "license_files": [
+    "license.txt"
+  ],
+  "omitted_files": [
+    {
+      "path": "sample/libs/Cauldron/libs/AGS/amd_ags_x64.dll",
+      "bytes": 42496,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "sample/libs/Cauldron/libs/AGS/amd_ags_x64.lib",
+      "bytes": 13926,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "sample/libs/Cauldron/libs/DXC/bin/dxc.exe",
+      "bytes": 668672,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "sample/libs/Cauldron/libs/DXC/bin/dxcompiler.dll",
+      "bytes": 19459584,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "sample/libs/Cauldron/libs/DXC/bin/dxil.dll",
+      "bytes": 1097768,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "sample/libs/Cauldron/libs/DXC/bin/x64/dxc.exe",
+      "bytes": 515464,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "sample/libs/Cauldron/libs/DXC/bin/x64/dxcompiler.dll",
+      "bytes": 18515848,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "sample/libs/Cauldron/libs/DXC/bin/x64/dxil.dll",
+      "bytes": 1867776,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "sample/libs/Cauldron/libs/DXC/lib/x64/dxcompiler.lib",
+      "bytes": 2002,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "sample/libs/Cauldron/libs/WinPixEventRuntime/WinPixEventRuntime.dll",
+      "bytes": 45944,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "sample/libs/Cauldron/libs/WinPixEventRuntime/WinPixEventRuntime.lib",
+      "bytes": 4766,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    }
+  ],
+  "lfs_pointers": [],
+  "symlinks": [],
+  "file_count": 669,
+  "source_bytes": 602121329,
+  "status": "collected"
+}

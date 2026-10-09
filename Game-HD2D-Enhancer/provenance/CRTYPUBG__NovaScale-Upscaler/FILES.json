@@ -1,0 +1,182 @@
+[
+  {
+    "path": ".agent/workflows/build.md",
+    "bytes": 599,
+    "sha256": "54eb223fae17ba942e62f1324a7adf40b9f03106a092067708e561ef79cc0d68"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 80,
+    "sha256": "ac56d1ea5f0bcc1d11208501510cfaf02b66252606837f46665cc1d04555edcc"
+  },
+  {
+    "path": "CMakeLists.txt",
+    "bytes": 536,
+    "sha256": "6fed9f707313466f08ca768f4852582a47b8ef5203c2782ccf006eaadfe3a6dc"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1071,
+    "sha256": "46b1928af7fe6f84c73492f3db62a1f8c2ed1c0a2782476de13ace02f2fa9210"
+  },
+  {
+    "path": "NovaScale.spec",
+    "bytes": 838,
+    "sha256": "87a39713f11be2586659f6d7b6a4dde355dc660b95f78dd8d7f7320bd906c782"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1817,
+    "sha256": "17aaf390c1356622429e3f98be7da415e2d83e1a6c8b1f1f9328997b02639bbb"
+  },
+  {
+    "path": "README.txt",
+    "bytes": 187,
+    "sha256": "3d8926614006cd8bf1bfd3212faa740fae60ebfb3381dffe2bd5b08e538ea93c"
+  },
+  {
+    "path": "cnn/export_onnx.py",
+    "bytes": 569,
+    "sha256": "6a4d2a03036e91a6c362d00659fe883714320b5bba41b6e10b65d6e62dda6b87"
+  },
+  {
+    "path": "cnn/model.py",
+    "bytes": 761,
+    "sha256": "6cfb4285bd20fe3e07d5e04412db4475c1d4ebcbb1d2b7bcd43bf31eea7f3ebb"
+  },
+  {
+    "path": "cnn/train.py",
+    "bytes": 600,
+    "sha256": "b47cff756cde291f1c6bc1a580f60bd8ad02a4dc19ff542484a457ad3a661ab4"
+  },
+  {
+    "path": "core/api.h",
+    "bytes": 831,
+    "sha256": "71476e65e3694f8d6ca01a843e44fa2466ae7ed6972d34402f32294b169b4dac"
+  },
+  {
+    "path": "core/capture_dxgi.c",
+    "bytes": 2211,
+    "sha256": "06b67fb30b63db256cc467cfa1d35b19e04c2bb763a2ae539eebc49363c7ce60"
+  },
+  {
+    "path": "core/main.c",
+    "bytes": 5869,
+    "sha256": "0c9f6334b97df9e9ecdce2c85d4fa60ff25f53fe8b4e5d15a981d47a896720c5"
+  },
+  {
+    "path": "core/present_dx11.c",
+    "bytes": 2606,
+    "sha256": "7d51aafa07359f8d85780d3b8e088095be31030f12e0b90bb4edef923bccf947"
+  },
+  {
+    "path": "core/temporal.c",
+    "bytes": 502,
+    "sha256": "a80cf17dc93dfefd825863e2a9cf27c6a2490ffd868f46314ee2ea0446bbadbe"
+  },
+  {
+    "path": "core/upscale_basic.c",
+    "bytes": 3157,
+    "sha256": "bbda1d25475c3750204ce78994b74af94066bea768735bc415f524763fcf8e20"
+  },
+  {
+    "path": "core/upscale_cnn.c",
+    "bytes": 427,
+    "sha256": "316e5e1ac60a8354eadf3bf7cdf626e7ed96f25af20137368680209e06a932a9"
+  },
+  {
+    "path": "core/upscale_spatial.c",
+    "bytes": 3682,
+    "sha256": "76fe3b99eadad7b390c4f32a90a21b47775c3837eb07dcde75b899b38b1a7733"
+  },
+  {
+    "path": "dist/novascale_error.log",
+    "bytes": 348,
+    "sha256": "08e2b41db583f07c13b5ca1e6ea78e9ccfd57319a38652a49f64552d125a5b9e"
+  },
+  {
+    "path": "docs/anti_cheat_safety.md",
+    "bytes": 1057,
+    "sha256": "9bd8f506890dff7f0f6107c5394cbce1b21303d26304550adcf1215199f51bb1"
+  },
+  {
+    "path": "docs/architecture.md",
+    "bytes": 2849,
+    "sha256": "1d9db2e337d4fa14f40dd9ef2a4410452d801c465551c06bf5419096dda61b41"
+  },
+  {
+    "path": "docs/cnn_proposal.md",
+    "bytes": 1741,
+    "sha256": "7d629e3dc49adf80a9b0ca9023852047a35d3aca3ce502de661a0349f3030385"
+  },
+  {
+    "path": "docs/performance.md",
+    "bytes": 1799,
+    "sha256": "6ddfaf64242ab30517df851daaf1a0ec3ec5882e93061c488d32cfa8ca4eea02"
+  },
+  {
+    "path": "f71550be-bd42-4361-b02a-dfbf95e31c35.png",
+    "bytes": 108509,
+    "sha256": "5926d8cbf758b83e8b59bae7d64e424e6932f2c4f1e871c91abb5f464d3f6f7a"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 21,
+    "sha256": "5af9da2b11ac647aa072292841c633eb7169daf2d5be0034ed8f27f9cb89e1d4"
+  },
+  {
+    "path": "shaders/basic_bilinear.hlsl",
+    "bytes": 655,
+    "sha256": "30532feac67accc5514d120529292b01e9cadfbefd63869677f66c087b342116"
+  },
+  {
+    "path": "shaders/sharpen.hlsl",
+    "bytes": 1106,
+    "sha256": "46efc202ff30fb42bd8d0370aa28595794c02766b609192f273f286f00e3e1c8"
+  },
+  {
+    "path": "shaders/spatial_upscale.hlsl",
+    "bytes": 1120,
+    "sha256": "24ea50b5938a9875d9ad2bdd85764a7bd6a635a3de2c1e32ead46fa6eab6b159"
+  },
+  {
+    "path": "surumler/v0.1.0-alpha.md",
+    "bytes": 891,
+    "sha256": "9de887b8f4430cbf94c7b9219c64cee79be37b20afc1fd04f4aba2eabe34a120"
+  },
+  {
+    "path": "ui/app.ico",
+    "bytes": 116105,
+    "sha256": "0d82281cf3199ebf4939275078e828c0c285aaa72a23c61f4b14cfe6d98434cb"
+  },
+  {
+    "path": "ui/logo.png",
+    "bytes": 22224,
+    "sha256": "79c0dbf23573deb875f9d93ac72da1231d2a92d6c089f4de567110bfd78db7d6"
+  },
+  {
+    "path": "ui/logo.svg",
+    "bytes": 1364,
+    "sha256": "fa188aa7631277eb6ec6cebf88aee98c7a22b77f77d3a4d029b8d5fa72f02286"
+  },
+  {
+    "path": "ui/main.py",
+    "bytes": 2917,
+    "sha256": "8dfe8462c5269930f3de1a9ae5e64658da2baeddcb167d8bc3ee55b004e8dab7"
+  },
+  {
+    "path": "ui/main_window.py",
+    "bytes": 8523,
+    "sha256": "962f09d8acbc5d304828f2b314bf33528d26b57b67397ac83ba661a6650a41b3"
+  },
+  {
+    "path": "ui/settings.py",
+    "bytes": 3456,
+    "sha256": "5458b4f88bd12ba602dd014ab3029e3d2b15cb2b9b89cd23b1afd2053dc5dc73"
+  },
+  {
+    "path": "ui/slpsh_screen.png",
+    "bytes": 108509,
+    "sha256": "5926d8cbf758b83e8b59bae7d64e424e6932f2c4f1e871c91abb5f464d3f6f7a"
+  }
+]

@@ -1,0 +1,3132 @@
+[
+  {
+    "path": ".all-contributorsrc",
+    "bytes": 10075,
+    "sha256": "d42e5ae8d451981ded14e6d6b8124dc75e2b24fc03d70a35e58e0966f87bcb5c"
+  },
+  {
+    "path": ".editorconfig",
+    "bytes": 3373,
+    "sha256": "524db94e6f28c12b496a85e085d808d6c17756ad6028ef9baa03e1544f0439b2"
+  },
+  {
+    "path": ".gitattributes",
+    "bytes": 2518,
+    "sha256": "45a7cbb7d9942ba7ffce0b20bc8dbe2d1196533bc6e4bd245871d77fb1eedfdc"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/01_bug.yaml",
+    "bytes": 1061,
+    "sha256": "cb084633c3ecb0196ab776c6726571bf5fe4778c7aaa47c6eedd9c5d26e33b36"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/02_performance.yaml",
+    "bytes": 1299,
+    "sha256": "641f8488cea5b3bc61dde36a3437d9ea95800cb6fcc6ddd7bb448dfcfe874c9d"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/03_request.yaml",
+    "bytes": 867,
+    "sha256": "6950a30b848d0f999e6b7bf75473ddb27002e4460a3afb4b619aa6554970f891"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/04_question.yaml",
+    "bytes": 1419,
+    "sha256": "7fb65121aac4cb84062c74c5bf242e854c8e5f18de8886f9050d97ca2c79816a"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/config.yml",
+    "bytes": 194,
+    "sha256": "2c55c3938d64755ece80ee2a3dc62c31cebd278b483c4b2aa0af8d438cc62aab"
+  },
+  {
+    "path": ".github/dependabot.yml",
+    "bytes": 441,
+    "sha256": "cd8649d284d425c4ae6dbadb0d02c1d7b5ea4d205d2db8506296012606b6486f"
+  },
+  {
+    "path": ".github/workflows/build.yml",
+    "bytes": 2080,
+    "sha256": "b7d9e4455c4f7bc4d9b51b344da21fda01257c81ff2235cd2ffaf7c7a0f87d2d"
+  },
+  {
+    "path": ".github/workflows/code-analysis.yml",
+    "bytes": 1651,
+    "sha256": "bd743e358c09c9fe3f8ff2da81889261c6bd631b4e127dc10448a9ee9aa3f653"
+  },
+  {
+    "path": ".github/workflows/release.yml",
+    "bytes": 2344,
+    "sha256": "123b94974690bacb0c3c9af6112ebf726461473c649b9676c5b39b509b491e54"
+  },
+  {
+    "path": ".github/workflows/wiki.yml",
+    "bytes": 452,
+    "sha256": "76181fa87664dd7d94799d098ca421b98ef236ddb42c99007d23a75ac1c21bb3"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 7492,
+    "sha256": "99bf0e248eb300ab320303b14359a4df689005149b9f42bf58423bff1d90bac7"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 3677,
+    "sha256": "1092e9ab1b8e597a9045c8dad6784f995681da01d9596eec2761be028420c151"
+  },
+  {
+    "path": "CONTRIBUTING_ZH.md",
+    "bytes": 3040,
+    "sha256": "c5572180bce3ee9523e3637ee395a55ff7432673ba116ae5f0ac823b99ba58b1"
+  },
+  {
+    "path": "Directory.Build.props",
+    "bytes": 1048,
+    "sha256": "2e917d063375332b329df155c2d1b24caf561308ad02ea7887afce48d34da055"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 35149,
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+  },
+  {
+    "path": "Magpie.slnx",
+    "bytes": 2252,
+    "sha256": "e2d48bda16fc4122c4c5ff36bb8952f45b20add7266a6b324efbdb160c0df78d"
+  },
+  {
+    "path": "README.md",
+    "bytes": 15612,
+    "sha256": "4364c9c13dd9d5f66859249230fc7de607bf8fbf8ce19fa964dc9374cc086ff5"
+  },
+  {
+    "path": "README_ZH.md",
+    "bytes": 15461,
+    "sha256": "699e6252d5e0bb88ac4c9414eee1d78e8bcd5e98bcb172ef99869ab1c7c027f1"
+  },
+  {
+    "path": "Settings.XamlStyler",
+    "bytes": 1864,
+    "sha256": "e8a0ad07f12b69ddce26ebc016f3ab12f5a9a94bb100d2de019160bf76aea579"
+  },
+  {
+    "path": "certs/.gitignore",
+    "bytes": 6,
+    "sha256": "1e13d70a04265e02c545e8f3d9145746efb13ce636ab06931db53d9e837a3b9b"
+  },
+  {
+    "path": "certs/Magpie.pfx",
+    "bytes": 2686,
+    "sha256": "2f5cbaf560ef0093d687f12eb7cfb1ea90d733831e42b397eaaa93dd9d7c8750"
+  },
+  {
+    "path": "docs/About touch support.md",
+    "bytes": 1151,
+    "sha256": "815970f8399769669bb6fe07dd517bb3f894fd4c14b679de22c5424be246f56c"
+  },
+  {
+    "path": "docs/Built-in effects.md",
+    "bytes": 11839,
+    "sha256": "762763cee5c8a01c93912ba6176178596d78c3268e8586db97d86e1e6ac56b5f"
+  },
+  {
+    "path": "docs/Comparison of capture methods.md",
+    "bytes": 1085,
+    "sha256": "c45d47ab43a9244cfd047b6c26c21051366a894386ed255c3fd14178397098f0"
+  },
+  {
+    "path": "docs/Compilation guide.md",
+    "bytes": 1402,
+    "sha256": "1773a35977238f555c5d32c944672a25ed722672f7153c18b88aa5ce719f19b1"
+  },
+  {
+    "path": "docs/FAQ (EN).md",
+    "bytes": 3994,
+    "sha256": "16dfc1572f0ab1983966c087a19dd1df2a888e28110c06f3e6ab4b89f5336bd9"
+  },
+  {
+    "path": "docs/FAQ.md",
+    "bytes": 3695,
+    "sha256": "e5e783430f3ea7b7bd1c1d6dc2324832c237cfbbe5ba81fb2832a7c6a0f9d3a5"
+  },
+  {
+    "path": "docs/Home (EN).md",
+    "bytes": 225,
+    "sha256": "96a856b20d2d0632078301d6e2f2c8d55c69fac8ca789c50c21f4885dda33ceb"
+  },
+  {
+    "path": "docs/Home.md",
+    "bytes": 270,
+    "sha256": "227f49733baab6fcc2ebcc5c08f1549613b494583d593b7169e337727366941c"
+  },
+  {
+    "path": "docs/Interact with Magpie programally.md",
+    "bytes": 4704,
+    "sha256": "337fb11feffc66c16f56643bc4cd3d41e317e9dcfeb9372c95d9022dd850d479"
+  },
+  {
+    "path": "docs/MagpieFX (EN).md",
+    "bytes": 6675,
+    "sha256": "ae78dc3b4ba568feb60571a0525967591534997d3d4dcaf3819eafa469affd4d"
+  },
+  {
+    "path": "docs/MagpieFX.md",
+    "bytes": 5675,
+    "sha256": "419dd3fa23e0adb260948a12fff3bcdfac48cbbeb25c60f7992170415dc14c8c"
+  },
+  {
+    "path": "docs/Performance optimization.md",
+    "bytes": 8341,
+    "sha256": "acfa549028f76346887d64be4dca7077447ae03a5f1d39d3c4f59c0b0341519b"
+  },
+  {
+    "path": "docs/_Sidebar.md",
+    "bytes": 1451,
+    "sha256": "cbe7356886011510258b1f5a1525b22a5d1a466182824d7024909fcaab47c3a7"
+  },
+  {
+    "path": "docs/以编程方式与 Magpie 交互.md",
+    "bytes": 4346,
+    "sha256": "d8f51514a7c921bca4015c544ddfa434065efc4f235125c82c7e451e84478ce5"
+  },
+  {
+    "path": "docs/关于触控支持.md",
+    "bytes": 1040,
+    "sha256": "6e719e9dd74e7cb2853d1f61e5b8f726dda05e5c8d8dd618b41538449a117698"
+  },
+  {
+    "path": "docs/内置效果介绍.md",
+    "bytes": 10800,
+    "sha256": "d859cb303c972699df38d5fdb4ff9dc151dd40591d337b06dbb7448dba3b3241"
+  },
+  {
+    "path": "docs/性能优化建议.md",
+    "bytes": 8776,
+    "sha256": "92c8277d6f74ad548deff10cd9aa1dfd73a85e804a26762c699083ab3bc1b794"
+  },
+  {
+    "path": "docs/捕获方式对比.md",
+    "bytes": 896,
+    "sha256": "f66088854512859ad2639dd4f21dc873fd919a1b75ef59c55e26396d16d8c90f"
+  },
+  {
+    "path": "docs/编译指南.md",
+    "bytes": 1267,
+    "sha256": "645a6414c69c18d600ff2312898b292dc546df56ceb54f83a77756aae4387d93"
+  },
+  {
+    "path": "img/main-window-zh.png",
+    "bytes": 97499,
+    "sha256": "4b79bf3cc4643fe6e342e97a3a82c4cd74d6eacd702030111a491d4e94eaf5e5"
+  },
+  {
+    "path": "img/main-window.png",
+    "bytes": 121171,
+    "sha256": "9832f32fbcc0ad43ccad25a6f18fcb9986ba90672f1014d2b31fee9a343c0e7d"
+  },
+  {
+    "path": "img/repo-card.png",
+    "bytes": 27474,
+    "sha256": "333db179858d0ca65f0d3774277c1199584118801ef0b665d0fc38bef6cf2527"
+  },
+  {
+    "path": "img/screenshot.png",
+    "bytes": 1963674,
+    "sha256": "b66119b8186338f87aca4368a8f930d68f513ef3eb21cfa395d9fc026ce8576c"
+  },
+  {
+    "path": "natvis/magpie.natvis",
+    "bytes": 1425,
+    "sha256": "88290bedf53433959bbb0eb0dd5746070fa2352da3254728cc8f8ee4a3bc1bb0"
+  },
+  {
+    "path": "natvis/phmap.natvis",
+    "bytes": 6377,
+    "sha256": "d79be1af6f260b091a921eed24ded01525ac050056bdcd7a9a8d755c57b0d595"
+  },
+  {
+    "path": "natvis/rapidjson.natvis",
+    "bytes": 2728,
+    "sha256": "1fa14f4517784f972a2a5a30f81ef5e9f4e3a5f72bdc412c1578c15c7639f7cb"
+  },
+  {
+    "path": "scripts/code-analysis.py",
+    "bytes": 10850,
+    "sha256": "38867b4e2eda73bef0f706cb602e33844b54a7569be652a7579d16b3acebeb53"
+  },
+  {
+    "path": "scripts/publish.py",
+    "bytes": 4163,
+    "sha256": "42f61162dffddaa3c7cbe3ab1aaa6d7853539185b31cd1b113e4f57013427b63"
+  },
+  {
+    "path": "scripts/release.py",
+    "bytes": 5113,
+    "sha256": "5bd0c2fa2cd3734e730200750ca51a7efd7bc080b9a4607e3aff108d7b41f388"
+  },
+  {
+    "path": "scripts/wiki.py",
+    "bytes": 1632,
+    "sha256": "94edba2db994c08290ec73ac0f62579fe04fcf39e31bd6758b83c268e203f45f"
+  },
+  {
+    "path": "src/BuildOptions.props",
+    "bytes": 1635,
+    "sha256": "f0e2c00096815843df9486c245fa645b490d639121dcbc7ad9ef951f449be645"
+  },
+  {
+    "path": "src/Common.Post.props",
+    "bytes": 12206,
+    "sha256": "e251b59a074261f6a208602f0433af6dc53c45b63d7f3953acb24b12e86775cc"
+  },
+  {
+    "path": "src/Common.Pre.props",
+    "bytes": 2713,
+    "sha256": "c8c31701fad4813cc283c8389a7e52232723ff8d3d540e07a10e14eca20d1777"
+  },
+  {
+    "path": "src/Effects/ACNet.hlsl",
+    "bytes": 238792,
+    "sha256": "41edb892726f85e6f3cc4c61fdd0326e319671fb86043c51f93179c037c39550"
+  },
+  {
+    "path": "src/Effects/Ani4Kv2_ArtCNN_C4F32_i2.hlsl",
+    "bytes": 843538,
+    "sha256": "d261b7b7adf8c5bce36cd07b02d7dac027656701993c08e09d9a536b3a164e09"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_3D_AA_Upscale_US.hlsl",
+    "bytes": 13828,
+    "sha256": "33267e463b64b745455de215f6bedd56042431b62f9ae67abdc0088402755d46"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_3D_Upscale_US.hlsl",
+    "bytes": 13725,
+    "sha256": "e0a400c06ec5422800b854c42ea2053dc091ee8f93c0b6e7c15ff7ee92fc9eee"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Denoise_Bilateral_Mean.hlsl",
+    "bytes": 3306,
+    "sha256": "45a5a0b35757efc59b6775ca10745bca51a47278c7c3a60aebe7f974ec3dd057"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Denoise_Bilateral_Median.hlsl",
+    "bytes": 3777,
+    "sha256": "417202c23ee541cbd12312abbed61a148356352972c9c6966a0658e7d82c1425"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Denoise_Bilateral_Mode.hlsl",
+    "bytes": 4159,
+    "sha256": "2609c4e3bc2a2b932a2757c0e4b9aab217f048953b36187c910128285994455d"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Restore_L.hlsl",
+    "bytes": 75169,
+    "sha256": "2419e06a14473b3897980bfcc33fd43d503bb9a4c68d5799476e5b18c8d92561"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Restore_M.hlsl",
+    "bytes": 42564,
+    "sha256": "74128adcf449befa1166025877473bc0e151de3e15a0f63851dd2ddb9588f269"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Restore_S.hlsl",
+    "bytes": 20290,
+    "sha256": "9af0664201860e0f4e52567263522e9604cc9f16a376a1b5c3df8339eb6d3e21"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Restore_Soft_L.hlsl",
+    "bytes": 75227,
+    "sha256": "b94d38a185e95150cbea4cc62aee61a8bffff79c2e24c84c35ea2a9f3ba02c86"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Restore_Soft_M.hlsl",
+    "bytes": 42637,
+    "sha256": "da441e4de7554bf263e2fce3f5f1b87e616366d832bcddc68ca09c4781ff2988"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Restore_Soft_S.hlsl",
+    "bytes": 20347,
+    "sha256": "34681645347aa78575684696e36a02854c7b4e87c44d31f6b0690916745570ec"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Restore_Soft_UL.hlsl",
+    "bytes": 317607,
+    "sha256": "67955ff507dc560dee464e34c560c804785b4ead576349d4184ba67f3b7c8127"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Restore_Soft_VL.hlsl",
+    "bytes": 152851,
+    "sha256": "70e8fd7c497147b851bd7c51e801251ccdb6215d122e0534dc5782056b132d62"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Restore_UL.hlsl",
+    "bytes": 317505,
+    "sha256": "fae6630ad96b06ae19de72fc74811dc4d8006df36852e6a6d1b371a0f142bbfc"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Restore_VL.hlsl",
+    "bytes": 152816,
+    "sha256": "c51a25e11b066d16611f93ee0fe2329306a4411ae8f14ca3f6e871e27dbe78cc"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Thin_HQ.hlsl",
+    "bytes": 7627,
+    "sha256": "faa4bbc9d02dea020d60894129ab39d41ad16565846170b677450d013d9628d6"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Upscale_Denoise_L.hlsl",
+    "bytes": 76709,
+    "sha256": "9f1e62a8d1fac368a530fe329ca80a6e65a61b29ee9f2205c4ee15eed1a54325"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Upscale_Denoise_S.hlsl",
+    "bytes": 21658,
+    "sha256": "b34c810aebcc56c81ab004b6e4e063a4105d8018a08e539b3ff79c4e40ccc305"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Upscale_Denoise_UL.hlsl",
+    "bytes": 294640,
+    "sha256": "256cadf9f9dae003f3563b95ba6f877af328b36e2c19f8a5e3524b7cd3c4b75a"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Upscale_Denoise_VL.hlsl",
+    "bytes": 152760,
+    "sha256": "3df1e8d46b340600df509471313b94f46513b783b020eef0a36abe6b0f355d25"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Upscale_GAN_x2_M.hlsl",
+    "bytes": 150788,
+    "sha256": "6e85ec033ac7669de851dc90c014ea2648d788ac613a50eda275e60e6fe33fd9"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Upscale_GAN_x2_S.hlsl",
+    "bytes": 78470,
+    "sha256": "0fcb1bcb6f9ba0a8a5b8db89316ade8f0ba927cf6cfe7ae38f3fac2acbd49969"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Upscale_GAN_x3_L.hlsl",
+    "bytes": 244201,
+    "sha256": "26a0aa0687967b15eb65193922ea306166424d18e99d14663899212be574add7"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Upscale_L.hlsl",
+    "bytes": 76622,
+    "sha256": "5b10e82c2f29ea31d4349d7c03ec077e3263341d065acecb672bcf04b6dd8b33"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Upscale_S.hlsl",
+    "bytes": 21613,
+    "sha256": "1b6e528cc5154247edf6420870ee7d71cc777ae506f7d38845b74c15b83824f3"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Upscale_UL.hlsl",
+    "bytes": 295022,
+    "sha256": "b13e204989c550e5630084b0b99a447d2cfa82c7b94328eff84442ccd6a3ab92"
+  },
+  {
+    "path": "src/Effects/Anime4K/Anime4K_Upscale_VL.hlsl",
+    "bytes": 152803,
+    "sha256": "9108eee00773ab9750a0341019072f34ec16377572ac85f4d710f1c2568b4ecc"
+  },
+  {
+    "path": "src/Effects/Bicubic.hlsl",
+    "bytes": 2734,
+    "sha256": "fa22650a790347c067de76cf15fcc28a4d0685b106c9996006b32da6b400e574"
+  },
+  {
+    "path": "src/Effects/Bilinear.hlsl",
+    "bytes": 254,
+    "sha256": "190963e21fc4786847619dde1ab0c020c7f3da82536db2110952089accaffc08"
+  },
+  {
+    "path": "src/Effects/CAS/CAS.hlsl",
+    "bytes": 8037,
+    "sha256": "8000cadf6a0af7ca0aec286701539bcaca6873b83b9369abcc89556e57086989"
+  },
+  {
+    "path": "src/Effects/CAS/CAS_Scaling.hlsl",
+    "bytes": 23057,
+    "sha256": "6e4da2e2666e47644b910c1195773c19d84181d093e2a9148ea415ef6b2f8ef5"
+  },
+  {
+    "path": "src/Effects/CRT/CRT_Easymode.hlsl",
+    "bytes": 6024,
+    "sha256": "c77d0374caeec758525b0506fd735b451e96b273872bde548024c5a636bdc99d"
+  },
+  {
+    "path": "src/Effects/CRT/CRT_Geom.hlsl",
+    "bytes": 10361,
+    "sha256": "da4f9153dbc777b9b8f5bbdfc0d6fe5f7af829179d59ddb0cd61f25b40900c8a"
+  },
+  {
+    "path": "src/Effects/CRT/CRT_Hyllian.hlsl",
+    "bytes": 7036,
+    "sha256": "efc42769ae739270749ed215776b0203b02c7b37675a1ef26869c87f27371e8a"
+  },
+  {
+    "path": "src/Effects/CRT/CRT_Lottes.hlsl",
+    "bytes": 8436,
+    "sha256": "c4702bf35bce74ea33ffd48e79c814fdbe7768dfc357bd25fb6be0a2656035ba"
+  },
+  {
+    "path": "src/Effects/CRT/GTU_v050.hlsl",
+    "bytes": 5203,
+    "sha256": "5238514c2fd77ce2be669d187c4456eff2f28c6977a45fecfd343138f9fed2cb"
+  },
+  {
+    "path": "src/Effects/CuNNy2/CuNNy-3x12-NVL.hlsl",
+    "bytes": 82576,
+    "sha256": "0d9e6fb4605818243eaff2656889a70d0336ca13e5c79f4e5de649225ca5fd26"
+  },
+  {
+    "path": "src/Effects/CuNNy2/CuNNy-4x12-NVL.hlsl",
+    "bytes": 101168,
+    "sha256": "ee3360229edb8f79c2f3e1790d304b8228482469d6e220d109a59fd6488b7d1b"
+  },
+  {
+    "path": "src/Effects/CuNNy2/CuNNy-4x16-NVL.hlsl",
+    "bytes": 164325,
+    "sha256": "df0f8c5d233777997d32d6dc064b88e6181c26dbf4987fd1471cf569d700fd81"
+  },
+  {
+    "path": "src/Effects/CuNNy2/CuNNy-4x24-NVL.hlsl",
+    "bytes": 336424,
+    "sha256": "65acb3b72231baaafe11b98766cc4be0ae2068c599cbfb8f7307888b2cbd2054"
+  },
+  {
+    "path": "src/Effects/CuNNy2/CuNNy-4x32-NVL.hlsl",
+    "bytes": 570521,
+    "sha256": "6a54e9653eaaa9b34778a7dba474f1608981272b54127b7af2c7a1ed8a040efd"
+  },
+  {
+    "path": "src/Effects/CuNNy2/CuNNy-8x32-NVL.hlsl",
+    "bytes": 1074230,
+    "sha256": "4d2188b2625258f160f5cfca438c1561ec7cebec85ed5db2c406d79740dbe414"
+  },
+  {
+    "path": "src/Effects/CuNNy2/CuNNy-fast-NVL.hlsl",
+    "bytes": 42032,
+    "sha256": "8a250e626470b3e3887039c1c39caabe11eea269463b66a133330c208a440d83"
+  },
+  {
+    "path": "src/Effects/CuNNy2/CuNNy-faster-NVL.hlsl",
+    "bytes": 27071,
+    "sha256": "12e98cf2035c4379acf3ef89d25ee4375dca580f1f8fbbe7b1e31ec3277459b3"
+  },
+  {
+    "path": "src/Effects/CuNNy2/CuNNy-veryfast-NVL.hlsl",
+    "bytes": 20883,
+    "sha256": "e56717aed34fb9919b2e4070295b5d8cb32e0b069a6161f5843eab56fe195716"
+  },
+  {
+    "path": "src/Effects/Deband.hlsl",
+    "bytes": 3643,
+    "sha256": "09cc17cb7d956835453a91edec7639230dd677ac366b3faf651a669a7cf834c7"
+  },
+  {
+    "path": "src/Effects/Effects.vcxproj",
+    "bytes": 17065,
+    "sha256": "cdf2e4ffa5feee5162531e5dd4a6a6f29688d59fa2d1998d02a70bb02d82ebe1"
+  },
+  {
+    "path": "src/Effects/Effects.vcxproj.filters",
+    "bytes": 17190,
+    "sha256": "ee5adeec88ad6ac20f539f34df994b554b248c0c510792d717f28518d87ca342"
+  },
+  {
+    "path": "src/Effects/FSR/FSR_EASU.hlsl",
+    "bytes": 16284,
+    "sha256": "015c70cbbd33e497baecceac613941779b4cb926835f2f83c53b9a40bd1530e6"
+  },
+  {
+    "path": "src/Effects/FSR/FSR_RCAS.hlsl",
+    "bytes": 7184,
+    "sha256": "9843072ab16326e0482002033d9ddf0ba315df5c80c23a4497d660a075bdb406"
+  },
+  {
+    "path": "src/Effects/FSRCNNX/FSRCNNX.hlsl",
+    "bytes": 80869,
+    "sha256": "777cb5c841295b6f17a7ccdce6c1a3b1e3df9d401e2712f6d3b4e1d493cab590"
+  },
+  {
+    "path": "src/Effects/FSRCNNX/FSRCNNX_LineArt.hlsl",
+    "bytes": 80858,
+    "sha256": "d2ea77e48acdada361930ecfa06676d513ff5e5ffbd234e1c36456a7c0999b15"
+  },
+  {
+    "path": "src/Effects/FXAA/FXAA.hlsli",
+    "bytes": 6693,
+    "sha256": "6c1b99ae72fac4e9196d90c54f62baca7c8a783ab078efcd25b44418079c44f7"
+  },
+  {
+    "path": "src/Effects/FXAA/FXAA_High.hlsl",
+    "bytes": 1421,
+    "sha256": "9d6394619e77d4fdc6b5c6f0f12074a038e4ee6b85505982456ab2279f434cd7"
+  },
+  {
+    "path": "src/Effects/FXAA/FXAA_Medium.hlsl",
+    "bytes": 1421,
+    "sha256": "b0c9d43078a47887f9a81061f6b175e827624a997a408c3a502745dd62b24724"
+  },
+  {
+    "path": "src/Effects/FXAA/FXAA_Ultra.hlsl",
+    "bytes": 1421,
+    "sha256": "b57cf9364b676e48700258d031649dc9b6e8051dc6180306eb03aa9f7275af69"
+  },
+  {
+    "path": "src/Effects/ImageAdjustment.hlsl",
+    "bytes": 2400,
+    "sha256": "7781680c46fffc52ec5f8a1b2946ee34c6321d209fe78483942f1f9ce6a5ced8"
+  },
+  {
+    "path": "src/Effects/Jinc.hlsl",
+    "bytes": 3776,
+    "sha256": "c0688638e01669d4df8df2444781bfac991187653245202e841a72c25d8a9ddb"
+  },
+  {
+    "path": "src/Effects/Lanczos.hlsl",
+    "bytes": 2777,
+    "sha256": "85858d996129e117a213afe073e5c0541adcff75a55d139cb5eef4c6dfc66930"
+  },
+  {
+    "path": "src/Effects/NIS/Coef_Scale.dds",
+    "bytes": 1152,
+    "sha256": "55d9132c57ca02ec3def9131d7832faa3cbfd1cff7258a0c10ac04983a0e4d76"
+  },
+  {
+    "path": "src/Effects/NIS/Coef_USM.dds",
+    "bytes": 1152,
+    "sha256": "8123e98618363b3d90f9e59bc3a43bfbaa6d678c53506ffb876d55bb774a8ae5"
+  },
+  {
+    "path": "src/Effects/NIS/NIS.hlsl",
+    "bytes": 2830,
+    "sha256": "22e4f33398987e912c96ff3f8ce4ba1612457f431b60a3c64f592b1759421bbf"
+  },
+  {
+    "path": "src/Effects/NIS/NIS_Scaler.hlsli",
+    "bytes": 37775,
+    "sha256": "b0ec367db4b5cc2e99eac00ffb8b2abd3a419e4d49cfdf4b428bae76f46f6bc8"
+  },
+  {
+    "path": "src/Effects/NIS/NVSharpen.hlsl",
+    "bytes": 2652,
+    "sha256": "f09fa232b622bd71cd503c8ad8f216ff4d087499d23ec2898277f7760f16e2d3"
+  },
+  {
+    "path": "src/Effects/NNEDI3/NNEDI3_nns128_win8x4.hlsl",
+    "bytes": 262340,
+    "sha256": "773dd52efb11ac5d7c476cad5f2f562f5d567a9cc7aeb863ddbe24a0de06fd9b"
+  },
+  {
+    "path": "src/Effects/NNEDI3/NNEDI3_nns128_win8x6.hlsl",
+    "bytes": 384658,
+    "sha256": "8079aa477238c078bdb79ee74a741a8dc1952b65791cf28af746946f817735d7"
+  },
+  {
+    "path": "src/Effects/NNEDI3/NNEDI3_nns16_win8x4.hlsl",
+    "bytes": 41261,
+    "sha256": "04899292f6a9cc907def748374112c43389905ac223e6c2db84752fd09ac9565"
+  },
+  {
+    "path": "src/Effects/NNEDI3/NNEDI3_nns16_win8x6.hlsl",
+    "bytes": 57532,
+    "sha256": "127ab670325e626d77729593c1dda6a071c05212cdc30a6f16b21f1c0a9d3ec4"
+  },
+  {
+    "path": "src/Effects/NNEDI3/NNEDI3_nns256_win8x4.hlsl",
+    "bytes": 515502,
+    "sha256": "a3a422fb9c824ef3ee11040335fd0de5d69ded84a941df43314e6cd6e4588cab"
+  },
+  {
+    "path": "src/Effects/NNEDI3/NNEDI3_nns256_win8x6.hlsl",
+    "bytes": 758694,
+    "sha256": "52d98eca134406add83cc75a1fc82a061e87c7b8cfba7bcb7fbde9764e7b20c7"
+  },
+  {
+    "path": "src/Effects/NNEDI3/NNEDI3_nns32_win8x4.hlsl",
+    "bytes": 72773,
+    "sha256": "fd82db9ba04142dd924f9d11a2a3482c0dfe987a488bde1fa941feb252ec9f99"
+  },
+  {
+    "path": "src/Effects/NNEDI3/NNEDI3_nns32_win8x6.hlsl",
+    "bytes": 104328,
+    "sha256": "41a6d84c3585204f9f1e09df4fc7aff044a9dd7f399aa73d560c9e96ef63164f"
+  },
+  {
+    "path": "src/Effects/NNEDI3/NNEDI3_nns64_win8x4.hlsl",
+    "bytes": 135802,
+    "sha256": "e1abe8c619fd1af221753c840b63f2bc6b12993471d0fae3c692d8ceb76f5e2d"
+  },
+  {
+    "path": "src/Effects/NNEDI3/NNEDI3_nns64_win8x6.hlsl",
+    "bytes": 197759,
+    "sha256": "6964e58a7d4456765f77b30ceeeb63fc82948dbdd9b8ab69bd9cd09e9a8a06b7"
+  },
+  {
+    "path": "src/Effects/NNEDI3/prescalers.hlsli",
+    "bytes": 2644,
+    "sha256": "fe79a9a8bea8ca7af9a8fe684d13085a1c8996edfc9a55a71fb16d6da992e2d3"
+  },
+  {
+    "path": "src/Effects/Nearest.hlsl",
+    "bytes": 253,
+    "sha256": "ce385ae9872018af7166789e45e5b58668b66ec56f9fe05f8a81c9b94b13754a"
+  },
+  {
+    "path": "src/Effects/Pixel Art/MMPX.hlsl",
+    "bytes": 4741,
+    "sha256": "1caa695b24acd03c454bd4c9debf02488f3fdafee094f3ee7982a9077e8ac0df"
+  },
+  {
+    "path": "src/Effects/Pixel Art/Pixellate.hlsl",
+    "bytes": 1552,
+    "sha256": "5bf1de3ee1a33acebc9181e58c35105221cb9ed69e3ed794f1463c1150a62196"
+  },
+  {
+    "path": "src/Effects/Pixel Art/SharpBilinear.hlsl",
+    "bytes": 1108,
+    "sha256": "7233cc9b5f0580b46da3a1500897ae0774ae8ff7f83d483a2789fd902ad5474b"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_3x_R2.hlsl",
+    "bytes": 6729,
+    "sha256": "73dfbeba12b347697681bcaa5815b6925fe530d49338a7ec05d2149416ed05dc"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_3x_R2_RGB.hlsl",
+    "bytes": 7610,
+    "sha256": "67e0b5da13081c6fb7f0d929e16e046c6538e273a4d9e137deb37352e03c95e9"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_3x_R3.hlsl",
+    "bytes": 9215,
+    "sha256": "655c81ac46c014f1644f85c681e9ded786b5ed0af7b79e157f64edf68abeddc0"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_3x_R3_RGB.hlsl",
+    "bytes": 10841,
+    "sha256": "a78a9394ee142e2e00b9427642801c353f3be1e186c165201bf3327e73ffc5d2"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_3x_R4.hlsl",
+    "bytes": 13960,
+    "sha256": "77e442fcf339440dba54b17d775868f22c457ed10959cc1db6ac5d72fe0b3449"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_3x_R4_RGB.hlsl",
+    "bytes": 16950,
+    "sha256": "db2576f4b71104e566df8f2a65efc1562c79a95b2b1e086e4aaa71a79ebee4c3"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_Lite_AR_R2.hlsl",
+    "bytes": 8418,
+    "sha256": "6d1d17665119bc44fe11fd03a58aa37e0af4bdb6e6aa1080e4b6d2f36c6b84ef"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_Lite_AR_R3.hlsl",
+    "bytes": 10428,
+    "sha256": "7f87f2133271cc2bb281850f3911711e034aeed727c09dde74983a6b95fe09e8"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_Lite_AR_R4.hlsl",
+    "bytes": 14485,
+    "sha256": "41d99b34a3d4212f12eaf6dd9e08e240acb71a08710d76c589e9ff67e36daf44"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_Lite_R2.hlsl",
+    "bytes": 6268,
+    "sha256": "1d498543f0c85792bec35a8e5efe8e2146c703666424dc24f0f4cee85b9b2781"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_Lite_R3.hlsl",
+    "bytes": 7444,
+    "sha256": "5dc17be51dbfdc3a32fcdc5362196e26c2fe37e57ff7dd4594493693f8ad8e2b"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_Lite_R4.hlsl",
+    "bytes": 11495,
+    "sha256": "02bacf1d8c1cc456696a47df40fa043532672ddf370774bcdfe6c8adc341ee1f"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_R2.hlsl",
+    "bytes": 17422,
+    "sha256": "98cf1db77386be4aac13f65803659b24ab520b065965ed4974e952e843450b1d"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_R2_RGB.hlsl",
+    "bytes": 17921,
+    "sha256": "e50ef0423f85d0a149b48f4c635f71b1a5915bf9d07675a5a583a9b807a93dd3"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_R3.hlsl",
+    "bytes": 23476,
+    "sha256": "212acaf0490b56837254e4d74ecb466e59744f2f9b31fd482e933ac8d1ec990b"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_R3_RGB.hlsl",
+    "bytes": 24215,
+    "sha256": "165c15dacdcc5305014f438a02daae37b7ab4edd5291bba4a450365fa7a9a675"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_R4.hlsl",
+    "bytes": 40676,
+    "sha256": "a9249a2cbed6032fbb60bb8de0f79d5c86f7ed279f9f418b5211a5a33e0b27ee"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_R4_RGB.hlsl",
+    "bytes": 41835,
+    "sha256": "2bcdc9bdc4d9e12e041323bd6f12f01bec79c92ae33ce511641b90f1b62d8700"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_Zoom_AR_R2.hlsl",
+    "bytes": 10684,
+    "sha256": "24a95e3ebd086004da7b820b1709edb406f46e9b68395edd2696d4112fedf4d8"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_Zoom_AR_R2_RGB.hlsl",
+    "bytes": 12131,
+    "sha256": "a9bb80841d4879440de6c9f02c131bc0787674e445bc4cd1e719c65d617306a5"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_Zoom_AR_R3.hlsl",
+    "bytes": 13137,
+    "sha256": "8ac6f917d07d7ff533c2b1b5ce25c57068d6217408676d4ea4267372b273f239"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_Zoom_AR_R3_RGB.hlsl",
+    "bytes": 15240,
+    "sha256": "d3fc93f0d421b498f09ca77754c7661462dcf98557b8957e11f094628f3bcbd9"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_Zoom_R2.hlsl",
+    "bytes": 7627,
+    "sha256": "4f74533d611b7d3730f83632432ab20a3d2790904754b182f805c7aac20b93de"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_Zoom_R2_RGB.hlsl",
+    "bytes": 8082,
+    "sha256": "492f23a9c83004d688dee0ea61bc8f07e7a3282c2c845de17a2ede53bb9f292f"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_Zoom_R3.hlsl",
+    "bytes": 9956,
+    "sha256": "9bf332d7f0f5c1b1bf8618e5136c0ec6ef5116ca2ba813db827cd9c309509195"
+  },
+  {
+    "path": "src/Effects/RAVU/RAVU_Zoom_R3_RGB.hlsl",
+    "bytes": 11067,
+    "sha256": "c9cb69ac0274bc9e89f179dc26bb90a24e2643c85edf645364b10344aa2760f4"
+  },
+  {
+    "path": "src/Effects/RAVU/prescalers.hlsli",
+    "bytes": 2644,
+    "sha256": "fe79a9a8bea8ca7af9a8fe684d13085a1c8996edfc9a55a71fb16d6da992e2d3"
+  },
+  {
+    "path": "src/Effects/RAVU/ravu_3x_lut2_f16.dds",
+    "bytes": 17408,
+    "sha256": "e6e53b8fdefac7bc57ba6ff697a942d1bf52bfdae956fdc866cdcbd8ede8cac7"
+  },
+  {
+    "path": "src/Effects/RAVU/ravu_3x_lut3_f16.dds",
+    "bytes": 45056,
+    "sha256": "17157df3d9dec3b7a9f0d5e9bfe9f4c7fd6ccfc41e18e7d6b0f82f5832d11385"
+  },
+  {
+    "path": "src/Effects/RAVU/ravu_3x_lut4_f16.dds",
+    "bytes": 86528,
+    "sha256": "ecbdd2574b56cf70a222619a1bac164b7948e42fc62785bd62e27f381640deb0"
+  },
+  {
+    "path": "src/Effects/RAVU/ravu_lite_lut2_f16.dds",
+    "bytes": 11648,
+    "sha256": "2114fc06b281d86c545b5a15a21de926e063578a1e8f87f06b6c31c2127bb4ba"
+  },
+  {
+    "path": "src/Effects/RAVU/ravu_lite_lut3_f16.dds",
+    "bytes": 30080,
+    "sha256": "f0483a8ace6a3f82ebb4a04287142c8781c37be9b16259dc7e06990661e0910b"
+  },
+  {
+    "path": "src/Effects/RAVU/ravu_lite_lut4_f16.dds",
+    "bytes": 57728,
+    "sha256": "08e7268776c9e8ee62271876904c9d1ec8b3ad6895ecb209a069f7afb266437c"
+  },
+  {
+    "path": "src/Effects/RAVU/ravu_lut2_f16.dds",
+    "bytes": 10496,
+    "sha256": "d56b9a04b3a830157d7db7190ceef6fd634456a21f70a44e76dea3ba2edc04f4"
+  },
+  {
+    "path": "src/Effects/RAVU/ravu_lut3_f16.dds",
+    "bytes": 26048,
+    "sha256": "64279baf834e051d2c7e3a74fffab8e87d0c0ce1c049f9299c8612643eefac93"
+  },
+  {
+    "path": "src/Effects/RAVU/ravu_lut4_f16.dds",
+    "bytes": 41600,
+    "sha256": "7200041a310bb8e21c32fca26d1a521095fbc76fe866194f47e7b7e441b6a47f"
+  },
+  {
+    "path": "src/Effects/RAVU/ravu_zoom_lut2_ar_f16.dds",
+    "bytes": 373376,
+    "sha256": "a7892ff98ad7d7a9439d77759ef1a66526f949b6e2d6de0c0f69830ebe704971"
+  },
+  {
+    "path": "src/Effects/RAVU/ravu_zoom_lut2_f16.dds",
+    "bytes": 373376,
+    "sha256": "c3f77176934786c0e37b243fddaa922591543b2967b82731191fea8e3bb03d51"
+  },
+  {
+    "path": "src/Effects/RAVU/ravu_zoom_lut3_ar_f16.dds",
+    "bytes": 373376,
+    "sha256": "a7892ff98ad7d7a9439d77759ef1a66526f949b6e2d6de0c0f69830ebe704971"
+  },
+  {
+    "path": "src/Effects/RAVU/ravu_zoom_lut3_f16.dds",
+    "bytes": 933248,
+    "sha256": "102d215afcccec37b79ef0013e1f44e69cdd99cfb85cb875862dff9fac6f99f7"
+  },
+  {
+    "path": "src/Effects/SGSR.hlsl",
+    "bytes": 4596,
+    "sha256": "c21ba6c3153b9d505011f1b41c72f23d7f12fdd7e5a7d77ede01cb046d8a75a0"
+  },
+  {
+    "path": "src/Effects/SMAA/AreaTex.dds",
+    "bytes": 358528,
+    "sha256": "16e6cd520c2d885cb142b98334b2516804cbb1f44dcda2922be1d68f0766208c"
+  },
+  {
+    "path": "src/Effects/SMAA/SMAA.hlsli",
+    "bytes": 35172,
+    "sha256": "e147bd2661b9f33fad4f6685e98bf41abebe32971aadf1010d88fd01c5821863"
+  },
+  {
+    "path": "src/Effects/SMAA/SMAA_High.hlsl",
+    "bytes": 1382,
+    "sha256": "622e7f13517a24cc7d85d9ff9de2ebc0acf55a1b9f71aed57cd83260547d31c3"
+  },
+  {
+    "path": "src/Effects/SMAA/SMAA_Low.hlsl",
+    "bytes": 1375,
+    "sha256": "ba26b0e750bcb29837983705646fe08b2cbae0fac7d4da3517463d07d88f7521"
+  },
+  {
+    "path": "src/Effects/SMAA/SMAA_Medium.hlsl",
+    "bytes": 1378,
+    "sha256": "a211325281046f026c39546ed8451b942d3e579ecdd92c82cede3e25f9a492fb"
+  },
+  {
+    "path": "src/Effects/SMAA/SMAA_Ultra.hlsl",
+    "bytes": 1383,
+    "sha256": "e70c44d5f33465da31b19671c1eb8a0d50ab7865c4df4e147d40d2ca01419f4b"
+  },
+  {
+    "path": "src/Effects/SMAA/SearchTex.dds",
+    "bytes": 1152,
+    "sha256": "891e444b6dde7dd98f6902c805cd04e3469892aa1667c92f764d94789477ef3a"
+  },
+  {
+    "path": "src/Effects/SSimDownscaler.hlsl",
+    "bytes": 9450,
+    "sha256": "af1ce483f140d772696202af883f9c2dcaad1d55178ae6b69aac56d4e533dcb9"
+  },
+  {
+    "path": "src/Effects/Sharpen/AdaptiveSharpen.hlsl",
+    "bytes": 8478,
+    "sha256": "f52bbf1bfd18c836012eb868c44e2333db040e2b1ecdcc027a6fd35eac537c1c"
+  },
+  {
+    "path": "src/Effects/Sharpen/FineSharp.hlsl",
+    "bytes": 13180,
+    "sha256": "dc8adf534f27f24acc894f49f3bdb8089e358d60029948552f90898b6f39ad10"
+  },
+  {
+    "path": "src/Effects/Sharpen/LCAS.hlsl",
+    "bytes": 2620,
+    "sha256": "3d030d7ed3b242f02a39a5c197e28d21185b52dda284ac44f497410beb550ffe"
+  },
+  {
+    "path": "src/Effects/Sharpen/LumaSharpen.hlsl",
+    "bytes": 8057,
+    "sha256": "f9d40f2dcb9ec3ab9157ae6e36ef0ea7161cb0ebcb0c6ac62a253ac107f66d7d"
+  },
+  {
+    "path": "src/Effects/StubDefs.hlsli",
+    "bytes": 1450,
+    "sha256": "7cdbe42d9c0755fe77b5e3c28621281890aaa8b1e808123776295326a029348b"
+  },
+  {
+    "path": "src/Effects/k7_modernAnime_FHD_x2.hlsl",
+    "bytes": 423867,
+    "sha256": "7a86f75f6c42cfc396c02a580bc8240de73a0f9913fe93d3a4d3cf195b6adff4"
+  },
+  {
+    "path": "src/Effects/xBRZ/xBRZ_2x.hlsl",
+    "bytes": 10607,
+    "sha256": "40842da908bbd8046a9ca78d8e8c4f4339f34d806c9b334690627931cd517b23"
+  },
+  {
+    "path": "src/Effects/xBRZ/xBRZ_3x.hlsl",
+    "bytes": 11491,
+    "sha256": "3adc5d87f30512fa71aae960a6450fa17cb936414a4fffb0e99c0739bd864624"
+  },
+  {
+    "path": "src/Effects/xBRZ/xBRZ_4x.hlsl",
+    "bytes": 15658,
+    "sha256": "91c287d3119c2faf1951715b8793c620a7ac8a3d961b4af15c693b07e136e54d"
+  },
+  {
+    "path": "src/Effects/xBRZ/xBRZ_5x.hlsl",
+    "bytes": 17834,
+    "sha256": "d949a051435c06fd2934484e28cfa96b0ced4cbbd02869d96a606636405477dd"
+  },
+  {
+    "path": "src/Effects/xBRZ/xBRZ_6x.hlsl",
+    "bytes": 19837,
+    "sha256": "4a0c39cc6c98fdc6a616e854299c1cdbb7cfd4032a3d33bdfb35cc9556ea0908"
+  },
+  {
+    "path": "src/Effects/xBRZ/xBRZ_Freescale.hlsl",
+    "bytes": 12827,
+    "sha256": "b69f5af0e7dba8cdae394a5e00bbd3fe692d674bf9ce3283cb79fac2a1960f77"
+  },
+  {
+    "path": "src/HybridCRT.props",
+    "bytes": 1564,
+    "sha256": "f7d9e783c3b55c90773b7eeb6cb05c4df01f45199b3d23e0e39927689ecbaadc"
+  },
+  {
+    "path": "src/Magpie/AboutPage.cpp",
+    "bytes": 1579,
+    "sha256": "83c592d26dea4d5100670eff8c11a9f2527abed400a688784920e1dbdba824d8"
+  },
+  {
+    "path": "src/Magpie/AboutPage.h",
+    "bytes": 759,
+    "sha256": "d6813d418615f62c6b6414ec15b8505e24cc2b3588bcebd018acc9b42bf5cbf4"
+  },
+  {
+    "path": "src/Magpie/AboutPage.idl",
+    "bytes": 262,
+    "sha256": "4adc4a0f478451f9a351a35a6ee89007115a9c21b6d86bdf3697c0a38fa4c2c2"
+  },
+  {
+    "path": "src/Magpie/AboutPage.xaml",
+    "bytes": 9767,
+    "sha256": "08ba32234504b4db953abff2ee89827cbdcb069a24ae5f92b4ac5617b99d0897"
+  },
+  {
+    "path": "src/Magpie/AboutViewModel.cpp",
+    "bytes": 8678,
+    "sha256": "a826c1e4a4ae0f0f08bf6fc8d909116f8eac821b2d4d3a0bfd3c79b28c924a7b"
+  },
+  {
+    "path": "src/Magpie/AboutViewModel.h",
+    "bytes": 2024,
+    "sha256": "09defa754880976f92b8a7f9ae585396832c2677487c1fd8da0884a707a4f870"
+  },
+  {
+    "path": "src/Magpie/AboutViewModel.idl",
+    "bytes": 1040,
+    "sha256": "2eeee04cb0480b0e168849bde952155b49cc3193f2c9eac1b2def08841901fdb"
+  },
+  {
+    "path": "src/Magpie/AdaptersService.cpp",
+    "bytes": 6871,
+    "sha256": "adeb722b9a190c61bed1ea24a57606cedef3bb7651e45ac7caad9a716d0f6595"
+  },
+  {
+    "path": "src/Magpie/AdaptersService.h",
+    "bytes": 974,
+    "sha256": "05bb458c70368cb781aa3b0471f88b44fdf84c85699709963d33a344324bbbd3"
+  },
+  {
+    "path": "src/Magpie/App.cpp",
+    "bytes": 11298,
+    "sha256": "addf181b6282179c97a2b2bd4d131687841d6e32fb5dc36501136af9436750cd"
+  },
+  {
+    "path": "src/Magpie/App.h",
+    "bytes": 2826,
+    "sha256": "cc5f8ccdba068c9b901af51e9bf2254494b2023545d5e3170f96c5358af5c893"
+  },
+  {
+    "path": "src/Magpie/App.idl",
+    "bytes": 1517,
+    "sha256": "172b60b5aa8c5e6e71f7aeb956b5bf76e2281398e28284472fccb58d1daaa0ba"
+  },
+  {
+    "path": "src/Magpie/App.xaml",
+    "bytes": 21599,
+    "sha256": "b54a3ee8b29b1a3c90533768085c873692700fae3d8b6dfe6cbb92efb7bb0129"
+  },
+  {
+    "path": "src/Magpie/AppSettings.cpp",
+    "bytes": 39687,
+    "sha256": "09063be00186e54db4d44d76c8ba335c31d2cd2b91405c9c2a7c2d2dfa705d14"
+  },
+  {
+    "path": "src/Magpie/AppSettings.h",
+    "bytes": 8028,
+    "sha256": "f773a8a21fcf5ecfdb8addb44d4ce027a31bc7aa0a71ff762ce5748abe4edcc5"
+  },
+  {
+    "path": "src/Magpie/AutoStartHelper.cpp",
+    "bytes": 13183,
+    "sha256": "2adc9af9e72270c55bae34a2874ef86064ea0e1e569f375b3ef985b5c915047b"
+  },
+  {
+    "path": "src/Magpie/AutoStartHelper.h",
+    "bytes": 208,
+    "sha256": "64501a189a0d7e83cc6691351fd0f8b37ef5c2bfca7390701720f099065d738b"
+  },
+  {
+    "path": "src/Magpie/BlueInfoBarStyle.xaml",
+    "bytes": 987,
+    "sha256": "4187e34aa22ee81035bef6cc409aa8f340326e23eecf333bbbf8b61b985cad16"
+  },
+  {
+    "path": "src/Magpie/BoolNegationConverter.cpp",
+    "bytes": 698,
+    "sha256": "1dc041bf547cafc1f4a59ddc32fb32d4535274e374f42174b255a73e67267362"
+  },
+  {
+    "path": "src/Magpie/BoolNegationConverter.h",
+    "bytes": 453,
+    "sha256": "253e3545441f8cef2b492f599866c238d43ac3aab14c40621c4a924737788521"
+  },
+  {
+    "path": "src/Magpie/BoolNegationConverter.idl",
+    "bytes": 150,
+    "sha256": "5c8478175d002e7fc6c40b612f16e760f091353300123e118045a811b56b3b49"
+  },
+  {
+    "path": "src/Magpie/BoolToNegativeVisibilityConverter.cpp",
+    "bytes": 766,
+    "sha256": "48690eb0d6bbb01c207034a6bf4066737f2069648212b2f97607a84475dee141"
+  },
+  {
+    "path": "src/Magpie/BoolToNegativeVisibilityConverter.h",
+    "bytes": 513,
+    "sha256": "1375092b57011812641a77e66ad334e1fca3059c379bdf707af3bc40fc0249f0"
+  },
+  {
+    "path": "src/Magpie/BoolToNegativeVisibilityConverter.idl",
+    "bytes": 247,
+    "sha256": "9728aca941acb9cf8927118be6a0ec0b9d32c2a844d59591af7ff8560438fdb0"
+  },
+  {
+    "path": "src/Magpie/BoolToObjectConverter.cpp",
+    "bytes": 1314,
+    "sha256": "c28cc1cf44e32ca43c5307c32a284666898dec180f53881f392a572732f0d2d3"
+  },
+  {
+    "path": "src/Magpie/BoolToObjectConverter.h",
+    "bytes": 746,
+    "sha256": "243231f7966957f2d60a456b6774cbb96d0e26df1cb369b42c3d78b87a4bde08"
+  },
+  {
+    "path": "src/Magpie/BoolToObjectConverter.idl",
+    "bytes": 356,
+    "sha256": "df63d6be0d9480913e2465d9217aff8e955735f4fc00c9b523d482d013e1a9c6"
+  },
+  {
+    "path": "src/Magpie/BorderlessWindow.h",
+    "bytes": 8079,
+    "sha256": "fead5f1fdb6d3b1704dab06adbdfce2061b45b4fb856d348fe4da54c3f003287"
+  },
+  {
+    "path": "src/Magpie/CandidateWindowItem.cpp",
+    "bytes": 3633,
+    "sha256": "6bd6f3bc80d0441786063b844b3a6bf73604d700c28d7812e44037e1b30fca6f"
+  },
+  {
+    "path": "src/Magpie/CandidateWindowItem.h",
+    "bytes": 860,
+    "sha256": "688ef7987a5b09584af5105c7a994147a994f294ba3789e1e80f378cf4f76803"
+  },
+  {
+    "path": "src/Magpie/CandidateWindowItem.idl",
+    "bytes": 344,
+    "sha256": "87bf51b423af822f64f66e0967d025e6103bcce62abb60ed29afd7cb315486d2"
+  },
+  {
+    "path": "src/Magpie/CaptionButtonsControl.cpp",
+    "bytes": 5076,
+    "sha256": "436fd3b3197e60dfe0d307ee196a5edacb2554a005d05445103a2199acb200da"
+  },
+  {
+    "path": "src/Magpie/CaptionButtonsControl.h",
+    "bytes": 778,
+    "sha256": "a9c2d7dfbcfec81320fca2eaf773690d0473cf16807431195c9871ccbb3b6b8d"
+  },
+  {
+    "path": "src/Magpie/CaptionButtonsControl.idl",
+    "bytes": 149,
+    "sha256": "e2b5559fe5ed9f1f982af58588fdca1ac8b38634281c42ac00048b73d4552e52"
+  },
+  {
+    "path": "src/Magpie/CaptionButtonsControl.xaml",
+    "bytes": 7715,
+    "sha256": "8b6877d0a4daae31e34c4d4d0dcaf8c1b19c3664cc02b127ff932c312ffc0116"
+  },
+  {
+    "path": "src/Magpie/ContentDialogHelper.cpp",
+    "bytes": 744,
+    "sha256": "d08a6508e14498a413b128c32f0322cce2461d77522ecb09f4ec9fed57d7340a"
+  },
+  {
+    "path": "src/Magpie/ContentDialogHelper.h",
+    "bytes": 243,
+    "sha256": "b33c8a6a6c0088e30d326175f6c3dfa654dbe2292b5b4fa0e7a49548e90a6ba2"
+  },
+  {
+    "path": "src/Magpie/ControlHelper.cpp",
+    "bytes": 1507,
+    "sha256": "a06bb5b6329f74b38bd350c18844cb4d611cbafe60716d3dd475338fa3057655"
+  },
+  {
+    "path": "src/Magpie/ControlHelper.h",
+    "bytes": 430,
+    "sha256": "988500ad142155228aff2e812329695127d2caff9d7dce308cdb85d051940b8e"
+  },
+  {
+    "path": "src/Magpie/ControlSizeTrigger.cpp",
+    "bytes": 3580,
+    "sha256": "2ff8004b9fe67f262372fc879c5c5335a30d3c0184ad43d30ea60aa4b2c706ae"
+  },
+  {
+    "path": "src/Magpie/ControlSizeTrigger.h",
+    "bytes": 1041,
+    "sha256": "cbc137f52c665b2fbf197df0117ac06b0eba55d6f5430ec07c09148da1629298"
+  },
+  {
+    "path": "src/Magpie/ControlSizeTrigger.idl",
+    "bytes": 788,
+    "sha256": "b2a13b7529cfecf1813a2fac6e24a37016813a631653e0027d823f7197e027b3"
+  },
+  {
+    "path": "src/Magpie/CriticalButtonStyle.xaml",
+    "bytes": 947,
+    "sha256": "865d82d1b5f5185e0588b04819c3d884d91feddee2bc509381f140b972d6a15d"
+  },
+  {
+    "path": "src/Magpie/DeleteConfirmationFlyoutContent.cpp",
+    "bytes": 441,
+    "sha256": "5783ea1577e9024152cb0ed74ed0cbb9e9dfc16499cc2d2a9552ddcb0ccaf8a2"
+  },
+  {
+    "path": "src/Magpie/DeleteConfirmationFlyoutContent.h",
+    "bytes": 681,
+    "sha256": "842bed16dc05303b083d5c3f6015079255529ed8ab8c566e7f47aa54a01215cb"
+  },
+  {
+    "path": "src/Magpie/DeleteConfirmationFlyoutContent.idl",
+    "bytes": 272,
+    "sha256": "4ed386abe6194ab7a7fc1228ff4d1e8f86dca486e3038feaa14d7883c0cd0503"
+  },
+  {
+    "path": "src/Magpie/DeleteConfirmationFlyoutContent.xaml",
+    "bytes": 1249,
+    "sha256": "aa96c7e9550cb81189bd47e2add2f8e92dd43cd160b3ec432e17e7c610716d6c"
+  },
+  {
+    "path": "src/Magpie/EffectHelper.h",
+    "bytes": 279,
+    "sha256": "e0ab9bbd08841e1a38b552c76534bab4ab1ea3989b45c6b9f0ee01deca2c5662"
+  },
+  {
+    "path": "src/Magpie/EffectParametersViewModel.cpp",
+    "bytes": 5706,
+    "sha256": "019edf400b84f4862c474de9a03c694c81bcf94f22729e7258c522413fd1d039"
+  },
+  {
+    "path": "src/Magpie/EffectParametersViewModel.h",
+    "bytes": 3275,
+    "sha256": "d66e02eb7c47614d71f4782931d8b02bf8ec22697c712a217b83e4e109ea0493"
+  },
+  {
+    "path": "src/Magpie/EffectParametersViewModel.idl",
+    "bytes": 675,
+    "sha256": "96ca7fc20811333747bc92ab66f0b45a29197e89adcd091fc00b3c23da728235"
+  },
+  {
+    "path": "src/Magpie/EffectsService.cpp",
+    "bytes": 3362,
+    "sha256": "b3347de39e789a7c5c15e15446f0827ad0b0c262c852b18ea601c1d18ea0140a"
+  },
+  {
+    "path": "src/Magpie/EffectsService.h",
+    "bytes": 997,
+    "sha256": "68c62eeea8924a53c50ae94d7d5186e8191b8ae244b058f8d10a48732f3e6ec7"
+  },
+  {
+    "path": "src/Magpie/FileDialogHelper.cpp",
+    "bytes": 1115,
+    "sha256": "abc2c1bd354d3d5279b8464b2210543f64c063527384dd1da4e4755e2a25c994"
+  },
+  {
+    "path": "src/Magpie/FileDialogHelper.h",
+    "bytes": 223,
+    "sha256": "31d6340d90d220d3d22f4edb50ff437ccc70825f8d9cdcee1e70a8de8614a12e"
+  },
+  {
+    "path": "src/Magpie/HomePage.cpp",
+    "bytes": 833,
+    "sha256": "36f1649691ce09a27fab5aab951d82ee6a5988564f1fa4b042271f064fa96b3a"
+  },
+  {
+    "path": "src/Magpie/HomePage.h",
+    "bytes": 601,
+    "sha256": "54bb00d2878202fa3b0ea87d2a0f50a1e35190f65de52c750a78483e192369e8"
+  },
+  {
+    "path": "src/Magpie/HomePage.idl",
+    "bytes": 259,
+    "sha256": "7d41201e4a8287b1f88fbcd10c33f07a8e00af7ff85cbaa8e7e229d0f4fb0fe6"
+  },
+  {
+    "path": "src/Magpie/HomePage.xaml",
+    "bytes": 15588,
+    "sha256": "fadb6d87aed5dc17e48a256613f03d40eaf49f6a63293a385f8ad6c8d7d5f945"
+  },
+  {
+    "path": "src/Magpie/HomeViewModel.cpp",
+    "bytes": 14378,
+    "sha256": "9816185ad5993c62cdb27cffaee7c3ad1ab3168a8b4944d61efbbfead1531ddd"
+  },
+  {
+    "path": "src/Magpie/HomeViewModel.h",
+    "bytes": 3335,
+    "sha256": "4e8ee7fc0e9a42d9bddbec98a4dd57aebf884f39531f4904624b714b1f4cb46b"
+  },
+  {
+    "path": "src/Magpie/HomeViewModel.idl",
+    "bytes": 1431,
+    "sha256": "30cc8d3b47561057a96ac0c34afc47bf79dd6a76a17dac4d2c14463313f69a7f"
+  },
+  {
+    "path": "src/Magpie/IconHelper.cpp",
+    "bytes": 7726,
+    "sha256": "c275c2b6bfc76981d7ee096891e1dadff1fd4b1447a51f497dff49677dbce86f"
+  },
+  {
+    "path": "src/Magpie/IconHelper.h",
+    "bytes": 482,
+    "sha256": "e4033d092761853c11de6db62f9c0b663a10e0b2406c12642c0ee62dea2d0dab"
+  },
+  {
+    "path": "src/Magpie/Icons/ICO/Magpie Icon Full Disabled.ico",
+    "bytes": 169444,
+    "sha256": "e5db7c423d9ccea215eab3870a519402a7df6bc2fb92a58a0521aacc251a3cc2"
+  },
+  {
+    "path": "src/Magpie/Icons/ICO/Magpie Icon Full Enabled.ico",
+    "bytes": 169612,
+    "sha256": "f943e5a5094898dbb879b46335a5055a2bfa028c3f9ec7095516eb253b7d3c22"
+  },
+  {
+    "path": "src/Magpie/Icons/ICO/Magpie Icon Simplified.ico",
+    "bytes": 169733,
+    "sha256": "ad3756e3c96828a314b629041a0616ac8cee9f4ba205a970f85e4d5024c7d124"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Disabled/128.png",
+    "bytes": 7856,
+    "sha256": "e0772fe45ac94ee23ab3697891623f38b7bc7d1230ffba73efcd0075a010c95c"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Disabled/16.png",
+    "bytes": 1882,
+    "sha256": "9472add79870dd31e588172db5074928944ba867a9f16fcd8f7fdf54ae480f6f"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Disabled/20.png",
+    "bytes": 2194,
+    "sha256": "8e6b33529d7d75d255dd5a5de7cbde9a42bfea130b52c7e4366a558d9dd045a1"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Disabled/24.png",
+    "bytes": 2093,
+    "sha256": "b178d59d1b7aa38dcb1aa3e239d11ca56920449b05f039d9c9d4d0b2de3ff761"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Disabled/256.png",
+    "bytes": 17004,
+    "sha256": "836f0662f997b4e072aac07549227ff94b2aacf8411938f2c04773cc97c04005"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Disabled/32.png",
+    "bytes": 2448,
+    "sha256": "ca4d31cfc40cee0c96bfca3cbfd8a21a10bf9c088106f4325ea3ba3f33380722"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Disabled/40.png",
+    "bytes": 2859,
+    "sha256": "69a2a12e9e309819f5c43078abdc624200178a82cb5dcacdb5f0ca144b0fcfea"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Disabled/48.png",
+    "bytes": 3335,
+    "sha256": "07c3acfa8a94bb9c07c539ee303f0c6e04ef59f57b40a1cc1edd93e262897e22"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Disabled/64.png",
+    "bytes": 4134,
+    "sha256": "acf26549b5d4fd4fa4965d0a3dac7486d63f412d795598e9c2dd5d414a163fad"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Disabled/96.png",
+    "bytes": 6203,
+    "sha256": "db13fba4841c31c0184bba30cc46056d68c32078ed8f9a9c22597df2772a1190"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Enabled/128.png",
+    "bytes": 7777,
+    "sha256": "ae410b7d844b1f3f9cf636ffecdf7c62c42ac4347f53769c1eeb33821fa8bf0d"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Enabled/16.png",
+    "bytes": 1892,
+    "sha256": "aa12004735f5afff03b781ff4f82973b482fb10bd598c1c1bac064d4f722beb9"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Enabled/20.png",
+    "bytes": 2174,
+    "sha256": "38495d5e635eb54095ac6ce2e572f9ca88dce71a68f954692f91fba1d6cf31b3"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Enabled/24.png",
+    "bytes": 2441,
+    "sha256": "db5fd5c53c75e8fc90e9fa3141b770e6f35a62764b5992ff3366f8c24cfcf9f5"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Enabled/256.png",
+    "bytes": 16473,
+    "sha256": "ce2d9f7d305b56c51e35b5c95fa697abe07ccb156fd5f3a682afc4eef0d61f66"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Enabled/32.png",
+    "bytes": 2474,
+    "sha256": "43633bb4ec1d7d4a867049d6693f76b44eced6a141220cd3f785c819c28918cb"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Enabled/40.png",
+    "bytes": 2842,
+    "sha256": "123632bf52544a8fabc0ce7617530024d9cb373c727e19ff522cca76f8d75de0"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Enabled/48.png",
+    "bytes": 3375,
+    "sha256": "8a4d57c214465d3489da5bf9c8792e06839dbfe5572bf113ac51099454e90cec"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Enabled/64.png",
+    "bytes": 4153,
+    "sha256": "a40eb7ef07b3cbec952b2214056bc4728711c29d94bed0fbfc51ad56f5f0046d"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Full Enabled/96.png",
+    "bytes": 6177,
+    "sha256": "b2aae8cac2b36b90bc589d6db0c7e7fe9d1537a19105c495d1bf4c2d2cfe1491"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Simplified/128.png",
+    "bytes": 7867,
+    "sha256": "d8725797f546cee5b6f93f91ba3c91d31850085fc4b596e0cc92477eab718220"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Simplified/16.png",
+    "bytes": 1825,
+    "sha256": "0359f4cd6c5cd2bc2e0a82b1c207f47891c328d0a8f1bbed298f38cd8e913503"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Simplified/20.png",
+    "bytes": 2069,
+    "sha256": "4e3c409288629e63e7c30ab07a54b1798d642fe3dfd10808f2631a9eb18dd979"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Simplified/24.png",
+    "bytes": 2346,
+    "sha256": "20c82de95ccfe6ad3e0681c28509bc125cf29e8ba9c540b562b9339331f48f49"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Simplified/256.png",
+    "bytes": 16255,
+    "sha256": "161b60980ad7dc07fc2ae4ed3a7ae77a17313dd850790e1fe214b90b9bb48ad9"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Simplified/32.png",
+    "bytes": 2497,
+    "sha256": "191154892e76ab1287ca5cf36a262a11a65ee4bcd49a9a9a06c4e52cc56470dd"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Simplified/40.png",
+    "bytes": 2907,
+    "sha256": "faa17bffa87d502385af963d84672d29a20773216af24fa5f89a0fb9ffed2be1"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Simplified/48.png",
+    "bytes": 3393,
+    "sha256": "ac905ac11659de3f0c9eb97abe306d22d4c0e1d378273740ad35d14943a6d54f"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Simplified/64.png",
+    "bytes": 4160,
+    "sha256": "700f93127bc2e64db3dbc7a854f4f173607a21336fb88b67440cc950eaa61ea2"
+  },
+  {
+    "path": "src/Magpie/Icons/PNG/Magpie Icon Simplified/96.png",
+    "bytes": 6239,
+    "sha256": "ffd2e68779ab4ece23d0cfdb11aae430f2a2c1e589fce232c31c92c2f0b211cd"
+  },
+  {
+    "path": "src/Magpie/Icons/SVG/Magpie Icon Full Disabled.svg",
+    "bytes": 4530,
+    "sha256": "209e7d08e2767a2d1bbc4d0eca9966f2a273c4f3cb0b4aa0e5bea0c8679567b7"
+  },
+  {
+    "path": "src/Magpie/Icons/SVG/Magpie Icon Full Enabled.svg",
+    "bytes": 4530,
+    "sha256": "739eeb9676c086af7e213de504420c027f504241e84218ac70f5ea7943c5e5aa"
+  },
+  {
+    "path": "src/Magpie/Icons/SVG/Magpie Icon Simplified.svg",
+    "bytes": 2672,
+    "sha256": "1a9f41fb088bc26c07a60e571b2dce63ac1e380bf3598937be2e20688816c2bb"
+  },
+  {
+    "path": "src/Magpie/IsEqualStateTrigger.cpp",
+    "bytes": 1947,
+    "sha256": "c183f37543fd85595f307952b19f9dbbb74ccb96fbc07df83db4b9d116fb6f9d"
+  },
+  {
+    "path": "src/Magpie/IsEqualStateTrigger.h",
+    "bytes": 554,
+    "sha256": "e99c950d9ab51706432ba25073b2f69b10002473a394aa7fdfd78633722c814c"
+  },
+  {
+    "path": "src/Magpie/IsEqualStateTrigger.idl",
+    "bytes": 286,
+    "sha256": "f074b500bec7077b307c22c4603353288cbb2daaa88f73a1a612294e2bbb2899"
+  },
+  {
+    "path": "src/Magpie/IsNullStateTrigger.cpp",
+    "bytes": 943,
+    "sha256": "0149a698c2e647f35360c4f9a2ba02df148c9dcf03b1e2985b3718a1c5953540"
+  },
+  {
+    "path": "src/Magpie/IsNullStateTrigger.h",
+    "bytes": 486,
+    "sha256": "8a60f6a2d886e24004baab34e496aea112f84b9a8c4f1f69cc77f9c5762f4802"
+  },
+  {
+    "path": "src/Magpie/IsNullStateTrigger.idl",
+    "bytes": 205,
+    "sha256": "bee8d0eaf44bec63020dc59ebaa0cd4f646dd594c89e871f984cb9f8ef4eceed"
+  },
+  {
+    "path": "src/Magpie/JsonHelper.cpp",
+    "bytes": 2864,
+    "sha256": "929e35c5247db399ffcadd0155333d42b14b62fa6c5f5a9def4a383dcf17088b"
+  },
+  {
+    "path": "src/Magpie/JsonHelper.h",
+    "bytes": 2338,
+    "sha256": "f97218f3142b8ab96a30acf8882ddcf8c52348c57ec3f1a6e84d0fa0d902a4b0"
+  },
+  {
+    "path": "src/Magpie/KeyVisual.Resource.xaml",
+    "bytes": 6625,
+    "sha256": "8d848ef4342910dfdfa2471e28afacc8b0221a2ff61ccd53a041e5db1052bdd5"
+  },
+  {
+    "path": "src/Magpie/KeyVisual.cpp",
+    "bytes": 4153,
+    "sha256": "166cf17d7742ec142081b41b906170ddc5fb3cefc8bb3ae748e704344244a0b2"
+  },
+  {
+    "path": "src/Magpie/KeyVisual.h",
+    "bytes": 1006,
+    "sha256": "5afbc98faf5c6034fe469aba54c5a907b92513f50a7177d0dc67a9ac9be09f16"
+  },
+  {
+    "path": "src/Magpie/KeyVisual.idl",
+    "bytes": 520,
+    "sha256": "17a006f9cf3cce80a7d4a922c8522f841abba0426ca80a3b6132aadca4cb5d1c"
+  },
+  {
+    "path": "src/Magpie/KeyVisualState.cpp",
+    "bytes": 129,
+    "sha256": "a6ed2165f157a22cfa42e26db4797fe381a1c94252d1ce2d9a7313a7d76bb9c6"
+  },
+  {
+    "path": "src/Magpie/KeyVisualState.h",
+    "bytes": 427,
+    "sha256": "9da3bd8c6636104097b4ff551e35b6ce9baff28df92b9a2591f7721a846f42f5"
+  },
+  {
+    "path": "src/Magpie/KeyVisualState.idl",
+    "bytes": 105,
+    "sha256": "110500ac57abe0c8a0772a2f7ba31a2165704408874dc5559ddbd318897ade14"
+  },
+  {
+    "path": "src/Magpie/Magpie.ico",
+    "bytes": 60852,
+    "sha256": "5df68c375b7bd56198b5360e5bb789dbef84272f0b5e1e56cef74978d938f7e5"
+  },
+  {
+    "path": "src/Magpie/Magpie.rc",
+    "bytes": 382,
+    "sha256": "83c4459c338f0a679cc5ca2f2e4ba04cde59c55aa26e83dd20c1682331a7f555"
+  },
+  {
+    "path": "src/Magpie/Magpie.vcxproj",
+    "bytes": 40245,
+    "sha256": "0fb2e3f0fdaacc09007a3bfc67db87d243ebc3102cc653d5b81772da27558890"
+  },
+  {
+    "path": "src/Magpie/Magpie.vcxproj.filters",
+    "bytes": 13292,
+    "sha256": "3b8ab0dd43dae1078fc45c95b97a61945567594082b46db21fa2a079931dbe19"
+  },
+  {
+    "path": "src/Magpie/MainWindow.cpp",
+    "bytes": 28771,
+    "sha256": "48a902414011f54a0136252b877368984f6f80e9de0eade439fa19eb865f9eed"
+  },
+  {
+    "path": "src/Magpie/MainWindow.h",
+    "bytes": 1683,
+    "sha256": "31719b9df5b521d39555a29d5df2cd896c7b7a1e4355b66bc965f9e2ba7205bf"
+  },
+  {
+    "path": "src/Magpie/NewProfileViewModel.cpp",
+    "bytes": 5248,
+    "sha256": "7fbde810289f04dfbb8ba5bba03b9e00d177006880916da801f47dfcd7ddd31f"
+  },
+  {
+    "path": "src/Magpie/NewProfileViewModel.h",
+    "bytes": 1628,
+    "sha256": "31d017b66816b926ebe164f36037891b0ca5355cf5afe9b0e6769398d378e924"
+  },
+  {
+    "path": "src/Magpie/NewProfileViewModel.idl",
+    "bytes": 391,
+    "sha256": "85d0334ade32f7a4574c67735cb3b573a48f62ae7958f1ad7822cad9f1088913"
+  },
+  {
+    "path": "src/Magpie/NotifyIconService.cpp",
+    "bytes": 4779,
+    "sha256": "b7ce0c1d2d61945c205aabc50fe77f56f1093a7bb019abe6c15b620f31e23f96"
+  },
+  {
+    "path": "src/Magpie/NotifyIconService.h",
+    "bytes": 791,
+    "sha256": "07aefcab84778c6cac0a9a9b7b77afc5cdda1378a42b91a875e75838e174e21f"
+  },
+  {
+    "path": "src/Magpie/PageFrame.cpp",
+    "bytes": 3626,
+    "sha256": "7c86cb893c4bc3a1a92292b129a1378d3f7369026efb54d564e66c4cf5c68168"
+  },
+  {
+    "path": "src/Magpie/PageFrame.h",
+    "bytes": 1092,
+    "sha256": "3827075c3168a9ce9cacf72ca1a0c338ce03551c3d9ae0e93f581f31ac139118"
+  },
+  {
+    "path": "src/Magpie/PageFrame.idl",
+    "bytes": 643,
+    "sha256": "9846de158fafcd170665ad196a39120ec11789d15726abdd4da0c2f81e1c72fe"
+  },
+  {
+    "path": "src/Magpie/PageFrame.xaml",
+    "bytes": 3462,
+    "sha256": "a342864123e63db4a8f09f954e387c91be5d57a249bd62a7c2c7e385211444b3"
+  },
+  {
+    "path": "src/Magpie/Profile.cpp",
+    "bytes": 4847,
+    "sha256": "430d3b6c6d42fb04aa07ca5202789d0ef2795598fdd07854ee4b8963324dee7d"
+  },
+  {
+    "path": "src/Magpie/Profile.h",
+    "bytes": 3708,
+    "sha256": "081fd77a07a24bfea2d720778b5feee49871930a59e2ada172717404b5e2f214"
+  },
+  {
+    "path": "src/Magpie/ProfilePage.cpp",
+    "bytes": 3675,
+    "sha256": "92ed8f56666c6f855f4eb4febfbaab8f9ba6f8b7deab63ed2b19bfa515c2abbe"
+  },
+  {
+    "path": "src/Magpie/ProfilePage.h",
+    "bytes": 1410,
+    "sha256": "706765047d013bdb3377977e608e5e3cb1b0dffe52756f25c0f23d4641d0a2b7"
+  },
+  {
+    "path": "src/Magpie/ProfilePage.idl",
+    "bytes": 268,
+    "sha256": "8e1d71fc39d8b29a19d3266c21ccadfcca036b0ca72037e1e18b9a9141e6d5e2"
+  },
+  {
+    "path": "src/Magpie/ProfilePage.xaml",
+    "bytes": 32392,
+    "sha256": "33b9c9acfae912b92f791556c426df673b57ae6f1af12b2e8a78d6ebc4b3c643"
+  },
+  {
+    "path": "src/Magpie/ProfileService.cpp",
+    "bytes": 7163,
+    "sha256": "9163688c8747ba74e9a2953d33a6242c16174dcc31c5b13177b830ca872afab3"
+  },
+  {
+    "path": "src/Magpie/ProfileService.h",
+    "bytes": 1028,
+    "sha256": "0dde7825a91b52ccc569c434eb6a5e39ea7bc2798be108c6dcfd2c71b7f3a2b5"
+  },
+  {
+    "path": "src/Magpie/ProfileViewModel.cpp",
+    "bytes": 26366,
+    "sha256": "7f24233ba3853bdade9cbd5a02043493b8de3e3c4c30085dac52a7fb89abc183"
+  },
+  {
+    "path": "src/Magpie/ProfileViewModel.h",
+    "bytes": 5011,
+    "sha256": "d1e0aa6d4f2673ef615c3e37e0aaa17a2217749e5543de175ad98f2e267a4aac"
+  },
+  {
+    "path": "src/Magpie/ProfileViewModel.idl",
+    "bytes": 2033,
+    "sha256": "db95c59f38b52e2efd423babf811b5b09a22da18a7bc8c3f38a5deda81c35864"
+  },
+  {
+    "path": "src/Magpie/Resources.language-de.resw",
+    "bytes": 47409,
+    "sha256": "ad9e388898019aead7bf722a4bc69270c14aea19d5877186e964963776fccce7"
+  },
+  {
+    "path": "src/Magpie/Resources.language-en-US.resw",
+    "bytes": 49555,
+    "sha256": "7be29f34baf7bd235d014c123b23cc4ccbcc9aadfb16d9e56119e3164dfa9cf3"
+  },
+  {
+    "path": "src/Magpie/Resources.language-es.resw",
+    "bytes": 41235,
+    "sha256": "0c72e2121a63a41a2a6c21009a7ce7741a6a8f6c0fc422d9b49c6613021d0083"
+  },
+  {
+    "path": "src/Magpie/Resources.language-fi.resw",
+    "bytes": 43720,
+    "sha256": "a0b150359a5c9cd24a50b98fb61ea01bd7f8be4e846e09901e8e86ac46c0f3a8"
+  },
+  {
+    "path": "src/Magpie/Resources.language-fr.resw",
+    "bytes": 48831,
+    "sha256": "99a2c4f08eb0c034042715d1e9d8fb962c5da698eeab6c2b243bdd4c85c0a38f"
+  },
+  {
+    "path": "src/Magpie/Resources.language-hu.resw",
+    "bytes": 15681,
+    "sha256": "f35099f3815a3875cfe216eb23502b1b7fa8b2546f1c4e67f82bcefe3f5e03f6"
+  },
+  {
+    "path": "src/Magpie/Resources.language-id.resw",
+    "bytes": 50397,
+    "sha256": "371f8298cf6a8a4e65c1000994bb3f6116b8a4bca5e0f75119aa9178216dfada"
+  },
+  {
+    "path": "src/Magpie/Resources.language-it.resw",
+    "bytes": 48301,
+    "sha256": "7bed9cdd58adbb3c5ebeedfeebaa6fbd3d9c1c40ce100f436d4310355cc1f7ba"
+  },
+  {
+    "path": "src/Magpie/Resources.language-ja.resw",
+    "bytes": 54154,
+    "sha256": "71051bf7c18898d56656a09f85d8e47b7d13156e52c6db5e82acccb402a516cf"
+  },
+  {
+    "path": "src/Magpie/Resources.language-ka.resw",
+    "bytes": 16885,
+    "sha256": "4b7d10670540b62dfcb8a65a602ce4b9171925e82040fc5dfbd3137fd6638a87"
+  },
+  {
+    "path": "src/Magpie/Resources.language-ko.resw",
+    "bytes": 50847,
+    "sha256": "ff0d979579d57715f2e41d3b48bee40d0f957032451e8884a24268314331091f"
+  },
+  {
+    "path": "src/Magpie/Resources.language-pl.resw",
+    "bytes": 42543,
+    "sha256": "e5605c570939e67bb4818d2e12be2df476170b3f49605b4258551360629cce21"
+  },
+  {
+    "path": "src/Magpie/Resources.language-pt-BR.resw",
+    "bytes": 39934,
+    "sha256": "9b2bec5c24e5f0a12f4301019da4987cdc445c8e72ad6f872c37d106004e60ae"
+  },
+  {
+    "path": "src/Magpie/Resources.language-ru.resw",
+    "bytes": 54993,
+    "sha256": "bca6e111a085fc6c058795d9a1a7983804e921108c64f59ed28eaa75c2188ddb"
+  },
+  {
+    "path": "src/Magpie/Resources.language-ta.resw",
+    "bytes": 62055,
+    "sha256": "9f3ff70296170125abcd107dbfd4169355168685292d0688bcee56d9f693ffd9"
+  },
+  {
+    "path": "src/Magpie/Resources.language-tr.resw",
+    "bytes": 47248,
+    "sha256": "bf7fb6808e01957e845c26608d2e4079d93f06addcf64925095abac867442c2e"
+  },
+  {
+    "path": "src/Magpie/Resources.language-uk.resw",
+    "bytes": 35349,
+    "sha256": "6b73f0690b766c2eba854b6314b733f9683c10463f76a15258292fc0505e7f2f"
+  },
+  {
+    "path": "src/Magpie/Resources.language-vi.resw",
+    "bytes": 48199,
+    "sha256": "799bd998e6e17011bf6647b4b3f0c440108aac38a27ca5ff69236264886aef56"
+  },
+  {
+    "path": "src/Magpie/Resources.language-zh-Hans.resw",
+    "bytes": 48613,
+    "sha256": "d14f3972a028de68512c8c8917067c94ed6abb8bb702cc540b486756d2a889e3"
+  },
+  {
+    "path": "src/Magpie/Resources.language-zh-Hant.resw",
+    "bytes": 48816,
+    "sha256": "c2f4bbfa9d9fac21e81db0644a86e14ff35e24be4775b3222c7c63cb6ad7c1b1"
+  },
+  {
+    "path": "src/Magpie/RootPage.cpp",
+    "bytes": 18567,
+    "sha256": "729b590326a15b52193b1301a6371e061e6294bab9bb5ffa2ee9ebe812002376"
+  },
+  {
+    "path": "src/Magpie/RootPage.h",
+    "bytes": 3383,
+    "sha256": "d4f2b30902e31a2524a41597cf6e561f7b2cbb91ee01f48f1387a4e4a422fb09"
+  },
+  {
+    "path": "src/Magpie/RootPage.idl",
+    "bytes": 133,
+    "sha256": "c82a9dde88636642ede2a6cd5da80578d966ea1aa743010f74fe169cb3bef9b9"
+  },
+  {
+    "path": "src/Magpie/RootPage.xaml",
+    "bytes": 9318,
+    "sha256": "196dbca53760ff76faf94527350d492bcb6300f76a9584096769b0dae0a713de"
+  },
+  {
+    "path": "src/Magpie/ScalingMode.cpp",
+    "bytes": 446,
+    "sha256": "a55744ef0f9b39e110ab1852356bb16d252b4b088be9c141da5bb1095c078566"
+  },
+  {
+    "path": "src/Magpie/ScalingMode.h",
+    "bytes": 540,
+    "sha256": "19097098efc10244c6a76cab8b9b50fca30d6e6a497226ce6a94d5466083191b"
+  },
+  {
+    "path": "src/Magpie/ScalingModeEffectItem.cpp",
+    "bytes": 8913,
+    "sha256": "8f59b616640a8e08aca64feb37692b064d7f22458ca4227621485e2f8a1d8d46"
+  },
+  {
+    "path": "src/Magpie/ScalingModeEffectItem.h",
+    "bytes": 2518,
+    "sha256": "7944ecf9ee568fad1c20137c6c58e7aefa91e9ecce55c8827737ace3fa934b70"
+  },
+  {
+    "path": "src/Magpie/ScalingModeEffectItem.idl",
+    "bytes": 792,
+    "sha256": "e945ac979596c6e696f34250ca097a2ad51d29864922e98b25084de86432fb2e"
+  },
+  {
+    "path": "src/Magpie/ScalingModeItem.cpp",
+    "bytes": 11110,
+    "sha256": "e8b9fcb80821f14c964b725ce9af9064849b788854a6c7a71e82a03114e95051"
+  },
+  {
+    "path": "src/Magpie/ScalingModeItem.h",
+    "bytes": 2930,
+    "sha256": "ffa0b7267c2bc43611f5eb7de487cc22920bdf89cbe0c0f9f338b93442d9fca5"
+  },
+  {
+    "path": "src/Magpie/ScalingModeItem.idl",
+    "bytes": 937,
+    "sha256": "d183f914664638dadd8f9c72526154ce59dee1671fa2378722280185190a4203"
+  },
+  {
+    "path": "src/Magpie/ScalingModesPage.cpp",
+    "bytes": 5218,
+    "sha256": "23e9d85aa4d3f5f266b247c21b8cdc7799aeb1fced2675b5641ba30ab6a47018"
+  },
+  {
+    "path": "src/Magpie/ScalingModesPage.h",
+    "bytes": 1500,
+    "sha256": "f84ce91357001eff6476d2b6034a7f5d82c3b686f23fadbe3b0c69586187f2b7"
+  },
+  {
+    "path": "src/Magpie/ScalingModesPage.idl",
+    "bytes": 283,
+    "sha256": "23707a57a19d0084cbe5f6f933f9a35a66396b4f90c5f55db557d09972d062f4"
+  },
+  {
+    "path": "src/Magpie/ScalingModesPage.xaml",
+    "bytes": 26810,
+    "sha256": "35c45a25145a1165bf2ab7b28d5398ef915e2bddc6999a25f56067956d52c88f"
+  },
+  {
+    "path": "src/Magpie/ScalingModesService.cpp",
+    "bytes": 7630,
+    "sha256": "73c208e8dc44bd114d1625305d36fe42d1b4f46875e55282a6144748fce85c5d"
+  },
+  {
+    "path": "src/Magpie/ScalingModesService.h",
+    "bytes": 1109,
+    "sha256": "b6a545e27927fa3dabdd036a1a5bd1ea3543bbfc9b21c70a97f4a832881ef119"
+  },
+  {
+    "path": "src/Magpie/ScalingModesViewModel.cpp",
+    "bytes": 7109,
+    "sha256": "17f29b723da9500851eada6cb3fa9a7a369615de9a5378dca972eb48908d4c8d"
+  },
+  {
+    "path": "src/Magpie/ScalingModesViewModel.h",
+    "bytes": 1869,
+    "sha256": "393a7e8e6f24233d32c7542ba7a853a125130e104e2c97f480aed84b0ae6b372"
+  },
+  {
+    "path": "src/Magpie/ScalingModesViewModel.idl",
+    "bytes": 418,
+    "sha256": "56e3a92141b29ae1943a4ee830fc8de23a759765f45eab1d4fb5b9a75854d48e"
+  },
+  {
+    "path": "src/Magpie/ScalingService.cpp",
+    "bytes": 15053,
+    "sha256": "6cdbafcd6a2f1060f660e99aeb8a323a7f8677e361286b08f8479da206cbe049"
+  },
+  {
+    "path": "src/Magpie/ScalingService.h",
+    "bytes": 2097,
+    "sha256": "7fd8ea0289bb39fb042f7738a821346a3c833c7558b8ef24d7c0fdce6a88ce70"
+  },
+  {
+    "path": "src/Magpie/SettingsCard.Resource.xaml",
+    "bytes": 60821,
+    "sha256": "9f98a9be3484c59a62c2302f59221b27c63d3b432d52f23fd6f2a3fed14ce334"
+  },
+  {
+    "path": "src/Magpie/SettingsCard.cpp",
+    "bytes": 12916,
+    "sha256": "4c40b5ded94005ad54aa26541be12d392de03ad273034162fada7d12e3a0e3c6"
+  },
+  {
+    "path": "src/Magpie/SettingsCard.h",
+    "bytes": 2074,
+    "sha256": "d92d3c51ef8256279a29d30b3f149aff97ba6c428ef09836c2234708be69781e"
+  },
+  {
+    "path": "src/Magpie/SettingsCard.idl",
+    "bytes": 2213,
+    "sha256": "ad6528c19e9caec179a8a137b8f15b20ed41ea7908ce5677d98f4ecba4092b37"
+  },
+  {
+    "path": "src/Magpie/SettingsExpander.Resource.xaml",
+    "bytes": 29676,
+    "sha256": "2e53c76677f5184abb88eed3b77a9b05610d205be777f5922709b449a12bb656"
+  },
+  {
+    "path": "src/Magpie/SettingsExpander.cpp",
+    "bytes": 6080,
+    "sha256": "743074cfdfd6b0b1696cff72ea93e24a86af0d446c7cb41e291a0e18cc5c9f5d"
+  },
+  {
+    "path": "src/Magpie/SettingsExpander.h",
+    "bytes": 1471,
+    "sha256": "277ea04f65b316da5ead6ff91431f9f0a5922fe632687b8cf825262f8be6adb7"
+  },
+  {
+    "path": "src/Magpie/SettingsExpander.idl",
+    "bytes": 1346,
+    "sha256": "f187406f93069d3f38a34dfd204cdcecbe9fabb375df48b839c7ec597a0fb8f4"
+  },
+  {
+    "path": "src/Magpie/SettingsExpanderCornerRadiusConverter.cpp",
+    "bytes": 807,
+    "sha256": "f662ad00390e41ca57431317bf94b27b1397aff6d9727539e182aa968a462e62"
+  },
+  {
+    "path": "src/Magpie/SettingsExpanderCornerRadiusConverter.h",
+    "bytes": 533,
+    "sha256": "ad4fcb1870463b0a76211ebd726551be0816f1b1ae8fd8cf77b5d0b3c4ebcde3"
+  },
+  {
+    "path": "src/Magpie/SettingsExpanderCornerRadiusConverter.idl",
+    "bytes": 182,
+    "sha256": "1235bb57805a33c1de5ac048ccd4fd55045143f6e22b2d3ca392ced1fa814a88"
+  },
+  {
+    "path": "src/Magpie/SettingsGroup.Resource.xaml",
+    "bytes": 3201,
+    "sha256": "0a50d147838b2db084f726ba9763ce829e34c5eecdd8a46bf04b8c9163b09ea7"
+  },
+  {
+    "path": "src/Magpie/SettingsGroup.cpp",
+    "bytes": 1781,
+    "sha256": "97686844e895dd3eedba2b6ca5253ae4fbd3b0fefac4d5bc290a52fcb146931a"
+  },
+  {
+    "path": "src/Magpie/SettingsGroup.h",
+    "bytes": 689,
+    "sha256": "d4f82e65a4e4714179bfb2a1170797de35c467524f7a1adff15a7b638adde24b"
+  },
+  {
+    "path": "src/Magpie/SettingsGroup.idl",
+    "bytes": 431,
+    "sha256": "4bd1c168493e431b00897a6be714a4bb0f8e00d3e4135d9dc7a2d035eb1743e5"
+  },
+  {
+    "path": "src/Magpie/SettingsPage.cpp",
+    "bytes": 736,
+    "sha256": "82e39815e77ea2e49f94eae3ad3e2c10de2e4c7d551ef4b55a8889322de8c121"
+  },
+  {
+    "path": "src/Magpie/SettingsPage.h",
+    "bytes": 491,
+    "sha256": "eb0838b54fc749335593365301e3acf05f7b7ce82428de354d8a44828e6b0967"
+  },
+  {
+    "path": "src/Magpie/SettingsPage.idl",
+    "bytes": 271,
+    "sha256": "1dcc62658cc66eb04add17904c0b88f8acb7b26daaafa906b87cf5a038a6d720"
+  },
+  {
+    "path": "src/Magpie/SettingsPage.xaml",
+    "bytes": 3977,
+    "sha256": "4a45ae06ba2ac93ae40d842b180cd639074748472ed43d1253e9d92c5e176080"
+  },
+  {
+    "path": "src/Magpie/SettingsViewModel.cpp",
+    "bytes": 3551,
+    "sha256": "1b5ca7a8bcb37b9f5f0b50d61a63b5493ad1418619a2233130ba0fa368311af8"
+  },
+  {
+    "path": "src/Magpie/SettingsViewModel.h",
+    "bytes": 869,
+    "sha256": "dc029a62037c3ff9ce84ab54410d34e9584f62a59e9194740530c25823a6c0d2"
+  },
+  {
+    "path": "src/Magpie/SettingsViewModel.idl",
+    "bytes": 413,
+    "sha256": "5059ef297f848576bf09e05a3659eb1f0e9eeacac28bf9abf7faed1995dae269"
+  },
+  {
+    "path": "src/Magpie/Shortcut.cpp",
+    "bytes": 724,
+    "sha256": "f5abf9192fd3a9ac2f1c661e7ca87ec6a1b30ba83bd5be4418c758d5774f315a"
+  },
+  {
+    "path": "src/Magpie/Shortcut.h",
+    "bytes": 345,
+    "sha256": "f64f67bf390d642ab693772ea79ddca2f6a7145c2ce1dba7436f3fe0263d7c1d"
+  },
+  {
+    "path": "src/Magpie/ShortcutControl.cpp",
+    "bytes": 7746,
+    "sha256": "5b789cf85a3e2f6804e1e6548fca4d891f531b1e798bfdcba7ac02eb6893a09a"
+  },
+  {
+    "path": "src/Magpie/ShortcutControl.h",
+    "bytes": 1495,
+    "sha256": "10d4a91a7f2876077162b02d06084eb95d7d439d4fe9e394af25fdad3b9cbe61"
+  },
+  {
+    "path": "src/Magpie/ShortcutControl.idl",
+    "bytes": 299,
+    "sha256": "61f463d9ef6e1e3c66f4b2fc534c767bc3f9bb863d04446de7038a01ed2c50de"
+  },
+  {
+    "path": "src/Magpie/ShortcutControl.xaml",
+    "bytes": 2783,
+    "sha256": "9ef1064307efb4362d9c3ef684faacf6f254c6d71b9379062741ffa9dac3d96c"
+  },
+  {
+    "path": "src/Magpie/ShortcutDialogContent.cpp",
+    "bytes": 1065,
+    "sha256": "49d995f97f464eb8f39f92520649a1713f0b7e7b738f3e4f035d4fd671116ae9"
+  },
+  {
+    "path": "src/Magpie/ShortcutDialogContent.h",
+    "bytes": 292,
+    "sha256": "d11a8105cdd360cfe8ca773acf4756a5928180802f6190536755467a523177f3"
+  },
+  {
+    "path": "src/Magpie/ShortcutDialogContent.idl",
+    "bytes": 115,
+    "sha256": "30710291d378ae0b8022d68b76be2ec7a5430d232cd3ca74f0e17a34e09486e9"
+  },
+  {
+    "path": "src/Magpie/ShortcutDialogContent.xaml",
+    "bytes": 2994,
+    "sha256": "4dea7e872a71ae75800b753038c6eb343e94ac35194cf313c318f041c7d12f5c"
+  },
+  {
+    "path": "src/Magpie/ShortcutHelper.cpp",
+    "bytes": 3300,
+    "sha256": "e8c80f9e2451506289b02cdb3b31bb36c44b49f487bd23ac32bad8a62ed6facf"
+  },
+  {
+    "path": "src/Magpie/ShortcutHelper.h",
+    "bytes": 481,
+    "sha256": "b6ee378a9b319383c0bd472479223459affb789bd12a432010253bbbca1fcbeb"
+  },
+  {
+    "path": "src/Magpie/ShortcutService.cpp",
+    "bytes": 7066,
+    "sha256": "a26b41423e580516dd362b83ea1e3a51988ab0336f0a5b433a3ef98c2781365f"
+  },
+  {
+    "path": "src/Magpie/ShortcutService.h",
+    "bytes": 1613,
+    "sha256": "d25d0f6c5ed5099a416b0c54336198f5705e3aa9d1c03efbd32ff056fb69ff6e"
+  },
+  {
+    "path": "src/Magpie/SimpleStackPanel.cpp",
+    "bytes": 4918,
+    "sha256": "3879931e3ec38f6e2213e7bca7742318787b0ed10364d831050bf17e2d2b64de"
+  },
+  {
+    "path": "src/Magpie/SimpleStackPanel.h",
+    "bytes": 755,
+    "sha256": "1e09cd246f96416c0c8dcab0f347e297df36e0de6a5560025b436282565b88b8"
+  },
+  {
+    "path": "src/Magpie/SimpleStackPanel.idl",
+    "bytes": 267,
+    "sha256": "d2af2a605151edf5508a1906beea166071f631089d0fd081c290680a0ef32300"
+  },
+  {
+    "path": "src/Magpie/SmoothResizeHelper.cpp",
+    "bytes": 1789,
+    "sha256": "5f4ba9f3d76d094e44d1a62633ae268efab6d5c40187bb99a53c9d9e180647d5"
+  },
+  {
+    "path": "src/Magpie/SmoothResizeHelper.h",
+    "bytes": 290,
+    "sha256": "c7f8ba278c3177b045e88c917ef1ce0e2b542d4f280dd16cad7c958887deb06f"
+  },
+  {
+    "path": "src/Magpie/TextBlockHelper.cpp",
+    "bytes": 2401,
+    "sha256": "31219f2f9c1e3c0451f2db868380b013832328be7710ed3fe6151bf0c9f9e189"
+  },
+  {
+    "path": "src/Magpie/TextBlockHelper.h",
+    "bytes": 1171,
+    "sha256": "46f55392ce06ccb3a8686a2aaaf165e893ecaec91b8ef133923f1fe6ef9ddc32"
+  },
+  {
+    "path": "src/Magpie/TextBlockHelper.idl",
+    "bytes": 348,
+    "sha256": "b58e32b1ebff39244d97537744bfaa09784c62c1538fdc0604f4132674179ee4"
+  },
+  {
+    "path": "src/Magpie/TextMenuFlyout.cpp",
+    "bytes": 6870,
+    "sha256": "2f6abe6a61b0f8622a1567456f3c43f1d859ed9fa0b8944bb08ca148bd1f6671"
+  },
+  {
+    "path": "src/Magpie/TextMenuFlyout.h",
+    "bytes": 1585,
+    "sha256": "a64b04ea3c972a04c291244bcc7f59ac573de2e9fe3ab1fb98f40ecbc031dd33"
+  },
+  {
+    "path": "src/Magpie/TextMenuFlyout.idl",
+    "bytes": 149,
+    "sha256": "6c38998eb77f28be49aceaa510ed84be2b6bb93db937275fa2deae911c8d60c6"
+  },
+  {
+    "path": "src/Magpie/ThemeHelper.cpp",
+    "bytes": 3009,
+    "sha256": "db326b6e65455c5322d22d21b6f25869fdc3ea007f7b1cd58d895b984ef0c0f7"
+  },
+  {
+    "path": "src/Magpie/ThemeHelper.h",
+    "bytes": 345,
+    "sha256": "b8c1b5713dcca7a449ab4bcccdd87400a5feccad8eefe2a4d5e346f2d4621672"
+  },
+  {
+    "path": "src/Magpie/TitleBarControl.cpp",
+    "bytes": 2024,
+    "sha256": "00fcb2c6a6891f743b05377d077344d61907abc74dad55a2e0178848fb40ca24"
+  },
+  {
+    "path": "src/Magpie/TitleBarControl.h",
+    "bytes": 713,
+    "sha256": "33557ef5de0e72e7106b06500029b3843d3b6db129d24c978d3d2c1e5561681b"
+  },
+  {
+    "path": "src/Magpie/TitleBarControl.idl",
+    "bytes": 230,
+    "sha256": "245bc91c1b85fc67649240945ea210d9ff09e6868d187fdbdf10a0d422ee2a50"
+  },
+  {
+    "path": "src/Magpie/TitleBarControl.xaml",
+    "bytes": 3419,
+    "sha256": "18914d03966444158ec416f9dfe918889df8e514e558645845dc737c0c417106"
+  },
+  {
+    "path": "src/Magpie/ToastPage.cpp",
+    "bytes": 10540,
+    "sha256": "b378570d51ddf8c57563a2c07c3a2103757bf0a6e45072896aeef8f0b36bde13"
+  },
+  {
+    "path": "src/Magpie/ToastPage.h",
+    "bytes": 911,
+    "sha256": "d4b6673a11caac526f89a71b32c84ae0926e118924c790434664ca7f6313037f"
+  },
+  {
+    "path": "src/Magpie/ToastPage.idl",
+    "bytes": 392,
+    "sha256": "0d8316d6915e2496595ba75ad8f3ec893d3341f1d0e2986275cba7669dc06fc6"
+  },
+  {
+    "path": "src/Magpie/ToastPage.xaml",
+    "bytes": 1309,
+    "sha256": "83ebff412da8e4a3f442dc6aa9261f1fb735c59e2d80791c3e939a1c0ca3d5ad"
+  },
+  {
+    "path": "src/Magpie/ToastService.cpp",
+    "bytes": 5441,
+    "sha256": "d0b0b7dfc0a1291ecb6598fbadc3ebda938e0a2c7d56d9317695983b6e093aa2"
+  },
+  {
+    "path": "src/Magpie/ToastService.h",
+    "bytes": 981,
+    "sha256": "341d1c94ae34ec16b91063c431e9da48c46743024982987c3d78b10961fef029"
+  },
+  {
+    "path": "src/Magpie/TouchHelper.cpp",
+    "bytes": 12837,
+    "sha256": "8a73817762b95430a6a5e0ec9b5cb62a43d17c0b33bea721aa411384162b6d95"
+  },
+  {
+    "path": "src/Magpie/TouchHelper.h",
+    "bytes": 309,
+    "sha256": "22402b521cfd5eeaebd7b96b17d222b40229335f53178b40cda2b4ba1dad81a2"
+  },
+  {
+    "path": "src/Magpie/UpdateService.cpp",
+    "bytes": 14039,
+    "sha256": "81240be45533c724131bde6f7a134f49cfbb4cfd1e1e980083b46894a1afa203"
+  },
+  {
+    "path": "src/Magpie/UpdateService.h",
+    "bytes": 2132,
+    "sha256": "beaae410e13fc1f85ab3f68eafbe24ed278976dfc46048d34be83b52ca0d98f3"
+  },
+  {
+    "path": "src/Magpie/WrapPanel.cpp",
+    "bytes": 5068,
+    "sha256": "d06c3aa821d59566463f643e2e91168de72d1dc36fed711818fbf856de193724"
+  },
+  {
+    "path": "src/Magpie/WrapPanel.h",
+    "bytes": 2592,
+    "sha256": "19ac3013d76dcce31afeec547acc1d3f049d0248d543603f13ec90a274f3fab0"
+  },
+  {
+    "path": "src/Magpie/WrapPanel.idl",
+    "bytes": 357,
+    "sha256": "774790c5a45e123484e8f7e9cc16240c45dbe391845d7cca800468f7f159f861"
+  },
+  {
+    "path": "src/Magpie/XamlHelper.cpp",
+    "bytes": 5571,
+    "sha256": "62f646ad919499291636295e22bbf68b4d72e95d4488613ac1a3ac6b191cab38"
+  },
+  {
+    "path": "src/Magpie/XamlHelper.h",
+    "bytes": 790,
+    "sha256": "88a976d3ec18ed2b5e82a6ffbf9ee7b036b1d5a3788714b72c45d95245ee6e98"
+  },
+  {
+    "path": "src/Magpie/app.manifest",
+    "bytes": 2344,
+    "sha256": "50fd560200494fcb999df7b0e9fb3b25e313133e8020720b741929462b50152e"
+  },
+  {
+    "path": "src/Magpie/conanfile.txt",
+    "bytes": 270,
+    "sha256": "1a7e5cd02849cde0756becef42ceb137a01802863474d5b68180428753503b53"
+  },
+  {
+    "path": "src/Magpie/main.cpp",
+    "bytes": 2788,
+    "sha256": "72f968caec2ad2a9cd44115a604b81b13a27915e7ccd587226f2cc3b30cf73c9"
+  },
+  {
+    "path": "src/Magpie/packages.config",
+    "bytes": 432,
+    "sha256": "a5e464649b382004230c704eccb2f05eb5ba19119114813a51978c89907d0090"
+  },
+  {
+    "path": "src/Magpie/pch.cpp",
+    "bytes": 150,
+    "sha256": "3eff7ce927a5942f4b082e7605de97cf43c33c7fcf74793fca23043ebe4d0fa2"
+  },
+  {
+    "path": "src/Magpie/pch.h",
+    "bytes": 5162,
+    "sha256": "dfb8bcfca41acb3f030df82461b896d26f4d73f245522dadc25b5c075d62e82f"
+  },
+  {
+    "path": "src/Magpie/resource.h",
+    "bytes": 34,
+    "sha256": "dd02100aba9e6324eb1420e0c7937efa878f1436ed0374ae6c5e79e4a27f7145"
+  },
+  {
+    "path": "src/Magpie.Core/.gitignore",
+    "bytes": 18,
+    "sha256": "dba5d95f59d3540df13ef427d6a1d73e60742ab0f9195fff8a299499d2cb9072"
+  },
+  {
+    "path": "src/Magpie.Core/AdaptivePresenter.cpp",
+    "bytes": 9761,
+    "sha256": "032d91d193002582251048354ca08c495bc9df081f6c5b096352f3ab374c84dc"
+  },
+  {
+    "path": "src/Magpie.Core/AdaptivePresenter.h",
+    "bytes": 1500,
+    "sha256": "4ac7a9551ec3126e3a41aeb72a8a09dcda57f2f64cc7442fbc56559be6f2e6d2"
+  },
+  {
+    "path": "src/Magpie.Core/AppXReader.cpp",
+    "bytes": 22451,
+    "sha256": "3e6b4bdc576c07f59b01a144abe3d305693c5a0c7ed67eae0229bd44415669cc"
+  },
+  {
+    "path": "src/Magpie.Core/BackendDescriptorStore.cpp",
+    "bytes": 2050,
+    "sha256": "5a3dd6ce4c8a2743af0eb1826700313f72a0a4261a0f070629e1b63cee00cd66"
+  },
+  {
+    "path": "src/Magpie.Core/BackendDescriptorStore.h",
+    "bytes": 969,
+    "sha256": "9ac696ed17847dfe57e8dc94fb94a8523fbe3f08896ebbe83ce799c7c07f150a"
+  },
+  {
+    "path": "src/Magpie.Core/CompSwapchainPresenter.cpp",
+    "bytes": 7511,
+    "sha256": "331be1128cbb7fbf4ecfe254c2af1722672bff22e5a441b5a4438e39ac379b61"
+  },
+  {
+    "path": "src/Magpie.Core/CompSwapchainPresenter.h",
+    "bytes": 1199,
+    "sha256": "d29e189a699f9a30db45fc919355f73909b0de08512ae7a4cd7796fd10699bce"
+  },
+  {
+    "path": "src/Magpie.Core/CursorDrawer.cpp",
+    "bytes": 19435,
+    "sha256": "70904c8d5454b4e2a278df85c561ddc7c1db931905f542b54e0364a4c5d1ed4a"
+  },
+  {
+    "path": "src/Magpie.Core/CursorDrawer.h",
+    "bytes": 2776,
+    "sha256": "552bab752534cc8c05e251496e92104b5d21cddb126f8e11887aa4b95b9be24a"
+  },
+  {
+    "path": "src/Magpie.Core/CursorManager.cpp",
+    "bytes": 39267,
+    "sha256": "c072b221e9abb6c6fc48bd2fa26122907f00bcf005f05b58359701119ab76e6d"
+  },
+  {
+    "path": "src/Magpie.Core/CursorManager.h",
+    "bytes": 3227,
+    "sha256": "728d7ad6e3e9a3c076dfde97f66a5ce55112ad1429554efab2f863db640a22e3"
+  },
+  {
+    "path": "src/Magpie.Core/DDS.h",
+    "bytes": 12011,
+    "sha256": "ed763c012899f139c92b9f93b5fcf9e454f9b256b291e0ce83d25c231cd71e49"
+  },
+  {
+    "path": "src/Magpie.Core/DDSHelper.cpp",
+    "bytes": 28180,
+    "sha256": "7c7c4da98f3d8bf8f28eb44b14e061f2cb775c0c4f978849c512d25e994d281b"
+  },
+  {
+    "path": "src/Magpie.Core/DDSHelper.h",
+    "bytes": 329,
+    "sha256": "e98d2dacc6503c0a412a3f861bbed88906d94c00395774c52a80036b7858739b"
+  },
+  {
+    "path": "src/Magpie.Core/DesktopDuplicationFrameSource.cpp",
+    "bytes": 5856,
+    "sha256": "5fdd9721194c6902f1a07ce863a9c8727d32fa41a2f249f6ce1035ca717c5bc0"
+  },
+  {
+    "path": "src/Magpie.Core/DesktopDuplicationFrameSource.h",
+    "bytes": 729,
+    "sha256": "48ad62175bb7d3dab5045d8ebc329b770a9256de5f45e4d1eb2960925355cb23"
+  },
+  {
+    "path": "src/Magpie.Core/DeviceResources.cpp",
+    "bytes": 7223,
+    "sha256": "94d70011478046be41166b4440ab83fa0adbbb59f6d0e69e8d3839acd4d8c35a"
+  },
+  {
+    "path": "src/Magpie.Core/DeviceResources.h",
+    "bytes": 1459,
+    "sha256": "1643248abd7b3900c752247c2bc63ea56b6a7e7783ff98c7a1d3edd84ba8c072"
+  },
+  {
+    "path": "src/Magpie.Core/DirectXHelper.cpp",
+    "bytes": 2884,
+    "sha256": "a3324fb5a9d00717ded738b1ca342eeb3e2d06ce35d58e1b1aa376b53627f621"
+  },
+  {
+    "path": "src/Magpie.Core/DwmSharedSurfaceFrameSource.cpp",
+    "bytes": 3030,
+    "sha256": "d2602b8e380f5bb11b050ffa01bfdf54bcc5012906e513f893885400db2c3df7"
+  },
+  {
+    "path": "src/Magpie.Core/DwmSharedSurfaceFrameSource.h",
+    "bytes": 501,
+    "sha256": "6329b753e51823f5e065c865b6ad241672638540a5acd56e756a6c71bb70b591"
+  },
+  {
+    "path": "src/Magpie.Core/EffectCacheManager.cpp",
+    "bytes": 6346,
+    "sha256": "4c97c233cdebe7fd926a6227a73e3f363ebb4e5a98f2e86017a59927fd9dfe8f"
+  },
+  {
+    "path": "src/Magpie.Core/EffectCacheManager.h",
+    "bytes": 669,
+    "sha256": "61df350c09df2bd3003e310b0f701c9dbe23498a174d6307119b1a06029472b8"
+  },
+  {
+    "path": "src/Magpie.Core/EffectCompiler.cpp",
+    "bytes": 45041,
+    "sha256": "2bde264aaf68021329ce94301e64a6d1d20743f64afc612f547081c51bb22f7d"
+  },
+  {
+    "path": "src/Magpie.Core/EffectDrawer.cpp",
+    "bytes": 18687,
+    "sha256": "0af59fd04035ff473c3703832a634217b31dd0ee2588fd01973303a774aca7e0"
+  },
+  {
+    "path": "src/Magpie.Core/EffectDrawer.h",
+    "bytes": 2373,
+    "sha256": "b047b627761ea1c1868b6619e4b0c2cefc167747e00e818e007bf66f7e67b829"
+  },
+  {
+    "path": "src/Magpie.Core/EffectHelper.h",
+    "bytes": 1852,
+    "sha256": "e2b59b3d5c5c7b5fb78553133a1cfa813814cba3fb5d93385a0effcd23eabc1e"
+  },
+  {
+    "path": "src/Magpie.Core/EffectsProfiler.cpp",
+    "bytes": 2941,
+    "sha256": "13292caad4970eb4312ac5d07d1f66901f8ef82c3e0c739b8fa48e3fe3bfa0f8"
+  },
+  {
+    "path": "src/Magpie.Core/EffectsProfiler.h",
+    "bytes": 991,
+    "sha256": "1eda458039b086c5b396e37cc8669fffea5ef6dbd312f7d7fede0488357a27e7"
+  },
+  {
+    "path": "src/Magpie.Core/ExclModeHelper.cpp",
+    "bytes": 1891,
+    "sha256": "2d741440ce9c462f9e4b2be5c8bb1d5886b4e3046b3bb4afa0dee5856d83ddbe"
+  },
+  {
+    "path": "src/Magpie.Core/ExclModeHelper.h",
+    "bytes": 124,
+    "sha256": "9fe5f79c3c1266adb7dd3cd680f45e7e2fe2c4d84f1ccd321aaad5c96f38bb04"
+  },
+  {
+    "path": "src/Magpie.Core/FrameSourceBase.cpp",
+    "bytes": 9926,
+    "sha256": "a6f7d997f7b84bb5b3219bb6b06542c553629a0c43f2d74de9fb77bc72bd9620"
+  },
+  {
+    "path": "src/Magpie.Core/FrameSourceBase.h",
+    "bytes": 2702,
+    "sha256": "f1193b736d8b7295ee090c17abe8dd2e5999ec72090747fb3e47fb595c76128d"
+  },
+  {
+    "path": "src/Magpie.Core/GDIFrameSource.cpp",
+    "bytes": 2565,
+    "sha256": "c803e7548d869ad47c9cee4ff8bf291afa390f9bdb593998075736699c6a46e1"
+  },
+  {
+    "path": "src/Magpie.Core/GDIFrameSource.h",
+    "bytes": 501,
+    "sha256": "80f782259b9e5c0cd0ce00e84ab27ed46121b145fe844c8e213c270b201fa845"
+  },
+  {
+    "path": "src/Magpie.Core/GraphicsCaptureFrameSource.cpp",
+    "bytes": 12547,
+    "sha256": "aea66d5a5e20a18c5046d06d7afbf241b921b532dec42f68a9a93c88ed8bf5b5"
+  },
+  {
+    "path": "src/Magpie.Core/GraphicsCaptureFrameSource.h",
+    "bytes": 1543,
+    "sha256": "12a3096c8d145fa6370f279d3cbf747af95f88b1399afdcc437902ffa37770e5"
+  },
+  {
+    "path": "src/Magpie.Core/ImGuiBackend.cpp",
+    "bytes": 10937,
+    "sha256": "5d35b5c49c28b5284832e1695e934130e1df47ef21250d9961a536567fb41f6f"
+  },
+  {
+    "path": "src/Magpie.Core/ImGuiBackend.h",
+    "bytes": 1099,
+    "sha256": "96cd1dd0e7a088bcccff7d34e35ff65261bb77bd07e736fe4d2d9f9b7a7aa450"
+  },
+  {
+    "path": "src/Magpie.Core/ImGuiFontsCacheManager.cpp",
+    "bytes": 5678,
+    "sha256": "a315a82b98ca6154199958b859fa89bb945544bf0536d6f8797654ba54abb9df"
+  },
+  {
+    "path": "src/Magpie.Core/ImGuiFontsCacheManager.h",
+    "bytes": 562,
+    "sha256": "bb438a347fa14df430d8e46c9cd8bd895025a498a7c1600cb791cc99b4959f2c"
+  },
+  {
+    "path": "src/Magpie.Core/ImGuiImpl.cpp",
+    "bytes": 12823,
+    "sha256": "63d426787f9df925820f92cf145829d51c8200a7f4d66ee30fefc09a0d6c0c07"
+  },
+  {
+    "path": "src/Magpie.Core/ImGuiImpl.h",
+    "bytes": 1125,
+    "sha256": "fb9cf166317538e17cab18bb9eb92a0a0c14102ced1e8a1960b64608bd76bd32"
+  },
+  {
+    "path": "src/Magpie.Core/KeepScreenOnHelper.cpp",
+    "bytes": 542,
+    "sha256": "e417a4022bb48ae25c5d3caaada0ab8427588d93c4d079495247528b73ae8e08"
+  },
+  {
+    "path": "src/Magpie.Core/KeepScreenOnHelper.h",
+    "bytes": 271,
+    "sha256": "13d7ce8bdff492c06bbead5d367f27020904d2dee159e2c075a52c6f3760a1c0"
+  },
+  {
+    "path": "src/Magpie.Core/LocalizationService.cpp",
+    "bytes": 2290,
+    "sha256": "a877d53a4c4e037f710291c3b5692f3e609bdbe60c1fed639dca9cb229b7b9c6"
+  },
+  {
+    "path": "src/Magpie.Core/LruMemoryCache.h",
+    "bytes": 3102,
+    "sha256": "52f2145d652397d8c622d185cfcf2ea8768bcea07ca6c20c604cc50b33887985"
+  },
+  {
+    "path": "src/Magpie.Core/Magpie.Core.vcxproj",
+    "bytes": 9383,
+    "sha256": "e4890ea5e35c157c37a533c60730efd7c506a629f5432a2a775697b905b11ffd"
+  },
+  {
+    "path": "src/Magpie.Core/Magpie.Core.vcxproj.filters",
+    "bytes": 9226,
+    "sha256": "174dc84f85417b80d23c3de207a48af37524fdd2f30df46e91a0d99aa63019a6"
+  },
+  {
+    "path": "src/Magpie.Core/MemoryCache.h",
+    "bytes": 2592,
+    "sha256": "e74640b96be5729c850b5f6cba1fe46209c312720df5b44a09011acb0e96d246"
+  },
+  {
+    "path": "src/Magpie.Core/OverlayDrawer.cpp",
+    "bytes": 44026,
+    "sha256": "374f51e711eb8d687415193807e33de0c1f162c6b84d0de5b01d798a2663e483"
+  },
+  {
+    "path": "src/Magpie.Core/OverlayDrawer.h",
+    "bytes": 3023,
+    "sha256": "51a6091193b4b557e5b513966063ba1fea5946419e2d378ba6f842b31f9fa9ab"
+  },
+  {
+    "path": "src/Magpie.Core/OverlayHelper.cpp",
+    "bytes": 24149,
+    "sha256": "b9c72288d9cf5623925cac44ef12c45e006596b1d47a0b389532beb2ab1044c8"
+  },
+  {
+    "path": "src/Magpie.Core/OverlayHelper.h",
+    "bytes": 3218,
+    "sha256": "4c9ac189ec4f7ac1ef9157f93b7cae5601bc2d28408db89b9a6700195266b927"
+  },
+  {
+    "path": "src/Magpie.Core/PresenterBase.cpp",
+    "bytes": 1511,
+    "sha256": "c058d2cd98cd89867591bc015cb3b9a25369cec89e78dc9cf9f486d38112818c"
+  },
+  {
+    "path": "src/Magpie.Core/PresenterBase.h",
+    "bytes": 880,
+    "sha256": "3616e3db58993ec57cf4f0de279850c9d740b575174877b6b360741c5e06c22d"
+  },
+  {
+    "path": "src/Magpie.Core/Renderer.cpp",
+    "bytes": 41891,
+    "sha256": "c7bfb56b10eb8b2402023436737b0cba47edef4e6f9077a5c9d77ee0e6c5dbb1"
+  },
+  {
+    "path": "src/Magpie.Core/Renderer.h",
+    "bytes": 4068,
+    "sha256": "f7d380b737796ae5392b0f11009e95b1822f5e6991951c4ca04933ee6f468b91"
+  },
+  {
+    "path": "src/Magpie.Core/ScalingOptions.cpp",
+    "bytes": 3932,
+    "sha256": "be4aa6218181a555c512a5f7a8fe2702eb3812b4dad65e29aa7172844b93570d"
+  },
+  {
+    "path": "src/Magpie.Core/ScalingRuntime.cpp",
+    "bytes": 6710,
+    "sha256": "ea4457291f73da933faabba888c2b3cae01d92fb4a11a0238265c9a3bd44e3db"
+  },
+  {
+    "path": "src/Magpie.Core/ScalingWindow.cpp",
+    "bytes": 68929,
+    "sha256": "e907d4c4ff401550ee4d4e1ccadd5a2851a301cfe6468b970a2d4d7cc0b8c5dd"
+  },
+  {
+    "path": "src/Magpie.Core/ScalingWindow.h",
+    "bytes": 5550,
+    "sha256": "357bdfd24f1aabcd9d4358c220b4321909a943083f4f6c2fc8ced1840adbf915"
+  },
+  {
+    "path": "src/Magpie.Core/ScreenshotFilenameTemplateHelper.cpp",
+    "bytes": 9441,
+    "sha256": "dd290fa71fae53272720cd2201f3d2b37e794fc69b6524dfeb05293347bf4f93"
+  },
+  {
+    "path": "src/Magpie.Core/SrcTracker.cpp",
+    "bytes": 18697,
+    "sha256": "ecaeba5806414b1167a9f706a9e9fb1ca6fd2e12dc0ff96418c4df3317f41199"
+  },
+  {
+    "path": "src/Magpie.Core/SrcTracker.h",
+    "bytes": 2471,
+    "sha256": "1617c55d7dc65582032b03968449d7c8462f200c25cc1666e0eb698109141fb6"
+  },
+  {
+    "path": "src/Magpie.Core/StepTimer.cpp",
+    "bytes": 4716,
+    "sha256": "53eae394dd7fcbd1f7e8d4872a944255cdd422836b78260aa1f400ec51b4e3b7"
+  },
+  {
+    "path": "src/Magpie.Core/StepTimer.h",
+    "bytes": 1362,
+    "sha256": "b92998a77758f09b6368c139c424b46e709e5d105b9709a0872de445c650fa89"
+  },
+  {
+    "path": "src/Magpie.Core/TextureHelper.cpp",
+    "bytes": 8801,
+    "sha256": "9f0e2532db6aa963fcc31d2df7606080bf55621a9c57d314afdb8e0681a6d944"
+  },
+  {
+    "path": "src/Magpie.Core/TextureHelper.h",
+    "bytes": 469,
+    "sha256": "21b0668c9b83e518ec7396a7b75f93257c4bf8f4a6cda98475af65c24ff8de20"
+  },
+  {
+    "path": "src/Magpie.Core/Win32Helper.cpp",
+    "bytes": 31441,
+    "sha256": "2bb97f5bae16d4a6e2a667ea9ee34d9ba4365ef3a2a9c7de3ef9418008591ae6"
+  },
+  {
+    "path": "src/Magpie.Core/WindowHelper.cpp",
+    "bytes": 2117,
+    "sha256": "b9706e4b825bfff736a858779e5b5a49491c432c214b4de9e43b81d0aeaed22f"
+  },
+  {
+    "path": "src/Magpie.Core/YasHelper.h",
+    "bytes": 1808,
+    "sha256": "a32f43254e95ee29c99e4d2a3bab21e8e354c0bb6ef26a6e155c489294b3ea9f"
+  },
+  {
+    "path": "src/Magpie.Core/include/AppXReader.h",
+    "bytes": 959,
+    "sha256": "00ca7f3a38d7b3602f26aef00b5942e87000e3d440954d12b075a090a7966633"
+  },
+  {
+    "path": "src/Magpie.Core/include/BaseWindow.h",
+    "bytes": 1336,
+    "sha256": "7402daf23af4cad1aace4fe8f970bc62a44d64d1c0246014ed35501a5e925b86"
+  },
+  {
+    "path": "src/Magpie.Core/include/DirectXHelper.h",
+    "bytes": 1122,
+    "sha256": "545fd844244e325a2aa506118c122e59fa5120c5166c9ace475f52bedde4d51a"
+  },
+  {
+    "path": "src/Magpie.Core/include/EffectCompiler.h",
+    "bytes": 700,
+    "sha256": "6eff2772a7092a4fea58ac4647b523c2e4e07f8a6bb5e0346f497999530b4966"
+  },
+  {
+    "path": "src/Magpie.Core/include/EffectDesc.h",
+    "bytes": 2343,
+    "sha256": "2aabc62db49e9e895b032b6aabbcb421a00bb25e65830457adf6f97968237c4a"
+  },
+  {
+    "path": "src/Magpie.Core/include/Event.h",
+    "bytes": 4110,
+    "sha256": "437b86a9cc0431634725ae223de012e0f1ab127c6d753b436a08fc22c0b66e0e"
+  },
+  {
+    "path": "src/Magpie.Core/include/LocalizationService.h",
+    "bytes": 783,
+    "sha256": "316eebadebf53ebc6828e00b66701b84204bce6341ec78832e8a3bf05e1e7ac3"
+  },
+  {
+    "path": "src/Magpie.Core/include/ScalingOptions.h",
+    "bytes": 7549,
+    "sha256": "d6db2e690c584b42475cbff6e6d8e2ba8ee12da0e4af91839cf90b15a71b3252"
+  },
+  {
+    "path": "src/Magpie.Core/include/ScalingRuntime.h",
+    "bytes": 1028,
+    "sha256": "7c869b00b31a6c031c62da75f3efac749d5b3b5b6f7af40e67810a34096b8d0d"
+  },
+  {
+    "path": "src/Magpie.Core/include/ScreenshotFilenameTemplateHelper.h",
+    "bytes": 238,
+    "sha256": "34094d3f4f85b9b0c171b815940c083f93aae9923ec9e7f56085ac87903a4964"
+  },
+  {
+    "path": "src/Magpie.Core/include/Win32Helper.h",
+    "bytes": 7419,
+    "sha256": "bdf25061804753383c56baa3b9f11a036af4819841034e74341e7aa0513cca68"
+  },
+  {
+    "path": "src/Magpie.Core/include/WindowHelper.h",
+    "bytes": 170,
+    "sha256": "9b5841ce6554de4ddd709880f422aba2b5129e7b949043f775eb06798c457510"
+  },
+  {
+    "path": "src/Magpie.Core/packages.config",
+    "bytes": 265,
+    "sha256": "27f7e750d83468f9e7549526fa1ebfaf8dbef8d218edcc08815e45c70ab89b5b"
+  },
+  {
+    "path": "src/Magpie.Core/pch.cpp",
+    "bytes": 153,
+    "sha256": "47a856417f6f257915a7d2b0d564f206a9e2bb51e99e21bb505bcb490a6ee32a"
+  },
+  {
+    "path": "src/Magpie.Core/pch.h",
+    "bytes": 1455,
+    "sha256": "1005a7a67d8ae3ab574bfc1204867b8e334c0c531362e418d6446b7ac8765703"
+  },
+  {
+    "path": "src/Magpie.Core/shaders/DuplicateFrameCS.hlsl",
+    "bytes": 781,
+    "sha256": "f66d01447c98dc848ae9c70ea723087502101abb57a219bbe1310524f4191c30"
+  },
+  {
+    "path": "src/Magpie.Core/shaders/ImGuiImplPS.hlsl",
+    "bytes": 226,
+    "sha256": "bfd2d8d0958d6cc1466e8e70af595a48e522dd7823009ad872928eba9c34971a"
+  },
+  {
+    "path": "src/Magpie.Core/shaders/ImGuiImplVS.hlsl",
+    "bytes": 388,
+    "sha256": "eab0383a2b645fd0c8bc8b306e0ccf0a5ea2da49a715ba4d61bb064a89ae60a0"
+  },
+  {
+    "path": "src/Magpie.Core/shaders/MaskedCursorPS.hlsl",
+    "bytes": 594,
+    "sha256": "9bb729efad4e374e8fe446ba98722008d1e30db4be4360c40ea7747dfc71bb76"
+  },
+  {
+    "path": "src/Magpie.Core/shaders/MonochromeCursorPS.hlsl",
+    "bytes": 542,
+    "sha256": "d89f42bd329ca22a188dc31a80601d4b26362ee6a3bb9f5ee0a6e069899ec071"
+  },
+  {
+    "path": "src/Magpie.Core/shaders/SimplePS.hlsl",
+    "bytes": 163,
+    "sha256": "aae5c4aa3abbf7900f940e829bde895fa5906d9d6469c96722ac650770e4b8d2"
+  },
+  {
+    "path": "src/Magpie.Core/shaders/SimpleVS.hlsl",
+    "bytes": 209,
+    "sha256": "32b2aaf5bd9879680a6fbc5d4e118e31cc1fb9b6bac4b251d4caef030e9b6f51"
+  },
+  {
+    "path": "src/Shared/ByteBuffer.h",
+    "bytes": 1629,
+    "sha256": "1ef252f0fa1c746984ea97bfa2e2a1307355bb400bfe6c7f704c63d0fbe621a2"
+  },
+  {
+    "path": "src/Shared/CommonDefines.h",
+    "bytes": 1447,
+    "sha256": "36557f11d9251db73a5c453178149af69edba166c5e2f189b664fa0e95af0009"
+  },
+  {
+    "path": "src/Shared/CommonSharedConstants.h",
+    "bytes": 2570,
+    "sha256": "bc5b2eb78f99d2b4467a767f84dc287a274aed2bc11a594f9b1ffaf99d8d675c"
+  },
+  {
+    "path": "src/Shared/Logger.cpp",
+    "bytes": 1753,
+    "sha256": "28b344d4c36e2c8479c070ce7b8d6c5bdeeea45893f84aaa75d360c28196eada"
+  },
+  {
+    "path": "src/Shared/Logger.h",
+    "bytes": 5213,
+    "sha256": "278f648ccaa416049bc5b3dea1e400f53f4a567848ec6ff9ff3184dc83ae418e"
+  },
+  {
+    "path": "src/Shared/Shared.vcxitems",
+    "bytes": 1643,
+    "sha256": "a27ead6f231ea4825c8c5bd2edf8864c88a403c22f64dca6ba9e9b5d03ccf775"
+  },
+  {
+    "path": "src/Shared/Singleton.h",
+    "bytes": 358,
+    "sha256": "1e79199c58b21401db2994e2f34f8e5ec799ae78a4ff0127fc611626db994c52"
+  },
+  {
+    "path": "src/Shared/SmallVector.cpp",
+    "bytes": 5049,
+    "sha256": "8ec8f42967f7fdfe640be7f9562393627c06a571b30c0a8e97f7291792ce8a2d"
+  },
+  {
+    "path": "src/Shared/SmallVector.h",
+    "bytes": 45843,
+    "sha256": "aac9497b9c5215d73eb86cffa04763822f58e0d5314d72fee2b171329e15b3e6"
+  },
+  {
+    "path": "src/Shared/StrHelper.cpp",
+    "bytes": 1659,
+    "sha256": "4de45f36b9033589548ec92204c4f9392cc3d3bf13f0739c2798ee527fc32843"
+  },
+  {
+    "path": "src/Shared/StrHelper.h",
+    "bytes": 8421,
+    "sha256": "8cb4f8213fc93d5406a59f22d55b2b75c9dd48dbc4d0e4e1e1670392c1eee2fc"
+  },
+  {
+    "path": "src/Shared/StrMacros.h",
+    "bytes": 210,
+    "sha256": "270c17a62effd6b9b3bc107cfcf0577d9715b6e7ced33f946e1cb03d5c1dde1e"
+  },
+  {
+    "path": "src/Shared/Version.cpp",
+    "bytes": 922,
+    "sha256": "4261e966fa11d29692c27d477e87ace6335bdafc9c3bff11e19586a89f122f65"
+  },
+  {
+    "path": "src/Shared/Version.h",
+    "bytes": 721,
+    "sha256": "262cb040e19bef3ab3c24b59f73e717cc727dd62111c92b531bd2491cff45fbd"
+  },
+  {
+    "path": "src/Shared/Version.rc",
+    "bytes": 1469,
+    "sha256": "a9db6518bdd7cad7bda3478041681d20801dc163ea684c81817b1fd076d7eb88"
+  },
+  {
+    "path": "src/TouchHelper/App.cpp",
+    "bytes": 6935,
+    "sha256": "a3340e1f3e84d58981b877695c850bd4062c8ae058a95614af15b9445324fc32"
+  },
+  {
+    "path": "src/TouchHelper/App.h",
+    "bytes": 832,
+    "sha256": "42be4f61ca5827c3301bb00f22e464dbd1ae3ccb0d935704703f1d0206c82dc2"
+  },
+  {
+    "path": "src/TouchHelper/TouchHelper.vcxproj",
+    "bytes": 3145,
+    "sha256": "0f9303be003986d2b7880cfd146052e7e7c7b19ceb765d2142c841d118548b36"
+  },
+  {
+    "path": "src/TouchHelper/TouchHelper.vcxproj.filters",
+    "bytes": 767,
+    "sha256": "316eced82b16df6fa490f06344dcc2435a604b562c810955a35e737d624e5e61"
+  },
+  {
+    "path": "src/TouchHelper/app.manifest",
+    "bytes": 1829,
+    "sha256": "dbef895692dce39566e68c08ff8799b658341fef9bf1c5045b365cd947263abf"
+  },
+  {
+    "path": "src/TouchHelper/conanfile.txt",
+    "bytes": 157,
+    "sha256": "61e807afe57418dbeab55a668c464094269f8b34c7ee1f79b7e1524f162978d6"
+  },
+  {
+    "path": "src/TouchHelper/main.cpp",
+    "bytes": 1703,
+    "sha256": "65954d80293bc27e6d12cef0a2a804334a3522c08834f156f15a872bf67ca061"
+  },
+  {
+    "path": "src/TouchHelper/packages.config",
+    "bytes": 171,
+    "sha256": "7f52e74a501f28e183da1938b20b55b318c04936bb1d2d6896ce71888ac87192"
+  },
+  {
+    "path": "src/TouchHelper/pch.cpp",
+    "bytes": 100,
+    "sha256": "658e0b38a9a092810771669856596fa2995b8ec15b6c7b5206a96ca2786ba96f"
+  },
+  {
+    "path": "src/TouchHelper/pch.h",
+    "bytes": 539,
+    "sha256": "66f5a523e3932bdc7a4f3f0d6d6ecd16ff53c7cfc5c529fadd8d25320416ff55"
+  },
+  {
+    "path": "src/Updater/PackageFiles.h",
+    "bytes": 37040,
+    "sha256": "b0a182e89b853276ef7a151db5190fe4a76078d3dbddd9b859789ae316ec5167"
+  },
+  {
+    "path": "src/Updater/Updater.ico",
+    "bytes": 37670,
+    "sha256": "da64e92dffd94ba9018c8eb596a71442825d045e0a35ce19caae6cd113113405"
+  },
+  {
+    "path": "src/Updater/Updater.rc",
+    "bytes": 383,
+    "sha256": "e1a6d5c2dcdc8175c791464c789ec5c3131242edd91a02f2fbaa4d146b0c6968"
+  },
+  {
+    "path": "src/Updater/Updater.vcxproj",
+    "bytes": 3252,
+    "sha256": "8454af64b313e22c0d3f2f65a135edd1097c46ac1022485500ec356c818b2611"
+  },
+  {
+    "path": "src/Updater/Updater.vcxproj.filters",
+    "bytes": 1340,
+    "sha256": "151c4984300f48503eeba905e5fa81baf9333a3eff189487679ec447dbd32e86"
+  },
+  {
+    "path": "src/Updater/app.manifest",
+    "bytes": 1829,
+    "sha256": "dbef895692dce39566e68c08ff8799b658341fef9bf1c5045b365cd947263abf"
+  },
+  {
+    "path": "src/Updater/conanfile.txt",
+    "bytes": 157,
+    "sha256": "61e807afe57418dbeab55a668c464094269f8b34c7ee1f79b7e1524f162978d6"
+  },
+  {
+    "path": "src/Updater/main.cpp",
+    "bytes": 6813,
+    "sha256": "a5d92fc615bca52abd0ae8e2ade0c068219711e07baf77833f903864711baf01"
+  },
+  {
+    "path": "src/Updater/packages.config",
+    "bytes": 171,
+    "sha256": "7f52e74a501f28e183da1938b20b55b318c04936bb1d2d6896ce71888ac87192"
+  },
+  {
+    "path": "src/Updater/pch.cpp",
+    "bytes": 100,
+    "sha256": "658e0b38a9a092810771669856596fa2995b8ec15b6c7b5206a96ca2786ba96f"
+  },
+  {
+    "path": "src/Updater/pch.h",
+    "bytes": 561,
+    "sha256": "4d5ee6175d0b581d80fe1283c529920623a980b7089931295c96676679836664"
+  },
+  {
+    "path": "src/Updater/resource.h",
+    "bytes": 38,
+    "sha256": "c8096aba1c6233b4eeab81c6ef59f98497556ee83a10a1049efdf5aebff12182"
+  },
+  {
+    "path": "src/WinUI.targets",
+    "bytes": 11574,
+    "sha256": "a4f6878694b4142066ba99886a7ef9ba7220bb837169d3bfb537465fb57ab8f2"
+  },
+  {
+    "path": "src/_ConanDeps/_ConanDeps.filters",
+    "bytes": 138,
+    "sha256": "4f1af3202757d3f5851ed20ac331bf9ae8191a98100a55c9062937c94804b1a0"
+  },
+  {
+    "path": "src/_ConanDeps/_ConanDeps.vcxproj",
+    "bytes": 7598,
+    "sha256": "3b1a59e648e6704ad6e122b9157ebcec938f17ee6ada5f71265a371f8575fc54"
+  },
+  {
+    "path": "src/_ConanDeps/clang-cl.profile",
+    "bytes": 249,
+    "sha256": "0b19c3684fb1c8668a829c50173597b981a85ba09b36bf0ce0cef6584cf26668"
+  },
+  {
+    "path": "src/_ConanDeps/msvc.profile",
+    "bytes": 192,
+    "sha256": "8618b55ff89a01b034d83c4ed7a51b99ac984202543134571fe2e5b60e323cfd"
+  },
+  {
+    "path": "tools/CJKCharsetForImGui/characters.txt",
+    "bytes": 10504,
+    "sha256": "7718ad8b7874ed2f7e74c67f526a3b4ac2eec03b19e6a1a8a6a4e20227b37ff8"
+  },
+  {
+    "path": "tools/CJKCharsetForImGui/cjk_charset_for_imgui.py",
+    "bytes": 1292,
+    "sha256": "cfb35f4d61fabb43e87e79fb4f521fd6098b64cf3c218e982315e5e778bebd9a"
+  },
+  {
+    "path": "tools/MPVHookTextureParser/MPVHookTextureParser.cpp",
+    "bytes": 2263,
+    "sha256": "d68fbc2b654e4e06e0396d4afe24459d7ca4ea957ef6280cfd3a23e34259a5ab"
+  },
+  {
+    "path": "tools/MPVHookTextureParser/MPVHookTextureParser.slnx",
+    "bytes": 182,
+    "sha256": "96e848b4f2c1bf1c4bc3b9944c83e6d475b3e4ec196a92f0784747b580938061"
+  },
+  {
+    "path": "tools/MPVHookTextureParser/MPVHookTextureParser.vcxproj",
+    "bytes": 4888,
+    "sha256": "8088913a524f547059efa5734027888e1894ab396893046b1a9992de8c7f979b"
+  },
+  {
+    "path": "tools/MPVHookTextureParser/MPVHookTextureParser.vcxproj.filters",
+    "bytes": 291,
+    "sha256": "043401645861ba58441086da3c556fa6116671f8e5fb57409074ee54f46230eb"
+  },
+  {
+    "path": "tools/MPVHookTextureParser/README.md",
+    "bytes": 447,
+    "sha256": "d9d7b9c78b183778be8cfb8db604a098c836e303cd9e2241836118329fd5983f"
+  },
+  {
+    "path": "tools/MPVHookTextureParser/README_EN.md",
+    "bytes": 460,
+    "sha256": "0045494c0b4b1f0b6f840c2fee5db051c21c0979b16198cc06b2b7b1ba20b247"
+  },
+  {
+    "path": "tools/MPVHookTextureParser/packages.config",
+    "bytes": 235,
+    "sha256": "723160afd3b6cd81430ecb0fa6b8f94d0196ffb7a74422cb9c4f5f2657e126eb"
+  },
+  {
+    "path": "tools/WindowCase/HideCursorWindow.cpp",
+    "bytes": 2255,
+    "sha256": "092641f5c2401fba1faa3d3aa960afae80f9c9740bd9afd6bfb41f1c43a1b447"
+  },
+  {
+    "path": "tools/WindowCase/HideCursorWindow.h",
+    "bytes": 384,
+    "sha256": "679d9a9ffdaf47c0cdc7ddaa1ebc9c745b5d15faabbb698e56b320e696aac3ae"
+  },
+  {
+    "path": "tools/WindowCase/HungWindow.cpp",
+    "bytes": 2085,
+    "sha256": "57b26a711de6b98e5b905ce61fea9dd6765b4ed0928c57de9d5cc2ecbb0f8ceb"
+  },
+  {
+    "path": "tools/WindowCase/HungWindow.h",
+    "bytes": 346,
+    "sha256": "d12e40a1b598c3a6a8c14772ac7d253397685c5f453857de50bcba79c245bb96"
+  },
+  {
+    "path": "tools/WindowCase/KirikiriWindow.cpp",
+    "bytes": 5646,
+    "sha256": "b125b38d3818fde438ea14998070f02b6a37b51951abd1979020b95a739232f4"
+  },
+  {
+    "path": "tools/WindowCase/KirikiriWindow.h",
+    "bytes": 778,
+    "sha256": "bead64c4b2c2033565ab385716b77b8a02678881718a9e04b5c74dec1885b24a"
+  },
+  {
+    "path": "tools/WindowCase/PopupHostWindow.cpp",
+    "bytes": 6124,
+    "sha256": "f436babc739c0b078e572c1c01b20e87503e2a939734cd7a13cc2484a278d09f"
+  },
+  {
+    "path": "tools/WindowCase/PopupHostWindow.h",
+    "bytes": 516,
+    "sha256": "2d712559f1ce90be2f1e24433f35b5a259c962b18704141e7bd44abbe49ab9ff"
+  },
+  {
+    "path": "tools/WindowCase/TopmostWindow.cpp",
+    "bytes": 2457,
+    "sha256": "1235040bbe53a82751cb10a3cbf712e04ce10af5b1f80393391736c95d09d24a"
+  },
+  {
+    "path": "tools/WindowCase/TopmostWindow.h",
+    "bytes": 344,
+    "sha256": "4f47e55d2dfb1b93f3a9d9f206db5ddfbcd5e1abf3c61d0ca85a741f76b3c26e"
+  },
+  {
+    "path": "tools/WindowCase/Utils.cpp",
+    "bytes": 507,
+    "sha256": "718c2ada58f1ba0e921f9474dfc47a5b1de238c8f37d939d8be379f3a84051c6"
+  },
+  {
+    "path": "tools/WindowCase/Utils.h",
+    "bytes": 143,
+    "sha256": "71b30c0c59175a3f90265f300956b88ade2515bc36a1ddd68957df46bd96da95"
+  },
+  {
+    "path": "tools/WindowCase/WindowBase.h",
+    "bytes": 1841,
+    "sha256": "3db3667b13e4cf59c64ecb5bbf4a1754a5b94a5333c0181d052147e2ade0bde8"
+  },
+  {
+    "path": "tools/WindowCase/WindowCase.slnx",
+    "bytes": 172,
+    "sha256": "1689b85b52d43d594452bffc9f0337dc6ce06ee6185953702e71125d654e552f"
+  },
+  {
+    "path": "tools/WindowCase/WindowCase.vcxproj",
+    "bytes": 4383,
+    "sha256": "add746e81bed0323d962710ac964808a3d62cde2cd90cf2ed51e9eea003af853"
+  },
+  {
+    "path": "tools/WindowCase/WindowCase.vcxproj.filters",
+    "bytes": 946,
+    "sha256": "566fa8e424fd3a8badd53e0bee6f53228e00814ab8e240cf6cb7b921abc87aac"
+  },
+  {
+    "path": "tools/WindowCase/app.manifest",
+    "bytes": 1248,
+    "sha256": "d7a38d9568acbd47f6ac89ccd0c48e39a5e645399693a4599763b6723f0671a6"
+  },
+  {
+    "path": "tools/WindowCase/main.cpp",
+    "bytes": 793,
+    "sha256": "a623b117230061918d752b0231a4406d3be00cc8df302ce5681a3d12020e8dff"
+  },
+  {
+    "path": "tools/WindowCase/pch.cpp",
+    "bytes": 100,
+    "sha256": "658e0b38a9a092810771669856596fa2995b8ec15b6c7b5206a96ca2786ba96f"
+  },
+  {
+    "path": "tools/WindowCase/pch.h",
+    "bytes": 734,
+    "sha256": "706847b2ee7d4e9153f7f3d0847981da0d6c700f575574eec81e4b1091eb3ce2"
+  },
+  {
+    "path": "version.json",
+    "bytes": 501,
+    "sha256": "796fc0a43cdb77551c41c62b24f93f7441644d7295222c14a5b65dc3213ec72f"
+  }
+]

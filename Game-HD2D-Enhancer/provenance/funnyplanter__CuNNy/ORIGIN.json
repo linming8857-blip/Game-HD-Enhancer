@@ -1,0 +1,22 @@
+{
+  "repo": "funnyplanter/CuNNy",
+  "source_url": "https://github.com/funnyplanter/CuNNy",
+  "ref": "master",
+  "commit": "906031bb00c15dd6a6bbbaa21c0eb0b724ca8437",
+  "purpose": "Optional lightweight CNN shader research; preserve original license",
+  "declared_license": "check-upstream",
+  "github_license": "LGPL-3.0",
+  "destination": "references/funnyplanter__CuNNy/906031bb00c15dd6a6bbbaa21c0eb0b724ca8437",
+  "submodules": [],
+  "compiled": false,
+  "runtime_tested": false,
+  "license_files": [
+    "LICENSE"
+  ],
+  "omitted_files": [],
+  "lfs_pointers": [],
+  "symlinks": [],
+  "file_count": 81,
+  "source_bytes": 10399490,
+  "status": "collected"
+}

@@ -1,0 +1,367 @@
+[
+  {
+    "path": ".clang-format",
+    "bytes": 3520,
+    "sha256": "2c67bc03b0f691aa9dd874f4a8f153ce8405d64714962053f9f2853c15dc3aca"
+  },
+  {
+    "path": ".gitattributes",
+    "bytes": 2545,
+    "sha256": "ebeb0e10ea82b50a86046960b35f528d1ebc7661bf4e7c448f255e184628efa4"
+  },
+  {
+    "path": ".github/CONTRIBUTING.md",
+    "bytes": 717,
+    "sha256": "70c97788fdf592688496654741c92973a66b2c2636705d43940f86a978c6c5a8"
+  },
+  {
+    "path": ".github/FUNDING.yml",
+    "bytes": 16,
+    "sha256": "97d4af7ed32cb9fc6ca9ab895e9ff3396c01befec7d62a3b5f0f5cdfa5c9b3b3"
+  },
+  {
+    "path": ".github/workflows/build.yml",
+    "bytes": 771,
+    "sha256": "546bd49abd7208650faa5f4ab54752a6c2e529e42fb0e521ed51df398c38f94b"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 6242,
+    "sha256": "203d89ee06552c3561b552f43594f9ad669c1a52de398a8e5185d83c0051774a"
+  },
+  {
+    "path": "ImGui/ImGui.vcxproj",
+    "bytes": 7782,
+    "sha256": "5cc8a1e0a53af4ae5ee2747afb2f84fb52a578a709f63b4abae2290925959e39"
+  },
+  {
+    "path": "ImGui/ImGui.vcxproj.filters",
+    "bytes": 2264,
+    "sha256": "587e925580f8af2d0c88630e8b96d99dc62cdc3e87837689ba562327acf6a895"
+  },
+  {
+    "path": "ImGui/backends/imgui_impl_dx11.cpp",
+    "bytes": 34720,
+    "sha256": "b167fc1d43362fae5f4b6fe392b2a692dfd747cff76e1596ee1acba52c5538b7"
+  },
+  {
+    "path": "ImGui/backends/imgui_impl_dx11.h",
+    "bytes": 2715,
+    "sha256": "2f8c0eeff769d7829f8293e5e404743d91bd78d9336877961bc627d3a2831bb6"
+  },
+  {
+    "path": "ImGui/backends/imgui_impl_win32.cpp",
+    "bytes": 50124,
+    "sha256": "d01d3bc361682aad99f79d59fccdbf03d325b2b3e124d93dfd63168d362adf2c"
+  },
+  {
+    "path": "ImGui/backends/imgui_impl_win32.h",
+    "bytes": 3481,
+    "sha256": "7e720e7fc54e348152cf8b29145f3d291da5e9026176a36d08f5b46563f7f672"
+  },
+  {
+    "path": "ImGui/imconfig.h",
+    "bytes": 12142,
+    "sha256": "6e5687893594ebfaf8569280cfea83d025904a8a4e23bec073086f6c5bc8f7fb"
+  },
+  {
+    "path": "ImGui/imgui.cpp",
+    "bytes": 941022,
+    "sha256": "86f0fe3e1ebb1f74d1594f01d5b30c14d0ac096caf27f09903174bca800cc8e1"
+  },
+  {
+    "path": "ImGui/imgui.h",
+    "bytes": 416672,
+    "sha256": "768cf03c079e1ce198d207c7a3cfbcf2bdebe84d930829f73e09ae340daa265a"
+  },
+  {
+    "path": "ImGui/imgui_draw.cpp",
+    "bytes": 324020,
+    "sha256": "2aa2312c2e1aa1eee51a8d86322ce1a7d640ff79e3a63598ce329f0e5e74cc17"
+  },
+  {
+    "path": "ImGui/imgui_internal.h",
+    "bytes": 297716,
+    "sha256": "cdc85290bed18d70b2875aa12dbc4b58e6c4f8fac37e44cb7889ccd002cb4f91"
+  },
+  {
+    "path": "ImGui/imgui_tables.cpp",
+    "bytes": 249396,
+    "sha256": "c39e859e844406098dbc5e1387fcdac328878ad1f9360aa44677374e5e2806fd"
+  },
+  {
+    "path": "ImGui/imgui_widgets.cpp",
+    "bytes": 536508,
+    "sha256": "1a97693653262484ebc16ef18449cbbf5fe1291e0574f11288ac6013ae44b7f8"
+  },
+  {
+    "path": "ImGui/imstb_rectpack.h",
+    "bytes": 20344,
+    "sha256": "2efa3d5f7d003c19743b15155dad9f46d9f9fc783a18893d703b431d3c990972"
+  },
+  {
+    "path": "ImGui/imstb_textedit.h",
+    "bytes": 60111,
+    "sha256": "a985f5fa0ed97353d493b497961e9eef52082edcd045cf6954b69990ec9d0741"
+  },
+  {
+    "path": "ImGui/imstb_truetype.h",
+    "bytes": 199503,
+    "sha256": "88f0a25e27f5eefd6ec50c42fc5fe3026aa8170603efa08aa18d622db8660923"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1070,
+    "sha256": "8249c01819debed599aee1bcd3bda67410391daf55db81d0d5cccf28928cec8a"
+  },
+  {
+    "path": "Misc/README.txt",
+    "bytes": 322,
+    "sha256": "325c6c019b9591c3619508184658baa28360dc49ad9f4c1fa1f51180ed590cd2"
+  },
+  {
+    "path": "Misc/icon.png",
+    "bytes": 12934,
+    "sha256": "bb2522547ce4377f6c1a277f390b36a8ec6d8798dc0a3521b0d96c223a63eacd"
+  },
+  {
+    "path": "README.md",
+    "bytes": 8073,
+    "sha256": "3abae95e19eafef6cd900cf741cf207e72ebf4f7b2ec5c98d0ac197fada209d9"
+  },
+  {
+    "path": "ShaderBeam/CaptureBase.cpp",
+    "bytes": 5771,
+    "sha256": "2cb51a96f1319dd927ccd850ab232a78ee5382f1c7b0d4ddaf56d9b1cef8aec0"
+  },
+  {
+    "path": "ShaderBeam/CaptureBase.h",
+    "bytes": 2125,
+    "sha256": "91e2140c57cab12b3db84f65722e349a51ecd69859ee7ca664602468dcfe6bd7"
+  },
+  {
+    "path": "ShaderBeam/CaptureDD.cpp",
+    "bytes": 2670,
+    "sha256": "60715d5d02e1f4f55fb7453201e2391e5c794923669f1a83e1174516e3a8269c"
+  },
+  {
+    "path": "ShaderBeam/CaptureDD.h",
+    "bytes": 830,
+    "sha256": "cc3f6209a09996be2d9f0894934129d66409346405a899b63b6f96d61346c1f8"
+  },
+  {
+    "path": "ShaderBeam/CaptureWGC.cpp",
+    "bytes": 5995,
+    "sha256": "8ccc60b5b838c90aba791b5e8065bb79c4786cd5ca0fa68622b9a60818c3da02"
+  },
+  {
+    "path": "ShaderBeam/CaptureWGC.h",
+    "bytes": 1746,
+    "sha256": "271b52c9abe796bc52ca45596a6c9ef41cae379a488f3b084c4bfaf2117b7b56"
+  },
+  {
+    "path": "ShaderBeam/Charts.cpp",
+    "bytes": 3174,
+    "sha256": "ed034f572830dbb30abf358dcf2d5749f9a3444c4adbbc85ca0db644e853c0c0"
+  },
+  {
+    "path": "ShaderBeam/Charts.h",
+    "bytes": 982,
+    "sha256": "b603da879c3dd7c435cc1dcdb21d09b9200ca6394809beddf41ab10177233ac7"
+  },
+  {
+    "path": "ShaderBeam/Common.cpp",
+    "bytes": 4064,
+    "sha256": "1a05231b415d3f4dabbbccd9960ad8062d40e9bc1cc9e88383d5ccac3cfe63c9"
+  },
+  {
+    "path": "ShaderBeam/Common.h",
+    "bytes": 3481,
+    "sha256": "feb8c15e952bd7a9ea0fd1c3e848c416c68797222653f1f1841cbfcbe57ed943"
+  },
+  {
+    "path": "ShaderBeam/Helpers.cpp",
+    "bytes": 3515,
+    "sha256": "2b4599753c8603cfe14fa587a78a4b8c17bdf1e77d22aa6b8ba6c2f235de88b1"
+  },
+  {
+    "path": "ShaderBeam/Helpers.h",
+    "bytes": 1254,
+    "sha256": "b9c5908ffebcca102cef999ab0ea28e7dee3dc9ce1b377137cf3e53872229066"
+  },
+  {
+    "path": "ShaderBeam/ProggyVectorRegular.h",
+    "bytes": 261379,
+    "sha256": "571ad49271a49bc3bd04ec585069a0f0e9f10fa444a8f7d9665397a4947722d4"
+  },
+  {
+    "path": "ShaderBeam/RenderContext.h",
+    "bytes": 998,
+    "sha256": "64af215a439d4b9ea69c226a662d41a83cc4c69b99a3a5a3d05ec058051efdba"
+  },
+  {
+    "path": "ShaderBeam/RenderThread.cpp",
+    "bytes": 2512,
+    "sha256": "7b885d0af2932d5ca68a4d94de584276010242a5107470263a9979e78d9bce1a"
+  },
+  {
+    "path": "ShaderBeam/RenderThread.h",
+    "bytes": 882,
+    "sha256": "0bc666eb924cf73529b75d549e2944695aa9b8f0410159ef9264f8a553a61ecb"
+  },
+  {
+    "path": "ShaderBeam/Renderer.cpp",
+    "bytes": 15083,
+    "sha256": "2459cdebca8ec7ddcebde228f31a07abbd5f54f97d047d500c84724ce1bd39a5"
+  },
+  {
+    "path": "ShaderBeam/Renderer.h",
+    "bytes": 1752,
+    "sha256": "8c2cd4c31f9fc9662db2514c95a2903d8cc11a4d04af0006af60fdb42b39795b"
+  },
+  {
+    "path": "ShaderBeam/Resource.h",
+    "bytes": 828,
+    "sha256": "c9a6a63e35a530600fb340e7f9b162092865a8face1dde3ccd9046c0aa919ecc"
+  },
+  {
+    "path": "ShaderBeam/ShaderBeam.cpp",
+    "bytes": 9339,
+    "sha256": "c2cc4bef74f0c7e6286c50717b6af5b7d62f693bb029963c2dd6e48148b2c4d2"
+  },
+  {
+    "path": "ShaderBeam/ShaderBeam.h",
+    "bytes": 927,
+    "sha256": "3c34bbde9947e2b5b69ba840e02126f6a83f973a0ea1bbd380102dde3896c7fd"
+  },
+  {
+    "path": "ShaderBeam/ShaderBeam.ico",
+    "bytes": 67646,
+    "sha256": "908d1600d68e07dd1855e324e4c4e39b5e404c057aa365fdecbbf8969db919eb"
+  },
+  {
+    "path": "ShaderBeam/ShaderBeam.rc",
+    "bytes": 6750,
+    "sha256": "6780876d4cca0b602e053851dd6d68208f890347a4075980e42e7bb706b066b9"
+  },
+  {
+    "path": "ShaderBeam/ShaderBeam.vcxproj",
+    "bytes": 10312,
+    "sha256": "76ed6fd95faea98aa1a629f8eb71250b5a12279536dc988ef89fb490fdc421a1"
+  },
+  {
+    "path": "ShaderBeam/ShaderBeam.vcxproj.filters",
+    "bytes": 5160,
+    "sha256": "8f64e230a05a537fae16f529bae3ba17181533ead1741be26a7625ac2da820d3"
+  },
+  {
+    "path": "ShaderBeam/ShaderManager.cpp",
+    "bytes": 1887,
+    "sha256": "aa81a67176eece739f46f927cba494e460813059963a272551dc84dbe9467a99"
+  },
+  {
+    "path": "ShaderBeam/ShaderManager.h",
+    "bytes": 1043,
+    "sha256": "9729151916462b530d6f2ecbb77787476544a315732d6196944fc421e5b1e263"
+  },
+  {
+    "path": "ShaderBeam/ShaderProfile.cpp",
+    "bytes": 2431,
+    "sha256": "bdbecb8dc86eb314d6cd11a607025f7a736763c2d3143ff48b34853ec09f907f"
+  },
+  {
+    "path": "ShaderBeam/ShaderProfile.h",
+    "bytes": 1271,
+    "sha256": "d98e7b0342677376c7c57e75a40fd7fb72ed27dfd5a6370c3c6eb286d3a0f4a0"
+  },
+  {
+    "path": "ShaderBeam/Shaders/CRTBeamSimulator.hlsl",
+    "bytes": 16323,
+    "sha256": "a28e3756c9b7b821de18c2880b6eb1415c055a092f29fa5613694c5b96209594"
+  },
+  {
+    "path": "ShaderBeam/Shaders/CRTBeamSimulatorShader.h",
+    "bytes": 7388,
+    "sha256": "d5f66ff5c01a4af3a47d45af4e2bfebc62aebf3da5701368d25cfe0e3830b2bc"
+  },
+  {
+    "path": "ShaderBeam/Shaders/ShaderList.h",
+    "bytes": 342,
+    "sha256": "16a7de300fe72426177732e81164bcd7cc60ea103f1fe7dab9f790e7be9f6eef"
+  },
+  {
+    "path": "ShaderBeam/Shaders/SimpleBFIShader.h",
+    "bytes": 766,
+    "sha256": "dacf5a6c04e64269217a52a0200353d2d8c7587850bd4dec0cd03ff8427afb15"
+  },
+  {
+    "path": "ShaderBeam/SinglePassShaderProfile.cpp",
+    "bytes": 5607,
+    "sha256": "8fa933f60360f98c5d6daa062e97a4f87086f9a815265d42bc694d524dcb9338"
+  },
+  {
+    "path": "ShaderBeam/SinglePassShaderProfile.h",
+    "bytes": 1143,
+    "sha256": "b42132e6818bbcc1896116ccff9cb6315989bd81eb345a7bd725babe44799841"
+  },
+  {
+    "path": "ShaderBeam/UI.cpp",
+    "bytes": 31692,
+    "sha256": "973e8faae55e96244a62f6eb226cf9db63cb328ef49faedfa16965e31a78f603"
+  },
+  {
+    "path": "ShaderBeam/UI.h",
+    "bytes": 2356,
+    "sha256": "3cfe3e8b9fb20c5676ff04e5261e4c3225039c0c7798bc42d828117ccee339c5"
+  },
+  {
+    "path": "ShaderBeam/Watcher.cpp",
+    "bytes": 2905,
+    "sha256": "33e84190df65cfad7d5c3749f94735c623ac4123a53de5e033237db6e082448c"
+  },
+  {
+    "path": "ShaderBeam/Watcher.h",
+    "bytes": 941,
+    "sha256": "e04245227a0f74650f8cfc06fddcc127bec5d67b2315c9f20d2a5d3e368bd388"
+  },
+  {
+    "path": "ShaderBeam/Window.cpp",
+    "bytes": 7198,
+    "sha256": "5b477e0786460bed98124b378d25adb2c30fa7456c9bbe1914906ec8a3ca7deb"
+  },
+  {
+    "path": "ShaderBeam/framework.h",
+    "bytes": 805,
+    "sha256": "10c6df336ee5c6d1fa347558298032f3b30a10193367d30f2a11c9d0926e7c46"
+  },
+  {
+    "path": "ShaderBeam/ini.h",
+    "bytes": 19578,
+    "sha256": "f1c63e3c7ff50955e0477b9254458c536c3cdbe1a4610f2544fc6e232f0f3fe7"
+  },
+  {
+    "path": "ShaderBeam/small.ico",
+    "bytes": 67646,
+    "sha256": "908d1600d68e07dd1855e324e4c4e39b5e404c057aa365fdecbbf8969db919eb"
+  },
+  {
+    "path": "ShaderBeam/stdafx.cpp",
+    "bytes": 20,
+    "sha256": "93169d8b687a1e249606e7fa3153c17a774585b2d3f82da7b3006e2998044e56"
+  },
+  {
+    "path": "ShaderBeam/stdafx.h",
+    "bytes": 38,
+    "sha256": "7bccdf54e9b99487f3a233e0942d1352337465cbe8f3107786654b47be07d7b6"
+  },
+  {
+    "path": "ShaderBeam/targetver.h",
+    "bytes": 307,
+    "sha256": "a81336c05e2659e95984b2b3b4fe64a689f2f966467257284e11c3c6a2b121f1"
+  },
+  {
+    "path": "ShaderBeam.sln",
+    "bytes": 2390,
+    "sha256": "fa905014cdd2c1877637b2492a5f9e119f763e3c44f370d804f14c16e934e55b"
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "repo": "crosire/reshade",
+  "source_url": "https://github.com/crosire/reshade",
+  "ref": "main",
+  "commit": "7bf9de8b33bcc76c3177007e65d73c72dd0f34c0",
+  "purpose": "Effect compiler and graphics abstractions; no injection in V1",
+  "declared_license": "BSD-3-Clause",
+  "github_license": "BSD-3-Clause",
+  "destination": "references/crosire__reshade/7bf9de8b33bcc76c3177007e65d73c72dd0f34c0",
+  "submodules": [
+    {
+      "path": "deps/imgui",
+      "url": "https://github.com/ocornut/imgui.git",
+      "repository": "ocornut/imgui",
+      "commit": "3912b3d9a9c1b3f17431aebafd86d2f40ee6e59c",
+      "status": "downloaded"
+    },
+    {
+      "path": "deps/minhook",
+      "url": "https://github.com/TsudaKageyu/minhook.git",
+      "repository": "TsudaKageyu/minhook",
+      "commit": "8fda4f5481fed5797dc2651cd91e238e9b3928c6",
+      "status": "downloaded"
+    },
+    {
+      "path": "deps/stb",
+      "url": "https://github.com/nothings/stb.git",
+      "repository": "nothings/stb",
+      "commit": "28d546d5eb77d4585506a20480f4de2e706dff4c",
+      "status": "downloaded"
+    },
+    {
+      "path": "deps/glad",
+      "url": "https://github.com/Dav1dde/glad",
+      "repository": "Dav1dde/glad",
+      "commit": "27bed1181560211b55e39a9b132fef8c5846aae5",
+      "status": "downloaded"
+    },
+    {
+      "path": "deps/utfcpp",
+      "url": "https://github.com/nemtrif/utfcpp.git",
+      "repository": "nemtrif/utfcpp",
+      "commit": "819011bb01628fe1aa2f1da9f2c842a48fd5680b",
+      "status": "downloaded"
+    },
+    {
+      "path": "deps/spirv",
+      "url": "https://github.com/KhronosGroup/SPIRV-Headers.git",
+      "repository": "KhronosGroup/SPIRV-Headers",
+      "commit": "7845730cab6ebbdeb621e7349b7dc1a59c3377be",
+      "status": "downloaded"
+    },
+    {
+      "path": "deps/vma",
+      "url": "https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "repository": "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
+      "commit": "1076b348abd17859a116f4b111c43d58a588a086",
+      "status": "downloaded"
+    },
+    {
+      "path": "deps/fpng",
+      "url": "https://github.com/richgel999/fpng",
+      "repository": "richgel999/fpng",
+      "commit": "925796543b9d26b8edfcdcecd94c1dac280f29fc",
+      "status": "downloaded"
+    },
+    {
+      "path": "deps/d3d12",
+      "url": "https://github.com/microsoft/DirectX-Headers.git",
+      "repository": "microsoft/DirectX-Headers",
+      "commit": "9e393d6d8a3b30dcc6f2806ef604ec16a27b0d7e",
+      "status": "downloaded"
+    },
+    {
+      "path": "deps/openxr",
+      "url": "https://github.com/KhronosGroup/OpenXR-SDK.git",
+      "repository": "KhronosGroup/OpenXR-SDK",
+      "commit": "288d3a7ebc1ad959f62d51da75baa3d27438c499",
+      "status": "downloaded"
+    },
+    {
+      "path": "deps/jxl_simple_lossless",
+      "url": "https://github.com/kampidh/simple-lossless-encoder.git",
+      "repository": "kampidh/simple-lossless-encoder",
+      "commit": "8dc970fc771e35239db55dfbce8f46f83f8e9b73",
+      "status": "downloaded"
+    }
+  ],
+  "compiled": false,
+  "runtime_tested": false,
+  "license_files": [
+    "LICENSE.md"
+  ],
+  "omitted_files": [
+    {
+      "path": "deps/imgui/examples/libs/glfw/lib-vc2010-32/glfw3.lib",
+      "bytes": 187376,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "deps/imgui/examples/libs/glfw/lib-vc2010-64/glfw3.lib",
+      "bytes": 291120,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "deps/stb/tests/oversample/oversample.exe",
+      "bytes": 54272,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "deps/vma/bin/Shader.frag.spv",
+      "bytes": 1004,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "deps/vma/bin/Shader.vert.spv",
+      "bytes": 1472,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "deps/vma/bin/VmaSample_Release_vs2022.exe",
+      "bytes": 446976,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "res/shaders/imgui_ps_450.spv",
+      "bytes": 4656,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "res/shaders/imgui_vs_450.spv",
+      "bytes": 1116,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "tools/7za.exe",
+      "bytes": 1144320,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    }
+  ],
+  "lfs_pointers": [],
+  "symlinks": [],
+  "file_count": 2314,
+  "source_bytes": 51514943,
+  "status": "collected"
+}

@@ -1,0 +1,51 @@
+{
+  "repo": "GPUOpen-Effects/FidelityFX-CAS",
+  "source_url": "https://github.com/GPUOpen-Effects/FidelityFX-CAS",
+  "ref": "master",
+  "commit": "9fabcc9a2c45f958aff55ddfda337e74ef894b7f",
+  "purpose": "Optional standalone contrast-adaptive sharpening",
+  "declared_license": "MIT",
+  "github_license": "MIT",
+  "destination": "third_party/GPUOpen-Effects__FidelityFX-CAS/9fabcc9a2c45f958aff55ddfda337e74ef894b7f",
+  "submodules": [
+    {
+      "path": "sample/libs/cauldron",
+      "url": "../../GPUOpen-LibrariesAndSDKs/Cauldron.git",
+      "repository": "GPUOpen-LibrariesAndSDKs/Cauldron",
+      "commit": "e7ca80d72d3cf750ebb3237e907fb7d3632f3748",
+      "status": "downloaded"
+    }
+  ],
+  "compiled": false,
+  "runtime_tested": false,
+  "license_files": [
+    "LICENSE.txt"
+  ],
+  "omitted_files": [
+    {
+      "path": "sample/libs/cauldron/libs/AGS/amd_ags_x64.dll",
+      "bytes": 164864,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "sample/libs/cauldron/libs/AGS/amd_ags_x64.lib",
+      "bytes": 15020,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "sample/libs/cauldron/libs/dxc/bin/dxcompiler.dll",
+      "bytes": 12491720,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "sample/libs/cauldron/libs/dxc/bin/dxil.dll",
+      "bytes": 1119176,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    }
+  ],
+  "lfs_pointers": [],
+  "symlinks": [],
+  "file_count": 476,
+  "source_bytes": 138426983,
+  "status": "collected"
+}

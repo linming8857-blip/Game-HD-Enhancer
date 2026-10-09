@@ -1,0 +1,33 @@
+/*
+ShaderGlass preset reshade/handheld-color-LUTs / GBA_GBC-2020 imported from RetroArch:
+https://github.com/libretro/slang-shaders/blob/a4f3aeec04fcb2624ec6df5dd17e38f9b575eab9/reshade/handheld-color-LUTs/GBA_GBC-2020.slangp
+See original file for credits and usage license. 
+This file is auto-generated, do not modify directly.
+*/
+
+#pragma once
+
+namespace RetroArch
+{
+class ReshadeHandheldColorLUTsGBA_GBC2020PresetDef : public PresetDef
+{
+public:
+	ReshadeHandheldColorLUTsGBA_GBC2020PresetDef() : PresetDef{}
+	{
+		Name = "GBA_GBC-2020";
+		Category = "reshade/handheld-color-LUTs";
+	}
+
+	void Build() {
+         	ShaderDefs.push_back(ReshadeShadersLUTLUTShaderDef()
+.Param("filter_linear", "false")
+.Param("scale_type_x", "source")
+.Param("scale_type_y", "source")
+.Param("scale_x", "1.000000")
+.Param("scale_y", "1.000000"));
+            TextureDefs.push_back(ReshadeShadersLUTHandheldGBA_GBC2020TextureDef()
+.Param("linear", "true")
+.Param("name", "SamplerLUT"));
+	}
+};
+}

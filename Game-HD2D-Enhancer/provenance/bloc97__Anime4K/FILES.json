@@ -1,0 +1,477 @@
+[
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+    "bytes": 861,
+    "sha256": "f57e0c37037798492d3ef56e2c92edb02a5c8dc547ed0b5972b76deeb5270e57"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+    "bytes": 595,
+    "sha256": "1f48c52f209a971b8e7eae4120144d28fcf8ee38a7778a7b4d8cf1ab356617d2"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 297,
+    "sha256": "667a7a91054ce779bc9ccf82570c9140d7e760ddcc413f57a6d5597985888afd"
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "bytes": 3357,
+    "sha256": "cccb66ebd9b352f2a96969c9a5f8010f2d2398be938b9f9045d64363579c14c1"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1063,
+    "sha256": "5bad448b737378e3d0c977ad0d0521fa37ad279a7e76ea9a31d9257eeb6953f5"
+  },
+  {
+    "path": "README.md",
+    "bytes": 8788,
+    "sha256": "0922a6645ea63fed3f7c96b3c0e0e5d788e06d9e2cf28274c6a9460890e91d9a"
+  },
+  {
+    "path": "glsl/Deblur/Anime4K_Deblur_DoG.glsl",
+    "bytes": 4552,
+    "sha256": "480367048caca7520b6f66d4db731c96103677d0e5bad69d72adf46f58a59532"
+  },
+  {
+    "path": "glsl/Deblur/Anime4K_Deblur_Original.glsl",
+    "bytes": 6409,
+    "sha256": "37e96b3225546ea4f2a6ec81cd6fac8f8f1774c62ba62b51ec5f93937d8f9f3d"
+  },
+  {
+    "path": "glsl/Denoise/Anime4K_Denoise_Bilateral_Mean.glsl",
+    "bytes": 2782,
+    "sha256": "bdcbc73cecdbc2fda879824cad822c70cc89c9e93d747fa740c1301c3d270dee"
+  },
+  {
+    "path": "glsl/Denoise/Anime4K_Denoise_Bilateral_Median.glsl",
+    "bytes": 4221,
+    "sha256": "5f9667ae9c2dbbcc460da5a12c5adfae72e7c72c595fa1cec13aa09cb5bd6f52"
+  },
+  {
+    "path": "glsl/Denoise/Anime4K_Denoise_Bilateral_Mode.glsl",
+    "bytes": 3821,
+    "sha256": "1f20a48ff19bf50181ee1ad608defbcb9e5ad3c0d8d6760fd8e1834c194efcb4"
+  },
+  {
+    "path": "glsl/Experimental-Effects/Anime4K_Darken_Fast.glsl",
+    "bytes": 6378,
+    "sha256": "d3adffc7249d6fb9c8474f5ac473f97e1d27501e130fd6d91425af6256be4a20"
+  },
+  {
+    "path": "glsl/Experimental-Effects/Anime4K_Darken_HQ.glsl",
+    "bytes": 5981,
+    "sha256": "7506e41f3c2b031574897a74fc98a7fa478289747e6131b21d25fbc221460e13"
+  },
+  {
+    "path": "glsl/Experimental-Effects/Anime4K_Darken_VeryFast.glsl",
+    "bytes": 6442,
+    "sha256": "a6046bd461026c02d01028c7678b3eee2a74426277dfafcc31b95fa89910c7ca"
+  },
+  {
+    "path": "glsl/Experimental-Effects/Anime4K_Thin_Fast.glsl",
+    "bytes": 6248,
+    "sha256": "6a77b7930b84b2fea7bdb4249f7fcdd1b8799803931c0c98f5994fd01f4390ff"
+  },
+  {
+    "path": "glsl/Experimental-Effects/Anime4K_Thin_HQ.glsl",
+    "bytes": 5962,
+    "sha256": "026e245fb49b1d7ab549043d75fcfe9c1b6a5e3170323861fa9abfdbad5abe61"
+  },
+  {
+    "path": "glsl/Experimental-Effects/Anime4K_Thin_VeryFast.glsl",
+    "bytes": 6335,
+    "sha256": "c7b82480644a1b71b0f519186c58ecffc8cbb629fd87ab952f7e2665a58f810c"
+  },
+  {
+    "path": "glsl/Restore/Anime4K_Clamp_Highlights.glsl",
+    "bytes": 2795,
+    "sha256": "a2a9bf7fbc1d75d09660ca2e701e4d7fb0cf5457b94da47e1825032fa2b3671a"
+  },
+  {
+    "path": "glsl/Restore/Anime4K_Restore_CNN_L.glsl",
+    "bytes": 69921,
+    "sha256": "d6efe215e6ee8af1ec560478a91afc1df83fac4ba43b2c806ee61ca2267ed674"
+  },
+  {
+    "path": "glsl/Restore/Anime4K_Restore_CNN_M.glsl",
+    "bytes": 35916,
+    "sha256": "67ea3ed26539e8de3b7d307688535d2ff17e8d147e11dda0247da7770dbecf41"
+  },
+  {
+    "path": "glsl/Restore/Anime4K_Restore_CNN_S.glsl",
+    "bytes": 17136,
+    "sha256": "97c24dc370ab300c108bfaa09db7f175aeff343674842c299cf3940a3d330427"
+  },
+  {
+    "path": "glsl/Restore/Anime4K_Restore_CNN_Soft_L.glsl",
+    "bytes": 70020,
+    "sha256": "8f2a5c73b526c6e4c67bce0366f7dcd7410bfa4a31e718240d86f53660788e63"
+  },
+  {
+    "path": "glsl/Restore/Anime4K_Restore_CNN_Soft_M.glsl",
+    "bytes": 36016,
+    "sha256": "a78a2c76898e08e09e442a9628c64208c26e8e15789649b8755223f009794c02"
+  },
+  {
+    "path": "glsl/Restore/Anime4K_Restore_CNN_Soft_S.glsl",
+    "bytes": 17198,
+    "sha256": "9f6867f2ef42786729522d86fe24147cb4ea145418e3974df70496acf52dc392"
+  },
+  {
+    "path": "glsl/Restore/Anime4K_Restore_CNN_Soft_UL.glsl",
+    "bytes": 308873,
+    "sha256": "41d71cad7b2f3af9086852fca70046f763272d2cb49dd83de9647d942866cac8"
+  },
+  {
+    "path": "glsl/Restore/Anime4K_Restore_CNN_Soft_VL.glsl",
+    "bytes": 144204,
+    "sha256": "094334b0e20c1a201fe4941c7c68de72451e5aee9efb5524d7fb82b12dca64b9"
+  },
+  {
+    "path": "glsl/Restore/Anime4K_Restore_CNN_UL.glsl",
+    "bytes": 308660,
+    "sha256": "81ec48ff700108c8e1571ed82d4527006ee200c05e94f8b7f836c02179169b40"
+  },
+  {
+    "path": "glsl/Restore/Anime4K_Restore_CNN_VL.glsl",
+    "bytes": 144075,
+    "sha256": "35036722733305cd4d4e57660b883bbe2569ba2914033c254327107d7b77e35e"
+  },
+  {
+    "path": "glsl/Restore/Anime4K_Restore_GAN_UL.glsl",
+    "bytes": 244350,
+    "sha256": "d7a2146b9b1b5a7cfbe3ee0cf9437fbb0761eb999d4b0f284d3489e0a0ff1002"
+  },
+  {
+    "path": "glsl/Restore/Anime4K_Restore_GAN_UUL.glsl",
+    "bytes": 244374,
+    "sha256": "b0f36492734277f4c7cf180047ca827d0af89dafed231aa0ee3d6ca3593d4cc9"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_3DGraphics_AA_Upscale_x2_US.glsl",
+    "bytes": 11450,
+    "sha256": "e2de24efdb7dc75e1f48d3fd62c50d24a434b129857237c8d3bd24eba1665d75"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_3DGraphics_Upscale_x2_US.glsl",
+    "bytes": 11341,
+    "sha256": "ccfd16fa65908fbafe27114cf65ddc043bc746d4086716c2a85e97a283d9fe5e"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_AutoDownscalePre_x2.glsl",
+    "bytes": 1560,
+    "sha256": "8c58291740146bd766a4d73f132775a797fe80f7d07919b5d767e27a5dc85656"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_AutoDownscalePre_x4.glsl",
+    "bytes": 1568,
+    "sha256": "5af62d8cd844916dc1126613e13bad3beab195787f93a71200b47c6ec78f2e41"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_Upscale_CNN_x2_L.glsl",
+    "bytes": 73443,
+    "sha256": "db1fedf7be82f6fd9034e6bf39b64daf2b7576988bb584ec38f24f5236b1cd97"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_Upscale_CNN_x2_M.glsl",
+    "bytes": 37685,
+    "sha256": "716e02098a68f0d648761f2b96b4dd139e1cb09b174bb369fca3aa34328fff7e"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_Upscale_CNN_x2_S.glsl",
+    "bytes": 18638,
+    "sha256": "4c53ec2e287908f7ee7bcb266b0170421626d663576468b7d7dafc62962649a4"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_Upscale_CNN_x2_UL.glsl",
+    "bytes": 290257,
+    "sha256": "fa7cf0ecc1cca84d8291bbff5a42b60f5816d57b4e97d42bc377235ac8db02e8"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_Upscale_CNN_x2_VL.glsl",
+    "bytes": 146743,
+    "sha256": "5638fe31c37c151a3443fea3451a3ef91af073f4dbb9615f6c0d1e29db11493d"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_Upscale_DTD_x2.glsl",
+    "bytes": 15450,
+    "sha256": "b6597cace43fc9a6be57a8eebc540fe20caa8389fae0aad1157a9c15fc410ef3"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_Upscale_Deblur_DoG_x2.glsl",
+    "bytes": 4830,
+    "sha256": "2408b7d334803bae2e463f75d4e293146715609ed576dddfd22e2a76189eb161"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_Upscale_Deblur_Original_x2.glsl",
+    "bytes": 6313,
+    "sha256": "4a88f9a4437aa5cca1e2055a45db533b58cf9c955763fb64cf38033f0f63904f"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_Upscale_DoG_x2.glsl",
+    "bytes": 4016,
+    "sha256": "33dbf76d855575b7a99885885c2c7c692444cf776f22048b4a611dab178e66e3"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_Upscale_GAN_x2_M.glsl",
+    "bytes": 146140,
+    "sha256": "8a1d33fddc8939c1e0eb4d6ad6a7baf653dd420d6b713e385b7c73be90d9affe"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_Upscale_GAN_x2_S.glsl",
+    "bytes": 76200,
+    "sha256": "ec252b694675ce8e3b3959bd53530a9e94e360ce8a7de95be9a848ac0826649f"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_Upscale_GAN_x3_L.glsl",
+    "bytes": 238600,
+    "sha256": "fecde271daf90df63d03f9999da57080b268d085cce1b60c0fbfe4589688da21"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_Upscale_GAN_x3_VL.glsl",
+    "bytes": 425971,
+    "sha256": "66d201713e43c74fdfb75cde9732d1b42f3eb30ecdda68f2a6a5caf647c1f76a"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_Upscale_GAN_x4_UL.glsl",
+    "bytes": 700067,
+    "sha256": "b1ed2bb1065f84e2cb986d7c5022dc0a926814f37891e6a88b69c9e79c120ae0"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_Upscale_GAN_x4_UUL.glsl",
+    "bytes": 1091539,
+    "sha256": "f4740658e3b8a15f3eb2e34d73a7b05d130bb2af11f3e71685636e4809e917ee"
+  },
+  {
+    "path": "glsl/Upscale/Anime4K_Upscale_Original_x2.glsl",
+    "bytes": 6271,
+    "sha256": "ffb1a4a28c5ce80a3e932e9454917ea48a4ba31dadcf274714048693ce387919"
+  },
+  {
+    "path": "glsl/Upscale+Denoise/Anime4K_Upscale_Denoise_CNN_x2_L.glsl",
+    "bytes": 73584,
+    "sha256": "6cc4604c9544fd4fd9e3a75fd797511bf5fe1e626e9e1dbcee03302823a63207"
+  },
+  {
+    "path": "glsl/Upscale+Denoise/Anime4K_Upscale_Denoise_CNN_x2_M.glsl",
+    "bytes": 37714,
+    "sha256": "8c72b042e2301fe66a45c3089720459148e2504cd72af16f9c0d5017ff14181e"
+  },
+  {
+    "path": "glsl/Upscale+Denoise/Anime4K_Upscale_Denoise_CNN_x2_S.glsl",
+    "bytes": 18667,
+    "sha256": "1a45ad3aa20d8368399f2fd46791deed957c2fd0a4afd131cc92516827abab93"
+  },
+  {
+    "path": "glsl/Upscale+Denoise/Anime4K_Upscale_Denoise_CNN_x2_UL.glsl",
+    "bytes": 290040,
+    "sha256": "38bd11e7e92ff1a615a274be912d6f2cfe67f5b43771f0383a91c6ab3d0f8cb6"
+  },
+  {
+    "path": "glsl/Upscale+Denoise/Anime4K_Upscale_Denoise_CNN_x2_VL.glsl",
+    "bytes": 146811,
+    "sha256": "359c48fe5a317fbc6b706ce368401eef496e84ed98abac7a43efebca2b65d79b"
+  },
+  {
+    "path": "md/GLSL_Instructions.md",
+    "bytes": 429,
+    "sha256": "3a3466c6680eee599a1509a1fad3fa5cb7d33ec24686f2f08e5042a9bf221176"
+  },
+  {
+    "path": "md/GLSL_Instructions_Advanced.md",
+    "bytes": 8979,
+    "sha256": "a90b188b65cc27644495605c7d4d8d95966fbd6325081846b473c4c10f8b2812"
+  },
+  {
+    "path": "md/GLSL_Instructions_Linux.md",
+    "bytes": 3929,
+    "sha256": "16f1bc52dd290e268c5b25db386130b4d728ea1d1edd066e1389a2fced82f260"
+  },
+  {
+    "path": "md/GLSL_Instructions_Linux_Plex.md",
+    "bytes": 3020,
+    "sha256": "0b443899dbe8df436eb95910b59c06941c69adf436dff92f44cd6a7e98f0d70f"
+  },
+  {
+    "path": "md/GLSL_Instructions_Mac.md",
+    "bytes": 6728,
+    "sha256": "a9cf4a3a4da19ae8c1c64ecfb533c89b2da48ccf03c6c7791be7fa7a072f8dde"
+  },
+  {
+    "path": "md/GLSL_Instructions_Mac_IINA.md",
+    "bytes": 1576,
+    "sha256": "5a27f70139c78ba20a38c0a50951343ab0d51676d7a818d7bf52814ac552061e"
+  },
+  {
+    "path": "md/GLSL_Instructions_Mac_MPV.md",
+    "bytes": 4002,
+    "sha256": "f47acee688da013fcb69c4a5c0498d80a4cfbeb603240812156f686b11a9c0d5"
+  },
+  {
+    "path": "md/GLSL_Instructions_Mac_Plex.md",
+    "bytes": 3543,
+    "sha256": "6518e835210df136dc241ea9475b16d3315bcd3ca776e67cc7ed81fb23f6d208"
+  },
+  {
+    "path": "md/GLSL_Instructions_Plex.md",
+    "bytes": 1366,
+    "sha256": "21e3cdd248c0ebf7d04d4aee80f5f57c1073c4035e1649a6a9d9fba0a5f11c07"
+  },
+  {
+    "path": "md/GLSL_Instructions_Windows_MPV.md",
+    "bytes": 3193,
+    "sha256": "2949f014ec3870dff15c391ef386e038a25925a4836ff34fe6351299c2119661"
+  },
+  {
+    "path": "md/GLSL_Instructions_Windows_Plex.md",
+    "bytes": 3375,
+    "sha256": "d7b33f45cf172cbbd5df0e104e97823f07b6d5616d061825f30461ff2bcbfbeb"
+  },
+  {
+    "path": "md/Screenshots/Mac/Finder.png",
+    "bytes": 640618,
+    "sha256": "b4e1de065d42758861623fc371656c0979cd7a88b986fe2b3cf75ef4532c8ff3"
+  },
+  {
+    "path": "md/Screenshots/Mac/IINA/Advanced.png",
+    "bytes": 416978,
+    "sha256": "5c6da26ecb2fbe033dc494ce32c9a0e53ec3234e0d1791671fa6fce45afdc92a"
+  },
+  {
+    "path": "md/Screenshots/Mac/IINA/Settings.png",
+    "bytes": 132026,
+    "sha256": "dd5f512ff7a87932a183c112084c9f2dd1de5029666d275eb3119e91ce93968a"
+  },
+  {
+    "path": "md/Screenshots/Mac/Plex/config.png",
+    "bytes": 482926,
+    "sha256": "1a67d1d11625da81457e27b521c3ec5e71b60a2476ce0d5e2adf33e95a25e778"
+  },
+  {
+    "path": "md/Screenshots/Mac/Plex/location.png",
+    "bytes": 157715,
+    "sha256": "efb46cea26b0e0bceacef98753149bd872673fbc06feaf154fce0997d037f09f"
+  },
+  {
+    "path": "md/Screenshots/Mac/Plex HTPC/config.png",
+    "bytes": 484291,
+    "sha256": "cb98c3689a3731e78802b13ea71c384546f861148c9353a966618c64978ff7cd"
+  },
+  {
+    "path": "md/Screenshots/Mac/Plex HTPC/location.png",
+    "bytes": 156896,
+    "sha256": "36c4fe81c3cc1999ed4185294645163caf836482bb35a3696ea8fe5a99696656"
+  },
+  {
+    "path": "md/Screenshots/Mac/mpv/config.png",
+    "bytes": 369115,
+    "sha256": "230128c487bfd4c4b6f17b375286c7ef205a4b58ab4d58236c3df952ef669197"
+  },
+  {
+    "path": "md/Screenshots/Mac/mpv/location.png",
+    "bytes": 150231,
+    "sha256": "4c85704871039b1953ff2d50a5276210af669e22d6d6174146412c238d8feb09"
+  },
+  {
+    "path": "md/Screenshots/Windows/Plex/config.png",
+    "bytes": 135402,
+    "sha256": "699c2d614801a86de6a2ba7e88cb8d2ed47b7d70d7ce92ab9f73dfc4e998acae"
+  },
+  {
+    "path": "md/Screenshots/Windows/Plex/location.png",
+    "bytes": 175293,
+    "sha256": "61890c954b15713e24c1c9448747782d8fddefcb33734ba0cc60fea94ca09c16"
+  },
+  {
+    "path": "md/Screenshots/Windows/Plex HTPC/config.png",
+    "bytes": 138143,
+    "sha256": "7de25a8bb58d70e829dda3e65e2448a9b65acfb8daa8fec8e31506c80ab5d223"
+  },
+  {
+    "path": "md/Screenshots/Windows/Plex HTPC/location.png",
+    "bytes": 175785,
+    "sha256": "bf657d503e62a260d0fd58de84123b176604bb67ceab09f6ecb7ba410bcf313a"
+  },
+  {
+    "path": "md/Screenshots/Windows/mpv/config.png",
+    "bytes": 151349,
+    "sha256": "f1c522c2a6d2f8027298912a941368d1d67b18836eeedd11a3c145aa0934e023"
+  },
+  {
+    "path": "md/Screenshots/Windows/mpv/location.png",
+    "bytes": 165090,
+    "sha256": "6b57225dd135cccf11994b537dd8ef6d2636fdda7cecbf4eb2a4e49ffd056255"
+  },
+  {
+    "path": "md/Template/GLSL_Mac_Linux_High-end/input.conf",
+    "bytes": 2173,
+    "sha256": "89c85908400a3ba2c82611e5465d33b24a1fca87b4d31ccda8439a202737c3be"
+  },
+  {
+    "path": "md/Template/GLSL_Mac_Linux_High-end/mpv.conf",
+    "bytes": 317,
+    "sha256": "5bea59e5dc76bbf2a273112b89f5e37981c2e995166e163088c74212243df1b7"
+  },
+  {
+    "path": "md/Template/GLSL_Mac_Linux_Low-end/input.conf",
+    "bytes": 2174,
+    "sha256": "d66dfa8b5bcc4cbd24007b46160a99ce4a81f06d0846dfd89d4f8fc2ea85ffbd"
+  },
+  {
+    "path": "md/Template/GLSL_Mac_Linux_Low-end/mpv.conf",
+    "bytes": 316,
+    "sha256": "43c9d723657bab7c2355b8746275ac86cf645ae23af259d1493695e115b7d682"
+  },
+  {
+    "path": "md/Template/GLSL_Windows_High-end/input.conf",
+    "bytes": 2172,
+    "sha256": "704512f5c76f22a29fe1136bf34f7011e57b9d811f0bc6e7c0c1b631c5f62be5"
+  },
+  {
+    "path": "md/Template/GLSL_Windows_High-end/mpv.conf",
+    "bytes": 317,
+    "sha256": "cdc370a68e76e16106a53db902f1b4e49ef3246a737b364cc8cc15dc0b70db92"
+  },
+  {
+    "path": "md/Template/GLSL_Windows_Low-end/input.conf",
+    "bytes": 2174,
+    "sha256": "bdcda01e53522234a13c7d376c0c829c88940308e12a731c8f57acd6f2079234"
+  },
+  {
+    "path": "md/Template/GLSL_Windows_Low-end/mpv.conf",
+    "bytes": 316,
+    "sha256": "2a310a6cbd2f3cb48060009c940ac66c299c3df8d21079a2446bdbe944bab27b"
+  },
+  {
+    "path": "tensorflow/Gen_Shader.ipynb",
+    "bytes": 14995,
+    "sha256": "9b2de8e530d03c62c1ffd9ac0674d606cf45ebd1a4dd0932548a795962f3554d"
+  },
+  {
+    "path": "tensorflow/Train_Model.ipynb",
+    "bytes": 7904146,
+    "sha256": "634dd71f84f68d5af990f4524704c7017f3819b3badd25f41a577982cb78d7af"
+  },
+  {
+    "path": "tensorflow/Upscale_Shader.glsl",
+    "bytes": 45772,
+    "sha256": "aa0369e6d677df6efe563bd2b9e188c2bcb05198359b2036bd36f0ca80a231f9"
+  },
+  {
+    "path": "tensorflow/model-checkpoint.h5",
+    "bytes": 54632,
+    "sha256": "61b7c33e763b910ef610d8b1cb6037dcf57b3bcefff6ed9db41409e23f26962d"
+  },
+  {
+    "path": "tensorflow/shaderutils.py",
+    "bytes": 18989,
+    "sha256": "e72f2b98293a0c809ed8f318dad39e36656257c726d6d2d546397a33abfdb910"
+  },
+  {
+    "path": "tensorflow/utils.py",
+    "bytes": 9037,
+    "sha256": "a546fe922011c75663e806149ad7f697d702a79395b47dc82b333fc33576defc"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "repo": "Blinue/Magpie",
+  "source_url": "https://github.com/Blinue/Magpie",
+  "ref": "dev",
+  "commit": "1c06186ca176f34be0fd9bbe3b6f3ed491e737de",
+  "purpose": "Window capture, scaling, cursor and frame-pacing architecture; separate GPL source snapshot",
+  "declared_license": "GPL-3.0",
+  "github_license": "GPL-3.0",
+  "destination": "references/Blinue__Magpie/1c06186ca176f34be0fd9bbe3b6f3ed491e737de",
+  "submodules": [],
+  "compiled": false,
+  "runtime_tested": false,
+  "license_files": [
+    "LICENSE"
+  ],
+  "omitted_files": [],
+  "lfs_pointers": [],
+  "symlinks": [],
+  "file_count": 626,
+  "source_bytes": 18802207,
+  "status": "collected"
+}

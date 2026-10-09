@@ -1,0 +1,93 @@
+{
+  "repo": "mausimus/ShaderGlass",
+  "source_url": "https://github.com/mausimus/ShaderGlass",
+  "ref": "master",
+  "commit": "88b9a75d4d72c35de6f7a40450a6df83c1d05850",
+  "purpose": "External shader overlay and RetroArch shader conversion; separate GPL source snapshot",
+  "declared_license": "GPL-3.0",
+  "github_license": "GPL-3.0",
+  "destination": "references/mausimus__ShaderGlass/88b9a75d4d72c35de6f7a40450a6df83c1d05850",
+  "submodules": [],
+  "compiled": false,
+  "runtime_tested": false,
+  "license_files": [
+    "LICENSE"
+  ],
+  "omitted_files": [
+    {
+      "path": "External/glslangValidator.exe",
+      "bytes": 4602368,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "External/spirv-cross.exe",
+      "bytes": 5418496,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "lib/glslang-default-resource-limits.lib",
+      "bytes": 459380,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "lib/glslang-default-resource-limitsd.lib",
+      "bytes": 434782,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "lib/glslang.lib",
+      "bytes": 34263890,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "lib/glslangd.lib",
+      "bytes": 84291698,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "lib/spirv-cross-core.lib",
+      "bytes": 7666608,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "lib/spirv-cross-cored.lib",
+      "bytes": 17517132,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "lib/spirv-cross-glsl.lib",
+      "bytes": 9623080,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "lib/spirv-cross-glsld.lib",
+      "bytes": 16446900,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "lib/spirv-cross-hlsl.lib",
+      "bytes": 5846306,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "lib/spirv-cross-hlsld.lib",
+      "bytes": 10199374,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "lib/spirv-cross-reflect.lib",
+      "bytes": 1111464,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "lib/spirv-cross-reflectd.lib",
+      "bytes": 2535646,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    }
+  ],
+  "lfs_pointers": [],
+  "symlinks": [],
+  "file_count": 3633,
+  "source_bytes": 243008327,
+  "status": "collected"
+}

@@ -1,0 +1,29 @@
+/*
+ShaderGlass preset presets/handheld-plus-color-mod / retro-v3-nds-color imported from RetroArch:
+https://github.com/libretro/slang-shaders/blob/a4f3aeec04fcb2624ec6df5dd17e38f9b575eab9/presets/handheld-plus-color-mod/retro-v3-nds-color.slangp
+See original file for credits and usage license. 
+This file is auto-generated, do not modify directly.
+*/
+
+#pragma once
+
+namespace RetroArch
+{
+class PresetsHandheldPlusColorModRetroV3NdsColorPresetDef : public PresetDef
+{
+public:
+	PresetsHandheldPlusColorModRetroV3NdsColorPresetDef() : PresetDef{}
+	{
+		Name = "retro-v3-nds-color";
+		Category = "presets/handheld-plus-color-mod";
+	}
+
+	void Build() {
+         	ShaderDefs.push_back(HandheldShadersColorNdsColorShaderDef()
+.Param("filter_linear", "false"));
+         	ShaderDefs.push_back(HandheldShadersRetroV3ShaderDef()
+.Param("filter_linear", "false")
+.Param("scale_type", "viewport"));
+	}
+};
+}

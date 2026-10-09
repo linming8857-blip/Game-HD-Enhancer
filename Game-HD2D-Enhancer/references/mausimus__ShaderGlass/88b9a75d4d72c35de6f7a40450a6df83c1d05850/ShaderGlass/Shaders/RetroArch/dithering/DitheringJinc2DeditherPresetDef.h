@@ -1,0 +1,27 @@
+/*
+ShaderGlass preset dithering / jinc2-dedither imported from RetroArch:
+https://github.com/libretro/slang-shaders/blob/a4f3aeec04fcb2624ec6df5dd17e38f9b575eab9/dithering/jinc2-dedither.slangp
+See original file for credits and usage license. 
+This file is auto-generated, do not modify directly.
+*/
+
+#pragma once
+
+namespace RetroArch
+{
+class DitheringJinc2DeditherPresetDef : public PresetDef
+{
+public:
+	DitheringJinc2DeditherPresetDef() : PresetDef{}
+	{
+		Name = "jinc2-dedither";
+		Category = "dithering";
+	}
+
+	void Build() {
+         	ShaderDefs.push_back(DitheringShadersJinc2DeditherShaderDef()
+.Param("scale", "1.0")
+.Param("scale_type", "source"));
+	}
+};
+}

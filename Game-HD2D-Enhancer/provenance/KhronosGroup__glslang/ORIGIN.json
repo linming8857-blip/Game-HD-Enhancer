@@ -1,0 +1,23 @@
+{
+  "repo": "KhronosGroup/glslang",
+  "source_url": "https://github.com/KhronosGroup/glslang",
+  "ref": "main",
+  "commit": "c97e126b09d179d1bc2ef9379fb2e63d410bbb6d",
+  "purpose": "Shader compilation infrastructure; preserve all component notices",
+  "declared_license": "BSD and per-file",
+  "github_license": "NOASSERTION",
+  "destination": "references/KhronosGroup__glslang/c97e126b09d179d1bc2ef9379fb2e63d410bbb6d",
+  "submodules": [],
+  "compiled": false,
+  "runtime_tested": false,
+  "license_files": [
+    "license-checker.cfg",
+    "LICENSE.txt"
+  ],
+  "omitted_files": [],
+  "lfs_pointers": [],
+  "symlinks": [],
+  "file_count": 3751,
+  "source_bytes": 46395343,
+  "status": "collected"
+}

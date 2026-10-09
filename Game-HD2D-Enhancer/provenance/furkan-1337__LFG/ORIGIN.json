@@ -1,0 +1,22 @@
+{
+  "repo": "furkan-1337/LFG",
+  "source_url": "https://github.com/furkan-1337/LFG",
+  "ref": "main",
+  "commit": "cd1a2fa2b4fb26c1b18f13e79ea65bae67bc6531",
+  "purpose": "Previously listed research archive only; no frame generation in 2D V1",
+  "declared_license": "GPL-3.0",
+  "github_license": "GPL-3.0",
+  "destination": "references/furkan-1337__LFG/cd1a2fa2b4fb26c1b18f13e79ea65bae67bc6531",
+  "submodules": [],
+  "compiled": false,
+  "runtime_tested": false,
+  "license_files": [
+    "LICENSE"
+  ],
+  "omitted_files": [],
+  "lfs_pointers": [],
+  "symlinks": [],
+  "file_count": 80,
+  "source_bytes": 4147524,
+  "status": "collected"
+}

@@ -1,0 +1,138 @@
+{
+  "repo": "KhronosGroup/SPIRV-Cross",
+  "source_url": "https://github.com/KhronosGroup/SPIRV-Cross",
+  "ref": "main",
+  "commit": "aa217aeb6c9f0ace7a0ab233b28807edf45eb165",
+  "purpose": "SPIR-V to HLSL translation infrastructure",
+  "declared_license": "Apache-2.0 and per-file",
+  "github_license": "Apache-2.0",
+  "destination": "references/KhronosGroup__SPIRV-Cross/aa217aeb6c9f0ace7a0ab233b28807edf45eb165",
+  "submodules": [],
+  "compiled": false,
+  "runtime_tested": false,
+  "license_files": [
+    "LICENSE"
+  ],
+  "omitted_files": [
+    {
+      "path": "reference/opt/shaders/asm/lib/global-array.asm.lib",
+      "bytes": 148,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "reference/opt/shaders/asm/lib/multi-export.asm.lib",
+      "bytes": 145,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "reference/opt/shaders-hlsl/asm/lib/export-calls-export.asm.lib",
+      "bytes": 137,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "reference/opt/shaders-hlsl/asm/lib/global-array.asm.lib",
+      "bytes": 96,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "reference/opt/shaders-hlsl/asm/lib/multi-export.asm.lib",
+      "bytes": 90,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "reference/shaders/asm/lib/global-array.asm.lib",
+      "bytes": 148,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "reference/shaders/asm/lib/multi-export.asm.lib",
+      "bytes": 251,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "reference/shaders-hlsl/asm/lib/export-calls-export.asm.lib",
+      "bytes": 221,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "reference/shaders-hlsl/asm/lib/global-array.asm.lib",
+      "bytes": 96,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "reference/shaders-hlsl/asm/lib/multi-export.asm.lib",
+      "bytes": 196,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "shaders/asm/lib/global-array.asm.lib",
+      "bytes": 1371,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "shaders/asm/lib/multi-export.asm.lib",
+      "bytes": 1973,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "shaders-hlsl/asm/lib/export-calls-export.asm.lib",
+      "bytes": 2257,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "shaders-hlsl/asm/lib/global-array.asm.lib",
+      "bytes": 1371,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "shaders-hlsl/asm/lib/multi-export.asm.lib",
+      "bytes": 1973,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "tests-other/c_api_test.spv",
+      "bytes": 1268,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "tests-other/debug-info.spv",
+      "bytes": 2256,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "tests-other/debug-lines.spv",
+      "bytes": 1348,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "tests-other/hlsl_resource_binding.spv",
+      "bytes": 796,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "tests-other/msl_constexpr_test.spv",
+      "bytes": 1656,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "tests-other/msl_resource_binding.spv",
+      "bytes": 1424,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "tests-other/msl_ycbcr_conversion_test.spv",
+      "bytes": 728,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    },
+    {
+      "path": "tests-other/msl_ycbcr_conversion_test_2.spv",
+      "bytes": 840,
+      "reason": "prebuilt binary, packaged release, model weight, or demo video"
+    }
+  ],
+  "lfs_pointers": [],
+  "symlinks": [],
+  "file_count": 4848,
+  "source_bytes": 12543251,
+  "status": "collected"
+}

@@ -1,0 +1,75 @@
+/*
+ShaderGlass preset presets/fsr / fsr-aa-lv2-naturalvision imported from RetroArch:
+https://github.com/libretro/slang-shaders/blob/a4f3aeec04fcb2624ec6df5dd17e38f9b575eab9/presets/fsr/fsr-aa-lv2-naturalvision.slangp
+See original file for credits and usage license. 
+This file is auto-generated, do not modify directly.
+*/
+
+#pragma once
+
+namespace RetroArch
+{
+class PresetsFsrFsrAaLv2NaturalvisionPresetDef : public PresetDef
+{
+public:
+	PresetsFsrFsrAaLv2NaturalvisionPresetDef() : PresetDef{}
+	{
+		Name = "fsr-aa-lv2-naturalvision";
+		Category = "presets/fsr";
+	}
+
+	void Build() {
+         	ShaderDefs.push_back(EdgeSmoothingFsrShadersFsrPass0ShaderDef()
+.Param("filter_linear", "true")
+.Param("float_framebuffer", "false")
+.Param("mipmap_input", "false")
+.Param("scale_type_x", "viewport")
+.Param("scale_type_y", "viewport")
+.Param("scale_x", "1.000000")
+.Param("scale_y", "1.000000")
+.Param("srgb_framebuffer", "false")
+.Param("wrap_mode", "clamp_to_edge"));
+         	ShaderDefs.push_back(EdgeSmoothingFsrShadersFsrPass1ShaderDef()
+.Param("filter_linear", "true")
+.Param("float_framebuffer", "false")
+.Param("mipmap_input", "false")
+.Param("scale_type_x", "source")
+.Param("scale_type_y", "source")
+.Param("scale_x", "1.000000")
+.Param("scale_y", "1.000000")
+.Param("srgb_framebuffer", "false")
+.Param("wrap_mode", "clamp_to_edge"));
+         	ShaderDefs.push_back(AntiAliasingShadersAaShader40Level2AaShader40Level2Pass1ShaderDef()
+.Param("filter_linear", "false")
+.Param("float_framebuffer", "false")
+.Param("mipmap_input", "false")
+.Param("scale_type_x", "source")
+.Param("scale_type_y", "source")
+.Param("scale_x", "2.000000")
+.Param("scale_y", "2.000000")
+.Param("srgb_framebuffer", "false")
+.Param("wrap_mode", "clamp_to_border"));
+         	ShaderDefs.push_back(AntiAliasingShadersAaShader40Level2AaShader40Level2Pass2ShaderDef()
+.Param("filter_linear", "false")
+.Param("float_framebuffer", "false")
+.Param("mipmap_input", "false")
+.Param("scale_type_x", "source")
+.Param("scale_type_y", "source")
+.Param("scale_x", "2.000000")
+.Param("scale_y", "2.000000")
+.Param("srgb_framebuffer", "false")
+.Param("wrap_mode", "clamp_to_border"));
+         	ShaderDefs.push_back(MiscShadersNaturalVisionShaderDef()
+.Param("float_framebuffer", "false")
+.Param("mipmap_input", "false")
+.Param("scale_type_x", "source")
+.Param("scale_type_y", "source")
+.Param("scale_x", "1.000000")
+.Param("scale_y", "1.000000")
+.Param("srgb_framebuffer", "false")
+.Param("wrap_mode", "clamp_to_border"));
+            OverrideParam("FSR_SHARPENING", (float)0.300000);
+            OverrideParam("feedback_pass", (float)0.000000);
+	}
+};
+}

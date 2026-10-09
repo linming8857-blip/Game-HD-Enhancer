@@ -1,0 +1,31 @@
+/*
+ShaderGlass preset crt / crt-consumer imported from RetroArch:
+https://github.com/libretro/slang-shaders/blob/a4f3aeec04fcb2624ec6df5dd17e38f9b575eab9/crt/crt-consumer.slangp
+See original file for credits and usage license. 
+This file is auto-generated, do not modify directly.
+*/
+
+#pragma once
+
+namespace RetroArch
+{
+class CrtCrtConsumerPresetDef : public PresetDef
+{
+public:
+	CrtCrtConsumerPresetDef() : PresetDef{}
+	{
+		Name = "crt-consumer";
+		Category = "crt";
+	}
+
+	void Build() {
+         	ShaderDefs.push_back(CrtShadersCrtConsumerShaderDef()
+.Param("filter_linear", "true")
+.Param("float_framebuffer", "false")
+.Param("mipmap_input", "false")
+.Param("scale_type", "viewport")
+.Param("srgb_framebuffer", "false")
+.Param("wrap_mode", "clamp_to_border"));
+	}
+};
+}

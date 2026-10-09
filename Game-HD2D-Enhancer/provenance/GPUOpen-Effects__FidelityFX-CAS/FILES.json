@@ -1,0 +1,2382 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 89,
+    "sha256": "577424aafcee45dede85537e0c6a3c5fb041bacda9e8200710d7a2bd35e670dc"
+  },
+  {
+    "path": ".gitlab-ci.yml",
+    "bytes": 1313,
+    "sha256": "bd8228f96ebfdfc7c53445f1f1e810f50e9b142b6b93818411c1251994387054"
+  },
+  {
+    "path": ".gitmodules",
+    "bytes": 115,
+    "sha256": "f00da3f6dfef558e8c5b2cae22054b01d1c7cabda0de9caf224e13900831bba0"
+  },
+  {
+    "path": "LICENSE.txt",
+    "bytes": 1094,
+    "sha256": "e008031a95f6f655def9eaf914118531c9e1055b8ea201eb98b9f95f1af9bec4"
+  },
+  {
+    "path": "README.md",
+    "bytes": 3537,
+    "sha256": "c2ffd7c126051b1f242fe11f78d5b6765122b15de08c8fb694fef7f239f83a1a"
+  },
+  {
+    "path": "ffx-cas/ffx_a.h",
+    "bytes": 130445,
+    "sha256": "ab5d9fbcda3399e3793a67e92ccebe510a671e9913a7e3ec74bf00d489162c5f"
+  },
+  {
+    "path": "ffx-cas/ffx_cas.h",
+    "bytes": 60828,
+    "sha256": "3224935584202390ca9bc0149a45973ad2269f4d874abb2ff13625263fc036e0"
+  },
+  {
+    "path": "sample/CMakeLists.txt",
+    "bytes": 2565,
+    "sha256": "7dd1dd79de9b0e65a1dc717c7a3b59282a22388a29246579460df05a228ac259"
+  },
+  {
+    "path": "sample/build/.gitignore",
+    "bytes": 9,
+    "sha256": "22877422031b53bb1bf5824eb526615ca9f2498573add7ce94918dbc2dc119b5"
+  },
+  {
+    "path": "sample/build/GenerateSolutions.bat",
+    "bytes": 1283,
+    "sha256": "8ed8b6b0966b02d0c52461d19737f6084a409ae96a1cd5f09a4319c156960bd2"
+  },
+  {
+    "path": "sample/common.cmake",
+    "bytes": 871,
+    "sha256": "7f4cbe6abce6426218bb3477d63ae369d23c63c0a060a4929037df9879614c93"
+  },
+  {
+    "path": "sample/libs/cauldron/.gitignore",
+    "bytes": 5970,
+    "sha256": "23fbe4d8ad1e3c0f414587fc0f9e7e165991392b6d1113c235d30872ce25f181"
+  },
+  {
+    "path": "sample/libs/cauldron/.gitlab-ci.yml",
+    "bytes": 799,
+    "sha256": "592e611b14560bbc4b3bfbeaf5331e86b6c713fac7e29703a81e125ac0332689"
+  },
+  {
+    "path": "sample/libs/cauldron/CMakeLists.txt",
+    "bytes": 1642,
+    "sha256": "b52f266b7a8d4bd84ef9a61a6b244b425f71f3d0b4bde006da174f0eedd12e92"
+  },
+  {
+    "path": "sample/libs/cauldron/NOTICES.txt",
+    "bytes": 12831,
+    "sha256": "dc52a3c2fc9e9df3da63fc6aaaa8fae59a48073bfd9247ed436aaebfa2b86fec"
+  },
+  {
+    "path": "sample/libs/cauldron/build/.gitignore",
+    "bytes": 9,
+    "sha256": "22877422031b53bb1bf5824eb526615ca9f2498573add7ce94918dbc2dc119b5"
+  },
+  {
+    "path": "sample/libs/cauldron/build/GenerateSolutions.bat",
+    "bytes": 98,
+    "sha256": "1fa0646ee80c025050bbd6c8cbe6223b3aba08483324dc5de7196c438306ce21"
+  },
+  {
+    "path": "sample/libs/cauldron/common.cmake",
+    "bytes": 809,
+    "sha256": "51988e05f148ddf823c104bc0103c50e7bd3376b88c7b75985e8b4a62cf59124"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/AGS/CMakeLists.txt",
+    "bytes": 243,
+    "sha256": "d54b256918be0e40c6692041286f17ae1fd29640bb900cbca46e5c013f8c21f4"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/AGS/amd_ags.h",
+    "bytes": 75582,
+    "sha256": "7eb9327638dfe39f11752e5ae71c1b4d1d9a4e9f4d3a5e9c3c667cb2fd95cae6"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/AGS/license.txt",
+    "bytes": 1093,
+    "sha256": "388956c01da8282ed0746d44e61f23da46fa192397d868dc9a814261aed632ec"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/VulkanMemoryAllocator/CMakeLists.txt",
+    "bytes": 100,
+    "sha256": "5627bf55d5b965f40b1be539bebefb946e2582402b9e0d157d6ed65d53ebe6fa"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/VulkanMemoryAllocator/license.txt",
+    "bytes": 1098,
+    "sha256": "3b7988a008781325b2d2bc27fe9b1da8fded0f4d818baabb1d68b8bda76a128e"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/VulkanMemoryAllocator/vk_mem_alloc.h",
+    "bytes": 590183,
+    "sha256": "97f0c2d38bcfa6886717e6049f9cfad6118660159b0cf7a9e9455255a7489f82"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/d3d12x/CMakeLists.txt",
+    "bytes": 106,
+    "sha256": "afbc58821ec4ce2fe91540940dd7a704facb9d532aa5c14b0d8b1248978e718c"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/d3d12x/d3dx12.h",
+    "bytes": 141385,
+    "sha256": "852f2d7610afd62c45c4abfff64458d1195cb492964b4648005d2e2e74f54133"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/d3d12x/license.txt",
+    "bytes": 1076,
+    "sha256": "9b45236978bb5cd5de992021769e1eeaa79f0116d3b02cf8ba065a1ed603d5fa"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/dxc/CMakeLists.txt",
+    "bytes": 255,
+    "sha256": "f089d192c88d5ec0796b0e5485115612db0be8834907f97415f9e3688a63aea5"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/CMakeLists.txt",
+    "bytes": 315,
+    "sha256": "20b919c3e40d96aac1eb664835f7e6baf846ee61c7a17208dd883eb2eb646caa"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/License.txt",
+    "bytes": 1106,
+    "sha256": "ca223157dc0e05092463129fc253d18509b0bd4942a6010e526299c36b6ff863"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/README.md",
+    "bytes": 22587,
+    "sha256": "f3c51021b16b0036bd706c86e374ea9534420eb4d333b5cd2864908f50ceebdc"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/ReadMe.txt",
+    "bytes": 1292,
+    "sha256": "a087ced4d330157f17d8604494f96feeb291fa3e012c4b3b2ada891334cca2e3"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/TODO.txt",
+    "bytes": 22792,
+    "sha256": "d88962a52c8539fa0368f50138c278f411bd04612d1f0d8f9eff1c60f2ebb50e"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/extra_fonts/Cousine-Regular.ttf",
+    "bytes": 43912,
+    "sha256": "0d5d5eeb6a342432bd63a3c0d16e8470160e019933ee5af3e159d06d665dacce"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/extra_fonts/DroidSans.ttf",
+    "bytes": 190044,
+    "sha256": "4e2371bc0e4cf6983342e150412f140da79d674c9be0b56458401f581072ecd3"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/extra_fonts/Karla-Regular.ttf",
+    "bytes": 16848,
+    "sha256": "907c55a993e35b3ae4f3b8b8c28367f4b6d431df8e9ca6fbd382d8317dd3684e"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/extra_fonts/ProggyClean.ttf",
+    "bytes": 41208,
+    "sha256": "527d2a443ce051f93f7e77b855609722b8cb220a9f104b4aa037be5c90b71324"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/extra_fonts/ProggyTiny.ttf",
+    "bytes": 35656,
+    "sha256": "79bf8d3896ba83ae2f9c4fa214dce8fc689eae47950474947a4cc5c6e14a9bfc"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/extra_fonts/README.txt",
+    "bytes": 10255,
+    "sha256": "b3e49d41c77324d48d1a49a1817b02b739dee314a32f9b58a593741aff67ca3c"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/extra_fonts/Roboto-Medium.ttf",
+    "bytes": 162588,
+    "sha256": "8559132c89ad51d8a2ba5b171887a44a7ba93776e205f553573de228e64b45f8"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/extra_fonts/binary_to_compressed_c.cpp",
+    "bytes": 13198,
+    "sha256": "b7541c7d92d981dec87999e39be4c3fb368ce6b945f14ea05c1cdddab3584cf7"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/imconfig.h",
+    "bytes": 2927,
+    "sha256": "8be01ff606428036c4e8350e5cfb21dae59d97fbd7e13a7b35cd58e56866166b"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/imgui.cpp",
+    "bytes": 533257,
+    "sha256": "b2b6d5f206ebdfffe7981f310f14109f197f25ce912ceee285a9fdb92e3aadf9"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/imgui.h",
+    "bytes": 155129,
+    "sha256": "bbf2ba82802f624bc859779fb354c17174b3299c20f8ef88574ad51939306fd4"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/imgui_demo.cpp",
+    "bytes": 154845,
+    "sha256": "d2daffe43325017a1a0888e1561ee6c7a2b5d758c2bc6007fbe9a06757dba04b"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/imgui_draw.cpp",
+    "bytes": 136031,
+    "sha256": "11a6cb95be0ae8de5828bfef2e36e22cf935414e7350d009f36880f4a06babc7"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/imgui_internal.h",
+    "bytes": 62219,
+    "sha256": "323357a47b7fa11555b689f37069459c9313b03dc7f053d0e575b4865e198bf0"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/stb_rect_pack.h",
+    "bytes": 18630,
+    "sha256": "e8f945724a6a84219e86cc082a793d3d70358026dab554fa59dcd345b5921e3f"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/stb_textedit.h",
+    "bytes": 50406,
+    "sha256": "a7d1dc1da87cf9c5b5a138777593161056d61255022299f09d0a3a93fbc59a1d"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/imgui/stb_truetype.h",
+    "bytes": 153675,
+    "sha256": "315926268264134929f1e4011b086b541e1608c43bc08263093127e09ffdfdaf"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/json/CMakeLists.txt",
+    "bytes": 104,
+    "sha256": "1b28c1983ff4b9b1c07b2dc61d47560cfbf1eda34d3aac8b007f4edf1f8440fd"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/json/License.txt",
+    "bytes": 1075,
+    "sha256": "5a248d27d2a1bdf74025331b72a0f6ed925706b7df1188ab790641bfb40763db"
+  },
+  {
+    "path": "sample/libs/cauldron/libs/json/json.h",
+    "bytes": 809489,
+    "sha256": "3b5d2b8f8282b80557091514d8ab97e27f9574336c804ee666fda673a9b59926"
+  },
+  {
+    "path": "sample/libs/cauldron/license.txt",
+    "bytes": 1094,
+    "sha256": "0b8defb1175a0c6c0d857845f9f72d1cbaea4fa9b823a9a3d2a911561249bc6b"
+  },
+  {
+    "path": "sample/libs/cauldron/media/BrdfLut.dds",
+    "bytes": 262272,
+    "sha256": "a3cdcb799f6ca4987bf53e3810994224b59866b9c7408ffc917735c47361fb06"
+  },
+  {
+    "path": "sample/libs/cauldron/media/readme.md",
+    "bytes": 66,
+    "sha256": "e1690f0ba8bf9e7b05b6951c3ab8eb28e12075c3fc93e28a33fea1c96cc322b0"
+  },
+  {
+    "path": "sample/libs/cauldron/readme.md",
+    "bytes": 6425,
+    "sha256": "5ffe91dbba5a58e285dc9687833321cec282ec4e05f16d12cedcc52dde0871ea"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/CMakeLists.txt",
+    "bytes": 4777,
+    "sha256": "7178fc26fb5f54841f26ae89e0b74227f78f0b9aca71254b479b42b69ad6c9fc"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/GLTF/GLTFTexturesAndBuffers.cpp",
+    "bytes": 8377,
+    "sha256": "6e67d865de47b7b5fabce0d48361f2c6ac27e2dc22120d76a75f906aa0aabb5e"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/GLTF/GLTFTexturesAndBuffers.h",
+    "bytes": 3259,
+    "sha256": "f8cf505dcaeef31a5ed30156ac6b9fadf82df06081141b6c6fcb11ed37dbe1ef"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/GLTF/GltfBBoxPass.cpp",
+    "bytes": 3455,
+    "sha256": "3d15d3100870dce6d1391b91ab77fb10522614f781e4ff486eef9c379a0c7a45"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/GLTF/GltfBBoxPass.h",
+    "bytes": 2025,
+    "sha256": "18d9c55a0694a297c9ae74e88c158e2a16322836dbb733b279fe717b7b2ae89f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/GLTF/GltfDepthPass.cpp",
+    "bytes": 19132,
+    "sha256": "45d1135df047f2350b043cf73debcff042cb210672a9cd3977bf59b574b1242d"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/GLTF/GltfDepthPass.h",
+    "bytes": 3154,
+    "sha256": "6f8b9b5f6514b4469078a4bafdbae0e2aabb8f93fdc4e1acec851326919589c2"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/GLTF/GltfMotionVectorsPass.cpp",
+    "bytes": 19743,
+    "sha256": "d3e9d26ef1fa42343e3bb1dff235640d0d57cadc14d5778e96463894e035bd42"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/GLTF/GltfMotionVectorsPass.h",
+    "bytes": 3489,
+    "sha256": "7dfca5a44b3e88dd577c4f820ff26b74c869629ab34dd1b76b786ae74acd471d"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/GLTF/GltfPbrPass.cpp",
+    "bytes": 23798,
+    "sha256": "1d87227c11c402aa3550f9583001a971233128d36f725c28debbee892db5442a"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/GLTF/GltfPbrPass.h",
+    "bytes": 4264,
+    "sha256": "03a7ca5b46754455a62a9bb49ec203693d35b659a3629fdabc07877fd6db6f28"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/GLTF/glTFHelpers.cpp",
+    "bytes": 7446,
+    "sha256": "9c599c1b5fdcccdf03601ed7759cdabd0e79ab7f2cfe404c229a5a23e2a5a181"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/GLTF/glTFHelpers.h",
+    "bytes": 1700,
+    "sha256": "330e3a3ae1fff7cbd15a89630e68d25be8b90040c485fd2e79c135eb212fb3bd"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/BakeSkinning.cpp",
+    "bytes": 5824,
+    "sha256": "e1b86db92a9920c8cdf230798e5c0600243105b36874284c3451327c66d6ec77"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/BakeSkinning.h",
+    "bytes": 1839,
+    "sha256": "804e467d70a405d99de36475a0876109afb111ed296e427913401d612d743d45"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/Bloom.cpp",
+    "bytes": 9264,
+    "sha256": "0bf623dd34c723cb648ecbc8ec6944e019d4284ab5e9b3215b8ad7c9b27b14ba"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/Bloom.h",
+    "bytes": 2843,
+    "sha256": "bd16b1a82e7eb655d79f8084d9892c22c4b4cc7d7397eaad2fcc11aa59d475b2"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/BlurPS.cpp",
+    "bytes": 8772,
+    "sha256": "3adc9d66cd9554db6aa96e07f4aea55299788fca14d4fc3bbdee725e7d15b0bd"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/BlurPS.h",
+    "bytes": 2914,
+    "sha256": "01246e74eb6553dbf5438ea858d589ecb1d9b70eed920261bec1b459620be3aa"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/ColorConversionPS.cpp",
+    "bytes": 4613,
+    "sha256": "6d7637ea0d6f4cfd2f2fe8de1cbea359108e8afec1165c23f2294e592f4b90bf"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/ColorConversionPS.h",
+    "bytes": 2058,
+    "sha256": "7364d34f1d60891b9fbf5ec58a78659cfa4372dd2a9cd9ce04ad00cdb12a8e68"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/Debug.cpp",
+    "bytes": 3656,
+    "sha256": "b3e2fe66bfbf8cba074758f573275c4d2b164c52f60082785eb4802c372e5277"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/Debug.h",
+    "bytes": 1596,
+    "sha256": "8dfbc6ed0cbc8c3c5ce84f08c6198f0296793cb248e9f064b5870a3487d6baef"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/DownSamplePS.cpp",
+    "bytes": 6104,
+    "sha256": "2210650bbec41bd2d830e9e43f26e826d180bad085d5971307b4debc15b49186"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/DownSamplePS.h",
+    "bytes": 2835,
+    "sha256": "362678219181d9d1aa1aa6c6bf02a7fae773e47eb87105ce26bb09f4095435fd"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/PostProcCS.cpp",
+    "bytes": 6424,
+    "sha256": "6c12fcf1e5ba5a3820eba362358a0f076f64242e70bf108c4976ff0f8e44423a"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/PostProcCS.h",
+    "bytes": 2250,
+    "sha256": "7376b80aede39f0c163b69fe6873f62fb59aae5e51d737fe6a42679a46ebd5ce"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/PostProcPS.cpp",
+    "bytes": 8955,
+    "sha256": "d2c4ceb37de6081677d9a3b43b05996e21002707edd29304d433728f3cff90f9"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/PostProcPS.h",
+    "bytes": 2801,
+    "sha256": "6ffc8deab7236d5c7f0d536d81a2060c6095c3047362c20e65f95a8cfd1c24c6"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/ShadowResolvePass.cpp",
+    "bytes": 6683,
+    "sha256": "ec5bfc0dc6bf89a9ed4770a7255beb1bd1d7dccd253a85f8c244f5c88e25a1f3"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/ShadowResolvePass.h",
+    "bytes": 2111,
+    "sha256": "9c2969abbe1d15ef0aae0811bf24fe1a70458565e8d08cef15de8745b40bee1b"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/Sharpen.cpp",
+    "bytes": 3710,
+    "sha256": "7e62d20c786fb6f983940206ac150df43d89e95e1e06aaed0c26e069aaacbb6e"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/Sharpen.h",
+    "bytes": 1598,
+    "sha256": "946244fc134b22ed745d4fe0bcb11f67c78835aa7ce38e5e206f267d4fd5819c"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/SkyDome.cpp",
+    "bytes": 5334,
+    "sha256": "1b64f5971c6c16a3bc369a660a6fbf4d16a6e1fd5ddb4cd6174a11704080f94d"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/SkyDome.h",
+    "bytes": 2379,
+    "sha256": "3b8ffc8ea2a2f6e2e204c82f5968d9d9cbc0d3c5f8748bbfa5e22bf8d9ca1494"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/SkyDomeProc.cpp",
+    "bytes": 3263,
+    "sha256": "8720fe3900c3845b9dba7b718dd623a8f6f6e77c5ebaa463c799d296c9384543"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/SkyDomeProc.h",
+    "bytes": 2613,
+    "sha256": "833354d9de87e4c25e9bf5f165de1d2fc9ba349c2ffb04a988f5c446bc16e3bf"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/TAA.cpp",
+    "bytes": 5884,
+    "sha256": "0d7b97aab24784a9ef093ab3d679284d0fd6d2cf3bc11a7ab5062638cf509122"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/TAA.h",
+    "bytes": 1648,
+    "sha256": "c55a5dad354b47619edeba31cd14812864d0f8370d0ac9e85bb937ab00567ddf"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/Tonemapping.cpp",
+    "bytes": 3271,
+    "sha256": "3da4851d1af9f2d368d2a72694aeb0116a7d047484e217a7d894f3dfc59e9ddb"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/Tonemapping.h",
+    "bytes": 1823,
+    "sha256": "f1329b50aa0f2a672d55ceb4ca8c59e9256a8569eba222b06322b5c02f3a8f34"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/TonemappingCS.cpp",
+    "bytes": 2362,
+    "sha256": "3d51055ca38c9b247814393415ee4f779f910361fa2ef517f509fa03f04a876f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/PostProc/TonemappingCS.h",
+    "bytes": 1751,
+    "sha256": "e5c648a02d1cbc00d460da8cbd212c945d17339069e9cfe9b46ed4fdfcbe0d4d"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/CommandListRing.cpp",
+    "bytes": 5661,
+    "sha256": "7f053b5f80f61361eea1ada51a92c8e2aee61eeecbee3ed15d9e349cff6c3a7a"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/CommandListRing.h",
+    "bytes": 2187,
+    "sha256": "c02dcf4e63ccdf5912519e0557e8b93796255db9d100d4da89a9dc1b62fd6b74"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/Device.cpp",
+    "bytes": 6946,
+    "sha256": "461af3ece7a10a430e43f2d8f5269786bf4ddf3afaa3356647d59dc916cb7ffd"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/Device.h",
+    "bytes": 2535,
+    "sha256": "a0ac09f38c60b3fc98e66fdb216a47ee29e686fbe148c8ded3b6850e04e0fe3d"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/DynamicBufferRing.cpp",
+    "bytes": 5409,
+    "sha256": "1991837cc33283ca8001de0ccf57e96b1eabbabaa6050f779122d5f83e20c4e1"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/DynamicBufferRing.h",
+    "bytes": 2947,
+    "sha256": "f1d1d341e32892ee2bd5747f2d74f6bffca5ea383ad8bd125c36a1886ffd8c3b"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/Fence.cpp",
+    "bytes": 2768,
+    "sha256": "7f7bf118cf663613cce0c659b9b9d229fc000571764175a7890028717534d000"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/Fence.h",
+    "bytes": 2099,
+    "sha256": "a82946157b01f1e2513970a5e9df311b668aeea386e6b7b7412bd2e44f9a7050"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/Freesync2.cpp",
+    "bytes": 13265,
+    "sha256": "35f6c14baa04f605575bb5940d5cc727aa366d81e39fdbf5f9bad4cc23ee102c"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/Freesync2.h",
+    "bytes": 1991,
+    "sha256": "044e7ffd2f4f5473873a2d2ca88217dc1727a77b69202fec519519527b91eba5"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/GPUTimestamps.cpp",
+    "bytes": 4067,
+    "sha256": "40624c5004b5a7ee532df1f1eddea4426b632bc725f2d763d0351549ee3ec0ab"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/GPUTimestamps.h",
+    "bytes": 2600,
+    "sha256": "d691f13998f41164be5fb451746256435852f621a03ae37a7c8227f24e71149b"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/Helper.cpp",
+    "bytes": 2358,
+    "sha256": "f2a5dc505cd422259bc8805b7922e4938948139efce00039e0a75516e1fbe935"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/Helper.h",
+    "bytes": 1555,
+    "sha256": "104af1b62ee75185ea21159439fd8ba62854af9bae403992667dda1ca6381aae"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/Imgui.cpp",
+    "bytes": 17654,
+    "sha256": "95bd389dccd9aaf4e73f4863a04b21c42330ae2e92cf8973d516ff85d7ecc502"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/Imgui.h",
+    "bytes": 2245,
+    "sha256": "1e0362bef42e07f29d80ddb766d5ddcc4ec85b8ad1c248aad35008007ab95bba"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/ResourceViewHeaps.cpp",
+    "bytes": 2770,
+    "sha256": "3add0f4d397ee3cfcbf5644d6a3a1db4bd9b832f448bcb6547e7863f7f6551c6"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/ResourceViewHeaps.h",
+    "bytes": 7608,
+    "sha256": "e79c734638067db203635541473c1bfbf94dbae0855b76d910071592f95c65ff"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/ShaderCompilerHelper.cpp",
+    "bytes": 17080,
+    "sha256": "645327d0b5a8c81219fb4a2715ce369cd9f3c5ef3000a225681b9533bf474cf1"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/ShaderCompilerHelper.h",
+    "bytes": 2004,
+    "sha256": "817602c7e7252ff05eb69e158ebf234f6d80017f3beb38178857d9e329874836"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/StaticBufferPool.cpp",
+    "bytes": 8068,
+    "sha256": "f04f661a88d041fef839bb92c2915042c184c87095cc197d2efadef9f14b309b"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/StaticBufferPool.h",
+    "bytes": 3358,
+    "sha256": "8c1bfeaf278eb67db94da0e0320f4ec892e53cfe83ce6588aefc4b8d7c5bd880"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/StaticConstantBufferPool.cpp",
+    "bytes": 5761,
+    "sha256": "dda062362eedc8705348a5a68a42d464187d0bbe2dd9c938160e7197f49f9349"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/StaticConstantBufferPool.h",
+    "bytes": 2467,
+    "sha256": "c3ecf36dc0e254a28bada078da788a6f4ebe93d050e486fdab14e77bbbb1977d"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/SwapChain.cpp",
+    "bytes": 9938,
+    "sha256": "734f36d116f1e4207891a903cbb82cff3b28b0e96d1b908a6c7140db0ed9e5f7"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/SwapChain.h",
+    "bytes": 2815,
+    "sha256": "a4fd4c15b5cdabe08b2e490cfcaaf62fc2259b86dd5f710a59d2abe883d8cc73"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/Texture.cpp",
+    "bytes": 23326,
+    "sha256": "6171d0797a072b851196c28c28b313a7f0d9ba88b82019966bfc7091540ecc9c"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/Texture.h",
+    "bytes": 4644,
+    "sha256": "c959531626916f6b76dbf2ddb06fa48059a71e0dcff2ef969d3b1c26326652f8"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/UploadHeap.cpp",
+    "bytes": 4492,
+    "sha256": "263673e615406317c1831f0de528c2522ba3cc5c7100f71cb8011f30b42e0056"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/UploadHeap.h",
+    "bytes": 2786,
+    "sha256": "f91727463dd330ecc3e6f1bdae107488073570bd059161dcde65e3b92e461cc6"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/UserMarkers.cpp",
+    "bytes": 1837,
+    "sha256": "2e2ebc58d80c413b7e323b9d8c6c3cab319e02ea0127805b26ccb7c60ef9e3a4"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/base/UserMarkers.h",
+    "bytes": 1671,
+    "sha256": "02e6522e58dfbbcff71a34c49e35a4ba79b454470be298e611a2bcc9afd50dfe"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/readme.md",
+    "bytes": 2337,
+    "sha256": "8bd7cc2edb2ae23d94ec789245ac1679692550da1f8457d3935f93feddee009e"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/BakeSkinning.hlsl",
+    "bytes": 2840,
+    "sha256": "6422fcf4357e9684409cfede00f45d1f007769227fb65df8dbd160ec21d94e6f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/ColorConversionPS.hlsl",
+    "bytes": 4872,
+    "sha256": "a80c8f90a363068a4ad9fabd2578eaf6118beca3566c8d23dbea63d0129c5143"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/Debug.hlsl",
+    "bytes": 2031,
+    "sha256": "fdb3c6fefc4268f991e58f2aaec177a63bfdffa51caff8b1a2b28ab78e89ed2b"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/DownSamplePS.hlsl",
+    "bytes": 2919,
+    "sha256": "0de48bdfccc7f2e1d949b396af0ec0564433e230973f2cae635b60820370179a"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/GLTFDepthPass.hlsl",
+    "bytes": 2770,
+    "sha256": "f5aae56e7e0a88833c6db2b5860f55555fd43016d3c38ebf99e3934c90367b0d"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/GLTFMotionVectorsPass.hlsl",
+    "bytes": 3324,
+    "sha256": "5d611a17ca88ceede026563194f7c709b0af176e3e98af9897076a3fbe88e2a3"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/GLTFPBRLighting.hlsl",
+    "bytes": 10709,
+    "sha256": "5f926a65fc03ae107168a8aa53a45c90925c204504063c1f22b2db78a234caf2"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/GLTFPbrPass-IO.hlsl",
+    "bytes": 2267,
+    "sha256": "30e4f39c0e4bf8c70df1276df9c8917a6501d2a90dfa949d5e671dfd1cfdee27"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/GLTFPbrPass-PS.hlsl",
+    "bytes": 5263,
+    "sha256": "62935e460b08c335a4a43171312d06838ad9352e67c230ea31f58746ecba4494"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/GLTFPbrPass-VS.hlsl",
+    "bytes": 2407,
+    "sha256": "c66218b3a5cab92e9f299b2947cd3eb48339fa09529a26a1eec40ad44e71bcec"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/GLTFVertexFactory.hlsl",
+    "bytes": 3968,
+    "sha256": "8348626afa1fe3b5f1499b29a2942c7aec534b2784af476064da3412cf463910"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/PixelParams.hlsl",
+    "bytes": 5500,
+    "sha256": "64d663f06419ddfafb596e6fd97463f2ba875f26bc6c9b76422b6860792ce309"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/ShadowResolve.hlsl",
+    "bytes": 3576,
+    "sha256": "652cba341efbfcc5f4eaee2b31d2883269cc4ec8baded746928ee4116030967d"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/Skinning.hlsl",
+    "bytes": 1868,
+    "sha256": "14b2c2b137b181739b121878e85eec846a01980c9e23b94f160fc0ae8e74d4d8"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/SkyDome.hlsl",
+    "bytes": 2406,
+    "sha256": "53d05e573c259afed61eaac7bfe6309d53b3b62f788b8c4d9e2409de9d602273"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/SkyDomeProc.hlsl",
+    "bytes": 7751,
+    "sha256": "1d476fe856bf4a6028751083dbd1c09cfbeb31c53fc764338672635b05c6df62"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/Tonemappers.hlsl",
+    "bytes": 5751,
+    "sha256": "a5ed220e10d9bcb5234323e4a575594fb1a9ab91899c48ed5f20a5433dcebe4f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/Tonemapping.hlsl",
+    "bytes": 3253,
+    "sha256": "3887a3cef3affb2d71b69a49a491b64635b3c2fea0c8f1da3d5d307bf0ca5f56"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/TonemappingCS.hlsl",
+    "bytes": 2621,
+    "sha256": "b0b4634fbc8ce6261b066ec721ca017787857206f5387d3838fa8ce99ed29284"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/blend.hlsl",
+    "bytes": 2286,
+    "sha256": "22624765a3a0cdae1f9ad7971303f2b97ee21312e197db78ace6eb6bc9db6089"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/blur.hlsl",
+    "bytes": 4842,
+    "sha256": "8ce74f2ec4fec4ccf840a92e0de23473816f2c59d6ad66c45919974c2e4731a5"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/common.h",
+    "bytes": 1335,
+    "sha256": "45c61121f58abfde1b7b0fd65a753d344166462fbcdb7c84de2c4fdf59f0da8a"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/functions.hlsl",
+    "bytes": 2981,
+    "sha256": "d320555700ccc8eb4d80d2ce8f05e51022812fa841f16ea86b12f04af7221abe"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/motionBlur.hlsl",
+    "bytes": 1963,
+    "sha256": "7a2b479cf2d9cbd1d0f444ba161db2faa2720d71faf55227571c62f31a3d57a3"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/perFrameStruct.h",
+    "bytes": 2055,
+    "sha256": "e51398fd9ebab308d9aaab048954fffecf508e89250789a7fb85f0c1f0d2d804"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/shadowFiltering.h",
+    "bytes": 4539,
+    "sha256": "451f7665cb85ff68bde87140be9deab18b461595db6e0af86c54c66585728deb"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/sharpen.hlsl",
+    "bytes": 4031,
+    "sha256": "2e94bf5be0fcadedca9146c726674a5bab5869f2620cac88e82a54fee7d9142e"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/taa.hlsl",
+    "bytes": 10151,
+    "sha256": "843b8ee8b0e5e3155733f76563964c3508df1c513c612d92ae38edf347bacefe"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/shaders/textures.hlsl",
+    "bytes": 6424,
+    "sha256": "0740763987d0a120f070dd8942ae71c602c76f9a3a279fb0c69547830ce121d7"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/stdafx.cpp",
+    "bytes": 367,
+    "sha256": "86ec42852de1ad18b4d103f166f254c97fc1df91d8f899b5f8c9df5ba52dfa89"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/stdafx.h",
+    "bytes": 984,
+    "sha256": "e526c399fd777b5693462da23460f4a2d53fa45502ffd6bbf47582e061bbd71b"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/widgets/Wireframe.cpp",
+    "bytes": 7652,
+    "sha256": "447aad10f20ad80d9bb17cd7ccf9efe664d386a948552be331cdab2b6985d5f9"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/widgets/Wireframe.h",
+    "bytes": 2351,
+    "sha256": "a943ad4d579a416a468e3ba619c3065c3c426b40bf6ca8ba49077b4fc41091de"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/widgets/WireframeBox.h",
+    "bytes": 2491,
+    "sha256": "41dcd78212f3a03a0d9cd89dd65299808fd4386ed78c4a398edf3c547e9ec229"
+  },
+  {
+    "path": "sample/libs/cauldron/src/DX12/widgets/WireframeSphere.h",
+    "bytes": 2492,
+    "sha256": "4c1726ee67c25e4da50e34d1c5df3f664c000be8273cfe0d86e008f6f4334c4b"
+  },
+  {
+    "path": "sample/libs/cauldron/src/License.txt",
+    "bytes": 1110,
+    "sha256": "61de2638a27c0791f88fea243aaa83007562810cb0d8a7886af7a5aefa8f73b6"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/CMakeLists.txt",
+    "bytes": 4764,
+    "sha256": "91976c2d3b4f79842ac99a867720028ade4f9964421be299a1b542bfe1349f79"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/GLTF/GLTFTexturesAndBuffers.cpp",
+    "bytes": 8309,
+    "sha256": "112589ba907d8a72a83bfbc7468a9efca651c928c7dcc9c22fa8cda8b7cadb88"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/GLTF/GLTFTexturesAndBuffers.h",
+    "bytes": 3076,
+    "sha256": "c116bb2a8360faa3c0c5e98a3fd3a791e252a87117c91f4b780ab3f7e6907245"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/GLTF/GltfBBoxPass.cpp",
+    "bytes": 3514,
+    "sha256": "1020ef7bb61f4c3ba6e5ff70c0f75fcb8d8441e4a7949d861c16f97c06d2ec7f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/GLTF/GltfBBoxPass.h",
+    "bytes": 2221,
+    "sha256": "9ddc77cc49b3a35bbed812a1622c71259cf43c7c14022a6c47a9850431f9acee"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/GLTF/GltfDepthPass.cpp",
+    "bytes": 24979,
+    "sha256": "38f62d7a6b1d8b84276b19ac980f6b8e9f2dd411bd8ed013bd329782ed3604fc"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/GLTF/GltfDepthPass.h",
+    "bytes": 3463,
+    "sha256": "c214cba580aa31693ecbb3e70b0fd7827371e906b7bdbc2a97162d0fbaf9b4e7"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/GLTF/GltfMotionVectorsPass.cpp",
+    "bytes": 25699,
+    "sha256": "fff5b518b76db4533b1bf5be1a664c33d42d002ad779d70e7bc317e18c95d1af"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/GLTF/GltfMotionVectorsPass.h",
+    "bytes": 3699,
+    "sha256": "5955ca88eadcb66563fd4f6849f4b447134d1328efed91a98915a88131ba68c4"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/GLTF/GltfPbrPass.cpp",
+    "bytes": 33045,
+    "sha256": "ef7205afbde402d4e7ffe1b776f47f800d9d1568c5e39429caf293393277a546"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/GLTF/GltfPbrPass.h",
+    "bytes": 4221,
+    "sha256": "eeffa546faa721359c2e6903253a94b49735d4408abaee58cf6e2f07ddb79242"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/GLTF/glTFHelpers.cpp",
+    "bytes": 5407,
+    "sha256": "b05d675a2720477171dc7ba6fcec541e2df5aba54b328a04215512c235a64be5"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/GLTF/glTFHelpers.h",
+    "bytes": 1370,
+    "sha256": "0120ec020cd2adcdf403c07bf3993d20992272cd40852c32904dca86d4d3d420"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/License.txt",
+    "bytes": 1109,
+    "sha256": "2d485607d1cd5368d5fc13c3c82e22e7f1ee65a4a058c144431c2b8f49514707"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/Bloom.cpp",
+    "bytes": 14382,
+    "sha256": "255efa0dd7e2a7973819d9703ea024f0456d3c53729330f918f86f770ace8ce0"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/Bloom.h",
+    "bytes": 2975,
+    "sha256": "a68ce1094d75e139fd55ee99dbc1f36102253ebda1b64d69f9bd199784b3f404"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/BlurPS.cpp",
+    "bytes": 13866,
+    "sha256": "38ddfc29780bcb51663d2e8199efe17028f6d6aa5928d0bd16ac602e3245f757"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/BlurPS.h",
+    "bytes": 2978,
+    "sha256": "e1c93c1cd30a09b97349e3fbca77eabca04fa4e44cbe49a04a21fee2095a1e3e"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/ColorConversionPS.cpp",
+    "bytes": 6568,
+    "sha256": "a18a088721658a3309ad3016a4312188710b8f8f43a5abceeee254eb6771390f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/ColorConversionPS.h",
+    "bytes": 2415,
+    "sha256": "3eeaa5bc8a795f36a7c998889aad4433709a5a74c6ef9be6f7e6855aeacf05ba"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/DownSamplePS.cpp",
+    "bytes": 10301,
+    "sha256": "8bfcee4b7c5ed6f21a09b9a1c0e6befe650b2b8d5f1513d9528990108ce9414f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/DownSamplePS.h",
+    "bytes": 2951,
+    "sha256": "35de29b64eb734a1e53bf32b90c6f551987b058ef24c78f1d3a5853b61a8cd13"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/PostProcCS.cpp",
+    "bytes": 4277,
+    "sha256": "c216c37abdfdd99ad0d499d3a9c5d4ea86687e8896a329b63d7b2876b157953f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/PostProcCS.h",
+    "bytes": 1950,
+    "sha256": "5096bcf55755de81a60382f9ab6a278b82242335aa87ef3add2b7fff504eccf0"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/PostProcPS.cpp",
+    "bytes": 12983,
+    "sha256": "0770f446811c20310d2095b1cbc5db59971c668bb0f48b7703bc38bbfc8dfbef"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/PostProcPS.h",
+    "bytes": 2629,
+    "sha256": "630c960b16e3b00088188a5a3327b3a96459e9b8290dba9efeb7eceeb6b736cc"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/SkyDome.cpp",
+    "bytes": 6502,
+    "sha256": "6b13dd149e1f6bc6af1995820cc8baea2f908f9791664dc05dab61a13234e580"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/SkyDome.h",
+    "bytes": 2467,
+    "sha256": "ca04ddffc8e87d4390de49d0be5994ff7a405d7614ba6b51afcde3cbb5672aa2"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/SkyDomeProc.cpp",
+    "bytes": 4293,
+    "sha256": "063befafd7bedd240254ea7df5362898495a9a7135dd19c9d4881cbe07aba412"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/SkyDomeProc.h",
+    "bytes": 2708,
+    "sha256": "bd46d08f71ddb8dfc99e287495da4db1e1ad2c4c2eb93916a5f6ac560708c49e"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/Tonemapping.cpp",
+    "bytes": 5293,
+    "sha256": "ed5f46a6ad34356ed82fab18a6d3743c0355671c9c2eff7abe41dba7415d6356"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/Tonemapping.h",
+    "bytes": 2180,
+    "sha256": "f4792882ef8586170414975c70e0a4ee63138e78353eadcb107e0c6420fdd459"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/TonemappingCS.cpp",
+    "bytes": 4257,
+    "sha256": "cc93ab7079cb6a549c6b1bba2b5b75acb39995c3574fc6415821eda9e6f5ea43"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/PostProc/TonemappingCS.h",
+    "bytes": 2056,
+    "sha256": "e4f4e3735d61f5c28595340fa52ff3fbb92e08acc0a79cb2323ded7574ecfcbb"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/CommandListRing.cpp",
+    "bytes": 5496,
+    "sha256": "b0d978b5de4d16596c71ccf8c45f97ffea3fbe7fc0de50347ae7310e612da0f7"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/CommandListRing.h",
+    "bytes": 2211,
+    "sha256": "beac2ec6c49070cf0daa05391a833cef6fa585ee9fdfc031ddc87f2746df51ed"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/Device.cpp",
+    "bytes": 12352,
+    "sha256": "70a0cd717abd511abadde88c95cb29308488c50e68414ea23e51fc84ff00b77a"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/Device.h",
+    "bytes": 3881,
+    "sha256": "39b66b20753fc149200a5a753882b0d03fdd1e1ebffda90f048d80872cac7c07"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/DeviceProperties.cpp",
+    "bytes": 2789,
+    "sha256": "f586deef3c9512080de24bc162f2a1e388b5caf776c71a2528c16acbd0107f8e"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/DeviceProperties.h",
+    "bytes": 1828,
+    "sha256": "eff2d9852d816b9a5422337042b2b3f8891a50768049ac9280941f4c9643bd44"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/DynamicBufferRing.cpp",
+    "bytes": 8317,
+    "sha256": "f22af3ef9a3fec58a3822f27dbb463d931a3bff0ba8cb93030162c417756e82f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/DynamicBufferRing.h",
+    "bytes": 3250,
+    "sha256": "c2c64d36caff571eb03d2ae85e1ca74d8f4b8641f6724330be3fc5b0945ff84a"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/ExtDebugMarkers.cpp",
+    "bytes": 3628,
+    "sha256": "25afba4638748e089b8ac6daf29c64a15b570a5eb4b43decca65243fe13a33e6"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/ExtDebugMarkers.h",
+    "bytes": 1551,
+    "sha256": "750aa006df04bcc0656b0ccd7f4d86b841c8a2b66e0e3b435eea910138210e7a"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/ExtDebugUtils.cpp",
+    "bytes": 2773,
+    "sha256": "87684e73237788196b16b8c29026e5215195c6476642c9fd12d823b1dddf3690"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/ExtDebugUtils.h",
+    "bytes": 1533,
+    "sha256": "64cced37dcf339048a0c3a6f40b4f223982cfdb80ff0202f39e1a9bdfb552fb9"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/ExtFp16.cpp",
+    "bytes": 3319,
+    "sha256": "1d1307d07d2a9ec95569703be628faf1bb0674b2205b3d85cdb148a403e9ffce"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/ExtFp16.h",
+    "bytes": 1336,
+    "sha256": "3b2c095ae677b5cdf57465930568bb0b7674f462422ae79149d81992c1b475b5"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/ExtFreeSync2.cpp",
+    "bytes": 5362,
+    "sha256": "a7d2ceac357ece09b7afa591ab9836280eb8b6bb5fdc1bd43be60d2a609097ce"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/ExtFreeSync2.h",
+    "bytes": 2230,
+    "sha256": "18b721cc513a7dcbf2442e1f539311d388254d26a3a994746f9f17e83ed29e7f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/ExtValidation.cpp",
+    "bytes": 4735,
+    "sha256": "0838f30b3d4aa80d29ab48a171729ce9468bf262b592e1018f492397df75870f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/ExtValidation.h",
+    "bytes": 1524,
+    "sha256": "c92f7738fea3fb685fadd7c1f4e28b1896901cf304c34537ec303621f4fdbcbc"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/FreeSync2.cpp",
+    "bytes": 14601,
+    "sha256": "645f855eccf0f7d59cad6775a35085431894f8a9dfb5f92b52a3d49cfa1e295f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/FreeSync2.h",
+    "bytes": 2355,
+    "sha256": "9a6ad257dbe41c93a5ef0536900a774dc5e61dd51c82c0e5d2ae8b90c2e93573"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/GPUTimestamps.cpp",
+    "bytes": 4199,
+    "sha256": "e211e3fcafa070865e194cff9a30031aba25728188937b6414daf53d5b0b52d1"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/GPUTimestamps.h",
+    "bytes": 2149,
+    "sha256": "196fe0c4cd504927d2ea68ca2cc29a161aa40c53343ee607816689df5e888d55"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/Helper.cpp",
+    "bytes": 14770,
+    "sha256": "3b4b293f010d0f3f46ebf0af05d4556ec3759c5e4a239f9b5388d1b9cb22d584"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/Helper.h",
+    "bytes": 2994,
+    "sha256": "7d7de714cb9a508c16d82d9cd0d0eede90f28aa4642a7beb5ea16d9519286651"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/Imgui.cpp",
+    "bytes": 31717,
+    "sha256": "1fac3f78b813ec5ab43a293c1d50b4880b808a92d1e81e3fe904fbe91635d54d"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/Imgui.h",
+    "bytes": 2589,
+    "sha256": "8bd5ed017996a0a9055a7962dcac221fb27b382e567dd2eff95f2d41e32cb289"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/Instance.cpp",
+    "bytes": 3454,
+    "sha256": "cd45177ce43dcfbebffbf87bd2dbcf0b6f4bf673265cf9fd12b44295f2e21a98"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/Instance.h",
+    "bytes": 1451,
+    "sha256": "157f7d63628325c2339b5bf831304194aa4abf05531fd1665df34fe01b27dda9"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/InstanceProperties.cpp",
+    "bytes": 4377,
+    "sha256": "44a0d67255269d86c1236039df57600a768d91ab6de7ff88ba56f7e9d6231b76"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/InstanceProperties.h",
+    "bytes": 1998,
+    "sha256": "7ecd4ed23782172c3d66f9e5b86412c0ad491355805ef1878bf5681bf2113461"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/ResourceViewHeaps.cpp",
+    "bytes": 6003,
+    "sha256": "6a657b04c0517fe927f7a6f030ad72039d46d7e328841269a5fb4af97a8f4ed5"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/ResourceViewHeaps.h",
+    "bytes": 2436,
+    "sha256": "d230f30680eb1275339759254120e072805f8d30a331174aef9064fa6f9fff61"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/ShaderCompilerHelper.cpp",
+    "bytes": 9213,
+    "sha256": "55aaa8595c4b235261273b6e7b38c2e8801da2a4dd820cf98bdbf24e16ee5ea0"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/ShaderCompilerHelper.h",
+    "bytes": 1931,
+    "sha256": "d0aa87397302182036d90ed057e0d10365d9d727460837900cfdaf8c123fce8f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/StaticBufferPool.cpp",
+    "bytes": 9889,
+    "sha256": "0fe02b2d0e068399fe7c3b791fdaec5e4a1709241d3142e94017d9bafcc3c88f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/StaticBufferPool.h",
+    "bytes": 3032,
+    "sha256": "48ee9dc8a4f5aa5009a06a15d4088a841c962e754f48533cfba2bcf30616500f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/SwapChain.cpp",
+    "bytes": 22823,
+    "sha256": "b4b1dd38c70e265fb1f0bff805f6de88fecc6ad07978e643504e00b1553e8f2e"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/SwapChain.h",
+    "bytes": 3852,
+    "sha256": "ecaac91e1c721297213075ec5da2c8b2be105eb1a724ddf5e1e6ac5df68c3882"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/Texture.cpp",
+    "bytes": 20996,
+    "sha256": "6d7a70f2618e4344f8468cb1cfeb62e5ddc2222b19ae750accf583ad4221e212"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/Texture.h",
+    "bytes": 3494,
+    "sha256": "9f43c64846523009b4a492adb05b0592aa20593c0f3ace0ed89902032c5ba93f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/UploadHeap.cpp",
+    "bytes": 8598,
+    "sha256": "8cfca43f563dc0a9a58314c985a0434202c115a5c3ab41892d7b422d47439687"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/base/UploadHeap.h",
+    "bytes": 2404,
+    "sha256": "6571a79adb2e8d56b2333841e9ca35fb97674850f15bbc436fa01ea61b356eaa"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/readme.md",
+    "bytes": 1887,
+    "sha256": "d850a5d9c91b04c19d6714ea1f35c7849df3f3d226659335e00f089034140217"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/ColorConversionPS.glsl",
+    "bytes": 5032,
+    "sha256": "d142d7b94ceaceca8d1e2cebb8a636ec3d16f4bf7098502c04fb4902cfe8add9"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/DownSamplePS.glsl",
+    "bytes": 3000,
+    "sha256": "4f35b94c0534fb6db1b78130acb896a4535a71467d0e4f449805909c4d5b28d3"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/GLTFDepthPass-frag.glsl",
+    "bytes": 2048,
+    "sha256": "a96eca805f5d518b942595065ef38cf10428cdcef9286dad3a8c8211e93c05ef"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/GLTFDepthPass-vert.glsl",
+    "bytes": 2189,
+    "sha256": "6c47d5963ce680e4869c3458c30fad82f2a464c83e198d62ee9be48d61f8d502"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/GLTFMotionVectorsPass-frag.glsl",
+    "bytes": 2464,
+    "sha256": "dfc95d053440ab983336163d4fd524a224e18801c57a173ee6c8479ba12132df"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/GLTFMotionVectorsPass-vert.glsl",
+    "bytes": 2615,
+    "sha256": "51ee9fc2c51ed6c743b3b4dbfa01f83054d24828944d88e4f6657f76d5a9cbc9"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/GLTFPBRLighting.h",
+    "bytes": 12095,
+    "sha256": "7219f1f5c71e8331db32de437459b8925721375bae464c28d51bca9186b5f9b1"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/GLTFPbrPass-frag.glsl",
+    "bytes": 4675,
+    "sha256": "0c1ba474b9889f829fa53caf73a838d4ce61a703840261ee4f7b87d65ea16da1"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/GLTFPbrPass-vert.glsl",
+    "bytes": 2307,
+    "sha256": "be7d0c71336699b407cc00399cb139aaf5123bae15f1dc65ce5aee278de86c8f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/GLTFVertexFactory.glsl",
+    "bytes": 2430,
+    "sha256": "0b74bd98bc04f89b71f5ab606a70c5c41dea8bfac77097b3cc26580d5acdc432"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/GLTF_VS2PS_IO.glsl",
+    "bytes": 1556,
+    "sha256": "8c98cf71647138dc4f0d8fc8d9916c2a0dfb33eb2b431e01f430ccd648718a78"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/PixelParams.glsl",
+    "bytes": 5361,
+    "sha256": "1cdc75cdf085826a15ca02ef05d9abb758ab5ee999d177a77306bd502df50073"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/SkyDome.glsl",
+    "bytes": 2499,
+    "sha256": "fed8a1519e87272b78aee5ee9276bd0e956f0b37799867622b77f92085fbad13"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/SkyDome.hlsl",
+    "bytes": 2507,
+    "sha256": "edea076ed77f0554e53dd527e57cbc5425e992fafe8cb4a0c1ed427260044d52"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/SkyDomeProc.glsl",
+    "bytes": 7725,
+    "sha256": "48734e05c8ee96b9b0268cba50c6f530d4cb3187e6251bed8f966b65254571fb"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/SkyDomeProc.hlsl",
+    "bytes": 7816,
+    "sha256": "c6010a05582a26e289cb71205568f539417dd67daa7c5dec7bdd6efcd521c9ac"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/blend.glsl",
+    "bytes": 2392,
+    "sha256": "7d2316902b87a05fc505a3c311dae358f557bf9c0280652953f6d4a673fe520e"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/blur.glsl",
+    "bytes": 4942,
+    "sha256": "83f1c428b2391c9059d18ae06149da40b2bdf11f5cfa196f75a1ca729031e2b7"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/functions.glsl",
+    "bytes": 3080,
+    "sha256": "1fa2d3e6e7892d07b797db5b650a7b404d1437e0b550af74391fc7e3c7c4b893"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/glTF20-IO.glsl",
+    "bytes": 1167,
+    "sha256": "9ddd03f1a851857440fced8941d7ca30124b663e575931e55e6d947277f79cbd"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/perFrameStruct.h",
+    "bytes": 2026,
+    "sha256": "77bfcc1ccd2ed4298a438175bdb23b047b03711a1017bb9d48dcb464e010a5a2"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/shadowFiltering.h",
+    "bytes": 3588,
+    "sha256": "d83b204526582261cc7d45aabd9f0f20f5f409e42bc20bafb51fc1e964017dae"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/skinning.h",
+    "bytes": 1678,
+    "sha256": "981ce33ed9942706f069b8c4711b6a3bf6997be9751dcc904dedf01c57ee04ab"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/textures.glsl",
+    "bytes": 4931,
+    "sha256": "d8cb5c94935e0c608c036eedff68006d751471013f54539126f9ec81710af4b7"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/tonemappers.glsl",
+    "bytes": 5743,
+    "sha256": "42a6725b812df278436ea5197ae2a61c198107de39eec31e256872b7d80f1489"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/tonemapping.glsl",
+    "bytes": 2388,
+    "sha256": "4c22a2fe69869dbd5546d3ebaf5bf0ca5455474abfed78cadbaaafb2496b8185"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/shaders/tonemappingCS.glsl",
+    "bytes": 2237,
+    "sha256": "adc2d52fc0b13d7216d759ebce7ee29f45e9118317a00f95b8871317dc12a825"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/stdafx.cpp",
+    "bytes": 295,
+    "sha256": "88fa740957705974be8de9f968d0069fda06e04678055c741556effd99656959"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/stdafx.h",
+    "bytes": 840,
+    "sha256": "8a11cb7014e3ad3d19ec11d6ba9e3d8f0811372b250b5b689fd86570cbed52e7"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/widgets/Axis.cpp",
+    "bytes": 13611,
+    "sha256": "5b955a03211a319c6021072912fda4758eacb48f1ff90b7f51515854bc29ac40"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/widgets/Axis.h",
+    "bytes": 2583,
+    "sha256": "9136d6162086095dae15d2bdd14a88cfa11ee5f696fbc1e45cf62ad14ed25858"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/widgets/CheckerBoardFloor.cpp",
+    "bytes": 14464,
+    "sha256": "a1d11fd0ee3b80bdf17ac444c9d3ac88c7195cfc77a7b4c5029afe1699d4703f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/widgets/CheckerboardFloor.h",
+    "bytes": 2615,
+    "sha256": "2e44ba706c1d3fe287c953b2d7201caf495287e066dcfe81967900471975945a"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/widgets/Wireframe.cpp",
+    "bytes": 12941,
+    "sha256": "7cf9e977e4450c8b989a8ee8ddfe146c784b234974b8265e5840301400856e2a"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/widgets/Wireframe.h",
+    "bytes": 2364,
+    "sha256": "1e340c12f8411d203b636d89af7471bc3f9496ce2ff41eedfd66e1ac58e9d803"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/widgets/WireframeBox.h",
+    "bytes": 2485,
+    "sha256": "dbf3f89416ad1087dc3555ffc575ee79394f1adc3b1f16e25b1e2d220656d2dd"
+  },
+  {
+    "path": "sample/libs/cauldron/src/VK/widgets/WireframeSphere.h",
+    "bytes": 2495,
+    "sha256": "bc414969f1919837279bbb7f72ae9efb67d0dba44f1a957aa8007cd57352e707"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/CMakeLists.txt",
+    "bytes": 838,
+    "sha256": "e4c390f2d71f1561982812947ff5c6198b39b9af5578f3f997f6438616ca7408"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/GLTF/GltfCommon.cpp",
+    "bytes": 21141,
+    "sha256": "fc6bccbd158ee54c30e8712ffff8e55c1d183072fed5245b4f6b5a26af0138b7"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/GLTF/GltfCommon.h",
+    "bytes": 4589,
+    "sha256": "2f0b41e310b385344cc3b4bb4af9ad251253d08b8e55bea691fda5fe47e3ab0a"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/GLTF/GltfHelpers.h",
+    "bytes": 2044,
+    "sha256": "84abbb3130df5e2c0a99489ec2314a2a3c6f73d81030e44a6eeaec5286933fe1"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/GLTF/GltfPbrMaterial.cpp",
+    "bytes": 9091,
+    "sha256": "0303338b615599bcbb7c405f78945d055d75baa749eefe5afd6e2d02e3ccd952"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/GLTF/GltfPbrMaterial.h",
+    "bytes": 2170,
+    "sha256": "78bd63f5f0d97e15a44e7e5b32e8fc726238d1c664465e84a8602ba27fecb3b3"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/GLTF/GltfStructures.h",
+    "bytes": 4784,
+    "sha256": "3ad499e4a16c47d4cab7839a49a1cf413e3f40067b536d18f501c0e1041058ac"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/GLTF/glTFHelpers.cpp",
+    "bytes": 4606,
+    "sha256": "43ca873bfbe240fb8c6054fd79996ff54bab5447e8c0642f40be391e25f50483"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/Cache.cpp",
+    "bytes": 2546,
+    "sha256": "a4d8afa0a31883a18ffa2be53ba18241c0e05b2e21abc990b0892d07cd7de89e"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/Cache.h",
+    "bytes": 6148,
+    "sha256": "7fc13ec14381154c2ea9af7f2dba93c9960e7c74ad19f0c6fa3de8f924329ae5"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/Camera.cpp",
+    "bytes": 6989,
+    "sha256": "f0c4d3fc6849dca9516c9eb37b852c4ac144505f3026c43a6d65a5d424bae68d"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/Camera.h",
+    "bytes": 3526,
+    "sha256": "33e3d005491049d89cea6e4b095065c5f084ea9e6515aa7b657be1b4ef9e5359"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/ColorConversion.cpp",
+    "bytes": 5436,
+    "sha256": "b6b43fd6f2e9263f615734faca9cb29d73baddaff2ec6221fc9bd8c72410e203"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/ColorConversion.h",
+    "bytes": 2851,
+    "sha256": "7bbf1a6b086da95744fb0baf08696688ac00ccd0d909875c3333597e357dbd6e"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/DDSLoader.cpp",
+    "bytes": 7730,
+    "sha256": "8231cfce6583a1f914b7ce1f887a026039b13f91180af5c18b7a8b8fafee3026"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/DDSLoader.h",
+    "bytes": 1581,
+    "sha256": "fc04c0707e5c12f353ad7642d4492f12107d7d64453c609a0ff230cc2123347b"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/DxgiFormatHelper.cpp",
+    "bytes": 10379,
+    "sha256": "d859ff362373f91883ee78461fd38295f4e7719703ed0de731f9f4de074f2b18"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/DxgiFormatHelper.h",
+    "bytes": 1551,
+    "sha256": "5fff6c9e078ce8897d56e820f03aaf8a89a42c725a051c5c99d4bf109e813b00"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/Error.cpp",
+    "bytes": 1633,
+    "sha256": "11fec7e2ec84aaf5a8855187f76b51a7a23ed2d18a6e790a22c37ddb08b206c7"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/Error.h",
+    "bytes": 1425,
+    "sha256": "9fece71563ec96f75d1cef15c2aa6c99e4244763d7fe02e08fc156983ed36b7f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/FrameworkWindows.cpp",
+    "bytes": 6065,
+    "sha256": "e933bb2c1adc48f3ed988858415192cbd6550835d0686d5b3a65666d5de1c91f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/FrameworkWindows.h",
+    "bytes": 2045,
+    "sha256": "73687742bebfe247248076e39982f6d2012ece295b72829e9809e1af76d6d873"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/ImgLoader.cpp",
+    "bytes": 1752,
+    "sha256": "340740af3f3f5779f77b95cbeb23816f31a0eab49f5a1d71d3bdae1913bc8ff9"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/ImgLoader.h",
+    "bytes": 1828,
+    "sha256": "1879353401cf49dee20688d2b6aba2bf73608e46e6c433e047951c147c23e4fd"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/Misc.cpp",
+    "bytes": 8166,
+    "sha256": "a22223921568d40399069f0532f7e1854ef0e6f973f5592e79f75590ffb38c8d"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/Misc.h",
+    "bytes": 2214,
+    "sha256": "a0bfac7ff1f8b8b2602abafecfca32b95d900c20b98d883e44fd99ab79b4ab8b"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/Ring.h",
+    "bytes": 4779,
+    "sha256": "3a721e9d42d0c9a84516af60a9e486da07d095a53e61ac84a460d64a49845505"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/ThreadPool.cpp",
+    "bytes": 2838,
+    "sha256": "be7ddfaeb07c911265c415cf01fae5a6449250697efb26cce967f098e0a40b15"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/WICLoader.cpp",
+    "bytes": 7103,
+    "sha256": "aa822f9a7fa30fdc5befa817f31bd094b7bbcda4e9d0684761dfbf4c77b03690"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/WICLoader.h",
+    "bytes": 2032,
+    "sha256": "495ae823444ff587d4d2dd09d75a47f0339d98b28670fadf1fad0d9fb059ddea"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/WirePrimitive.h",
+    "bytes": 1375,
+    "sha256": "0715977b3382565d269aef64edccd5fcb4783293d3840803568f4535489afba6"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/WirePrimitives.cpp",
+    "bytes": 3058,
+    "sha256": "f940c171af3b89789748c647a8ec0ab88045ceaf0b01ebd052fb49fbca2c6716"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/WirePrimitives.h",
+    "bytes": 1375,
+    "sha256": "0715977b3382565d269aef64edccd5fcb4783293d3840803568f4535489afba6"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/Misc/threadpool.h",
+    "bytes": 1794,
+    "sha256": "a2442466962bf369df632106c1128110b6e7e54c36b8b596f0673e8e0c47add6"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/base/Benchmark.cpp",
+    "bytes": 2152,
+    "sha256": "a9b1f89551109cdc1c2e559a729430d7cebb234c9b2a748bd62dd94167aabcc7"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/base/Benchmark.h",
+    "bytes": 1379,
+    "sha256": "b55bcf262443731f23be306ad2f187c33f6d73f400996e46e5ac932f413abeea"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/base/ImGuiHelper.cpp",
+    "bytes": 5139,
+    "sha256": "da35824f662a06b26200a9b8e8563b0348acc335fad54df1d05f53ba9190f5c8"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/base/ImGuiHelper.h",
+    "bytes": 1362,
+    "sha256": "da4cca2c519d409809640a2ef03b80072ed99ef18faf2be17c3a45ef417ccd6e"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/base/ShaderCompiler.cpp",
+    "bytes": 3270,
+    "sha256": "7bcfce5602023bd49a8df7e039443dc3018f4de6371888bf0c869ed49a10523f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/base/ShaderCompiler.h",
+    "bytes": 2321,
+    "sha256": "2b2164b3605a8a14218bade6589446683ec278ad9ddb760e260382c6e796d231"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/readme.md",
+    "bytes": 666,
+    "sha256": "b4010286e3366f89b89aeba547fd4087597c42091373dc38e8407c4fdd0d9aca"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/stdafx.cpp",
+    "bytes": 294,
+    "sha256": "8c57a31a270448b573a879718d443c2f9333ddb099c6def05dcc4ff77260bc4f"
+  },
+  {
+    "path": "sample/libs/cauldron/src/common/stdafx.h",
+    "bytes": 776,
+    "sha256": "053196397758f6535cd5650b2d73288144ed991c888d7a910f7fe98400bda4d7"
+  },
+  {
+    "path": "sample/libs/cauldron/src/stdafx.h",
+    "bytes": 824,
+    "sha256": "276f1ac4a86c69fa9f43cf431bab811c3af97c704802fd8f2200ff267be492f2"
+  },
+  {
+    "path": "sample/media/BoomBox/README.md",
+    "bytes": 267,
+    "sha256": "a71792a84ef6a4c3bdc0e19765d4d23a513276d1aa27c5c9453d07c28860667e"
+  },
+  {
+    "path": "sample/media/BoomBox/glTF/BoomBox.bin",
+    "bytes": 207816,
+    "sha256": "284bd18b994374ab348bccbcdae60b362bc729b36fb4bcd96abad1e2163323bd"
+  },
+  {
+    "path": "sample/media/BoomBox/glTF/BoomBox.gltf",
+    "bytes": 3679,
+    "sha256": "318dbb0fcc22ef83bd16c6384852fb0b859d03491c9c8ffdc751131440eb69c7"
+  },
+  {
+    "path": "sample/media/BoomBox/glTF/BoomBox_baseColor.png",
+    "bytes": 3285844,
+    "sha256": "099816a7afc5f6690494313ac8039806fd6d5b84179126a808b2678aaab3563a"
+  },
+  {
+    "path": "sample/media/BoomBox/glTF/BoomBox_emissive.png",
+    "bytes": 132833,
+    "sha256": "e9970da7010591b73070151fe5039a158413499e38300d14106e367472c03b5b"
+  },
+  {
+    "path": "sample/media/BoomBox/glTF/BoomBox_normal.png",
+    "bytes": 2845923,
+    "sha256": "e199f8ccb836750421e9d626bdf04f38f4d688b694553a53f45917e08f3beced"
+  },
+  {
+    "path": "sample/media/BoomBox/glTF/BoomBox_occlusionRoughnessMetallic.png",
+    "bytes": 4471451,
+    "sha256": "496704a4836ff364dc4441f41651edb25178498926c859933e33df42d6361412"
+  },
+  {
+    "path": "sample/media/DamagedHelmet/README.md",
+    "bytes": 584,
+    "sha256": "1311d5f59fd551998ae14542adb2f99d550413ffe1e7f153fc6783163da50df5"
+  },
+  {
+    "path": "sample/media/DamagedHelmet/glTF/DamagedHelmet.bin",
+    "bytes": 552200,
+    "sha256": "aa92f0b1bd76f0f7c0885149f2e63cf3d9ca62b871c972ea2a4cc056cff369c5"
+  },
+  {
+    "path": "sample/media/DamagedHelmet/glTF/DamagedHelmet.gltf",
+    "bytes": 4547,
+    "sha256": "395f3029a51ca0b54bb4de7b243a8ea3b4f8a09365a4b42e21a640cd312201e7"
+  },
+  {
+    "path": "sample/media/DamagedHelmet/glTF/Default_AO.jpg",
+    "bytes": 361678,
+    "sha256": "7024051b65ed2ead8d24ebc9bd5ea61d4c21639a57b15dab29870668bcc6b90f"
+  },
+  {
+    "path": "sample/media/DamagedHelmet/glTF/Default_albedo.jpg",
+    "bytes": 935629,
+    "sha256": "2dc95e87aeb0cd7c8a65ef0eb8b23212388da0534ca379811427a9a8780511f5"
+  },
+  {
+    "path": "sample/media/DamagedHelmet/glTF/Default_emissive.jpg",
+    "bytes": 97499,
+    "sha256": "dd0057989f22f93a4ab796d06ebf85a7c12fbfae1d59a86ae8b0c54770dc1159"
+  },
+  {
+    "path": "sample/media/DamagedHelmet/glTF/Default_metalRoughness.jpg",
+    "bytes": 1300661,
+    "sha256": "0f05e7ffbeaa974f7d2c83436b04109969966d64ab188cbc3a19a265a0a69ae0"
+  },
+  {
+    "path": "sample/media/DamagedHelmet/glTF/Default_normal.jpg",
+    "bytes": 517757,
+    "sha256": "f253ba09a90a86ffd8a807dc45d7953111f8b3421e15d7a21d1e915b01dd33c1"
+  },
+  {
+    "path": "sample/media/DamagedHelmet/screenshot/screenshot.png",
+    "bytes": 45695,
+    "sha256": "1d7b00e207b1460aafb52c02367b282ad2acae3c280a5158ebea9005a6ca4a30"
+  },
+  {
+    "path": "sample/media/MetalRoughSpheres/README.md",
+    "bytes": 233,
+    "sha256": "bbff5c6c574dde733172aca6762d61c2718f0bfe168a28d9f66ab5d103e34f81"
+  },
+  {
+    "path": "sample/media/MetalRoughSpheres/glTF/MetalRoughSpheres.gltf",
+    "bytes": 11899,
+    "sha256": "cb03284bf4c1750e54f22ca559328fdd125b347d967b04959e1147709090ee97"
+  },
+  {
+    "path": "sample/media/MetalRoughSpheres/glTF/MetalRoughSpheres0.bin",
+    "bytes": 11199904,
+    "sha256": "f35a1caf37837b2987e24859d812a23e40ca37e1f741782e2a754961250e8c36"
+  },
+  {
+    "path": "sample/media/MetalRoughSpheres/glTF/Spheres_BaseColor.png",
+    "bytes": 8500,
+    "sha256": "7327b8de2ce91d0ca4fdefcf28fdc58cb555e885a8e5f3b3cfab867c3f349efc"
+  },
+  {
+    "path": "sample/media/MetalRoughSpheres/glTF/Spheres_MetalRough.png",
+    "bytes": 8220,
+    "sha256": "7b352787106705789df0e025a8ea2209074569cd87029369bc66080dfca78e5a"
+  },
+  {
+    "path": "sample/media/MetalRoughSpheres/screenshot/screenshot.png",
+    "bytes": 132610,
+    "sha256": "98a93d9073a454d85ec98d8bc70460a2d7156e8f959d3eb3442044c28783a7d0"
+  },
+  {
+    "path": "sample/media/NOTICES.txt",
+    "bytes": 3453,
+    "sha256": "104ea87d77c38d03e552a34c4845034a133c399e92d8c6188ab26cec56a1b479"
+  },
+  {
+    "path": "sample/media/SciFiHelmet/README.md",
+    "bytes": 339,
+    "sha256": "420d621f1114a5f1dd4cbe0458d7e2025b9e38f610e7337e039740deb59a4cb1"
+  },
+  {
+    "path": "sample/media/SciFiHelmet/glTF/SciFiHelmet.bin",
+    "bytes": 3643848,
+    "sha256": "6a7af42896359f8e0d9ba65260cbb7b1a1d36aa787439d3775a48aba1f9a25ba"
+  },
+  {
+    "path": "sample/media/SciFiHelmet/glTF/SciFiHelmet.gltf",
+    "bytes": 4461,
+    "sha256": "4b9e64c5337ddaba5b44821d76786bcad3b5b78f877cf034ec6163dc8baca35a"
+  },
+  {
+    "path": "sample/media/SciFiHelmet/glTF/SciFiHelmet_AmbientOcclusion.png",
+    "bytes": 3919556,
+    "sha256": "95823e77b0a6e45308b53be4fdf1b7a7b6ac085c190dc1c5ef47097d0e35eb2f"
+  },
+  {
+    "path": "sample/media/SciFiHelmet/glTF/SciFiHelmet_BaseColor.png",
+    "bytes": 7841138,
+    "sha256": "bda08dd029775ea0964d5721b779a639da091222eaa750233ba34e01e3eeace2"
+  },
+  {
+    "path": "sample/media/SciFiHelmet/glTF/SciFiHelmet_MetallicRoughness.png",
+    "bytes": 9488811,
+    "sha256": "f38f025af3201697679e2a04ba4cf01b4506e68ce4e0e0f09c268a7dfb80b2c3"
+  },
+  {
+    "path": "sample/media/SciFiHelmet/glTF/SciFiHelmet_Normal.png",
+    "bytes": 9019058,
+    "sha256": "25805ae14ebaa9a25c7d26421bbffbdb5f3ab8df9d630c540301e804cc222904"
+  },
+  {
+    "path": "sample/media/SciFiHelmet/screenshot/screenshot.jpg",
+    "bytes": 9925,
+    "sha256": "0e835f42ad16d9bc41774c23fe3b9e271f835c221f578f7b9aa4d13eb9084cca"
+  },
+  {
+    "path": "sample/media/Sponza/README.md",
+    "bytes": 2879,
+    "sha256": "bd91ccf6257ce6c4392a2cab95e770bf3e1bf4ecd2eaf522d9302b7957e4f5aa"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/10381718147657362067.jpg",
+    "bytes": 876227,
+    "sha256": "728dd0fe3b570103e51dbfcc1eac64ad09916a7a31603c62a4090a2f2afaa6f8"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/10388182081421875623.jpg",
+    "bytes": 919134,
+    "sha256": "e309f1e6310dc0bb85df0a5f3b139207876f067378796a7aa666b0bb169587ae"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/11474523244911310074.jpg",
+    "bytes": 1079152,
+    "sha256": "23c32277c33d8eac091cd73daf81561ebe3640eede49b037546ed5c244a01347"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/11490520546946913238.jpg",
+    "bytes": 321375,
+    "sha256": "98e4c4a091fea684cd693f3ae7ebe83e491969b501b4cd6e1fdd6a3cc1fa5cab"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/11872827283454512094.jpg",
+    "bytes": 668962,
+    "sha256": "da2a0b308b4d6d57ffbcf4bb7509d4afe91156d5d86d0396e83d7cac883a4857"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/11968150294050148237.jpg",
+    "bytes": 530384,
+    "sha256": "bee42826d56d3ff719c4908c11ef65584fbe19e08273862fde7ec1408e44ba25"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/1219024358953944284.jpg",
+    "bytes": 329124,
+    "sha256": "9cbd61fcb8047f1c21450eff05207b29d71824edd75483267b5fbc2f7b21378c"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/12501374198249454378.jpg",
+    "bytes": 421442,
+    "sha256": "81ede4ce51045540817c1efb83dbb65a9a9701f1abd78fa130def51d227162fc"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/13196865903111448057.jpg",
+    "bytes": 281980,
+    "sha256": "8c26ae9523cfae7a062fd074f74e0ddbb61630772f9a2130489e1d6e4724c38b"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/13824894030729245199.jpg",
+    "bytes": 313460,
+    "sha256": "9158388312a76ba25a40d3b57978e1ace224882e53198a766494d98f9118aeba"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/13982482287905699490.jpg",
+    "bytes": 357112,
+    "sha256": "70d85bff3bc017177124942ae187db117ba2588e490746f440f2cef085852956"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/14118779221266351425.jpg",
+    "bytes": 1607263,
+    "sha256": "e5166a5fba339e44a9d197dedc168683971f8acb2156034248a80674cbba0dd5"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/14170708867020035030.jpg",
+    "bytes": 137384,
+    "sha256": "763740af8d22f0bfc6a43bd46050ef24bb661833bcace92f1f3326b9d5d7dc16"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/14267839433702832875.jpg",
+    "bytes": 718904,
+    "sha256": "3a2c2aeb87a490a9bd37a8aa912a00e5f5c13974879fcb4f4f0ef39b17c52a7a"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/14650633544276105767.jpg",
+    "bytes": 521947,
+    "sha256": "e8b68080eb4c5709536dfb7858d595d51d4bb725003e11b0f383acf76a7e05a3"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/15295713303328085182.jpg",
+    "bytes": 520162,
+    "sha256": "5bbd0cbf2da7416d5620514ebb0c4837b0ccc841b649cf4070281aa333ff8520"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/15722799267630235092.jpg",
+    "bytes": 557865,
+    "sha256": "d54c520da7e60e2a62630e9cf946faf139648a7ab831c4531272238e4ade8fa8"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/16275776544635328252.png",
+    "bytes": 1077432,
+    "sha256": "d6df943a0dcf535d9dfb009c2833e0c7dc21939cfe3a2c10316c552b3dc3441b"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/16299174074766089871.jpg",
+    "bytes": 339486,
+    "sha256": "0821ec8dc8226fd5ac70f068e134d014a9952276a7100cc7f0660853471b39f6"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/16885566240357350108.jpg",
+    "bytes": 12575,
+    "sha256": "5562f0e76ca213d72295e48b8a14a59ee1971f58a47f95e5c022a4e78371c5aa"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/17556969131407844942.jpg",
+    "bytes": 370061,
+    "sha256": "cb09708202859d08764601acc9c9ea3b5254b2c4fd39dcc6b6055768c77aee9b"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/17876391417123941155.jpg",
+    "bytes": 1151448,
+    "sha256": "005b774a968c1f6af00e4bf97afd668a6a045126a94f524df722ba19edc77d61"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/2051777328469649772.jpg",
+    "bytes": 206244,
+    "sha256": "86defcb4c007b80b9d23bcc9fdccd994f6a68f710eb75f11396d92faa2fbe368"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/2185409758123873465.jpg",
+    "bytes": 780166,
+    "sha256": "88861c8c7f10517c1d7942f316aae3b74dc5b8ae2faa2021d9dfe9d2c09fb24f"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/2299742237651021498.jpg",
+    "bytes": 772201,
+    "sha256": "62a52f200082c02a0fbfa25c0bc40ea7d105a21f10d5aa0ec9408c4f45523794"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/2374361008830720677.jpg",
+    "bytes": 844768,
+    "sha256": "231d919288db7c977fda3091549195c1bd5197e9e63c039e972da8764f5435c1"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/2411100444841994089.jpg",
+    "bytes": 399963,
+    "sha256": "12e1f2ea3c2714a6ec455fa8e623a702e33ef95765ebd09f7874a68fa55fd104"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/2775690330959970771.jpg",
+    "bytes": 785678,
+    "sha256": "751606c94a5fe5bda3bf6709e7f6a74363bd7902bf2353d54e55ef3b50007487"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/2969916736137545357.jpg",
+    "bytes": 822373,
+    "sha256": "dfa17f2dee2cd2d850585673d19d5cda477a63e21659b346d8730e80edd3b347"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/332936164838540657.jpg",
+    "bytes": 844768,
+    "sha256": "231d919288db7c977fda3091549195c1bd5197e9e63c039e972da8764f5435c1"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/3371964815757888145.jpg",
+    "bytes": 682743,
+    "sha256": "d939d2e8bf11c2cf375154129f861b982c786b83db79cb9fde1a2b94b46caf62"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/3455394979645218238.jpg",
+    "bytes": 551432,
+    "sha256": "967005ccfbf4d38f674df41aebb3e58ac1fdcd91f554ead7acfcc132372f8ec6"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/3628158980083700836.jpg",
+    "bytes": 547553,
+    "sha256": "9552937c9fa0481a07dc66768958b4be382544add46d1d66a687af54c51ab6da"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/3827035219084910048.jpg",
+    "bytes": 618837,
+    "sha256": "8af8fb0810bf3493242491da44f7ae14f7c0bfa6cbacea4be01f6f4261db4559"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/4477655471536070370.jpg",
+    "bytes": 208352,
+    "sha256": "b93291121303b5a24a488a3e29e0645a24bb471413cfd25c0917d306dff1d038"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/4601176305987539675.jpg",
+    "bytes": 1034060,
+    "sha256": "3af8848a1a952ad8cc83199bbda0c095f9ed136be839659aa668f72afac91508"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/466164707995436622.jpg",
+    "bytes": 486634,
+    "sha256": "21bb124f5b5d4d5e9c8d9773cd31dedfc41b30eb302af36e7257cf930152908e"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/4675343432951571524.jpg",
+    "bytes": 764529,
+    "sha256": "9d5fd79619a52db0232edb2287f5f05c0124c304355e3b035a4e48c0871090bf"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/4871783166746854860.jpg",
+    "bytes": 570081,
+    "sha256": "259b6659cb2681e06ef04becd49298d379f2f25b2cc468acf0c2ade4d190637c"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/4910669866631290573.jpg",
+    "bytes": 1034060,
+    "sha256": "3af8848a1a952ad8cc83199bbda0c095f9ed136be839659aa668f72afac91508"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/4975155472559461469.jpg",
+    "bytes": 399027,
+    "sha256": "fbdb7bcced57a005b84b4c3bbf744bae6309804cca51dabd9237e03a72fbc505"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/5061699253647017043.png",
+    "bytes": 2427921,
+    "sha256": "6fbdbf67d3501831ad3a4e2adbf3d27e4c3d13ba1d655e5861c3f39b5f899f65"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/5792855332885324923.jpg",
+    "bytes": 564801,
+    "sha256": "9330cf1d51c8f6924b6c9ce09f2dedb21a82e1c7406c37d49ce95beca40bb3be"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/5823059166183034438.jpg",
+    "bytes": 573157,
+    "sha256": "34b464edddbd2295b0ee23fa7a7a440a19456888c586acdc47032f841b302abd"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/6047387724914829168.jpg",
+    "bytes": 518310,
+    "sha256": "c39c9f304c2605be791b4c0a58cd0f8eb20de2dd6a4a4af893c4eb112d158353"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/6151467286084645207.jpg",
+    "bytes": 643517,
+    "sha256": "170f6c637ebd71a101244eb4d80c3dcf7063caf89e42053d3114d8aeca755cdf"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/6593109234861095314.jpg",
+    "bytes": 1034060,
+    "sha256": "3af8848a1a952ad8cc83199bbda0c095f9ed136be839659aa668f72afac91508"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/6667038893015345571.jpg",
+    "bytes": 698410,
+    "sha256": "58942b73c8f209ab9cc6ea174375adfde9c1875cbfe093f993086a0ab6570724"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/6772804448157695701.jpg",
+    "bytes": 599959,
+    "sha256": "1ea4f9bc86354d363ea8153df9b7593c3bd3da153c53b9624c1fd8a960cb3ebc"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/7056944414013900257.jpg",
+    "bytes": 844768,
+    "sha256": "231d919288db7c977fda3091549195c1bd5197e9e63c039e972da8764f5435c1"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/715093869573992647.jpg",
+    "bytes": 280745,
+    "sha256": "d81efcb42b3a044595ca984cb46d941b159064bddae9a43ed8d9582db68d6b47"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/7268504077753552595.jpg",
+    "bytes": 572245,
+    "sha256": "430758549ba2189d94f06abeaae092bfc0a1d8c22afc56f5caf3f99c5ee7407c"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/7441062115984513793.jpg",
+    "bytes": 665796,
+    "sha256": "9edc7c1c73661658cd8ed7733728002d45fecd17cb37a962fb654ff1d8c1933d"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/755318871556304029.jpg",
+    "bytes": 302363,
+    "sha256": "9f849f0510ca0df66ba1cba2380a6a1b481444d9e64b68da6b2ce202b54d9cec"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/759203620573749278.jpg",
+    "bytes": 512035,
+    "sha256": "f296e43c0d4c92953d4899ea0c38e8af992ba471acc87feb10f08e29a94aaef6"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/7645212358685992005.jpg",
+    "bytes": 652476,
+    "sha256": "46ffc9123ee3ad94b2595843b4446fd67dbf5a2f79dc1e3b4e637f5ea4578630"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/7815564343179553343.jpg",
+    "bytes": 623144,
+    "sha256": "8ad0e8a9ca6de602225a527361bc718881de8741bc48927e27259a8803e7fed7"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/8006627369776289000.png",
+    "bytes": 1225157,
+    "sha256": "75328d1aac87f8539be2456e6a5392cef7c6d08476d75585eafcd334dbeee0c5"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/8051790464816141987.jpg",
+    "bytes": 260119,
+    "sha256": "4f06c93f8e9f90be44a2e78847e57acec82bd793f58f7be7f86b088150730b88"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/8114461559286000061.jpg",
+    "bytes": 193077,
+    "sha256": "06c6480e207ce64f9e7c08df3f7f21638da7da43f77682657f4c823acd8c81a5"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/8481240838833932244.jpg",
+    "bytes": 531156,
+    "sha256": "1da7664b7b88ae58386a6e6b5eca2829537818061d704f002356d8fc483c1a28"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/8503262930880235456.jpg",
+    "bytes": 104626,
+    "sha256": "c288a37ed8373d1132644873624b096a72ba81d03cda601e050a5de24ba13c39"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/8747919177698443163.jpg",
+    "bytes": 872255,
+    "sha256": "8e90e94cadf80528a3df3496035d3c77900eba24d88b1c1d31c9dce77990fc44"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/8750083169368950601.jpg",
+    "bytes": 362437,
+    "sha256": "73a94a12fb0a9ab4c75e40996c9a2d49ac45ac18a8c8ae81d5ceb1c8ae52d6dc"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/8773302468495022225.jpg",
+    "bytes": 413837,
+    "sha256": "dc5bf5f3091b548f1dfe40410b1aa1e2e55d82e2d77ba57dbd1f92955a0d8ff8"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/8783994986360286082.jpg",
+    "bytes": 388462,
+    "sha256": "93d495e33d754c5723c910e322ac94108fc753b65af082a19be5252905aa741b"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/9288698199695299068.jpg",
+    "bytes": 1044330,
+    "sha256": "7f55814430f289e89c7d675c3db925eee904fbc566ff83f4b49904de53138e98"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/9916269861720640319.jpg",
+    "bytes": 608687,
+    "sha256": "81b21b9352f1fb9ccfeaf237f8547b985ddbf0cfd7ade7a4a8670b73a72b2cb5"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/Sponza.bin",
+    "bytes": 9529440,
+    "sha256": "10024b38b5df7f3c6fcdd8e7928649c96627649cfed6aebab081875270acb44c"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/Sponza.gltf",
+    "bytes": 212504,
+    "sha256": "e17c14edbc06b757dafcfed99f8815af9c5f5d9f9de3f0bc7740c37e68e0d829"
+  },
+  {
+    "path": "sample/media/Sponza/glTF/white.png",
+    "bytes": 951,
+    "sha256": "e2ab2939dda535ad28779e41c20c98368f630f29c5824a0a5a430f47b3b6da12"
+  },
+  {
+    "path": "sample/media/Sponza/screenshot/large.jpg",
+    "bytes": 885111,
+    "sha256": "5c23f2064255e1dd6da53fb4f9b8da7d4808a17be722ee30670e2f21b64c3827"
+  },
+  {
+    "path": "sample/media/Sponza/screenshot/screenshot.jpg",
+    "bytes": 31768,
+    "sha256": "3a9b3a8577c6b3b98aafd2c0b00c458b7cd311b52a0f2a341e6cc73e15b1275a"
+  },
+  {
+    "path": "sample/media/buster_drone/Assets/Models/Public/BusterDrone/Materials/body_AO.jpg",
+    "bytes": 482039,
+    "sha256": "c371aa14710baecb85f3efed3af2b587ce0c4e442339e66ecd29fbd07c8e5669"
+  },
+  {
+    "path": "sample/media/buster_drone/Assets/Models/Public/BusterDrone/Materials/body_albedo2048.png",
+    "bytes": 886372,
+    "sha256": "cf9addf1ff47e2acbabdd438a8cd697fe6f319497369788f0ba4a9cfd80395c4"
+  },
+  {
+    "path": "sample/media/buster_drone/Assets/Models/Public/BusterDrone/Materials/body_emissive.jpg",
+    "bytes": 78924,
+    "sha256": "21a226670a288dd6544250132e1486b494218466214150da45b2965d20033f8d"
+  },
+  {
+    "path": "sample/media/buster_drone/Assets/Models/Public/BusterDrone/Materials/body_metalgloss2048_converted_metalRoughness.jpg",
+    "bytes": 791467,
+    "sha256": "bc4094d19ea25a196a9a2b99021f91437db3619bcc391b3de047c0a35eccf903"
+  },
+  {
+    "path": "sample/media/buster_drone/Assets/Models/Public/BusterDrone/Materials/body_normal.jpg",
+    "bytes": 956507,
+    "sha256": "34242bdba6a650641d9215da45c2bbea04817b8af166459b021171b87dbeadf4"
+  },
+  {
+    "path": "sample/media/buster_drone/Assets/Models/Public/BusterDrone/Materials/concrete_044_metalGloss_converted_metalRoughness.jpg",
+    "bytes": 192591,
+    "sha256": "ada4c42ec3edd5c912332064f2f08b327a68c3e08f354317e65c5b01eee83f62"
+  },
+  {
+    "path": "sample/media/buster_drone/Assets/Models/Public/BusterDrone/Materials/concrete_044_normal1024.jpg",
+    "bytes": 543899,
+    "sha256": "09722ff112284e67e7d037796d0932b0ae7768837c1cbbc301c303ccab96475e"
+  },
+  {
+    "path": "sample/media/buster_drone/Assets/Models/Public/BusterDrone/Materials/concrete_diffuseOpacity.png",
+    "bytes": 451052,
+    "sha256": "06313078d238e0024e2bfcf550bd4c4c8ed40d915b974ca6052680c584b4e950"
+  },
+  {
+    "path": "sample/media/buster_drone/Assets/Models/Public/BusterDrone/Materials/leg_AO.jpg",
+    "bytes": 597196,
+    "sha256": "6f97b54233dc2da63b61b51cc336e060f3e9843f89c4d8de3d22297c9ba42818"
+  },
+  {
+    "path": "sample/media/buster_drone/Assets/Models/Public/BusterDrone/Materials/leg_albedo.jpg",
+    "bytes": 703030,
+    "sha256": "7b4deb3422bda9c116aa2ab1c9c234c332be80c995c0f5f5a7fa4fc2d8d82325"
+  },
+  {
+    "path": "sample/media/buster_drone/Assets/Models/Public/BusterDrone/Materials/leg_metalgloss_converted_metalRoughness.jpg",
+    "bytes": 863523,
+    "sha256": "06ada5f7e0ee18a94bf60372f33d9e9a2047976609089840b905212a25e9d071"
+  },
+  {
+    "path": "sample/media/buster_drone/Assets/Models/Public/BusterDrone/Materials/leg_normal1024.jpg",
+    "bytes": 403823,
+    "sha256": "c96351b3b695242c6a930ef750d55415f78995a9b06ab146164555c87c18da88"
+  },
+  {
+    "path": "sample/media/buster_drone/LICENSE.md",
+    "bytes": 261,
+    "sha256": "ff60e53d6fa70aad3898bf0775cedb84c4cd14064ded164c5de3258997741356"
+  },
+  {
+    "path": "sample/media/buster_drone/busterDrone.bin",
+    "bytes": 2514732,
+    "sha256": "01cc9512361a269755f0c202c6bb2db390029fe5539a3194be5b982620a4143f"
+  },
+  {
+    "path": "sample/media/buster_drone/busterDrone.gltf",
+    "bytes": 104293,
+    "sha256": "82051afd51494150c4deb6678a4eb4c8d233e3b984ab0a66d827dc3ea481778b"
+  },
+  {
+    "path": "sample/media/envmaps/papermill/README.md",
+    "bytes": 189,
+    "sha256": "1671310ad5fc707ff2eed1a9170b5d161c2cc42d80787389c421fa743ec55be4"
+  },
+  {
+    "path": "sample/media/envmaps/papermill/diffuse.dds",
+    "bytes": 393344,
+    "sha256": "91b4ec271629a66409c8cb350b87492acadaf110906f5a8534300573e0aeb299"
+  },
+  {
+    "path": "sample/media/envmaps/papermill/specular.dds",
+    "bytes": 8388728,
+    "sha256": "143f820fdb78924e9bc4f2cea966e323e21942d1f50e5f77131ac30c794f75f4"
+  },
+  {
+    "path": "sample/media/readme.md",
+    "bytes": 376,
+    "sha256": "51fdac744fcb22fd8b2ef7897888a5581d670609e4754197ff027392e954cc9b"
+  },
+  {
+    "path": "sample/media/screenshot.png",
+    "bytes": 900594,
+    "sha256": "831a26574c0e715840c832013dad6325829892c216d26fb6bd97845854fcae1d"
+  },
+  {
+    "path": "sample/src/DX12/CAS_CS.cpp",
+    "bytes": 11825,
+    "sha256": "2d510739f0f324d0f438ba1a8bb22a37d2f124772eb85da72befaa7195089d05"
+  },
+  {
+    "path": "sample/src/DX12/CAS_CS.h",
+    "bytes": 3823,
+    "sha256": "eb5e96e04b3913615ae84ec74a0fda23a57b15971fcfc55e1444d5917913a332"
+  },
+  {
+    "path": "sample/src/DX12/CAS_RenderPS.hlsl",
+    "bytes": 1852,
+    "sha256": "df8f89016afa9d5a010696f9a7dbd40658878880c56418003b3f690c1108731e"
+  },
+  {
+    "path": "sample/src/DX12/CAS_Renderer.cpp",
+    "bytes": 26517,
+    "sha256": "b93d826e53cd5b7d46863e728d6a4afcec3803d5f2d26ef9a976f33b464594c1"
+  },
+  {
+    "path": "sample/src/DX12/CAS_Renderer.h",
+    "bytes": 5058,
+    "sha256": "fea42c4afb2b3b84ffec51cdd07a91dc9f00be5eb29df2dcfae3607b09b49e15"
+  },
+  {
+    "path": "sample/src/DX12/CAS_Sample.cpp",
+    "bytes": 18324,
+    "sha256": "96b0880a3359d3870cc4dd1189899ac99c10325e84cf9d10b97916d8b38d84c0"
+  },
+  {
+    "path": "sample/src/DX12/CAS_Sample.h",
+    "bytes": 2841,
+    "sha256": "5469e74a91a9f972f904f9e9f4b456494877c8627fc49959aa7d33c6a4c99a7a"
+  },
+  {
+    "path": "sample/src/DX12/CAS_Shader.hlsl",
+    "bytes": 3518,
+    "sha256": "c01c74edef366e3dd61f2ffef258fa1721004c0dab9939ef45edca132660a978"
+  },
+  {
+    "path": "sample/src/DX12/CMakeLists.txt",
+    "bytes": 2241,
+    "sha256": "12dd29a2335b200c19b3d6e4f00ad6787d50056d63945a2bb8defab0be827392"
+  },
+  {
+    "path": "sample/src/DX12/dpiawarescaling.manifest",
+    "bytes": 1504,
+    "sha256": "b5710e470164ce673911470343bc29efa04bc9e2b70ee9de5d8bf7b478a70b1a"
+  },
+  {
+    "path": "sample/src/DX12/stdafx.cpp",
+    "bytes": 1518,
+    "sha256": "f23e850ef153e566749ef871d96ed3c757c5accbe42cc24658e367e3e556ea4f"
+  },
+  {
+    "path": "sample/src/DX12/stdafx.h",
+    "bytes": 2745,
+    "sha256": "2cc59eadb5256cc243ec99342b1fe968e922e5526d0e594c94748b4849cc1d78"
+  },
+  {
+    "path": "sample/src/VK/CAS_CS.cpp",
+    "bytes": 19502,
+    "sha256": "91f31a1d850a8519d70666026a5dac1c6f2261c3064be16f28643f532c31eccb"
+  },
+  {
+    "path": "sample/src/VK/CAS_CS.h",
+    "bytes": 4007,
+    "sha256": "919c06e2994e61377c2921992fff51189224112f7e424fa1a1d919bfa03b52ff"
+  },
+  {
+    "path": "sample/src/VK/CAS_RenderPS.glsl",
+    "bytes": 1472,
+    "sha256": "e9ab5163c9c279f20d88d4f66a8c95e12df53c2957656556c6d9bfcf0a20c2f7"
+  },
+  {
+    "path": "sample/src/VK/CAS_Renderer.cpp",
+    "bytes": 40654,
+    "sha256": "59c609721e9d968a42b7e5f7888401393c8f179fd93294c196e6e31d4aa3a67b"
+  },
+  {
+    "path": "sample/src/VK/CAS_Renderer.h",
+    "bytes": 5384,
+    "sha256": "8892a1da806ad66fe17132234884ec00380bf02b89af139e8a2856872a89dc15"
+  },
+  {
+    "path": "sample/src/VK/CAS_Sample.cpp",
+    "bytes": 18867,
+    "sha256": "86066fbd9df08db355294e4d219c95f4e33dff63d2695c5986807b679c1cef4e"
+  },
+  {
+    "path": "sample/src/VK/CAS_Sample.h",
+    "bytes": 2819,
+    "sha256": "14c274c343bf2388c77a862817d076cdbeda85e8a0556d6276b1d9248877ae54"
+  },
+  {
+    "path": "sample/src/VK/CAS_Shader.glsl",
+    "bytes": 3595,
+    "sha256": "6bf1e0e49f19be4fb10cdff23edfd0b5a808ecb2e15b245a2542e47e4aca348a"
+  },
+  {
+    "path": "sample/src/VK/CMakeLists.txt",
+    "bytes": 2221,
+    "sha256": "a314c1b5b4a02ff4c074354edd3786c055e71beec623823ce50090db9139307e"
+  },
+  {
+    "path": "sample/src/VK/dpiawarescaling.manifest",
+    "bytes": 1504,
+    "sha256": "b5710e470164ce673911470343bc29efa04bc9e2b70ee9de5d8bf7b478a70b1a"
+  },
+  {
+    "path": "sample/src/VK/stdafx.cpp",
+    "bytes": 1449,
+    "sha256": "aa823f477ff4cdc70214acf37412074a7fe9ca23c88f50fb730581e5710d4e49"
+  },
+  {
+    "path": "sample/src/VK/stdafx.h",
+    "bytes": 2782,
+    "sha256": "5b5034c43bb031c13398f0f333c0e84b884f7374586cf35a2efa44c8d0a8d2e1"
+  }
+]

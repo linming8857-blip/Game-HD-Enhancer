@@ -1,0 +1,502 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 394,
+    "sha256": "9d85d3496e1d83b05c4ecf1d19be4f76a4e530edfa19ea9b70fdac699fbdda02"
+  },
+  {
+    "path": "Demo/DX10/Code/Demo.cpp",
+    "bytes": 56277,
+    "sha256": "e8e34180e611b3981bab19b9f993a9260cf739f6711dff0c88d3a43ca5fba863"
+  },
+  {
+    "path": "Demo/DX10/Code/SMAA.cpp",
+    "bytes": 27120,
+    "sha256": "34264306b92aad57c5dce6e923f10734427356ad2504472e32cec6f51abaeba1"
+  },
+  {
+    "path": "Demo/DX10/Code/SMAA.h",
+    "bytes": 11462,
+    "sha256": "393a0bc86486663639a4115bbad83a634ca04180fbcb968c9c61acc29aca8340"
+  },
+  {
+    "path": "Demo/DX10/Demo DX10.sln",
+    "bytes": 874,
+    "sha256": "8e5fc368034b92ae6864fbf99f5628fd48786213490a4d4d7fdc46b7ce0bdff9"
+  },
+  {
+    "path": "Demo/DX10/Demo.rc",
+    "bytes": 1129,
+    "sha256": "7024504f1a89924924c053d4eb42cb6b1ebb1feea8373b50f9aa3984578d14de"
+  },
+  {
+    "path": "Demo/DX10/Demo.vcxproj",
+    "bytes": 11934,
+    "sha256": "f9c93494b915d401349a749d048b04e13a71d7a46f63dea6dbd6195e042ef6ac"
+  },
+  {
+    "path": "Demo/DX10/Demo.vcxproj.filters",
+    "bytes": 4448,
+    "sha256": "c796463973759e6d2c74569273bfd8870ba1ad39104f9e4cf3c282eaae9fc3ee"
+  },
+  {
+    "path": "Demo/DX10/Icon.ico",
+    "bytes": 360414,
+    "sha256": "ceb661105f493ccb8dbc677bfd4a9d96d452429ce77bc4fab7e7c473e38a52b8"
+  },
+  {
+    "path": "Demo/DX10/README.md",
+    "bytes": 2010,
+    "sha256": "a933d79cabccc5c3a8bd2c58a806e1bc96d07807e7f8479545756cf44a9ebfb6"
+  },
+  {
+    "path": "Demo/DX10/Shaders/SMAA.fx",
+    "bytes": 11311,
+    "sha256": "9de6fe966703848b071e269e048c2e5057c83e2ffcd1fde920ee9d8d6c3f9849"
+  },
+  {
+    "path": "Demo/DX10/Shaders/Simple.fx",
+    "bytes": 6021,
+    "sha256": "80eb8fe1242320d7cac474cfa86340d784e26e45b8641d3efe1eefce0b5cbebc"
+  },
+  {
+    "path": "Demo/DX9/Code/Demo.cpp",
+    "bytes": 20359,
+    "sha256": "7dd38dca2224b25ad58bd01f728e76ee36d5b96303321156b961f104b46567f1"
+  },
+  {
+    "path": "Demo/DX9/Code/SMAA.cpp",
+    "bytes": 14188,
+    "sha256": "79b44ea19fb88e7f7a3937ba2474ee14d9727aa999c54e79730c4b5f2d3d5a30"
+  },
+  {
+    "path": "Demo/DX9/Code/SMAA.h",
+    "bytes": 7134,
+    "sha256": "ddc568f1f60186529c5f88a6f52b10d114ddb4c3296ac0f9b11e65dc3f3759bd"
+  },
+  {
+    "path": "Demo/DX9/Demo DX9.sln",
+    "bytes": 874,
+    "sha256": "3304aacf0d55379241e0aca69aefd35c0dae59ab357d7a9f99eb3e1b454403a7"
+  },
+  {
+    "path": "Demo/DX9/Demo.rc",
+    "bytes": 308,
+    "sha256": "a57124eb91754f89fa20205635617cf70317bb854ac3a5b8ae9b03e60c47e1fe"
+  },
+  {
+    "path": "Demo/DX9/Demo.vcxproj",
+    "bytes": 9532,
+    "sha256": "60e0a98648bc0c78a9da12633ac59c5c8f62eb6258100115d089fa70b88870a3"
+  },
+  {
+    "path": "Demo/DX9/Demo.vcxproj.filters",
+    "bytes": 3799,
+    "sha256": "13d73587f3ef8ef34ea72f34ea835345d1e1d206a6859b5a91a4655cd7837833"
+  },
+  {
+    "path": "Demo/DX9/Demo.vcxproj.user",
+    "bytes": 143,
+    "sha256": "f2f2e1ebb09bb88b3bc3f57677a31e0ae1b50cad9d5826e00d6b2fcff887974f"
+  },
+  {
+    "path": "Demo/DX9/Icon.ico",
+    "bytes": 360414,
+    "sha256": "ceb661105f493ccb8dbc677bfd4a9d96d452429ce77bc4fab7e7c473e38a52b8"
+  },
+  {
+    "path": "Demo/DX9/README.md",
+    "bytes": 278,
+    "sha256": "e9ce536c8e9e32d52a2d6c11fc9b95ac243a9c4a3ebc6416413fcb753a3dc19a"
+  },
+  {
+    "path": "Demo/DX9/Shaders/SMAA.fx",
+    "bytes": 8941,
+    "sha256": "b1c67819bc6a27be894aa8f6995eaadbcb52176bc2e04ed9db642ec99c9b37f5"
+  },
+  {
+    "path": "Demo/DXUT/Core/DXUT.cpp",
+    "bytes": 292482,
+    "sha256": "58ad8ec6f53919b8fd854c4ccce1274ebb9cd62e17e563c5b9c0f38004326494"
+  },
+  {
+    "path": "Demo/DXUT/Core/DXUT.h",
+    "bytes": 18222,
+    "sha256": "f2bbb731ff640276f44a8861f8078ac1e3996c2dd83ef30cc55a961f3c90b6cb"
+  },
+  {
+    "path": "Demo/DXUT/Core/DXUT_2008.sln",
+    "bytes": 1574,
+    "sha256": "674b50c2c84ff013c2b37d9b799e5431aa9b28cf2e22b2927f688b02f6f6181e"
+  },
+  {
+    "path": "Demo/DXUT/Core/DXUT_2008.vcproj",
+    "bytes": 10774,
+    "sha256": "cf2059a38e97fd69822e10eba7e1c1bc47c36a1979c7a5b8b41ee827f671bd45"
+  },
+  {
+    "path": "Demo/DXUT/Core/DXUT_2010.sln",
+    "bytes": 1575,
+    "sha256": "06d0150dbe8230c2be6e896eb53738f7ea5154cb33a3848bb6aca74bdebe6a1f"
+  },
+  {
+    "path": "Demo/DXUT/Core/DXUT_2010.vcxproj",
+    "bytes": 17220,
+    "sha256": "bb5783608084d788e93a6cc4252a639acf49da485e114696b6d6f5340ae86e02"
+  },
+  {
+    "path": "Demo/DXUT/Core/DXUT_2010.vcxproj.filters",
+    "bytes": 753,
+    "sha256": "e76a092cd84651c855719ef7ec352ba02bced147188700630454aa7c0a5c741f"
+  },
+  {
+    "path": "Demo/DXUT/Core/DXUTenum.cpp",
+    "bytes": 166176,
+    "sha256": "b84b68c0bc0b1460e7591f4ce570554005170a538778260e5e24e82a960fa011"
+  },
+  {
+    "path": "Demo/DXUT/Core/DXUTenum.h",
+    "bytes": 18686,
+    "sha256": "3af94d8ac3770f25ef1fa5ded4eb0d42f2a12e60a00b442a7284e3504d232b2c"
+  },
+  {
+    "path": "Demo/DXUT/Core/DXUTmisc.cpp",
+    "bytes": 76038,
+    "sha256": "31ade39de6d85bb9bada082e16a5d2129c278c33e3a5d9a28af94aaca48da300"
+  },
+  {
+    "path": "Demo/DXUT/Core/DXUTmisc.h",
+    "bytes": 26837,
+    "sha256": "2fb3293b9fe10d348e10f2a556eb4b57c2c245ed8df6630437e96db7ccbced43"
+  },
+  {
+    "path": "Demo/DXUT/Core/dpiaware.manifest",
+    "bytes": 329,
+    "sha256": "b474caadf9e6f69415e738d3a87f2b1515d0b701db4b8de5d5a62978d66d3e8c"
+  },
+  {
+    "path": "Demo/DXUT/Optional/DXUTLockFreePipe.h",
+    "bytes": 9763,
+    "sha256": "aa0b5c6e557a29dc1f00589e4742aaca8b6eba008ee9102b99dace2a49029ac8"
+  },
+  {
+    "path": "Demo/DXUT/Optional/DXUTOpt_2008.sln",
+    "bytes": 1580,
+    "sha256": "37dd40aa7c9406228b688a3f7e19eba9a47fd97cebe32bf0888de998cb2918e8"
+  },
+  {
+    "path": "Demo/DXUT/Optional/DXUTOpt_2008.vcproj",
+    "bytes": 11581,
+    "sha256": "953f71d71974c15d4564b1afe4c184a077b9b0d732693e7c4639bf77bb668aa8"
+  },
+  {
+    "path": "Demo/DXUT/Optional/DXUTOpt_2010.sln",
+    "bytes": 1581,
+    "sha256": "8a2a0d41f2189428b7c6729a7b1ff6584d064c667fd11c4ddebe6ddfa6acf9d0"
+  },
+  {
+    "path": "Demo/DXUT/Optional/DXUTOpt_2010.vcxproj",
+    "bytes": 18027,
+    "sha256": "68509b62c292b9286b7c7792ac68a52fca360e08d146f1f3a31b9d5bff1ba49c"
+  },
+  {
+    "path": "Demo/DXUT/Optional/DXUTOpt_2010.vcxproj.filters",
+    "bytes": 1500,
+    "sha256": "a7ddba36ad573f80a9e71c6b6d2ac39b49f5b48157d26a205c7a3c7306d969a5"
+  },
+  {
+    "path": "Demo/DXUT/Optional/DXUTShapes.cpp",
+    "bytes": 186551,
+    "sha256": "8245da22ec227ae0f2699a2998953a47e918b04f66e3c0c3b7e122f058023be4"
+  },
+  {
+    "path": "Demo/DXUT/Optional/DXUTShapes.h",
+    "bytes": 1225,
+    "sha256": "3de13cd794385fdbbb619d3ce75cad761c8931926b38d1b35f46ce00c6c90596"
+  },
+  {
+    "path": "Demo/DXUT/Optional/DXUTcamera.cpp",
+    "bytes": 57544,
+    "sha256": "00781bcb84f6af67d35e2038cd592c407a8bd210a22173f52b3d024876ab0afb"
+  },
+  {
+    "path": "Demo/DXUT/Optional/DXUTcamera.h",
+    "bytes": 18252,
+    "sha256": "22986cfc9d4e079ed477760d41c3d9a82c3bfc7cea2b1b0928de954498de16c0"
+  },
+  {
+    "path": "Demo/DXUT/Optional/DXUTgui.cpp",
+    "bytes": 227986,
+    "sha256": "1a6073a3a00b50286fcd9c6c56c9f4a9ba63c743de3e9c4b00388590063921a4"
+  },
+  {
+    "path": "Demo/DXUT/Optional/DXUTgui.h",
+    "bytes": 45635,
+    "sha256": "b12612ed1a7c83a9ec869b622eda6cbea05bc311db130df573d2cdff9cdccc33"
+  },
+  {
+    "path": "Demo/DXUT/Optional/DXUTguiIME.cpp",
+    "bytes": 37345,
+    "sha256": "33acb70e987aa0d86f6e233a7b1398aafc2433b3462d75f229cc4132d5f1b7e6"
+  },
+  {
+    "path": "Demo/DXUT/Optional/DXUTguiIME.h",
+    "bytes": 5886,
+    "sha256": "12759d2b203959004de7d0e7d5c059db5ac4f8c7f296cc949ba01b9824c27a2c"
+  },
+  {
+    "path": "Demo/DXUT/Optional/DXUTres.cpp",
+    "bytes": 845908,
+    "sha256": "c4eb40659b4b8e256a70db13e139ac3c68651afa79e0743d59020a8796797dca"
+  },
+  {
+    "path": "Demo/DXUT/Optional/DXUTres.h",
+    "bytes": 869,
+    "sha256": "f26a25db063934bec1e0b0afe283585d6d632b35745f907fd98242d6010f787d"
+  },
+  {
+    "path": "Demo/DXUT/Optional/DXUTsettingsdlg.cpp",
+    "bytes": 115930,
+    "sha256": "cb984c867706657e45927e9542cde2411bcca9f052385276672ccd35f9618546"
+  },
+  {
+    "path": "Demo/DXUT/Optional/DXUTsettingsdlg.h",
+    "bytes": 10664,
+    "sha256": "97ef6de3fbde4184e0b285c68a54e1b453e13c578e7056f9eae177b9a539de7f"
+  },
+  {
+    "path": "Demo/DXUT/Optional/ImeUi.cpp",
+    "bytes": 105934,
+    "sha256": "da8de3baaf2489507e43318c956fdd2a3bf7e6b7612b6b5aa3ebeb67d101b443"
+  },
+  {
+    "path": "Demo/DXUT/Optional/ImeUi.h",
+    "bytes": 3849,
+    "sha256": "49c5f510672db23734c4ed16eafe376ad7f18f62c4d61d8fbd6e58077ce5d6ee"
+  },
+  {
+    "path": "Demo/DXUT/Optional/SDKmesh.cpp",
+    "bytes": 97944,
+    "sha256": "6dbe5787585174501042bdf7694c9c9dd23f0b1a36dae05e118b87303f4c9989"
+  },
+  {
+    "path": "Demo/DXUT/Optional/SDKmesh.h",
+    "bytes": 26602,
+    "sha256": "1044b9870f28c2c9199a8506c9cdcd3314f58738f939ec50d25a938aea87c5b3"
+  },
+  {
+    "path": "Demo/DXUT/Optional/SDKmisc.cpp",
+    "bytes": 67638,
+    "sha256": "23c572bfa4aa7d8aec4a6fab91f1b83fc4da82595d5eeafb1ebb2786141dc9f7"
+  },
+  {
+    "path": "Demo/DXUT/Optional/SDKmisc.h",
+    "bytes": 16462,
+    "sha256": "09781b932da284e8856950ad57d6752b88002472fe95cc2402912c34331e9a12"
+  },
+  {
+    "path": "Demo/DXUT/Optional/SDKsound.cpp",
+    "bytes": 36785,
+    "sha256": "734ec6750b01f85cf2bbf4b52e1547b7970b5b219512c5f82e9777d58d34d3b9"
+  },
+  {
+    "path": "Demo/DXUT/Optional/SDKsound.h",
+    "bytes": 5501,
+    "sha256": "91693422acfde947f9e31dbdef0e8abd9ebcc8cd81f890c0cf8455e3f65cdd87"
+  },
+  {
+    "path": "Demo/DXUT/Optional/SDKwavefile.cpp",
+    "bytes": 19317,
+    "sha256": "fcea92d653c2a09d29e3a25c1421a39fc6dd7d6db4b62b6c2e310ce98299439f"
+  },
+  {
+    "path": "Demo/DXUT/Optional/SDKwavefile.h",
+    "bytes": 1961,
+    "sha256": "dc95ea4d00acab4094635bc450c1302ffcde3e8f4ca0cde5a0fe44a44d2d0255"
+  },
+  {
+    "path": "Demo/DXUT/Optional/directx.ico",
+    "bytes": 25214,
+    "sha256": "7bde34e08a41effdc9e211c599cb3213058864c4f07174de773f31d862816d55"
+  },
+  {
+    "path": "Demo/Media/DiffuseMap.dds",
+    "bytes": 699216,
+    "sha256": "ec3ab594539a398010c0e7b0f79c9f02365720ffa17928967ad3698bb8b5352e"
+  },
+  {
+    "path": "Demo/Media/EnvMap.dds",
+    "bytes": 196736,
+    "sha256": "70881b8583105242ad1321c98fa2a9dd8b26b936e6c488f1ccd5bd92401c024f"
+  },
+  {
+    "path": "Demo/Media/Fence.sdkmesh",
+    "bytes": 195116,
+    "sha256": "2417b44f216227c8debdb98386198fb8887132ee2cf6e15ada75420eaa5dd862"
+  },
+  {
+    "path": "Demo/Media/NormalMap.dds",
+    "bytes": 699216,
+    "sha256": "d6185a686c6f28a5d0f54de551187bc085dde4e58210aa2db24019428c6fe6c4"
+  },
+  {
+    "path": "Demo/Media/Unigine01.dds",
+    "bytes": 4915180,
+    "sha256": "6d1d30344a0a9a17365bdef16ed769ac2e664d12edbc4cbade2903b51c684b8c"
+  },
+  {
+    "path": "Demo/Media/Unigine01.png",
+    "bytes": 1121292,
+    "sha256": "544c001c84c822503d6d2729b78e28a52d83f6c4f606c97eb5021f280b3ed78b"
+  },
+  {
+    "path": "Demo/Media/Unigine02.dds",
+    "bytes": 4915180,
+    "sha256": "eab5a3eb6caac80c29d2e486db7d54a942db198386062904e1a15481bb9d92ae"
+  },
+  {
+    "path": "Demo/Media/Unigine02.png",
+    "bytes": 1268028,
+    "sha256": "6581fc00fc798344f47a904d4720d7af7c04059937c9e995bebaa74ee95042a6"
+  },
+  {
+    "path": "Demo/Media/Unigine03.dds",
+    "bytes": 4915180,
+    "sha256": "7c972a81f274aa00c1f8373d802516e92e2a0fbf32b71bb81bc5d094d91c89bd"
+  },
+  {
+    "path": "Demo/Media/Unigine03.png",
+    "bytes": 1284751,
+    "sha256": "e267e6535f69bcda2e15c4f313576137cccbd7287111f603b17189aff24b9897"
+  },
+  {
+    "path": "Demo/Media/Unigine04.dds",
+    "bytes": 4915180,
+    "sha256": "76954f6237bd2e0cecda2474962e14253242bff7c161e061dbb83bc8dc183936"
+  },
+  {
+    "path": "Demo/Media/Unigine04.png",
+    "bytes": 1545561,
+    "sha256": "9e0fba6fdd72ad5d4001076912f6d0c9fc5876ef9558d7964b33b5e730e4455c"
+  },
+  {
+    "path": "Demo/Media/Unigine05.dds",
+    "bytes": 4915180,
+    "sha256": "88c91dc0c88d07bd35149797f621e2bcea05a9ed4b2bd3abe5cb4d119d555b32"
+  },
+  {
+    "path": "Demo/Media/Unigine05.png",
+    "bytes": 1656283,
+    "sha256": "e25c56ddf578c6a3575c6bc8abff9e1fa3caed7d5fec2dc5b0b7e03534a2b830"
+  },
+  {
+    "path": "Demo/Media/Unigine06.dds",
+    "bytes": 4915180,
+    "sha256": "9373223837ab21f1b80005d2d89f757d3b7b15ee568cf899485d663f88471ac8"
+  },
+  {
+    "path": "Demo/Media/Unigine06.png",
+    "bytes": 1064536,
+    "sha256": "014157d18840344d623129752bf4ce095664badb017b887d500ef83bb343fa52"
+  },
+  {
+    "path": "Demo/Media/Unigine07.dds",
+    "bytes": 4915180,
+    "sha256": "347e8508b754f6a285570727678b410dc6994659b8737835ca469146e33026a6"
+  },
+  {
+    "path": "Demo/Media/Unigine07.png",
+    "bytes": 1441405,
+    "sha256": "3f0541a35d7bdaf7ab736423007ce429b83c3fafa16b0a4601ce2d46dbe30896"
+  },
+  {
+    "path": "Demo/Support/Camera.cpp",
+    "bytes": 8654,
+    "sha256": "79d937d29c289ba7bef72355461ce099aaa1ed512f48e400fc22c38142c44b29"
+  },
+  {
+    "path": "Demo/Support/Camera.h",
+    "bytes": 4263,
+    "sha256": "8012ded064d41c72c11bd2cad51190c2f9574afe8aab6b00ac73ca7e1e069c38"
+  },
+  {
+    "path": "Demo/Support/Copy.cpp",
+    "bytes": 4630,
+    "sha256": "4fce901dc1c06ae41c57d7e705b05125fa95924fe0d245d85f47e044ef5d2969"
+  },
+  {
+    "path": "Demo/Support/Copy.h",
+    "bytes": 1736,
+    "sha256": "7184fa549b13a7a38a27707b130fbc943e54ae1366b9673f1ba45f4623b214a5"
+  },
+  {
+    "path": "Demo/Support/RenderTarget.cpp",
+    "bytes": 16509,
+    "sha256": "5d1c53c46055b36f0c61b1956ebee69d69a25d76122a39e4a3a1b619a626e8f4"
+  },
+  {
+    "path": "Demo/Support/RenderTarget.h",
+    "bytes": 7561,
+    "sha256": "ffe0835bbe8ee646220386019a0173820409fdf1a308b27b4b206174388d1948"
+  },
+  {
+    "path": "Demo/Support/Timer.cpp",
+    "bytes": 6999,
+    "sha256": "74dd99a19d2cb6f3fb05bd3fd84983a5166a4087e363285173263ecf3104ad00"
+  },
+  {
+    "path": "Demo/Support/Timer.h",
+    "bytes": 3542,
+    "sha256": "510bbc71776f89c4cd30043719d4e58794b3e937cc3bd014deb3c8119eb528d1"
+  },
+  {
+    "path": "LICENSE.txt",
+    "bytes": 1470,
+    "sha256": "2b848b67ba50ac40b53e11cf1ccdaee2a190ca83b4652cba695a5f1ce81f52ae"
+  },
+  {
+    "path": "README.md",
+    "bytes": 4665,
+    "sha256": "2e9c8e68ff71832288977f9b3860ba0ddce45bdb487b54c037a06761cca3f88f"
+  },
+  {
+    "path": "SMAA.hlsl",
+    "bytes": 55806,
+    "sha256": "4db53d92ef0b45661f8450303589ffabce93c352cae4282a6f32dd2b80efbeb9"
+  },
+  {
+    "path": "Scripts/AreaTex.py",
+    "bytes": 19864,
+    "sha256": "faf7f3c289d36d5df81aa90b94bcf11cf34d2f2d97d31393be1638e41481445e"
+  },
+  {
+    "path": "Scripts/SearchTex.py",
+    "bytes": 4380,
+    "sha256": "1b42167a29a580487ccd9cf0a6c3f0d8ddc1f84eb07e0d5fad54f36cd3c63301"
+  },
+  {
+    "path": "Textures/AreaTex.h",
+    "bytes": 1166747,
+    "sha256": "1933bf43ce86ba71f7ed5f0fa94b148610c634dc3395b9bc67a817d51ee73af2"
+  },
+  {
+    "path": "Textures/AreaTexDX10.dds",
+    "bytes": 268928,
+    "sha256": "d0a59111b18e67a66341bf94eeeb96caab0dc120e356bbfd934397a5b1830a73"
+  },
+  {
+    "path": "Textures/AreaTexDX9.dds",
+    "bytes": 179328,
+    "sha256": "638b22435cb9944c7f98de365c69c1e81039dd68e8d0a710704122c22d6c819c"
+  },
+  {
+    "path": "Textures/SearchTex.dds",
+    "bytes": 1152,
+    "sha256": "891e444b6dde7dd98f6902c805cd04e3469892aa1667c92f764d94789477ef3a"
+  },
+  {
+    "path": "Textures/SearchTex.h",
+    "bytes": 8610,
+    "sha256": "1fac315ab5f87b60083c9b8387af17f056204d3d1bf21500f2acc5b3e8c1a37a"
+  }
+]

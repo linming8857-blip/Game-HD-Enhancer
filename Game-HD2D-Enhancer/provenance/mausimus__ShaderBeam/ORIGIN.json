@@ -1,0 +1,22 @@
+{
+  "repo": "mausimus/ShaderBeam",
+  "source_url": "https://github.com/mausimus/ShaderBeam",
+  "ref": "main",
+  "commit": "5f9eef6ab59a5801b278856f5b47c83254153151",
+  "purpose": "Previously found display-timing research only; no BFI or flashing effects in V1",
+  "declared_license": "GPL-3.0",
+  "github_license": "MIT",
+  "destination": "references/mausimus__ShaderBeam/5f9eef6ab59a5801b278856f5b47c83254153151",
+  "submodules": [],
+  "compiled": false,
+  "runtime_tested": false,
+  "license_files": [
+    "LICENSE"
+  ],
+  "omitted_files": [],
+  "lfs_pointers": [],
+  "symlinks": [],
+  "file_count": 73,
+  "source_bytes": 3787982,
+  "status": "collected"
+}

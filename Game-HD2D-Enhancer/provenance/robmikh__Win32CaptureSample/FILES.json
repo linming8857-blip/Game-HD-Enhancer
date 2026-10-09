@@ -1,0 +1,142 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 2518,
+    "sha256": "45a7cbb7d9942ba7ffce0b20bc8dbe2d1196533bc6e4bd245871d77fb1eedfdc"
+  },
+  {
+    "path": ".github/workflows/build.yml",
+    "bytes": 765,
+    "sha256": "362663510ada0be796178bcff0b4fb8c7a2b66354034e1746e5befabf5a7f405"
+  },
+  {
+    "path": ".github/workflows/buildWithArtifacts.yml",
+    "bytes": 1033,
+    "sha256": "4147db9fa72dc4f95e3377e7cb03b139ef8965409febadbc36040137334d280e"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 4368,
+    "sha256": "8c75daffe621b5a43103b9e04466c6698dc4f9e0ae8d545bbed5f54966a90766"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1075,
+    "sha256": "3e0a01704b7a1c154ea687559ecb5c9008554eeffbc66b411334aa5399a7f5b6"
+  },
+  {
+    "path": "README.md",
+    "bytes": 5178,
+    "sha256": "41ddea3d07479e9f9e06f7494b506b7b18a7dfe7b4e9bde52b8fff6e5c3a6f1c"
+  },
+  {
+    "path": "Win32CaptureSample/App.cpp",
+    "bytes": 12744,
+    "sha256": "05e311c7c35f0ae6c382c51297a59f78a8d2983d89d9f2511cf2739858dc4bcc"
+  },
+  {
+    "path": "Win32CaptureSample/App.h",
+    "bytes": 2553,
+    "sha256": "18b9850168edf1de9b11254bea1779505b0103065ebdd5f4c0ebbd68dcc3f64c"
+  },
+  {
+    "path": "Win32CaptureSample/CaptureSnapshot.cpp",
+    "bytes": 2157,
+    "sha256": "cfd8048b46e8c425cdc0d0caf171dcddea868bd982171e540af6d83ba5096a70"
+  },
+  {
+    "path": "Win32CaptureSample/CaptureSnapshot.h",
+    "bytes": 487,
+    "sha256": "b355c1bdefa61a19796a38a2aebf68638cf9e1ca57747fad657383cc981e26b9"
+  },
+  {
+    "path": "Win32CaptureSample/DirtyRegionVisualizer.cpp",
+    "bytes": 2361,
+    "sha256": "6578cad8f347d5e613e8895930e30614111e7011a26316526ae2a55d8f93a532"
+  },
+  {
+    "path": "Win32CaptureSample/DirtyRegionVisualizer.h",
+    "bytes": 593,
+    "sha256": "1b9191a2ad3129bf98690c3ee99b46243cf639a476758f037659580d6b5c4c98"
+  },
+  {
+    "path": "Win32CaptureSample/MonitorList.cpp",
+    "bytes": 2544,
+    "sha256": "8cbe75494d01be7b31c7e37f7fb5b1ba7db751ddb9f2d254380cd4c1cb1b1209"
+  },
+  {
+    "path": "Win32CaptureSample/MonitorList.h",
+    "bytes": 1416,
+    "sha256": "7b103af92a07286d65ef6a874b134f8d90812510855f8c40c16e610e0d7ecd8d"
+  },
+  {
+    "path": "Win32CaptureSample/SampleWindow.cpp",
+    "bytes": 17141,
+    "sha256": "ae6781104c48d0eda6d19569f421c597addd420254932710a8d267c527c37811"
+  },
+  {
+    "path": "Win32CaptureSample/SampleWindow.h",
+    "bytes": 2480,
+    "sha256": "248d98755be3eff66a9dc43d86593adb1c7497ca98a67f5d521e4c7dc8fd9255"
+  },
+  {
+    "path": "Win32CaptureSample/SimpleCapture.cpp",
+    "bytes": 8502,
+    "sha256": "42b0904085aec84bc0baa784483d55474fdfa32c263e68052cf087cbacbe85fe"
+  },
+  {
+    "path": "Win32CaptureSample/SimpleCapture.h",
+    "bytes": 3719,
+    "sha256": "22f8ba5c4fc663288b4d51cf2ee61d4748f3f2fb7a5c93784fdc0c1a6d93bf0a"
+  },
+  {
+    "path": "Win32CaptureSample/Win32CaptureSample.vcxproj",
+    "bytes": 12428,
+    "sha256": "c85431caf29033911840f441c87e267291aa1c1045510d5d94dee7c499122751"
+  },
+  {
+    "path": "Win32CaptureSample/Win32CaptureSample.vcxproj.filters",
+    "bytes": 1166,
+    "sha256": "f458962e8834fae79e05da2c76a43d1f0228e61d36dc07feaa72a594cccd0207"
+  },
+  {
+    "path": "Win32CaptureSample/WindowList.cpp",
+    "bytes": 5084,
+    "sha256": "6bd939282c113fed8b88d520cb57bb01463ac0be83edc9b568b0ad3c0993b9ee"
+  },
+  {
+    "path": "Win32CaptureSample/WindowList.h",
+    "bytes": 1592,
+    "sha256": "5b806202ec9186f01eb7b86e437227b4ccf5e4065826f0f5d3932743fd91919a"
+  },
+  {
+    "path": "Win32CaptureSample/app.manifest",
+    "bytes": 832,
+    "sha256": "9f8f879cc2b620ff3c2a1278da99d83fc7be10ee09aec5af69bfe0d8c1711e78"
+  },
+  {
+    "path": "Win32CaptureSample/main.cpp",
+    "bytes": 1735,
+    "sha256": "fd4bfeea40629f07c06adbcc81210fc1a5ce433c79771e8bbe336aa19a3578a0"
+  },
+  {
+    "path": "Win32CaptureSample/packages.config",
+    "bytes": 636,
+    "sha256": "5c7a4a98fb873ec032dd05ce215eedd254fcf6aa1828b5ebe2f34534e9b4092b"
+  },
+  {
+    "path": "Win32CaptureSample/pch.cpp",
+    "bytes": 16,
+    "sha256": "767c147b79a2d6c6488f245d364e406bf927d83e92475247ce92792f71f0bb2d"
+  },
+  {
+    "path": "Win32CaptureSample/pch.h",
+    "bytes": 1908,
+    "sha256": "681f2025699f1401b06914b779e2475a1d3ff6dae98a04b9de459103006379cd"
+  },
+  {
+    "path": "Win32CaptureSample.sln",
+    "bytes": 1460,
+    "sha256": "768f9ec8326932c7b73b388b7d4afdab4beaf3d9a1a41dc4776f2a76c2332f81"
+  }
+]

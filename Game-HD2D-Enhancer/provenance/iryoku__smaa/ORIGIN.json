@@ -1,0 +1,22 @@
+{
+  "repo": "iryoku/smaa",
+  "source_url": "https://github.com/iryoku/smaa",
+  "ref": "master",
+  "commit": "71c806a838bdd7d517df19192a20f0c61b3ca29d",
+  "purpose": "Optional spatial SMAA; disabled for pixel-preservation preset",
+  "declared_license": "MIT",
+  "github_license": "NOASSERTION",
+  "destination": "third_party/iryoku__smaa/71c806a838bdd7d517df19192a20f0c61b3ca29d",
+  "submodules": [],
+  "compiled": false,
+  "runtime_tested": false,
+  "license_files": [
+    "LICENSE.txt"
+  ],
+  "omitted_files": [],
+  "lfs_pointers": [],
+  "symlinks": [],
+  "file_count": 100,
+  "source_bytes": 50898308,
+  "status": "collected"
+}

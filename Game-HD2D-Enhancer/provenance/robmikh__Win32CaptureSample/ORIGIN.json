@@ -1,0 +1,22 @@
+{
+  "repo": "robmikh/Win32CaptureSample",
+  "source_url": "https://github.com/robmikh/Win32CaptureSample",
+  "ref": "main",
+  "commit": "49fefe79fd9b11025f0b5eb91783a98888516070",
+  "purpose": "Win32 Windows Graphics Capture / D3D11 capture reference",
+  "declared_license": "MIT",
+  "github_license": "MIT",
+  "destination": "third_party/robmikh__Win32CaptureSample/49fefe79fd9b11025f0b5eb91783a98888516070",
+  "submodules": [],
+  "compiled": false,
+  "runtime_tested": false,
+  "license_files": [
+    "LICENSE"
+  ],
+  "omitted_files": [],
+  "lfs_pointers": [],
+  "symlinks": [],
+  "file_count": 28,
+  "source_bytes": 98491,
+  "status": "collected"
+}
