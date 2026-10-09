@@ -1,0 +1,115 @@
+{
+  "project": "Game-HD2D-Enhancer",
+  "created_utc": "2026-10-09T21:54:01.016879+00:00",
+  "scope": "Actual source snapshots, not executables. DLSS5 excluded. Original licenses retained.",
+  "sources": [
+    {
+      "repo": "NVIDIAGameWorks/NVIDIAImageScaling",
+      "status": "not_collected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "GPUOpen-Effects/FidelityFX-FSR",
+      "status": "not_collected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "GPUOpen-Effects/FidelityFX-CAS",
+      "status": "not_collected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "iryoku/smaa",
+      "status": "not_collected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "robmikh/Win32CaptureSample",
+      "status": "not_collected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "CRTYPUBG/NovaScale-Upscaler",
+      "status": "not_collected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "bloc97/Anime4K",
+      "status": "not_collected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "Blinue/Magpie",
+      "status": "not_collected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "mausimus/ShaderGlass",
+      "status": "not_collected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "libretro/slang-shaders",
+      "status": "not_collected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "funnyplanter/CuNNy",
+      "status": "not_collected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "KhronosGroup/glslang",
+      "status": "not_collected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "KhronosGroup/SPIRV-Cross",
+      "status": "not_collected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "ValveSoftware/gamescope",
+      "status": "not_collected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "crosire/reshade",
+      "status": "not_collected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "SpecialKO/SpecialK",
+      "status": "not_collected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "furkan-1337/LFG",
+      "status": "not_collected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "mausimus/ShaderBeam",
+      "status": "not_collected",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "excluded": [
+    {
+      "repo": "ThioJoe/Full-Screen-DLSS5-Wrapper",
+      "reason": "用户明确要求 DLSS5 先不要；不下载源码、DLL、模型或相关组件"
+    },
+    {
+      "repo": "L65536/RealTimeSuperResolutionScreenUpscalerforLinux",
+      "reason": "尚未确认完整项目的重分发许可证；当前 LICENSE 路径返回404，先不复制到公开仓库"
+    },
+    {
+      "repo": "martymcmodding/iMMERSE",
+      "reason": "之前查看的许可为 All rights reserved；没有单独授权不纳入"
+    },
+    {
+      "repo": "martymcmodding/qUINT",
+      "reason": "之前查看的许可为 All rights reserved；没有单独授权不纳入"
+    }
+  ]
+}
