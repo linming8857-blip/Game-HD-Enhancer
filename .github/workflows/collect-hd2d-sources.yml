@@ -1,0 +1,62 @@
+name: Collect Game-HD2D-Enhancer sources
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/collect-hd2d-sources.yml'
+      - 'Game-HD2D-Enhancer/sources.json'
+      - 'Game-HD2D-Enhancer/tools/collect_sources.py'
+      - 'Game-HD2D-Enhancer/tools/test_collector.py'
+permissions:
+  contents: write
+concurrency:
+  group: collect-hd2d-sources
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - name: Check out project
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Test our collector without running upstream code
+        run: python3 Game-HD2D-Enhancer/tools/test_collector.py
+      - name: Collect source trees and exact provenance
+        id: collect
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 Game-HD2D-Enhancer/tools/collect_sources.py
+      - name: Save collected source files and honest completeness report
+        if: always() && steps.collect.outcome != 'skipped'
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f Game-HD2D-Enhancer/SOURCE_COLLECTION_STATUS.md
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          mkdir -p .git/info
+          printf '%s\n' 'Game-HD2D-Enhancer/third_party/** -text -filter -ident -working-tree-encoding' 'Game-HD2D-Enhancer/references/** -text -filter -ident -working-tree-encoding' >> .git/info/attributes
+          for path in Game-HD2D-Enhancer/third_party Game-HD2D-Enhancer/references Game-HD2D-Enhancer/provenance Game-HD2D-Enhancer/sources.lock.json Game-HD2D-Enhancer/SOURCE_COLLECTION_STATUS.md; do
+            if [ -e "$path" ]; then
+              git -c filter.lfs.required=false -c filter.lfs.clean= -c filter.lfs.process= add -f -- "$path"
+            fi
+          done
+          if ! git diff --cached --quiet; then
+            git -c core.hooksPath=/dev/null commit -m 'Archive HD2D upstream source snapshots, licenses and checksums [skip ci]'
+            for attempt in 1 2 3; do
+              git -c core.hooksPath=/dev/null pull --rebase origin main
+              if git -c core.hooksPath=/dev/null push origin HEAD:main; then break; fi
+              if [ "$attempt" = 3 ]; then exit 1; fi
+              sleep 3
+            done
+          fi
+      - name: Fail visibly if any source or submodule is missing
+        if: steps.collect.outcome != 'success'
+        run: |
+          echo 'Some source snapshots were not collected completely. Read SOURCE_COLLECTION_STATUS.md; do not claim the collection is complete.'
+          exit 1
