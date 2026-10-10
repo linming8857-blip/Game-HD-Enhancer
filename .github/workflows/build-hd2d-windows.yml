@@ -36,15 +36,19 @@ jobs:
       - name: Verify the exact upstream bytes before compiling
         run: |
           @'
-          import hashlib, json
+          import hashlib, json, subprocess
           from pathlib import Path
           root = Path('Game-HD2D-Enhancer')
           base = root/'third_party/NVIDIAGameWorks__NVIDIAImageScaling/35e13ba316c98eeecf16f37eae70ce88019911f6'
           index = {x['path']: x for x in json.loads((root/'provenance/NVIDIAGameWorks__NVIDIAImageScaling/FILES.json').read_text(encoding='utf-8'))}
           for name in ['NIS/NIS_Config.h', 'NIS/NIS_Main.hlsl', 'NIS/NIS_Scaler.h', 'README.md']:
-              actual = hashlib.sha256((base/name).read_bytes()).hexdigest()
-              assert actual == index[name]['sha256'], 'Upstream checksum mismatch: ' + name
-              print('Verified:', name, actual)
+              path = base/name
+              raw = subprocess.check_output(['git', 'show', 'HEAD:' + path.as_posix()])
+              actual = hashlib.sha256(raw).hexdigest()
+              assert actual == index[name]['sha256'], 'Committed upstream checksum mismatch: ' + name
+              path.write_bytes(raw)
+              assert hashlib.sha256(path.read_bytes()).hexdigest() == actual
+              print('Verified raw committed source and restored exact working-tree bytes:', name, actual)
           '@ | python -
           if ($LASTEXITCODE -ne 0) { throw 'Source verification failed' }
       - name: Configure native C++20 x64 application
