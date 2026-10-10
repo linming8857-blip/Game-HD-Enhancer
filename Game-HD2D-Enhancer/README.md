@@ -2,62 +2,80 @@
 
 **给 2D 老游戏和模拟器戴一副随时可摘下的实时高清眼镜。**
 
-本项目先在现有 `linming8857-blip/Game-HD-Enhancer` 仓库内独立建目录，不改仓库名，不删除之前的三份设计资料。旧资料是历史讨论；当前执行范围以本目录为准。
+本项目位于 `linming8857-blip/Game-HD-Enhancer` 仓库内；原来的设计资料和第三方源码档案继续保留。
 
-## 当前状态
+## 当前状态：已生成首个 Windows x64 测试版
 
-阶段 0：收集真实上游源码、固定版本、保存许可证和建立 2D 版本的开发基线。
+**0.1.0 alpha · build 3 已编译成功，并通过 CPU 几何与真实 NIS 着色器的 Direct3D11 WARP 软件渲染自检。它是可供实机验证的早期测试版，不是已经完成全部兼容性验收的正式版。**
 
-**本目录不是已经完成的高清软件，也没有可运行的 Game-HD2D-Enhancer.exe。源码入库 ≠ 算法已集成 ≠ Windows 编译通过 ≠ 掌机测试通过。**
+- [下载测试版 ZIP](https://github.com/linming8857-blip/Game-HD-Enhancer/releases/download/hd2d-v0.1.0-alpha-3/Game-HD2D-Enhancer-0.1.0-alpha-win64.zip)
+- [发布页面与 SHA256](https://github.com/linming8857-blip/Game-HD-Enhancer/releases/tag/hd2d-v0.1.0-alpha-3)
+- [成功的 Windows 构建与测试日志](https://github.com/linming8857-blip/Game-HD-Enhancer/actions/runs/38012719328)
+- [中文使用说明](docs/RUN_V0_1.txt)
 
-收集任务运行后的实际结果见 [SOURCE_COLLECTION_STATUS.md](SOURCE_COLLECTION_STATUS.md)。没有该文件时，不能认为收集已完成。完整锁定清单为 `sources.lock.json`；每个项目的文件大小、SHA-256 和原始提交见 `provenance/`。
+构建源码提交：`c74b6c855fab0a8d8d6e109ff2172f1ff23305f2`。
+ZIP：303,779 字节。SHA256：`ecd397765384911428ec4adc464dd0a8ad1f8056e6c938b015108fae5c8ebf5e`。
 
-## 用户确认的硬性要求
+编写、修改和编译诊断在聊天中完成，GitHub Actions 仅执行普通 CMake/MSVC/CTest/打包命令；没有调用 Codex、Work、Codex Action、Codex CLI 或其他 AI 编程服务。
 
-- 目标：天马G实际调用的模拟器窗口、mGBA、《仙剑奇侠传》《天之痕》和《吞食天地 Online》单机版。它们是优先测试对象，不是已经测试通过的兼容名单。
-- 不需要事先添加游戏、不强制建立游戏库、不需要通过本软件启动游戏。
-- 正常打开游戏后选择当前窗口，或使用快捷键选择前台窗口，即可开启增强。
-- 关闭增强只停止捕获、销毁输出窗口并释放自身资源；不得终止游戏进程、改存档、改游戏文件。
-- 游戏不依赖本软件。崩溃恢复、焦点切换、游戏暂停行为仍需要实测，不能承诺所有程序绝无影响。
-- 本地实时处理；渲染帧只存在于有界 RAM/VRAM 缓冲区，不录像、不自动截图、不写图像/视频缓存、不上传画面。
-- 配置文件、必要日志、着色器编译缓存与渲染画面是不同的概念；应可控制大小。不能称为完全零磁盘占用。
-- **本阶段不加入 DLSS5：不下载其项目、DLL 或模型，不做该功能插件。**
+**不要把编译、自检通过等同于你的游戏和掌机已测试通过。** 《吞食天地 Online》、mGBA、其他游戏、ROG Xbox Ally X、全屏实际输入、帧同步、延迟、功耗和续航仍待实机验收。
 
-## 第一版范围
+## 本版实际接入的功能
 
-`运行中的游戏窗口 → WGC捕获 → D3D11纹理 → 单一缩放链 → 可选轻量后处理 → 独立输出窗口`
+- 直接列出正在运行的窗口，不要求提前登记 EXE、不要求建立游戏库。
+- `Ctrl+Alt+H` 选择前台窗口并开启增强，再按停止；`Ctrl+Alt+End` 紧急停止。
+- Windows Graphics Capture 捕获指定窗口；裁切客户区；D3D11 纹理处理与独立窗口显示。
+- 真正接入 NVIDIA NIS v1.0.3，默认锐化 20%；不串联第二个锐化器。
+- 原味整数/最近邻缩放；双线性兼容模式；保持比例与黑边。
+- 全屏增强与独立预览两种显示方式；30/60 FPS 呈现上限，不做插帧。
+- 独立测试画面进程：色块、移动方块、鼠标/按键计数，用于本地验证。
+- 停止时释放自己的捕获/显示资源；源窗口最小化或关闭时停止；全屏下切换前台应用会停止增强。
 
-优先实现：窗口选择、启停、等比例缩放、黑边、原味整数缩放、轻量空间放大、锐化强度、快捷键和错误恢复。
+**全屏鼠标映射是实验功能。** 它通过普通 Win32 鼠标消息转发，不保证兼容 Raw Input、DirectInput、GetCursorPos、特殊光标、复杂拖拽、鼠标侧键、触控手势或反作弊游戏。键盘/手柄仍由前台游戏接收；实际手柄和触摸尚待验证。鼠标不正确时用 `Ctrl+Alt+End` 停止，再选独立预览并操作原游戏。
 
-NIS / FSR1 是备选缩放路径，不串联放大。NIS 的 NVScaler 已包含锐化，不再默认叠加 NVSharpen / CAS / RCAS。SMAA/FXAA 在像素原味模式默认关闭。Anime4K/CuNNy 只作为后续实验，不能保证所有像素人物或中文文字会改善。
+目标输出小于源图时，NIS 模式明确回退到双线性缩小；整数模式可能使用非整数最近邻缩小，并在状态栏提示。源图很小、放大超过 2 倍时，先用最近邻整数预放大，再执行 NIS。
 
-**先不做：**游戏注入、3D深度效果、帧生成、BFI闪烁效果、联网云渲染、高清材质替换。相关上游项目仅独立存档，不参与 V1 构建。
+**未接入本版：** FSR1、SMAA、CRT/LCD 滤镜、Anime4K/CuNNy、AI 生成、HDR、注入、深度效果、插帧、BFI。虽然有参考源码，但没有以占位菜单冒充已实现功能。**DLSS5 不纳入。**
 
-## 目录
+## 第一次运行
+
+完整解压 ZIP，双击 `Game-HD2D-Enhancer.exe`，不要只移动 EXE，保留 `shaders` 和 `licenses`。
+
+先点击“打开测试画面”，切到测试画面，按 `Ctrl+Alt+H`；检查显示、点击、按键，再按 `Ctrl+Alt+End` 停止。确认后再测试窗口化的真实游戏。
+
+运行优先 Windows 11 x64、支持 Direct3D11 feature level 11_0 的 GPU；最低目标 Windows 10 2004。本版仅 SDR。运行不需要 Python、Visual Studio、Codex、Work 或网络。未签名测试版可能显示未知发布者；核对来源与哈希，不关闭安全保护。
+
+## 不改变游戏本体
+
+不修改游戏 EXE/DLL/资源/存档、不注入游戏、不结束游戏进程。游戏不依赖本程序启动。
+
+捕获帧只在有界 RAM/VRAM 缓冲区实时处理，不录屏、不自动截图、不保存渲染帧/视频缓存、不上传画面。运行时画面路径不读回 CPU；软件渲染自检使用自行生成的测试像素作读回校验，不使用玩家画面。
+
+源游戏自身的失焦暂停或特殊输入行为仍要逐游戏验证，不作“所有应用绝无影响”的承诺。
+
+## 源码与构建
 
 ```text
 Game-HD2D-Enhancer/
-  README.md
-  docs/IMPLEMENTATION_PLAN.md
-  docs/LICENSE_POLICY.md
-  sources.json                 收集目标与排除原因
-  sources.lock.json            实际解析的固定提交和结果（运行后生成）
-  SOURCE_COLLECTION_STATUS.md  收集完成度（运行后生成）
-  third_party/                 候选组件真实源码，按上游和提交分目录
-  references/                  GPL/混合许可/后续研究项目，独立保存
-  provenance/                  每个项目的ORIGIN.json和FILES.json
-  tools/collect_sources.py     只读取并保存，不执行上游源码
-  tools/test_collector.py      收集器安全与数据处理测试
+  app/                          我们自己的原生 Windows 程序与自检
+  CMakeLists.txt                MSVC/CMake 构建入口
+  docs/RUN_V0_1.txt              测试版说明
+  docs/IMPLEMENTATION_PLAN.md    长期实施方案（其中待办以本页实际状态为准）
+  docs/LICENSE_POLICY.md        第三方许可规则
+  third_party/                  候选组件真实源码
+  references/                   独立保存的研究项目源码
+  provenance/                   来源、固定提交、文件 SHA256 与排除项
+  sources.json / sources.lock.json
+  SOURCE_COLLECTION_STATUS.md   上游资料收集结果，不是产品完成度
+  tools/                        收集器和独立诊断脚本
 ```
 
-原始文件及许可原样保留；预编译 EXE/DLL/LIB、打包发布文件、模型权重、演示视频等不属于本次源码交付，遗漏项会逐一记入清单。子模块会尝试按原提交补齐，失败或 LFS 对象缺失会标为 partial，不能冒称完整。
+开发构建：`cmake -S Game-HD2D-Enhancer -B build -A x64`，然后 `cmake --build build --config Release`，再 `ctest --test-dir build -C Release -V`。
 
-运行开发期收集器需要联网和 Python 3.12+。这不是未来用户运行高清软件的依赖，也不意味着实时画面要联网。
+发布包不会带上约 1.56GB 的参考资料库；本版只依赖自己编写的程序与固定版本 NIS。NIS 原始 MIT 许可在发布包 `licenses/NVIDIAImageScaling.txt` 和 shader 源码里保留。
+
+18 个上游项目的资料收集情况见 [SOURCE_COLLECTION_STATUS.md](SOURCE_COLLECTION_STATUS.md)。排除的二进制、模型、演示资源、符号链接信息在对应 `provenance/` 中；源码收集不等于所有 SDK/运行依赖齐备。
 
 ## 许可证
 
-第三方文件维持各自原始许可，不将整个目录统一重新授权为 MIT。
-
-GPL 源码可以在遵守 GPL 的前提下保存、修改和再分发；GPL **不是禁止使用**。把 GPL 代码并入未来发行的程序前，需要明确衍生程序的许可与对应源代码义务。仅靠“放进另一个文件夹”不能规避实际集成时的许可要求。混合 shader 库必须逐文件审计。
-
-许可不明或明确保留全部权利的项目不复制进公开仓库；详见 [LICENSE_POLICY.md](docs/LICENSE_POLICY.md)。
+第三方文件维持各自原始许可，不将整个第三方库重新授权为 MIT。GPL 不是禁止使用，但实际集成、修改、分发需遵守对应条件；分目录不能规避许可证义务。混合 shader 库必须逐文件核对。详见 [LICENSE_POLICY.md](docs/LICENSE_POLICY.md)。
