@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.24)
-project(GameHD2DEnhancer VERSION 0.1.0 LANGUAGES CXX RC)
+project(GameHD2DEnhancer VERSION 0.1.1 LANGUAGES CXX RC)
 if(NOT WIN32 OR NOT MSVC)
   message(FATAL_ERROR "Build with MSVC on Windows (Visual Studio 2022+ and Windows SDK)")
 endif()
@@ -28,7 +28,7 @@ foreach(target Game-HD2D-Enhancer HD2D-Tests)
     COMMAND ${CMAKE_COMMAND} -E copy_if_different "${NIS_ROOT}/NIS/NIS_Main.hlsl" "$<TARGET_FILE_DIR:${target}>/shaders/NIS/NIS_Main.hlsl"
     COMMAND ${CMAKE_COMMAND} -E copy_if_different "${NIS_ROOT}/NIS/NIS_Scaler.h" "$<TARGET_FILE_DIR:${target}>/shaders/NIS/NIS_Scaler.h"
     COMMAND ${CMAKE_COMMAND} -E copy_if_different "${NIS_ROOT}/README.md" "$<TARGET_FILE_DIR:${target}>/licenses/NVIDIAImageScaling.txt"
-    COMMAND ${CMAKE_COMMAND} -E copy_if_different "${CMAKE_CURRENT_SOURCE_DIR}/docs/RUN_V0_1.txt" "$<TARGET_FILE_DIR:${target}>/使用说明.txt"
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different "${CMAKE_CURRENT_SOURCE_DIR}/docs/RUN_V0_1_1.txt" "$<TARGET_FILE_DIR:${target}>/使用说明.txt"
     VERBATIM)
 endforeach()
 enable_testing()
