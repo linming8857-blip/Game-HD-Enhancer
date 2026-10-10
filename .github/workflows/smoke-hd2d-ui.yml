@@ -1,0 +1,47 @@
+name: Smoke test HD2D packaged UI
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/smoke-hd2d-ui.yml'
+      - 'Game-HD2D-Enhancer/tools/smoke_ui.ps1'
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: windows-2022
+    timeout-minutes: 8
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - name: Read only our synthetic UI test script
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /Game-HD2D-Enhancer/tools/smoke_ui.ps1
+      - name: Retrieve the exact tested alpha package
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          New-Item -ItemType Directory -Force smoke-input | Out-Null
+          gh release download hd2d-v0.1.0-alpha-3 --pattern Game-HD2D-Enhancer-0.1.0-alpha-win64.zip --dir smoke-input
+          if ($LASTEXITCODE -ne 0) { throw 'Unable to retrieve the known alpha artifact' }
+          $zip = 'smoke-input/Game-HD2D-Enhancer-0.1.0-alpha-win64.zip'
+          $expected = 'ecd397765384911428ec4adc464dd0a8ad1f8056e6c938b015108fae5c8ebf5e'
+          if ((Get-FileHash $zip -Algorithm SHA256).Hash.ToLower() -ne $expected) { throw 'Artifact checksum mismatch' }
+          Expand-Archive $zip -DestinationPath smoke-package
+      - name: Exercise our application and independent demo windows
+        run: |
+          ./Game-HD2D-Enhancer/tools/smoke_ui.ps1 -Executable './smoke-package/Game-HD2D-Enhancer-0.1.0-alpha-win64/Game-HD2D-Enhancer.exe'
+      - name: Preserve scoped UI test results
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: hd2d-ui-smoke-${{ github.run_number }}
+          path: ui-smoke-result.txt
+          if-no-files-found: warn
+          retention-days: 30
