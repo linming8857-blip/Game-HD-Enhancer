@@ -1,4 +1,5 @@
 #include "gpu.hpp"
+#include "window_sources.hpp"
 #include <windowsx.h>
 #include <commctrl.h>
 #include <dwmapi.h>
@@ -11,6 +12,7 @@
 #include <atomic>
 #include <chrono>
 #include <cstdio>
+#include <cstring>
 #include <memory>
 #include <sstream>
 #include <utility>
@@ -24,9 +26,8 @@ using Clock = std::chrono::steady_clock;
 constexpr UINT FrameMessage = WM_APP + 11, ClosedMessage = WM_APP + 12;
 constexpr int SourceBox = 101, RefreshButton = 102, AlgorithmBox = 103,
     DisplayBox = 104, SharpSlider = 105, StartButton = 106, StopButton = 107,
-    DemoButton = 108, FpsBox = 109;
+    DemoButton = 108, FpsBox = 109, PickButton = 110, InfoButton = 111;
 constexpr int ToggleHotkey = 1, StopHotkey = 2;
-struct Source { HWND hwnd{}; DWORD pid{}; std::wstring title; };
 struct Signal {
     std::atomic<HWND> window{};
     std::atomic<bool> pending{};
@@ -58,20 +59,26 @@ public:
     graphics::SizeInt32 poolSize{};
     Rect content{}; Size sourceClient{};
     Algorithm algorithm{Algorithm::NIS};
-    bool running{}, fullscreen{}, hotkeysOK{}, inputFailed{};
+    bool running{}, fullscreen{}, hotkeysOK{}, inputFailed{}, picking{};
     unsigned mouseButtons{}; HWND dragTarget{}; POINT lastMouse{};
     std::uintptr_t generation{};
-    int frameLimit{60}, frames{}, totalFrames{};
+    int frameLimit{60}, frames{}, totalFrames{}, pickSeconds{-1};
     float sharpness{0.2f};
-    Clock::time_point started{}, statsAt{}, nextFrame{};
+    Clock::time_point started{}, statsAt{}, nextFrame{}, pickDeadline{};
+    std::wstring stage{L"初始化"};
     int dpi{96};
     ~App() { stop(false); if (font) DeleteObject(font); }
     void text(const std::wstring& s) { if (IsWindow(status)) SetWindowTextW(status, s.c_str()); }
     void fail() {
-        auto message = error_text(); stop(false);
-        text(L"增强已停止，原游戏未被关闭。\n" + message);
-        MessageBoxW(main, (L"增强未能继续，原游戏没有被本程序关闭。\n\n" + message +
-            L"\n\n请先使用窗口化游戏、关闭 HDR，或切换到双线性模式。不要关闭系统安全保护。").c_str(),
+        const auto message = error_text();
+        const auto context = stage + (selected.hwnd ? L"\n目标：" + selected.title : L"");
+        const bool sourceError = stage == L"检查源窗口" || stage == L"选取前台窗口";
+        stop(false);
+        text(context + L"\n" + message);
+        const auto help = sourceError
+            ? L"\n\n请先恢复并点击游戏，再用“3秒选游戏”选取，或刷新列表。无需更改 HDR 或显卡设置。"
+            : L"\n\n请保留错误信息。先使用窗口化游戏和独立预览模式；不要关闭系统安全保护。";
+        MessageBoxW(main, (L"增强未能继续，本程序没有关闭原游戏。\n\n" + context + L"\n" + message + help).c_str(),
             L"Game-HD2D-Enhancer · 测试版", MB_OK | MB_ICONWARNING);
     }
     static LRESULT CALLBACK MainProc(HWND h, UINT m, WPARAM w, LPARAM l) {
@@ -100,21 +107,27 @@ public:
             MoveWindow(child, MulDiv(x,dpi,96), MulDiv(y,dpi,96), MulDiv(width,dpi,96), MulDiv(height,dpi,96), TRUE);
             SendMessageW(child, WM_SETFONT, reinterpret_cast<WPARAM>(font), TRUE);
         };
-        move(201,20,16,620,34); move(202,20,54,620,24);
-        move(203,20,88,110,24); move(SourceBox,130,84,390,260); move(RefreshButton,535,83,95,30);
-        move(204,20,130,110,24); move(AlgorithmBox,130,125,500,180);
-        move(205,20,173,110,24); move(DisplayBox,130,168,500,150);
-        move(206,20,216,110,24); move(SharpSlider,130,211,285,30);
-        move(207,435,216,75,24); move(FpsBox,515,211,115,150);
-        move(StartButton,20,260,190,40); move(StopButton,225,260,190,40); move(DemoButton,430,260,200,40);
-        move(208,20,315,610,54); move(209,20,380,610,72);
+        move(201,20,16,610,30); move(202,20,52,610,24);
+        move(203,20,88,80,24); move(SourceBox,100,84,430,260); move(RefreshButton,540,83,90,30);
+        move(PickButton,100,123,145,32); move(InfoButton,260,123,150,32);
+        move(210,20,166,610,40);
+        move(204,20,221,100,24); move(AlgorithmBox,120,216,510,180);
+        move(205,20,261,100,24); move(DisplayBox,120,256,510,150);
+        move(206,20,301,100,24); move(SharpSlider,120,296,285,30);
+        move(207,435,301,75,24); move(FpsBox,515,296,115,150);
+        move(StartButton,20,342,190,40); move(StopButton,225,342,190,40); move(DemoButton,430,342,200,40);
+        move(208,20,396,610,52); move(209,20,458,610,82);
+        SendMessageW(sourceBox, CB_SETDROPPEDWIDTH, MulDiv(590,dpi,96), 0);
     }
     void initialize() {
-        control(L"STATIC", L"Game-HD2D-Enhancer 0.1.0 alpha", 0, 201);
+        control(L"STATIC", L"Game-HD2D-Enhancer 0.1.1 alpha · 窗口识别修正版", 0, 201);
         control(L"STATIC", L"实时高清眼镜  ·  不改游戏文件  ·  不录像  ·  无需游戏库", 0, 202);
         control(L"STATIC", L"游戏窗口", 0, 203);
         sourceBox = control(L"COMBOBOX", L"", CBS_DROPDOWNLIST | WS_TABSTOP | WS_VSCROLL, SourceBox);
         control(L"BUTTON", L"刷新窗口", WS_TABSTOP, RefreshButton);
+        control(L"BUTTON", L"3秒选游戏", WS_TABSTOP, PickButton);
+        control(L"BUTTON", L"复制窗口信息", WS_TABSTOP, InfoButton);
+        control(L"STATIC", L"尚未选择游戏。点击“3秒选游戏”后，在3秒内点击原游戏窗口。", 0, 210);
         control(L"STATIC", L"画面算法", 0, 204);
         algorithmBox = control(L"COMBOBOX", L"", CBS_DROPDOWNLIST | WS_TABSTOP, AlgorithmBox);
         for (auto s : {L"NIS 轻量高清（含锐化）", L"原味像素：整数倍 / 最近邻", L"双线性（兼容 / 对照）"})
@@ -124,7 +137,7 @@ public:
         displayBox = control(L"COMBOBOX", L"", CBS_DROPDOWNLIST | WS_TABSTOP, DisplayBox);
         SendMessageW(displayBox, CB_ADDSTRING, 0, reinterpret_cast<LPARAM>(L"等比例全屏（鼠标坐标映射：实验）"));
         SendMessageW(displayBox, CB_ADDSTRING, 0, reinterpret_cast<LPARAM>(L"独立预览窗口（仍操作原游戏窗口）"));
-        SendMessageW(displayBox, CB_SETCURSEL, 0, 0);
+        SendMessageW(displayBox, CB_SETCURSEL, 1, 0);
         control(L"STATIC", L"NIS 锐化", 0, 206);
         sharpSlider = control(TRACKBAR_CLASSW, L"", TBS_AUTOTICKS | WS_TABSTOP, SharpSlider);
         SendMessageW(sharpSlider, TBM_SETRANGE, TRUE, MAKELPARAM(0, 100)); SendMessageW(sharpSlider, TBM_SETPOS, TRUE, 20);
@@ -135,56 +148,142 @@ public:
         control(L"BUTTON", L"戴上眼镜 / 开启", WS_TABSTOP | BS_DEFPUSHBUTTON, StartButton);
         control(L"BUTTON", L"摘掉眼镜 / 停止", WS_TABSTOP, StopButton);
         control(L"BUTTON", L"打开测试画面", WS_TABSTOP, DemoButton);
-        control(L"STATIC", L"Ctrl + Alt + H：增强当前前台窗口 / 停止\nCtrl + Alt + End：紧急停止。切换到其他窗口会停止全屏增强。", 0, 208);
-        status = control(L"STATIC", L"就绪。先打开游戏，再选择窗口。首次建议用测试画面检查显示和点击。", 0, 209);
+        control(L"STATIC", L"Ctrl + Alt + H：直接增强当前前台游戏 / 停止\nCtrl + Alt + End：紧急停止。首次默认预览；全屏鼠标仍为实验功能。", 0, 208);
+        status = control(L"STATIC", L"就绪。先选择游戏；不要选择解压软件的文件资源管理器。", 0, 209);
         layout(); refresh();
         const bool toggle = RegisterHotKey(main, ToggleHotkey, MOD_CONTROL | MOD_ALT | MOD_NOREPEAT, 'H') != 0;
         const bool escape = RegisterHotKey(main, StopHotkey, MOD_CONTROL | MOD_ALT | MOD_NOREPEAT, VK_END) != 0;
         hotkeysOK = toggle && escape;
-        if (!hotkeysOK) text(L"快捷键被占用，暂不允许全屏。可使用独立预览模式并通过停止按钮退出。");
+        if (!hotkeysOK) text(L"快捷键被占用，暂不允许全屏。可使用“3秒选游戏”与独立预览，通过停止按钮退出。");
         EnableWindow(GetDlgItem(main, StopButton), FALSE);
         SetTimer(main, 1, 100, nullptr);
     }
-    void refresh() {
+    std::optional<Source> chosen_source() const {
+        auto row = SendMessageW(sourceBox, CB_GETCURSEL, 0, 0);
+        if (row == CB_ERR) return std::nullopt;
+        auto index = SendMessageW(sourceBox, CB_GETITEMDATA, WPARAM(row), 0);
+        if (index < 0 || static_cast<std::size_t>(index) >= sources.size()) return std::nullopt;
+        return sources[static_cast<std::size_t>(index)];
+    }
+    void selection_changed() {
+        const auto choice = chosen_source();
+        const auto label = choice ? L"已选择：" + source_label(*choice)
+            : L"尚未选择游戏。点击“3秒选游戏”后，在3秒内点击原游戏窗口。";
+        SetWindowTextW(GetDlgItem(main,210), label.c_str());
+        EnableWindow(GetDlgItem(main, StartButton), !running && !picking && choice.has_value());
+        EnableWindow(GetDlgItem(main, InfoButton), !running && !picking && choice.has_value());
+    }
+    void refresh(std::optional<Source> preferred = std::nullopt) {
+        if (running || picking) return;
+        if (!preferred) preferred = chosen_source();
+        // Preserve HWND+PID, never an old list index, and never silently choose
+        // Explorer (or another unrelated window) just because it is first.
+        auto found = enumerate_sources();
+        if (preferred) {
+            if (auto current = inspect_source(preferred->hwnd); current && current->pid == preferred->pid) {
+                const bool included = std::any_of(found.begin(), found.end(), [&](auto const& s) {
+                    return s.hwnd == current->hwnd && s.pid == current->pid;
+                });
+                if (!included) found.push_back(*current);
+            }
+        }
+        sources = std::move(found);
+        SendMessageW(sourceBox, CB_RESETCONTENT, 0, 0);
+        LRESULT selectedRow = CB_ERR;
+        for (std::size_t i = 0; i < sources.size(); ++i) {
+            const auto label = source_label(sources[i]);
+            const auto row = SendMessageW(sourceBox, CB_ADDSTRING, 0, reinterpret_cast<LPARAM>(label.c_str()));
+            if (row == CB_ERR || row == CB_ERRSPACE) throw std::runtime_error("Unable to populate window list");
+            SendMessageW(sourceBox, CB_SETITEMDATA, WPARAM(row), LPARAM(i));
+            if (preferred && sources[i].hwnd == preferred->hwnd && sources[i].pid == preferred->pid) selectedRow = row;
+        }
+        SendMessageW(sourceBox, CB_SETCURSEL, WPARAM(selectedRow), 0);
+        selection_changed();
+        text(L"找到 " + std::to_wstring(sources.size()) + L" 个候选窗口（包括附属/工具样式窗口）。\n请选择实际游戏，或使用“3秒选游戏”；最小化的窗口请先手动恢复。");
+    }
+    void cancel_pick() noexcept {
+        picking = false; pickSeconds = -1;
+        if (IsWindow(main)) {
+            KillTimer(main, 2);
+            SetWindowTextW(GetDlgItem(main,PickButton), L"3秒选游戏");
+            EnableWindow(GetDlgItem(main,PickButton), !running);
+        }
+    }
+    void begin_pick() {
         if (running) return;
-        sources.clear(); SendMessageW(sourceBox, CB_RESETCONTENT, 0, 0);
-        EnumWindows([](HWND h, LPARAM l) -> BOOL {
-            auto& a = *reinterpret_cast<App*>(l);
-            DWORD pid{}; GetWindowThreadProcessId(h, &pid);
-            if (pid == GetCurrentProcessId() || !IsWindowVisible(h) || IsIconic(h) || GetWindow(h, GW_OWNER)) return TRUE;
-            if (GetWindowLongPtrW(h, GWL_EXSTYLE) & WS_EX_TOOLWINDOW) return TRUE;
-            DWORD cloaked{}; DwmGetWindowAttribute(h, DWMWA_CLOAKED, &cloaked, sizeof(cloaked));
-            if (cloaked) return TRUE;
-            int length = GetWindowTextLengthW(h); if (length < 1) return TRUE;
-            std::wstring title(std::size_t(length) + 1, L'\0');
-            title.resize(std::size_t(GetWindowTextW(h, title.data(), int(title.size()))));
-            RECT rect{}; GetClientRect(h, &rect); if (rect.right < 16 || rect.bottom < 16) return TRUE;
-            a.sources.push_back({h, pid, title});
-            std::wstring label = title + L"  [" + std::to_wstring(rect.right) + L"×" + std::to_wstring(rect.bottom) + L"]";
-            SendMessageW(a.sourceBox, CB_ADDSTRING, 0, reinterpret_cast<LPARAM>(label.c_str()));
-            return TRUE;
-        }, reinterpret_cast<LPARAM>(this));
-        if (!sources.empty()) SendMessageW(sourceBox, CB_SETCURSEL, 0, 0);
+        picking = true; pickSeconds = -1; pickDeadline = Clock::now() + std::chrono::seconds(3);
+        for (int id : {SourceBox,RefreshButton,PickButton,InfoButton,StartButton}) EnableWindow(GetDlgItem(main,id), FALSE);
+        EnableWindow(GetDlgItem(main,StopButton), TRUE);
+        if (!SetTimer(main,2,100,nullptr)) { cancel_pick(); winrt::throw_last_error(); }
+        text(L"请在3秒内点击原游戏窗口，让游戏处于前台。\n倒计时结束后仅选中窗口，不会自动开启增强。可按紧急停止取消。");
+    }
+    void pick_tick() {
+        if (!picking) return;
+        const auto left = std::chrono::duration_cast<std::chrono::milliseconds>(pickDeadline - Clock::now()).count();
+        if (left > 0) {
+            const int seconds = int((left + 999) / 1000);
+            if (seconds != pickSeconds) {
+                pickSeconds = seconds;
+                SetWindowTextW(GetDlgItem(main,PickButton), (L"剩余 " + std::to_wstring(seconds) + L" 秒…").c_str());
+            }
+            return;
+        }
+        const HWND target = source_root(GetForegroundWindow());
+        cancel_pick();
+        for (int id : {SourceBox,RefreshButton,PickButton}) EnableWindow(GetDlgItem(main,id), TRUE);
+        EnableWindow(GetDlgItem(main,StopButton), FALSE);
+        stage = L"选取前台窗口";
+        if (auto source = inspect_source(target)) {
+            refresh(*source);
+            text(L"已选中：" + source->title + L"\n回到本程序，确认窗口名称后点击“戴上眼镜 / 开启”。");
+        } else {
+            selection_changed();
+            text(L"未选中游戏：倒计时结束时前台不是可用的外部窗口。\n请再点“3秒选游戏”，随后点击游戏画面或标题栏；无需最小化游戏。");
+        }
+    }
+    void copy_info() {
+        if (running || picking) return;
+        auto choice = chosen_source(); if (!choice) { text(L"请先选择游戏窗口。"); return; }
+        stage = L"复制窗口信息";
+        const auto data = source_diagnostics(*choice);
+        const auto bytes = (data.size()+1) * sizeof(wchar_t);
+        auto memory = GlobalAlloc(GMEM_MOVEABLE, bytes);
+        if (!memory) winrt::throw_last_error();
+        void* pointer = GlobalLock(memory);
+        if (!pointer) { GlobalFree(memory); winrt::throw_last_error(); }
+        std::memcpy(pointer, data.c_str(), bytes); GlobalUnlock(memory);
+        if (!OpenClipboard(main)) { GlobalFree(memory); winrt::throw_last_error(); }
+        const bool ok = EmptyClipboard() && SetClipboardData(CF_UNICODETEXT,memory);
+        CloseClipboard();
+        if (!ok) { GlobalFree(memory); throw std::runtime_error("Unable to write clipboard"); }
+        text(L"已复制选中窗口的信息。需要排查时可粘贴到聊天。\n只包含窗口标题、PID、窗口类型等元数据，不包含游戏画面或文件内容。");
     }
     void start(Source target) {
-        stop(false);
+        stop(false); stage = L"检查源窗口"; selected = target;
         DWORD pid{}; GetWindowThreadProcessId(target.hwnd, &pid);
-        if (!IsWindow(target.hwnd) || pid != target.pid || pid == GetCurrentProcessId() || IsIconic(target.hwnd))
-            throw std::runtime_error("Source window is unavailable. Refresh the window list.");
+        if (!IsWindow(target.hwnd) || pid != target.pid)
+            throw std::runtime_error("选中窗口已关闭或已被替换。请刷新并重新选择游戏。");
+        if (pid == GetCurrentProcessId())
+            throw std::runtime_error("不能捕获增强器自身。请先点击原游戏窗口。");
+        if (IsIconic(target.hwnd))
+            throw std::runtime_error("选中窗口已最小化。请在任务栏手动恢复原游戏，再开启增强。");
+        if (!inspect_source(target.hwnd))
+            throw std::runtime_error("选中窗口当前不可见或不是可用的游戏窗口。请重新选取。");
         if (!capture::GraphicsCaptureSession::IsSupported())
-            throw std::runtime_error("Windows Graphics Capture is unavailable. Windows 11 is recommended.");
+            throw std::runtime_error("当前系统不支持 Windows Graphics Capture。建议使用 Windows 11。");
         fullscreen = SendMessageW(displayBox, CB_GETCURSEL, 0, 0) == 0;
-        if (fullscreen && !hotkeysOK) throw std::runtime_error("Emergency hotkey unavailable. Use preview mode.");
-        selected = target;
+        if (fullscreen && !hotkeysOK) throw std::runtime_error("紧急停止快捷键不可用，请使用独立预览模式。");
         algorithm = Algorithm(int(SendMessageW(algorithmBox, CB_GETCURSEL, 0, 0)));
         sharpness = float(SendMessageW(sharpSlider, TBM_GETPOS, 0, 0)) / 100.f;
         frameLimit = SendMessageW(fpsBox, CB_GETCURSEL, 0, 0) == 0 ? 30 : 60;
         auto client = client_screen(selected.hwnd); sourceClient = {client.w, client.h}; validate(sourceClient);
+        stage = L"创建图形设备 / 编译着色器";
         gpu = std::make_unique<Gpu>();
         ComPtr<IDXGIDevice> dxgi; winrt::check_hresult(gpu->device()->QueryInterface(IID_PPV_ARGS(&dxgi)));
         winrt::com_ptr<IInspectable> native;
         winrt::check_hresult(CreateDirect3D11DeviceFromDXGIDevice(dxgi.Get(), native.put()));
         winDevice = native.as<directx::Direct3D11::IDirect3DDevice>();
+        stage = L"创建窗口捕获";
         auto factory = winrt::get_activation_factory<capture::GraphicsCaptureItem, IGraphicsCaptureItemInterop>();
         winrt::check_hresult(factory->CreateForWindow(selected.hwnd, winrt::guid_of<capture::GraphicsCaptureItem>(), winrt::put_abi(item)));
         poolSize = item.Size(); validate({poolSize.Width, poolSize.Height});
@@ -202,6 +301,7 @@ public:
         closedToken = item.Closed([s](auto const&, auto const&) {
             if (auto h = s->window.load()) PostMessageW(h, ClosedMessage, WPARAM(s->generation), 0);
         });
+        stage = L"创建增强显示窗口";
         MONITORINFO monitor{sizeof(monitor)};
         if (!GetMonitorInfoW(MonitorFromWindow(selected.hwnd, MONITOR_DEFAULTTONEAREST), &monitor)) winrt::throw_last_error();
         RECT bounds = monitor.rcMonitor;
@@ -221,11 +321,12 @@ public:
             throw std::runtime_error("Cannot keep the game in the foreground. Activate it and use Ctrl+Alt+H.");
         frames = totalFrames = 0; inputFailed = false; mouseButtons = 0; dragTarget = nullptr;
         started = statsAt = nextFrame = Clock::now(); running = true;
+        stage = L"启动窗口捕获";
         // Output stays hidden until an actual frame has been captured and processed.
         session.StartCapture();
         EnableWindow(GetDlgItem(main, StartButton), FALSE); EnableWindow(GetDlgItem(main, StopButton), TRUE);
-        for (int id : {SourceBox, RefreshButton, AlgorithmBox, DisplayBox, SharpSlider, FpsBox}) EnableWindow(GetDlgItem(main, id), FALSE);
-        text(L"正在等待第一帧…\nGPU：" + gpu->adapter_name());
+        for (int id : {SourceBox, RefreshButton, AlgorithmBox, DisplayBox, SharpSlider, FpsBox, PickButton, InfoButton}) EnableWindow(GetDlgItem(main, id), FALSE);
+        text(L"正在等待第一帧：" + selected.title + L"\nGPU：" + gpu->adapter_name());
     }
     void release_mouse() noexcept {
         if (dragTarget && IsWindow(dragTarget)) {
@@ -238,7 +339,7 @@ public:
         if (GetCapture() == output) ReleaseCapture();
     }
     void stop(bool notify) noexcept {
-        running = false; ++generation;
+        running = false; ++generation; cancel_pick();
         if (signal) signal->window.store(nullptr);
         release_mouse();
         try { if (pool) pool.FrameArrived(frameToken); } catch (...) {}
@@ -249,13 +350,15 @@ public:
         gpu.reset();
         if (auto h = std::exchange(output, nullptr)) DestroyWindow(h);
         if (IsWindow(main)) {
-            EnableWindow(GetDlgItem(main, StartButton), TRUE); EnableWindow(GetDlgItem(main, StopButton), FALSE);
-            for (int id : {SourceBox, RefreshButton, AlgorithmBox, DisplayBox, SharpSlider, FpsBox}) EnableWindow(GetDlgItem(main, id), TRUE);
+            EnableWindow(GetDlgItem(main, StopButton), FALSE);
+            for (int id : {SourceBox, RefreshButton, AlgorithmBox, DisplayBox, SharpSlider, FpsBox, PickButton, InfoButton}) EnableWindow(GetDlgItem(main, id), TRUE);
+            try { selection_changed(); } catch (...) {}
             if (notify) text(L"已摘掉眼镜。捕获和显示资源已释放，原游戏继续独立运行。");
         }
     }
     void on_frame() {
         if (!running || !pool) return;
+        stage = L"实时捕获 / 增强 / 呈现";
         signal->pending.store(false);
         capture::Direct3D11CaptureFrame latest{nullptr};
         for (int i = 0; i < 4; ++i) {
@@ -367,42 +470,45 @@ public:
     LRESULT message(HWND h, UINT m, WPARAM w, LPARAM l) {
         if (m == WM_CREATE) { initialize(); return 0; }
         if (m == WM_COMMAND) {
+            if (LOWORD(w) == SourceBox && HIWORD(w) == CBN_SELCHANGE) { selection_changed(); return 0; }
             if (HIWORD(w) != BN_CLICKED) return DefWindowProcW(h,m,w,l);
             switch (LOWORD(w)) {
             case RefreshButton: refresh(); break;
+            case PickButton: begin_pick(); break;
+            case InfoButton: copy_info(); break;
             case StartButton: {
-                auto index = int(SendMessageW(sourceBox, CB_GETCURSEL, 0, 0));
-                if (index < 0 || index >= int(sources.size())) { text(L"请先打开游戏，然后刷新并选择窗口。"); break; }
-                start(sources[std::size_t(index)]); break;
+                auto choice = chosen_source();
+                if (!choice) { text(L"请先用“3秒选游戏”选取，或从下拉列表中手动选择实际游戏。"); break; }
+                start(*choice); break;
             }
             case StopButton: stop(true); break;
             case DemoButton: {
                 auto exe = executable_dir() / L"Game-HD2D-Enhancer.exe";
                 if (reinterpret_cast<INT_PTR>(ShellExecuteW(main,L"open",exe.c_str(),L"--demo",nullptr,SW_SHOWNORMAL)) <= 32)
                     throw std::runtime_error("Unable to start independent demo process");
-                text(L"测试画面已另行打开。切到测试画面按 Ctrl+Alt+H，或刷新后选择它。关闭增强不会关闭测试画面。"); break;
+                text(L"测试画面已另行打开。切到测试画面按 Ctrl+Alt+H，或用“3秒选游戏”选取。关闭增强不会关闭测试画面。"); break;
             }
             } return 0;
         }
         if (m == WM_HOTKEY) {
-            if (w == StopHotkey || running) { stop(true); return 0; }
-            HWND target = GetForegroundWindow(); DWORD pid{}; GetWindowThreadProcessId(target,&pid);
-            if (target && pid != GetCurrentProcessId()) start({target,pid,L"前台窗口"});
-            else text(L"请先切到游戏，再按 Ctrl+Alt+H。");
+            if (w == StopHotkey || running || picking) { stop(true); return 0; }
+            stage = L"选取前台窗口";
+            if (auto target = inspect_source(source_root(GetForegroundWindow()))) { refresh(*target); start(*target); }
+            else text(L"请先点击原游戏画面或标题栏，再按 Ctrl+Alt+H。也可用“3秒选游戏”。");
             return 0;
         }
         if (m == FrameMessage) { if (w == generation) on_frame(); return 0; }
         if (m == ClosedMessage) { if (w == generation) { stop(false); text(L"捕获对象已关闭，增强已停止。"); } return 0; }
-        if (m == WM_TIMER) { tick(); return 0; }
+        if (m == WM_TIMER) { if (w == 2) pick_tick(); else tick(); return 0; }
         if (m == WM_DPICHANGED) {
             auto r = reinterpret_cast<RECT*>(l); SetWindowPos(h,nullptr,r->left,r->top,r->right-r->left,r->bottom-r->top,SWP_NOZORDER|SWP_NOACTIVATE); layout(); return 0;
         }
         if (m == WM_CLOSE) { stop(false); DestroyWindow(main); return 0; }
-        if (m == WM_DESTROY) { KillTimer(h,1); UnregisterHotKey(h,ToggleHotkey); UnregisterHotKey(h,StopHotkey); PostQuitMessage(0); return 0; }
+        if (m == WM_DESTROY) { KillTimer(h,1); KillTimer(h,2); UnregisterHotKey(h,ToggleHotkey); UnregisterHotKey(h,StopHotkey); PostQuitMessage(0); return 0; }
         return DefWindowProcW(h,m,w,l);
     }
 };
-// Synthetic source is a separate process. It is not a captured game or a saved frame.
+// Synthetic sources are separate processes. Never captured user data.
 static LRESULT CALLBACK DemoProc(HWND h, UINT m, WPARAM w, LPARAM l) {
     static int frame{}, clicks{}, keys{};
     if (m == WM_CREATE) { SetTimer(h,1,33,nullptr); return 0; }
@@ -430,7 +536,8 @@ int WINAPI wWinMain(HINSTANCE instance,HINSTANCE,LPWSTR arguments,int show) {
     SetProcessDpiAwarenessContext(DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2);
     winrt::init_apartment(winrt::apartment_type::multi_threaded);
     try {
-        if (std::wstring(arguments).find(L"--self-test") != std::wstring::npos) {
+        const std::wstring args(arguments);
+        if (args.find(L"--self-test") != std::wstring::npos) {
             AttachConsole(ATTACH_PARENT_PROCESS); FILE* f{}; freopen_s(&f,"CONOUT$","w",stdout); freopen_s(&f,"CONOUT$","w",stderr);
             return run_self_tests();
         }
@@ -440,20 +547,29 @@ int WINAPI wWinMain(HINSTANCE instance,HINSTANCE,LPWSTR arguments,int show) {
         if (!RegisterClassExW(&wc)) winrt::throw_last_error();
         wc.lpfnWndProc=App::OutputProc; wc.lpszClassName=L"HD2DOutput"; wc.style=CS_DBLCLKS;
         if (!RegisterClassExW(&wc)) winrt::throw_last_error();
-        if (std::wstring(arguments).find(L"--demo") != std::wstring::npos) {
+        if (args.find(L"--demo") != std::wstring::npos) {
             wc.lpfnWndProc=DemoProc; wc.lpszClassName=L"HD2DDemo"; RegisterClassExW(&wc);
-            RECT r{0,0,320,240}; AdjustWindowRectEx(&r,WS_OVERLAPPEDWINDOW,FALSE,0);
-            HWND demo=CreateWindowExW(0,L"HD2DDemo",L"HD2D 测试画面（独立进程）",WS_OVERLAPPEDWINDOW,
-                CW_USEDEFAULT,CW_USEDEFAULT,r.right-r.left,r.bottom-r.top,nullptr,nullptr,instance,nullptr);
+            const bool owned = args.find(L"--demo-owned") != std::wstring::npos;
+            const bool tool = args.find(L"--demo-tool") != std::wstring::npos;
+            const bool untitled = args.find(L"--demo-untitled") != std::wstring::npos;
+            HWND owner = owned ? CreateWindowExW(0,L"STATIC",L"HD2D invisible owner",WS_POPUP,0,0,1,1,nullptr,nullptr,instance,nullptr) : nullptr;
+            if (owned && !owner) winrt::throw_last_error();
+            DWORD ex = tool ? WS_EX_TOOLWINDOW : 0;
+            RECT r{0,0,320,240}; AdjustWindowRectEx(&r,WS_OVERLAPPEDWINDOW,FALSE,ex);
+            const wchar_t* title = untitled ? L"" : owned ? L"HD2D Owned Fixture" : tool ? L"HD2D Tool Fixture" : L"HD2D 测试画面（独立进程）";
+            HWND demo=CreateWindowExW(ex,L"HD2DDemo",title,WS_OVERLAPPEDWINDOW,
+                CW_USEDEFAULT,CW_USEDEFAULT,r.right-r.left,r.bottom-r.top,owner,nullptr,instance,nullptr);
             if (!demo) winrt::throw_last_error(); ShowWindow(demo,SW_SHOW);
-            MSG msg{}; while(GetMessageW(&msg,nullptr,0,0)>0) { TranslateMessage(&msg); DispatchMessageW(&msg); } return 0;
+            MSG msg{}; while(GetMessageW(&msg,nullptr,0,0)>0) { TranslateMessage(&msg); DispatchMessageW(&msg); }
+            if (owner && IsWindow(owner)) DestroyWindow(owner);
+            return 0;
         }
         App app;
         const int dpi = int(GetDpiForSystem());
-        RECT r{0,0,MulDiv(650,dpi,96),MulDiv(470,dpi,96)};
+        RECT r{0,0,MulDiv(650,dpi,96),MulDiv(558,dpi,96)};
         DWORD style=WS_OVERLAPPED | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX;
         AdjustWindowRectExForDpi(&r,style,FALSE,0,UINT(dpi));
-        auto h=CreateWindowExW(0,L"HD2DMain",L"Game-HD2D-Enhancer · 实时高清眼镜",style,
+        auto h=CreateWindowExW(0,L"HD2DMain",L"Game-HD2D-Enhancer 0.1.1 · 实时高清眼镜",style,
             CW_USEDEFAULT,CW_USEDEFAULT,r.right-r.left,r.bottom-r.top,nullptr,nullptr,instance,&app);
         if(!h) winrt::throw_last_error(); ShowWindow(h,show);
         MSG msg{}; BOOL result{};
