@@ -2,8 +2,10 @@
 #include <windows.h>
 #include <dwmapi.h>
 #include <algorithm>
+#include <cstdint>
 #include <optional>
 #include <sstream>
+#include <stdexcept>
 #include <string>
 #include <vector>
 
@@ -48,14 +50,16 @@ inline std::optional<Source> inspect_source(HWND window) {
 }
 inline std::vector<Source> enumerate_sources() {
     struct Context { std::vector<Source> windows; bool failed{}; } context;
-    EnumWindows([](HWND window, LPARAM arg) -> BOOL {
+    SetLastError(ERROR_SUCCESS);
+    const BOOL completed = EnumWindows([](HWND window, LPARAM arg) -> BOOL {
         auto& c = *reinterpret_cast<Context*>(arg);
         try {
             if (auto source = inspect_source(window)) c.windows.push_back(*source);
-        } catch (...) { c.failed = true; return FALSE; }
+        } catch (...) { c.failed = true; SetLastError(ERROR_NOT_ENOUGH_MEMORY); return FALSE; }
         return TRUE;
     }, reinterpret_cast<LPARAM>(&context));
-    if (context.failed) throw std::runtime_error("Window enumeration ran out of resources");
+    if (context.failed) throw std::runtime_error("枚举窗口时资源不足，请关闭不需要的程序后重试。");
+    if (!completed) throw std::runtime_error("系统未能完成窗口枚举。请尝试“3秒选游戏”，并保留错误信息。");
     return context.windows;
 }
 inline std::wstring source_label(const Source& source) {
