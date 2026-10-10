@@ -1,0 +1,120 @@
+name: Build HD2D Windows alpha
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build-hd2d-windows.yml'
+      - 'Game-HD2D-Enhancer/app/**'
+      - 'Game-HD2D-Enhancer/CMakeLists.txt'
+      - 'Game-HD2D-Enhancer/docs/RUN_V0_1.txt'
+permissions:
+  contents: write
+concurrency:
+  group: hd2d-build-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  windows:
+    runs-on: windows-2022
+    timeout-minutes: 25
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - name: Check out only the application and pinned NIS component
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /Game-HD2D-Enhancer/app/
+            /Game-HD2D-Enhancer/CMakeLists.txt
+            /Game-HD2D-Enhancer/docs/RUN_V0_1.txt
+            /Game-HD2D-Enhancer/third_party/NVIDIAGameWorks__NVIDIAImageScaling/35e13ba316c98eeecf16f37eae70ce88019911f6/NIS/
+            /Game-HD2D-Enhancer/third_party/NVIDIAGameWorks__NVIDIAImageScaling/35e13ba316c98eeecf16f37eae70ce88019911f6/README.md
+            /Game-HD2D-Enhancer/provenance/NVIDIAGameWorks__NVIDIAImageScaling/
+      - name: Verify the exact upstream bytes before compiling
+        run: |
+          @'
+          import hashlib, json
+          from pathlib import Path
+          root = Path('Game-HD2D-Enhancer')
+          base = root/'third_party/NVIDIAGameWorks__NVIDIAImageScaling/35e13ba316c98eeecf16f37eae70ce88019911f6'
+          index = {x['path']: x for x in json.loads((root/'provenance/NVIDIAGameWorks__NVIDIAImageScaling/FILES.json').read_text(encoding='utf-8'))}
+          for name in ['NIS/NIS_Config.h', 'NIS/NIS_Main.hlsl', 'NIS/NIS_Scaler.h', 'README.md']:
+              actual = hashlib.sha256((base/name).read_bytes()).hexdigest()
+              assert actual == index[name]['sha256'], 'Upstream checksum mismatch: ' + name
+              print('Verified:', name, actual)
+          '@ | python -
+          if ($LASTEXITCODE -ne 0) { throw 'Source verification failed' }
+      - name: Configure native C++20 x64 application
+        run: |
+          cmake -S Game-HD2D-Enhancer -B build -G 'Visual Studio 17 2022' -A x64
+          if ($LASTEXITCODE -ne 0) { throw 'CMake configure failed' }
+      - name: Build application and test executable
+        run: |
+          cmake --build build --config Release --parallel 2 2>&1 | Tee-Object -FilePath build-output.txt
+          if ($LASTEXITCODE -ne 0) { throw 'MSVC build failed' }
+      - name: Test geometry, crop, BGRA conversion and the actual NIS shader on D3D11 WARP
+        run: |
+          ctest --test-dir build -C Release -V --output-on-failure 2>&1 | Tee-Object -FilePath test-output.txt
+          if ($LASTEXITCODE -ne 0) { throw 'Self-tests failed; no runnable release will be published' }
+      - name: Assemble portable package with licenses and honest test scope
+        env:
+          BUILD_SHA: ${{ github.sha }}
+          BUILD_RUN: ${{ github.run_number }}
+        run: |
+          $folder = 'dist/Game-HD2D-Enhancer-0.1.0-alpha-win64'
+          New-Item -ItemType Directory -Force $folder | Out-Null
+          Copy-Item build/Release/Game-HD2D-Enhancer.exe $folder
+          Copy-Item build/Release/HD2D-Tests.exe $folder
+          Copy-Item build/Release/shaders $folder -Recurse
+          Copy-Item build/Release/licenses $folder -Recurse
+          Copy-Item 'Game-HD2D-Enhancer/docs/RUN_V0_1.txt' "$folder/使用说明.txt"
+          Copy-Item test-output.txt "$folder/自检结果.txt"
+          @"
+          Game-HD2D-Enhancer 0.1.0 alpha, Windows x64
+          Source commit: $env:BUILD_SHA
+          Build number: $env:BUILD_RUN
+          Build system: ordinary CMake/MSVC/GitHub Actions; no Codex, Work, or AI-agent invocation.
+          Tests: geometry and actual D3D11 WARP nearest/bilinear/NIS shader correctness.
+          Not tested: live WGC on the user's desktop, TSOnline, ROG Xbox Ally X, game input, performance, latency, battery.
+          Unsigned pre-release. Keep shaders and licenses alongside the executable.
+          "@ | Set-Content "$folder/BUILD_INFO.txt" -Encoding utf8
+          $hashes = Get-ChildItem $folder -Recurse -File | ForEach-Object {
+            $hash = (Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLower()
+            $relative = [IO.Path]::GetRelativePath((Resolve-Path $folder).Path, $_.FullName)
+            "$hash  $relative"
+          }
+          $hashes | Set-Content "$folder/SHA256SUMS.txt" -Encoding utf8
+          Compress-Archive -Path $folder -DestinationPath dist/Game-HD2D-Enhancer-0.1.0-alpha-win64.zip
+          (Get-FileHash dist/Game-HD2D-Enhancer-0.1.0-alpha-win64.zip -Algorithm SHA256).Hash.ToLower() | Set-Content dist/ZIP_SHA256.txt
+      - name: Preserve build diagnostics and portable artifact
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: hd2d-windows-alpha-${{ github.run_number }}
+          path: |
+            dist/*.zip
+            dist/ZIP_SHA256.txt
+            build-output.txt
+            test-output.txt
+          if-no-files-found: warn
+          retention-days: 30
+      - name: Publish the tested build as an explicitly experimental prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          BUILD_SHA: ${{ github.sha }}
+          BUILD_RUN: ${{ github.run_number }}
+        run: |
+          $notes = @"
+          Native Windows x64 alpha developed in chat; ordinary MSVC build, no Codex/Work call.
+          Includes WGC capture, NIS, nearest/integer and bilinear modes, fullscreen experimental mouse-message mapping, independent preview and an independent demo window.
+          CPU geometry and actual D3D11 WARP shader tests passed. This does not claim live-game, WGC, handheld, latency or battery validation.
+          Read the Chinese usage guide before fullscreen testing. Ctrl+Alt+H toggles; Ctrl+Alt+End stops. The game remains a separate process.
+          Commit: $env:BUILD_SHA
+          "@
+          $notes | Set-Content dist/RELEASE_NOTES.txt -Encoding utf8
+          gh release create "hd2d-v0.1.0-alpha-$env:BUILD_RUN" dist/Game-HD2D-Enhancer-0.1.0-alpha-win64.zip dist/ZIP_SHA256.txt --target "$env:BUILD_SHA" --prerelease --title "Game-HD2D-Enhancer 0.1.0 alpha · build $env:BUILD_RUN" --notes-file dist/RELEASE_NOTES.txt
+          if ($LASTEXITCODE -ne 0) { throw 'Prerelease publish failed; the artifact is still available from this build' }
