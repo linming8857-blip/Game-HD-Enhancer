@@ -119,7 +119,7 @@ void Gpu::initialize_nis() {
         check_hresult(device_->CreateTexture2D(&td, &initial, &texture));
         check_hresult(device_->CreateShaderResourceView(texture.Get(), nullptr, &view));
     };
-    coefficients(coef_scale, coefficients_); coefficients(coef_USM, usm_);
+    coefficients(coef_scale, coefficients_); coefficients(coef_usm, usm_);
 }
 const Surface& Gpu::enhance(ID3D11Texture2D* captured, Rect crop, Size output, Algorithm mode, float sharpness) {
     validate(output);
@@ -207,9 +207,9 @@ std::vector<std::uint32_t> Gpu::readback_for_test(const Surface& surface) {
     ComPtr<ID3D11Texture2D> staging;
     check_hresult(device_->CreateTexture2D(&desc, nullptr, &staging));
     context_->CopyResource(staging.Get(), surface.texture.Get());
+    std::vector<std::uint32_t> result(std::size_t(surface.size.w) * surface.size.h);
     D3D11_MAPPED_SUBRESOURCE mapped{};
     check_hresult(context_->Map(staging.Get(), 0, D3D11_MAP_READ, 0, &mapped));
-    std::vector<std::uint32_t> result(std::size_t(surface.size.w) * surface.size.h);
     for (int y = 0; y < surface.size.h; ++y)
         std::memcpy(result.data() + std::size_t(y) * surface.size.w,
             static_cast<const char*>(mapped.pData) + std::size_t(y) * mapped.RowPitch, std::size_t(surface.size.w) * 4);
