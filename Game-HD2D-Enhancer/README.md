@@ -4,78 +4,73 @@
 
 本项目位于 `linming8857-blip/Game-HD-Enhancer` 仓库内；原来的设计资料和第三方源码档案继续保留。
 
-## 当前状态：已生成首个 Windows x64 测试版
+## 当前测试版：0.1.1 alpha · 窗口识别修正版
 
-**0.1.0 alpha · build 3 已编译成功，并通过 CPU 几何与真实 NIS 着色器的 Direct3D11 WARP 软件渲染自检。它是可供实机验证的早期测试版，不是已经完成全部兼容性验收的正式版。**
+**0.1.1 alpha · build 9 已编译成功，通过原有图像/几何自检和新增的窗口选择/捕获回归。它仍是待用户真实游戏与掌机验收的测试版。**
 
-- [下载测试版 ZIP](https://github.com/linming8857-blip/Game-HD-Enhancer/releases/download/hd2d-v0.1.0-alpha-3/Game-HD2D-Enhancer-0.1.0-alpha-win64.zip)
-- [发布页面与 SHA256](https://github.com/linming8857-blip/Game-HD-Enhancer/releases/tag/hd2d-v0.1.0-alpha-3)
-- [成功的 Windows 构建与测试日志](https://github.com/linming8857-blip/Game-HD-Enhancer/actions/runs/38012719328)
-- [中文使用说明](docs/RUN_V0_1.txt)
+- [下载便携测试包](https://github.com/linming8857-blip/Game-HD-Enhancer/releases/download/hd2d-v0.1.1-alpha-9/Game-HD2D-Enhancer-0.1.1-alpha-win64.zip)
+- [发布页面](https://github.com/linming8857-blip/Game-HD-Enhancer/releases/tag/hd2d-v0.1.1-alpha-9)
+- [成功的构建和回归任务](https://github.com/linming8857-blip/Game-HD-Enhancer/actions/runs/38015378224)
+- [本次优化、验证范围和哈希](docs/WINDOW_SELECTION_V0_1_1_REPORT.md)
+- [新版中文使用说明](docs/RUN_V0_1_1.txt)
+- [保留的0.1.0交付记录](docs/BUILD_V0_1_REPORT.md)
 
-构建源码提交：`c74b6c855fab0a8d8d6e109ff2172f1ff23305f2`。
-ZIP：303,779 字节。SHA256：`ecd397765384911428ec4adc464dd0a8ad1f8056e6c938b015108fae5c8ebf5e`。
+构建提交：`ce903fde0ed48703d9817a41aaea497fb85cbd7c`。
+ZIP：313,512字节。SHA256：`61cb7a3b6196cf3dd3af5c292760da2184bb8980fefa3c9311836584f2ccf254`。
 
-编写、修改和编译诊断在聊天中完成，GitHub Actions 仅执行普通 CMake/MSVC/CTest/打包命令；没有调用 Codex、Work、Codex Action、Codex CLI 或其他 AI 编程服务。
+## 0.1.1重点优化
 
-**不要把编译、自检通过等同于你的游戏和掌机已测试通过。** 《吞食天地 Online》、mGBA、其他游戏、ROG Xbox Ally X、全屏实际输入、帧同步、延迟、功耗和续航仍待实机验收。
+- 放宽旧版过严的窗口筛选：可见附属窗口、工具样式窗口和无标题窗口可以被选择。
+- 新增“3秒选游戏”：点击按钮后，在3秒内点击原游戏窗口；结束只选中，不自动增强。
+- 刷新按窗口句柄和PID保留选择；不默认选择第一项资源管理器。
+- 新增“已选择”信息和用户主动触发的“复制窗口信息”。
+- 最小化窗口明确标记，要求用户手动恢复，不自动操作游戏。
+- 默认独立预览；源窗口失效与GPU/捕获失败分阶段提示。
 
-## 本版实际接入的功能
+**用户截图只证明列表缺少游戏；不能仅凭截图断定其实际Owner或样式。此次修复过严筛选并增加前台选取，实际《吞食天地》兼容性仍需用户反馈。**
 
-- 直接列出正在运行的窗口，不要求提前登记 EXE、不要求建立游戏库。
-- `Ctrl+Alt+H` 选择前台窗口并开启增强，再按停止；`Ctrl+Alt+End` 紧急停止。
-- Windows Graphics Capture 捕获指定窗口；裁切客户区；D3D11 纹理处理与独立窗口显示。
-- 真正接入 NVIDIA NIS v1.0.3，默认锐化 20%；不串联第二个锐化器。
-- 原味整数/最近邻缩放；双线性兼容模式；保持比例与黑边。
-- 全屏增强与独立预览两种显示方式；30/60 FPS 呈现上限，不做插帧。
-- 独立测试画面进程：色块、移动方块、鼠标/按键计数，用于本地验证。
-- 停止时释放自己的捕获/显示资源；源窗口最小化或关闭时停止；全屏下切换前台应用会停止增强。
+## 第一次使用
 
-**全屏鼠标映射是实验功能。** 它通过普通 Win32 鼠标消息转发，不保证兼容 Raw Input、DirectInput、GetCursorPos、特殊光标、复杂拖拽、鼠标侧键、触控手势或反作弊游戏。键盘/手柄仍由前台游戏接收；实际手柄和触摸尚待验证。鼠标不正确时用 `Ctrl+Alt+End` 停止，再选独立预览并操作原游戏。
+关闭旧增强器，保持游戏窗口正常运行。将新ZIP完整解压到独立目录，运行`Game-HD2D-Enhancer.exe`，保留`shaders`和`licenses`；不要把文件覆盖到游戏目录。
 
-目标输出小于源图时，NIS 模式明确回退到双线性缩小；整数模式可能使用非整数最近邻缩小，并在状态栏提示。源图很小、放大超过 2 倍时，先用最近邻整数预放大，再执行 NIS。
+推荐流程：**3秒选游戏 → 在3秒内点击游戏 → 回到增强器确认名称 → 戴上眼镜 / 开启**。默认预览模式，继续操作原游戏窗口。
 
-**未接入本版：** FSR1、SMAA、CRT/LCD 滤镜、Anime4K/CuNNy、AI 生成、HDR、注入、深度效果、插帧、BFI。虽然有参考源码，但没有以占位菜单冒充已实现功能。**DLSS5 不纳入。**
+`Ctrl+Alt+H`直接增强当前前台游戏或停止；`Ctrl+Alt+End`紧急停止/取消选取。也可先用“打开测试画面”验证。
 
-## 第一次运行
+遇到问题保留完整错误，按需点“复制窗口信息”粘贴到聊天。复制只含所选窗口元数据，不含游戏帧、进程内存或磁盘文档；发送前可检查窗口标题是否包含个人信息。未签名测试版请核对来源与哈希，不关闭安全保护。
 
-完整解压 ZIP，双击 `Game-HD2D-Enhancer.exe`，不要只移动 EXE，保留 `shaders` 和 `licenses`。
+## 已接入能力与边界
 
-先点击“打开测试画面”，切到测试画面，按 `Ctrl+Alt+H`；检查显示、点击、按键，再按 `Ctrl+Alt+End` 停止。确认后再测试窗口化的真实游戏。
+Windows Graphics Capture指定窗口捕获、客户区裁切、D3D11纹理处理与独立显示；NIS v1.0.3（默认锐化20%）、整数/最近邻、双线性；保持比例和黑边；30/60 FPS呈现上限，不插帧。
 
-运行优先 Windows 11 x64、支持 Direct3D11 feature level 11_0 的 GPU；最低目标 Windows 10 2004。本版仅 SDR。运行不需要 Python、Visual Studio、Codex、Work 或网络。未签名测试版可能显示未知发布者；核对来源与哈希，不关闭安全保护。
+全屏与独立预览均保留。**全屏鼠标映射仍是实验功能**，普通Win32消息转发不保证兼容Raw Input、DirectInput、GetCursorPos、特殊光标、触控手势等。全屏操作异常时紧急停止，改用预览并操作原游戏。手柄、真实游戏、掌机帧率、帧同步、延迟、功耗和续航仍需单独验收。
+
+目标输出小于源图时，NIS回退到双线性缩小；整数模式可能使用非整数最近邻缩小，状态栏会提示。超过2倍的NIS放大使用最近邻整数预放大后再执行NIS。
+
+FSR1、SMAA、CRT/LCD、Anime4K/CuNNy、HDR、注入、深度效果、插帧和BFI未接入。**DLSS5不纳入。** 不以占位菜单假装实现。
+
+运行优先Windows 11 x64与Direct3D11 feature level 11_0 GPU；最低运行目标Windows 10 2004，SDR。运行不需要Python、Visual Studio或网络。
 
 ## 不改变游戏本体
 
-不修改游戏 EXE/DLL/资源/存档、不注入游戏、不结束游戏进程。游戏不依赖本程序启动。
+不修改游戏EXE/DLL/资源/存档，不注入游戏，不结束游戏进程，也不要求通过增强器启动游戏。
 
-捕获帧只在有界 RAM/VRAM 缓冲区实时处理，不录屏、不自动截图、不保存渲染帧/视频缓存、不上传画面。运行时画面路径不读回 CPU；软件渲染自检使用自行生成的测试像素作读回校验，不使用玩家画面。
+捕获帧只在有界RAM/VRAM中实时处理，不录屏、不自动截图、不保存渲染帧/视频缓存、不上传画面。渲染路径不读回CPU；WARP自检用自行生成的测试像素读回验证，不使用玩家画面。系统或驱动缓存行为不等于应用主动录屏。
 
-源游戏自身的失焦暂停或特殊输入行为仍要逐游戏验证，不作“所有应用绝无影响”的承诺。
+源游戏自身失焦暂停或特殊输入行为仍需实测，不承诺所有应用绝无影响。
 
-## 源码与构建
+## 源码和构建
 
-```text
-Game-HD2D-Enhancer/
-  app/                          我们自己的原生 Windows 程序与自检
-  CMakeLists.txt                MSVC/CMake 构建入口
-  docs/RUN_V0_1.txt              测试版说明
-  docs/IMPLEMENTATION_PLAN.md    长期实施方案（其中待办以本页实际状态为准）
-  docs/LICENSE_POLICY.md        第三方许可规则
-  third_party/                  候选组件真实源码
-  references/                   独立保存的研究项目源码
-  provenance/                   来源、固定提交、文件 SHA256 与排除项
-  sources.json / sources.lock.json
-  SOURCE_COLLECTION_STATUS.md   上游资料收集结果，不是产品完成度
-  tools/                        收集器和独立诊断脚本
-```
+`app/`保存本项目原生程序，`CMakeLists.txt`是MSVC构建入口；`third_party/`、`references/`、`provenance/`继续保存18个上游项目的源码、版本、许可和校验记录。
 
-开发构建：`cmake -S Game-HD2D-Enhancer -B build -A x64`，然后 `cmake --build build --config Release`，再 `ctest --test-dir build -C Release -V`。
+开发命令：`cmake -S Game-HD2D-Enhancer -B build -A x64`，`cmake --build build --config Release`，`ctest --test-dir build -C Release -V`。
 
-发布包不会带上约 1.56GB 的参考资料库；本版只依赖自己编写的程序与固定版本 NIS。NIS 原始 MIT 许可在发布包 `licenses/NVIDIAImageScaling.txt` 和 shader 源码里保留。
+新增Windows回归脚本：`tools/test_window_selection.ps1`。它只操作自行启动的模拟窗口进程，不接触用户游戏。构建/修改在聊天内完成，使用普通MSVC/CMake/GitHub Actions，不调用Codex、Work、Codex CLI或AI编程代理。
 
-18 个上游项目的资料收集情况见 [SOURCE_COLLECTION_STATUS.md](SOURCE_COLLECTION_STATUS.md)。排除的二进制、模型、演示资源、符号链接信息在对应 `provenance/` 中；源码收集不等于所有 SDK/运行依赖齐备。
+发布包不带约1.56GB的参考资料库，只带当前用到的程序与NIS。NIS原始许可保留在`licenses/NVIDIAImageScaling.txt`和shader头部。
+
+[源码收集报告](SOURCE_COLLECTION_STATUS.md)描述的是资料收集范围，不等于产品全部功能完成，也不等于所有SDK或二进制依赖齐备。
 
 ## 许可证
 
-第三方文件维持各自原始许可，不将整个第三方库重新授权为 MIT。GPL 不是禁止使用，但实际集成、修改、分发需遵守对应条件；分目录不能规避许可证义务。混合 shader 库必须逐文件核对。详见 [LICENSE_POLICY.md](docs/LICENSE_POLICY.md)。
+第三方文件保持原始许可，不将整个第三方资料库重授MIT。GPL项目及混合shader的实际集成、修改和分发条件需分别检查，详见[LICENSE_POLICY.md](docs/LICENSE_POLICY.md)。
