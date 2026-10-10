@@ -7,7 +7,8 @@ on:
       - '.github/workflows/build-hd2d-windows.yml'
       - 'Game-HD2D-Enhancer/app/**'
       - 'Game-HD2D-Enhancer/CMakeLists.txt'
-      - 'Game-HD2D-Enhancer/docs/RUN_V0_1.txt'
+      - 'Game-HD2D-Enhancer/docs/RUN_V0_1_1.txt'
+      - 'Game-HD2D-Enhancer/tools/test_window_selection.ps1'
 permissions:
   contents: write
 concurrency:
@@ -16,12 +17,12 @@ concurrency:
 jobs:
   windows:
     runs-on: windows-2022
-    timeout-minutes: 25
+    timeout-minutes: 20
     defaults:
       run:
         shell: pwsh
     steps:
-      - name: Check out only the application and pinned NIS component
+      - name: Check out only the application, tests and pinned NIS component
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           fetch-depth: 1
@@ -29,7 +30,8 @@ jobs:
           sparse-checkout: |
             /Game-HD2D-Enhancer/app/
             /Game-HD2D-Enhancer/CMakeLists.txt
-            /Game-HD2D-Enhancer/docs/RUN_V0_1.txt
+            /Game-HD2D-Enhancer/docs/RUN_V0_1_1.txt
+            /Game-HD2D-Enhancer/tools/test_window_selection.ps1
             /Game-HD2D-Enhancer/third_party/NVIDIAGameWorks__NVIDIAImageScaling/35e13ba316c98eeecf16f37eae70ce88019911f6/NIS/
             /Game-HD2D-Enhancer/third_party/NVIDIAGameWorks__NVIDIAImageScaling/35e13ba316c98eeecf16f37eae70ce88019911f6/README.md
             /Game-HD2D-Enhancer/provenance/NVIDIAGameWorks__NVIDIAImageScaling/
@@ -59,30 +61,36 @@ jobs:
         run: |
           cmake --build build --config Release --parallel 2 2>&1 | Tee-Object -FilePath build-output.txt
           if ($LASTEXITCODE -ne 0) { throw 'MSVC build failed' }
-      - name: Test geometry, crop, BGRA conversion and the actual NIS shader on D3D11 WARP
+      - name: Test geometry and actual NIS shader correctness
         run: |
           ctest --test-dir build -C Release -V --output-on-failure 2>&1 | Tee-Object -FilePath test-output.txt
           if ($LASTEXITCODE -ne 0) { throw 'Self-tests failed; no runnable release will be published' }
-      - name: Assemble portable package with licenses and honest test scope
+      - name: Exercise real owned, tool-style and untitled windows with the new selection UI
+        timeout-minutes: 5
+        run: |
+          ./Game-HD2D-Enhancer/tools/test_window_selection.ps1 -Executable './build/Release/Game-HD2D-Enhancer.exe'
+      - name: Assemble portable package with licenses and exact test scope
         env:
           BUILD_SHA: ${{ github.sha }}
           BUILD_RUN: ${{ github.run_number }}
         run: |
-          $folder = 'dist/Game-HD2D-Enhancer-0.1.0-alpha-win64'
+          $folder = 'dist/Game-HD2D-Enhancer-0.1.1-alpha-win64'
           New-Item -ItemType Directory -Force $folder | Out-Null
           Copy-Item build/Release/Game-HD2D-Enhancer.exe $folder
           Copy-Item build/Release/HD2D-Tests.exe $folder
           Copy-Item build/Release/shaders $folder -Recurse
           Copy-Item build/Release/licenses $folder -Recurse
-          Copy-Item 'Game-HD2D-Enhancer/docs/RUN_V0_1.txt' "$folder/使用说明.txt"
+          Copy-Item 'Game-HD2D-Enhancer/docs/RUN_V0_1_1.txt' "$folder/使用说明.txt"
           Copy-Item test-output.txt "$folder/自检结果.txt"
+          Copy-Item window-selection-test.txt "$folder/窗口选择回归测试.txt"
           @"
-          Game-HD2D-Enhancer 0.1.0 alpha, Windows x64
+          Game-HD2D-Enhancer 0.1.1 alpha, Windows x64
           Source commit: $env:BUILD_SHA
           Build number: $env:BUILD_RUN
-          Build system: ordinary CMake/MSVC/GitHub Actions; no Codex, Work, or AI-agent invocation.
-          Tests: geometry and actual D3D11 WARP nearest/bilinear/NIS shader correctness.
-          Not tested: live WGC on the user's desktop, TSOnline, ROG Xbox Ally X, game input, performance, latency, battery.
+          Build system: ordinary CMake/MSVC/GitHub Actions; no Codex/Work/AI agent.
+          Tests: geometry and actual D3D11 WARP shader correctness; synthetic hosted-window selection and capture/stop.
+          See window-selection-test.txt for exact PASS and NOT VALIDATED entries.
+          Not tested: user's TSOnline, ROG Xbox Ally X, full-screen game input, performance, latency, battery.
           Unsigned pre-release. Keep shaders and licenses alongside the executable.
           "@ | Set-Content "$folder/BUILD_INFO.txt" -Encoding utf8
           $hashes = Get-ChildItem $folder -Recurse -File | ForEach-Object {
@@ -91,21 +99,22 @@ jobs:
             "$hash  $relative"
           }
           $hashes | Set-Content "$folder/SHA256SUMS.txt" -Encoding utf8
-          Compress-Archive -Path $folder -DestinationPath dist/Game-HD2D-Enhancer-0.1.0-alpha-win64.zip
-          (Get-FileHash dist/Game-HD2D-Enhancer-0.1.0-alpha-win64.zip -Algorithm SHA256).Hash.ToLower() | Set-Content dist/ZIP_SHA256.txt
+          Compress-Archive -Path $folder -DestinationPath dist/Game-HD2D-Enhancer-0.1.1-alpha-win64.zip
+          (Get-FileHash dist/Game-HD2D-Enhancer-0.1.1-alpha-win64.zip -Algorithm SHA256).Hash.ToLower() | Set-Content dist/ZIP_SHA256.txt
       - name: Preserve build diagnostics and portable artifact
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: hd2d-windows-alpha-${{ github.run_number }}
+          name: hd2d-windows-0.1.1-alpha-${{ github.run_number }}
           path: |
             dist/*.zip
             dist/ZIP_SHA256.txt
             build-output.txt
             test-output.txt
+            window-selection-test.txt
           if-no-files-found: warn
           retention-days: 30
-      - name: Publish the tested build as an explicitly experimental prerelease
+      - name: Publish the tested fix as an experimental prerelease
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
@@ -113,12 +122,14 @@ jobs:
           BUILD_RUN: ${{ github.run_number }}
         run: |
           $notes = @"
-          Native Windows x64 alpha developed in chat; ordinary MSVC build, no Codex/Work call.
-          Includes WGC capture, NIS, nearest/integer and bilinear modes, fullscreen experimental mouse-message mapping, independent preview and an independent demo window.
-          CPU geometry and actual D3D11 WARP shader tests passed. This does not claim live-game, WGC, handheld, latency or battery validation.
-          Read the Chinese usage guide before fullscreen testing. Ctrl+Alt+H toggles; Ctrl+Alt+End stops. The game remains a separate process.
-          Commit: $env:BUILD_SHA
+          0.1.1 alpha: fixes over-restrictive source-window filtering; includes visible owned/tool/untitled windows.
+          Adds timed foreground selection and selected-window metadata copy. Refresh preserves HWND/PID; no automatic Explorer selection.
+          Preview is now the default. Errors identify selection/capture/render stages.
+          Geometry and WARP/NIS tests passed; synthetic-window regression output is included in the ZIP.
+          Real TSOnline, handheld performance and fullscreen input still require device testing.
+          No game-file changes, no injection, no video/frame saving, no DLSS5.
+          Source commit: $env:BUILD_SHA
           "@
           $notes | Set-Content dist/RELEASE_NOTES.txt -Encoding utf8
-          gh release create "hd2d-v0.1.0-alpha-$env:BUILD_RUN" dist/Game-HD2D-Enhancer-0.1.0-alpha-win64.zip dist/ZIP_SHA256.txt --target "$env:BUILD_SHA" --prerelease --title "Game-HD2D-Enhancer 0.1.0 alpha · build $env:BUILD_RUN" --notes-file dist/RELEASE_NOTES.txt
-          if ($LASTEXITCODE -ne 0) { throw 'Prerelease publish failed; the artifact is still available from this build' }
+          gh release create "hd2d-v0.1.1-alpha-$env:BUILD_RUN" dist/Game-HD2D-Enhancer-0.1.1-alpha-win64.zip dist/ZIP_SHA256.txt --target "$env:BUILD_SHA" --prerelease --title "Game-HD2D-Enhancer 0.1.1 alpha · window selection fix · build $env:BUILD_RUN" --notes-file dist/RELEASE_NOTES.txt
+          if ($LASTEXITCODE -ne 0) { throw 'Prerelease publish failed; artifact remains available from this build' }
