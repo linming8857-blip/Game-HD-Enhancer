@@ -1,0 +1,35 @@
+Package tested: Game-HD2D-Enhancer 0.1.0 alpha · build 3
+Application source commit: c74b6c855fab0a8d8d6e109ff2172f1ff23305f2
+Package SHA256: ecd397765384911428ec4adc464dd0a8ad1f8056e6c938b015108fae5c8ebf5e
+Test harness commit: bc5b55f493f358c4ee0efe6ddfbf0da877b2ded4
+GitHub Actions run: https://github.com/linming8857-blip/Game-HD-Enhancer/actions/runs/38013303755
+Artifact ID: 11655281713
+
+Actual ui-smoke-result.txt output
+--------------------------------
+Environment UserInteractive: True
+PASS: independent demo process and native window started.
+PASS: enhancer main window started.
+Initial status: 就绪。先打开游戏，再选择窗口。首次建议用测试画面检查显示和点击。
+PASS: all ten required UI controls exist.
+PASS: selected synthetic source in preview mode through actual UI controls.
+PASS: live WGC -> GPU enhancement -> preview presentation reached running state.
+Capture status: 增强中：320×240 → 908×681，呈现 2 FPS（不是游戏帧率/延迟测量）
+预览模式：请继续操作原游戏窗口。
+PASS: stop removes output window; independent source remains alive.
+PASS: enhancer exits cleanly and the source process remains alive.
+Scope: hosted Windows synthetic demo only. Fullscreen input, real games, handheld, performance and battery are NOT validated.
+
+Interpretation
+--------------
+This is an integration smoke test against our own native synthetic demo on a hosted Windows desktop.
+It checks the actual distributed EXE, selects the demo via the real controls, starts preview capture,
+observes the application's presented-frame running status, stops it, and verifies that the source
+process is alive after both capture stop and enhancer process exit.
+It is not a screenshot comparison, not a full visual-quality review, and not a real game input test.
+The hosted runner's observed 2 FPS is recorded verbatim and is NOT a target-device benchmark.
+It must not be presented as an expected handheld frame rate, latency, battery-life, or full-screen result.
+
+The first harness run failed because of its window-search call; a C# null-title wrapper and diagnostic
+logging were added, and the SAME release package passed the second run. No application binary was
+changed between these harness runs. The original failed run remains in GitHub history.
