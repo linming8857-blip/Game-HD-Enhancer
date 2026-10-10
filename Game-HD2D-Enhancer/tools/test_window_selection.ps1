@@ -18,9 +18,25 @@ public static class WindowSelectionTest {
   [DllImport("user32.dll")] public static extern bool ShowWindow(IntPtr h,int mode);
   [DllImport("user32.dll")] public static extern bool SetForegroundWindow(IntPtr h);
   [DllImport("user32.dll")] public static extern IntPtr GetForegroundWindow();
+  [DllImport("user32.dll",EntryPoint="GetWindowLongPtrW")] static extern IntPtr GetStyle(IntPtr h,int index);
+  [DllImport("user32.dll",EntryPoint="SetWindowLongPtrW")] static extern IntPtr SetStyle(IntPtr h,int index,IntPtr value);
+  [DllImport("user32.dll")] static extern bool SetWindowPos(IntPtr h,IntPtr after,int x,int y,int w,int height,uint flags);
   [DllImport("user32.dll",EntryPoint="SendMessageW")] public static extern IntPtr Send(IntPtr h,uint msg,IntPtr w,IntPtr l);
   [DllImport("user32.dll",CharSet=CharSet.Unicode,EntryPoint="SendMessageW")] public static extern IntPtr Read(IntPtr h,uint msg,IntPtr w,StringBuilder text);
   [DllImport("user32.dll")] public static extern bool PostMessageW(IntPtr h,uint msg,IntPtr w,IntPtr l);
+  public static void MakeFixturePopup(IntPtr h,uint expectedPid) {
+    uint pid; GetWindowThreadProcessId(h,out pid);
+    var cls=new StringBuilder(256); GetClassName(h,cls,256);
+    if(pid!=expectedPid || cls.ToString()!="HD2DDemo" || GetWindow(h,4)==IntPtr.Zero)
+      throw new InvalidOperationException("Refusing to change a non-fixture window");
+    // GetParent follows an owner for WS_POPUP, not every owned overlapped window.
+    // Add the missing popup style to our independently launched synthetic fixture.
+    // The application under test never changes the user's game window styles.
+    SetStyle(h,-16,new IntPtr(GetStyle(h,-16).ToInt64() | 0x80000000L));
+    SetWindowPos(h,IntPtr.Zero,0,0,0,0,0x37);
+    if((GetStyle(h,-16).ToInt64() & 0x80000000L)==0)
+      throw new InvalidOperationException("Fixture popup style was not applied");
+  }
   public static IntPtr Find(uint pid,string cls) {
     IntPtr found=IntPtr.Zero;
     EnumWindows((h,l)=>{
@@ -88,8 +104,13 @@ try {
   $owned=Launch '--demo-owned'; $ownerWindow=Wait-Window $owned 'HD2DDemo'
   $helper=[WindowSelectionTest]::GetWindow($ownerWindow,4)
   if($helper -eq [IntPtr]::Zero -or [WindowSelectionTest]::IsWindowVisible($helper)) { throw 'Owned fixture must have an invisible owner' }
-  if([WindowSelectionTest]::GetAncestor($ownerWindow,2) -ne $ownerWindow -or [WindowSelectionTest]::GetAncestor($ownerWindow,3) -eq $ownerWindow) { throw 'Fixture failed to reproduce GA_ROOT / GA_ROOTOWNER distinction' }
-  Note 'PASS: fixture reproduces visible legacy-style window with invisible owner; old owner filter would reject it.'
+  [WindowSelectionTest]::MakeFixturePopup($ownerWindow,[uint32]$owned.Id)
+  $root=[WindowSelectionTest]::GetAncestor($ownerWindow,2)
+  $rootOwner=[WindowSelectionTest]::GetAncestor($ownerWindow,3)
+  if($root -ne $ownerWindow -or $rootOwner -eq $ownerWindow -or $rootOwner -ne $helper) {
+    throw "Fixture failed to reproduce popup parent/owner distinction: window=$ownerWindow root=$root rootOwner=$rootOwner owner=$helper"
+  }
+  Note 'PASS: fixture reproduces visible legacy-style popup with invisible owner; old owner filter would reject it.'
   $tool=Launch '--demo-tool'; $toolWindow=Wait-Window $tool 'HD2DDemo'
   $untitled=Launch '--demo-untitled'; $untitledWindow=Wait-Window $untitled 'HD2DDemo'
   $app=Launch ''; $main=Wait-Window $app 'HD2DMain'
